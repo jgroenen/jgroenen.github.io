@@ -7,10 +7,20 @@ work:
   summary: "In 2015 stonden we aan de wieg van Datalab Amsterdam, onder gemeenten hét voorbeeld op het gebied van innovatie in datagedreven werken. Met een team ruim 40 experts op het gebied van design, development, en veranderkunde werken we probleemgedreven aan oplossingen voor betere publieke diensten."
   highlights:
   - datalab opgericht
-  - data servicepunt Flevoland
   - Fixxx methode
   _motto: good public tech
   _location: Amsterdam/Den Haag
+- company: Apitecture
+  position: Owner
+  website: https://www.apitecture.nl
+  startDate: 2013
+  endDate: heden
+  summary: "Breng data tot leven. Van Data Science tot Databases, en van API architectuur tot AI web services."
+  highlights:
+  - datapunt Amsterdam
+  - data servicepunt Flevoland
+  _motto: breng data tot leven
+  _location: Rotterdam
 
 volunteer:
 - organization: Stichting Code for NL
