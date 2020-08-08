@@ -1,25 +1,43 @@
 work:
-- company: TiltShift
+- company: TILTSHIFT
   position: Co-founder en CEO
   website: https://www.tiltshift.nl
   startDate: 2015
   endDate: heden
-  summary: "In 2015 stonden we aan de wieg van Datalab Amsterdam, onder gemeenten hét voorbeeld op het gebied van innovatie in datagedreven werken. Met een team ruim 40 experts op het gebied van design, development, en veranderkunde werken we probleemgedreven aan oplossingen voor betere publieke diensten."
+  summary: "TILTSHIFT is een design bedrijf voor publieke digitale transformatie. Onze teams van experts ontwerpen innovatieve publieke digitale diensten en slimme digitale tools voor ambtenaren."
   highlights:
   - datalab opgericht
   - Fixxx methode
-  _motto: good public tech
+  _motto: Good public tech; software design thinking
   _location: Amsterdam/Den Haag
-- company: Apitecture
+- company: TILTSHIFT APPS
+  position: Co-founder en CEO
+  website: https://www.tiltshiftapps.nl
+  startDate: 2020
+  endDate: heden
+  summary: "TILTSHIFT APPS is hoge kwaliteit software partner voor publieke sector organisaties. We richten ons op agile software development, software onderhoud, en \"as a service\" hosting en ondersteuning."
+  highlights:
+  _motto: Open source zonder zorgen
+  _location: Amsterdam/Den Haag
+- company: APITECTURE
   position: Owner
   website: https://www.apitecture.nl
   startDate: 2013
   endDate: heden
-  summary: "Van Data Science tot Databases, en van API architectuur tot AI web services."
+  summary: "APITECTURE is partner voor advanced data services voor de publieke sector. We zijn specialist in data engineering, API architectuur, modellering, data science en kunstmatige intelligentie (AI)."
   highlights:
   - datapunt Amsterdam
   - data servicepunt Flevoland
-  _motto: breng data tot leven
+  _motto: Breng data tot leven; advanced data services
+  _location: Rotterdam
+- company: everybit
+  position: Owner
+  website: https://www.everybit.nl
+  startDate: 2015
+  endDate: heden
+  summary: "EVERYBIT verzorgt investering, strategisch advies en management bij/van initiatieven op het gebied van digitale transformatie in de publieke sector."
+  highlights:
+  _motto: Publieke transformatie, bit voor bit
   _location: Rotterdam
 
 volunteer:
@@ -32,7 +50,7 @@ volunteer:
   highlights:
   -
   _location: Amsterdam
-  _motto: samenwerken aan de digitale overheid
+  _motto: Samenwerken aan de digitale overheid
 
 education:
 - institution: Universiteit Leiden
@@ -48,35 +66,51 @@ education:
 awards:
 publications:
 skills:
-- name: verbinder
+- name: strateeg
   level: 
   keywords:
-- name: beelddenker
+  - Business Model Canvas
+  - Business Model Environment
+  - OGSM
+  - OKR
+  - Game Theory
+  - Advanced Competitive Strategy
+- name: verbinder
   level: 
   keywords:
 - name: onstopbare brainstormer
   level:
   keywords:
-- name: designer
+- name: beelddenker
+  level: 
+  keywords:
+- name: productstrateeg
   level:
   keywords: 
   - Design Thinking
   - Lean Startup
-  - Agile
-- name: developer
+- name: software developer
   level:
   keywords:
-  - API architectuur
+  - Agile Development
   - data engineering
   - data services
   - web apps
+- name: software architect
+  level:
+  keywords:
+  - API architectuur
+  - Clean Code
 - name: informaticus
   level:
   keywords:
-  - natural computing
-  - kunstmatige intelligentie
   - algoritmes
   - datastructuren
+  - kunstmatige intelligentie
+  - natural computing
+  - Particle Swarm Optimization
+  - Artificial Neural Networks
+  - Genetic Algorithms
 
 _links:
 - url: https://praatmee.codefor.nl
