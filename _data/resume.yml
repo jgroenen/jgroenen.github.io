@@ -113,6 +113,15 @@ skills:
   - Genetic Algorithms
 
 _links:
+- url: https://clarity.codefor.nl/
+  title: "Code for NL: Clarity"
+  description: gecureerde overzichten van public tech use cases
+- url: https://github.com/codefornl/meta-hub-main
+  title: "Code for NL: Meta Hub"
+  description: verbinden van mensen, ideeën en projecten binnen de Code for NL community
+- url: https://www.tech101.nl
+  title: "Code for NL: Tech101 / Tech For Non Tech"
+  description: cursussen over publieke digitale transformatie, waaronder https://www.teachingpublicservice.digital/ (vertalen naar http://publieketransformatie.nl/)
 - url: https://www.opentransformatie.nl/
   title: Open Transformatie NL
   description: diverse bronnen op het gebied van digitale transformatie van de overheid
