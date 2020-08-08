@@ -113,6 +113,9 @@ skills:
   - Genetic Algorithms
 
 _links:
-- url: https://praatmee.codefor.nl
-  title: Code for NL Slack
-  description: praat mee over civic tech en open gov tech in NL
+- url: https://www.opentransformatie.nl/
+  title: Open Transformatie NL
+  description: diverse bronnen op het gebied van digitale transformatie van de overheid
+- url: https://publictech.nl/
+  title: Public Tech NL
+  description: boek in wording over het public tech ecosysteem in Nederland
