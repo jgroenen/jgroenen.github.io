@@ -54,10 +54,10 @@
         <div class="showoff no-mobile no-print" style="background-image: url({{ site.data.person._banner }})"></div>
         <div class="wrapper">
             <header>
-                <h1 class="fn" itemprop="name">{{ site.data.person.name }}</h1>
                 <h2 itemprop="jobTitle" class="no-print" itemprop="title">{{ site.data.person.label }}</h2>
+                <h1 class="fn" itemprop="name">{{ site.data.person.name }}</h1>
                 <img itemprop="image" class="photo no-print" src="{{ site.data.person.picture }}" style="max-width: 199px; max-height: 199px" alt="Foto van {{ site.data.person.name }}">
-                <h3 itemprop="description" class="no-print">{{ site.data.person.summary }} <i>{{ site.data.person._quote }}</i></h3>
+                <h3 itemprop="description" class="no-print">{{ site.data.person.summary }} <i>"{{ site.data.person._quote }}"</i></h3>
                 <section class="contact">
                     <div class="adr" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
                         <img class="icon" src="img/home.png" alt="Adres: " style="float: left">
