@@ -59,6 +59,7 @@
                 <img itemprop="image" class="photo no-print" src="{{ site.data.person.picture }}" style="max-width: 199px; max-height: 199px" alt="Foto van {{ site.data.person.name }}">
                 <h3 itemprop="description" class="no-print">{{ site.data.person.summary }} <i>"{{ site.data.person._quote }}"</i></h3>
                 <section class="contact">
+                    {% if site.data.person.location %}
                     <div class="adr" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
                         <img class="icon" src="img/home.png" alt="Adres: " style="float: left">
                         <p style="float: left; margin: 0 4px; padding-top: 6px">
@@ -68,6 +69,7 @@
                         </p>
                         <p style="clear: both"></p>
                     </div>
+                    {% endif %}
                     <p>
                         <img class="icon" src="img/mobile.png" alt="Telefoon: ">
                         <a class="tel" itemprop="telephone" href="tel:{{ site.data.person.phone }}">{{ site.data.person.phone }}</a>
