@@ -46,19 +46,18 @@
         </script>
     </head>
     <body class="vcard" itemscope itemtype="https://schema.org/Person">
-        <div class="wrapper" style="margin-top: 40px; text-align: center">
-            <header style="font-size: 0.75em">
-                <h1 class="fn" itemprop="name">{{ site.data.person.name }}</h1>
-                <h2 itemprop="jobTitle" itemprop="title">{{ site.data.person.label }}</h2>
-                <a href="/">terug naar hoofdpagina</a>
-            </header>
-            <main style="text-align: left; margin-top: 40px">
-                <span class="tag">{{ page.tag }}</span>
-                {{ page.date | date: "%d-%m-%Y" }}
-                <h2>{{ page.title }}</h2>
-                {{ content }}
-            </main>
-        </div>
+        <header style="font-size: 0.75em">
+            <h1 class="fn" itemprop="name">{{ site.data.person.name }}</h1>
+            <h2 itemprop="jobTitle" itemprop="title">{{ site.data.person.label }}</h2>
+            <a href="/">« terug naar hoofdpagina</a>
+        </header>
+        <main>
+            <span class="tag">{{ page.tag }}</span>
+            {{ page.date | date: "%d-%m-%Y" }}
+            <h2>{{ page.title }}</h2>
+            {{ content }}
+            <a href="/">« terug naar hoofdpagina</a>
+        </main>
         {% include footer.html %}
     </body>
 </html>

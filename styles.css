@@ -28,12 +28,17 @@ h2 {
     font-family: "Julius Sans One";
     font-weight: 400;
 }
-
 a {
     color: #266B96;
 }
 p {
     line-height: 1.4em;
+}
+header, main {
+    padding: 20px;
+}
+header {
+    text-align: center;
 }
 .tag {
     display: inline-block;
@@ -43,7 +48,15 @@ p {
     padding: 4px 6px;
     border-radius: 2px;
 }
-
 img {
     max-width: 100%
+}
+footer {
+    background: #266B96;
+    color: #fff;
+    padding: 20px;
+    margin-top: 40px;
+}
+footer a {
+    color: #fff;
 }

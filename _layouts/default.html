@@ -51,25 +51,22 @@
         </script>
     </head>
     <body class="vcard" itemscope itemtype="https://schema.org/Person">
-        <div class="wrapper" style="margin-top: 40px; text-align: center">
-            <header>
-                <h1 class="fn" itemprop="name">{{ site.data.person.name }}</h1>
-                <h2 itemprop="jobTitle" itemprop="title">{{ site.data.person.label }}</h2>
-                <img itemprop="image" class="photo" src="{{ site.data.person.picture }}" style="max-width: 199px; max-height: 199px; margin: 40px auto" alt="Foto van {{ site.data.person.name }}">
-                <p itemprop="description">{{ site.data.person.summary }}</p>
-  
-            </header>
-            <main style="text-align: left; margin-top: 40px; margin-bottom: 40px">
-                {% for post in site.posts %}
-                    <div>
-                        <span class="tag">{{ post.tag }}</span>
-                        {{ post.date | date: "%d-%m-%Y" }}
-                        <a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
-                        {{ post.content }}
-                    </div>
-                {% endfor %}
-            </main>
-        </div>
+        <header>
+            <h1 class="fn" itemprop="name">{{ site.data.person.name }}</h1>
+            <h2 itemprop="jobTitle" itemprop="title">{{ site.data.person.label }}</h2>
+            <img itemprop="image" class="photo" src="{{ site.data.person.picture }}" style="max-width: 199px; max-height: 199px; margin: 40px auto" alt="Foto van {{ site.data.person.name }}">
+            <p itemprop="description">{{ site.data.person.summary }}</p>
+        </header>
+        <main>
+            {% for post in site.posts %}
+                <div>
+                    <span class="tag">{{ post.tag }}</span>
+                    {{ post.date | date: "%d-%m-%Y" }}
+                    <a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
+                    {{ post.content }}
+                </div>
+            {% endfor %}
+        </main>
         {% include footer.html %}
     </body>
 </html>
