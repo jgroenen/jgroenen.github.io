@@ -138,6 +138,10 @@ li {
     margin: 0.4em 0;
 }
 
+img {
+    max-width: 100%
+}
+
 @media all and (max-width: 960px) {
     .wrapper {
         max-width: 640px;
