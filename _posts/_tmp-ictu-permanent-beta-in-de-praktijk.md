@@ -1,0 +1,1 @@
+https://www.ictu.nl/sessie-inspiratielab-permanent-beta-in-de-praktijk

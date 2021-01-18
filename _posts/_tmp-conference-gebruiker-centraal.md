@@ -1,0 +1,1 @@
+https://conference.gebruikercentraal.nl/wp-content/uploads/sites/20/2019/12/Panel-Perspectives-how-to-make-your-government-user-centered-Johan-Groenen.pdf
