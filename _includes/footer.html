@@ -1,15 +1,10 @@
 <footer style="text-align: center">
+    <p>Ik hoor graag van mensen die bezig zijn met vergelijkbare uitdagingen en organiseer daarvoor ook regelmatig meetups! Neem gerust contact op om een keer verder te praten!</p>
+    <p><a class="tel" itemprop="telephone" href="tel:{{ site.data.person.phone }}">{{ site.data.person.phone }}</a></p>
+    <p><a class="email" itemprop="email" href="mailto:{{ site.data.person.email }}">{{ site.data.person.email }}</a></p>
     <p>
-        <a class="tel" itemprop="telephone" href="tel:{{ site.data.person.phone }}">{{ site.data.person.phone }}</a>
-    </p>
-    <p>
-        <a class="email" itemprop="email" href="mailto:{{ site.data.person.email }}">{{ site.data.person.email }}</a>
-    </p>
-    <p>
-        <span style="display: inline-block; width: 210px; vertical-align: top; padding-top: 6px">
-            {% for profile in site.data.person.profiles %}
-            <a style="line-height: 1.4em" href="{{ profile.url }}">{{ profile.url | replace: "https://", "" | replace: "www.", "" }}</a>
-            {% endfor %}
-        </span>
+        {% for profile in site.data.person.profiles %}
+        <a style="line-height: 1.4em" href="{{ profile.url }}">{{ profile.url | replace: "https://", "" | replace: "www.", "" }}</a><br>
+        {% endfor %}
     </p>
 </footer>
