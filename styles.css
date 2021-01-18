@@ -1,4 +1,4 @@
-/* for quick find-replace: the highlight color is #0099D4 */
+/* for quick find-replace: the highlight color is #266B96 */
 
 html, body {
     height: 100%;
@@ -20,13 +20,13 @@ body {
 }
 h1 {
     font-size: 2.8em;
-    color: #0099D4;
+    color: #266B96;
     margin: 0.4em 0;
     font-family: "Julius Sans One";
     font-weight: 900;
 }
 strong {
-    color: #0099D4;
+    color: #266B96;
 }
 h2 {
     font-size: 2em;
@@ -51,7 +51,7 @@ section header p {
 }
 a {
     /* text-decoration: none; */
-    color: #0099D4;
+    color: #266B96;
 }
 p {
     max-width: 40em;
@@ -65,7 +65,7 @@ li {
 }
 .tag {
     display: inline-block;
-    background: #0099D4;
+    background: #266B96;
     color: #fff;
     margin: 4px;
     padding: 4px 6px;
