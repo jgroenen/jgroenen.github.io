@@ -51,22 +51,21 @@
         </script>
     </head>
     <body class="vcard" itemscope itemtype="https://schema.org/Person">
-        <!-- <div class="showoff no-mobile no-print" style="background-image: url({{ site.data.person._banner }})"></div> -->
         <div class="wrapper" style="margin-top: 40px; text-align: center">
             <header>
                 <h1 class="fn" itemprop="name">{{ site.data.person.name }}</h1>
-                <h2 itemprop="jobTitle" class="no-print" itemprop="title">{{ site.data.person.label }}</h2>
-                <img itemprop="image" class="photo no-print" src="{{ site.data.person.picture }}" style="max-width: 199px; max-height: 199px; margin: 40px auto" alt="Foto van {{ site.data.person.name }}">
-                <h3 itemprop="description" class="no-print">{{ site.data.person.summary }} <i>"{{ site.data.person._quote }}"</i></h3>
+                <h2 itemprop="jobTitle" itemprop="title">{{ site.data.person.label }}</h2>
+                <img itemprop="image" class="photo" src="{{ site.data.person.picture }}" style="max-width: 199px; max-height: 199px; margin: 40px auto" alt="Foto van {{ site.data.person.name }}">
+                <p itemprop="description">{{ site.data.person.summary }}</p>
   
             </header>
             <main style="text-align: left; margin-top: 40px; margin-bottom: 40px">
-                <h1>Updates</h1>
                 {% for post in site.posts %}
                     <div>
-                    {{ post.date | date: "%d-%m-%Y" }}
-                    <a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
-                    {{ post.content }}
+                        <span class="tag">UPDATE</span>
+                        {{ post.date | date: "%d-%m-%Y" }}
+                        <a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
+                        {{ post.content }}
                     </div>
                 {% endfor %}
             </main>

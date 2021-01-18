@@ -1,10 +1,10 @@
 name: Johan Groenen
-label: "Working on Open Collaborations and Communities of Practice in Pulic Tech"
+label: "Open Collaborations in Public Tech"
 picture: https://www.jgroenen.nl/img/jgroenen.png
-email: johan@tiltshift.nl
+email: info@jgroenen.nl
 phone: '+31641518018'
 website: https://www.jgroenen.nl
-summary: Onstopbare brainstormer en verbinder van mensen, ideeën, en projecten. Ik help bij het aanbrengen van structuur en samen visueel denken. Wat orde in de chaos, maar soms ook wat chaos in de orde. Alumni Code Fellow City of Amsterdam 2015.
+summary: "Mijn missie is het bevorderen van open samenwerkingen en Communities of Practice in #publictech. Ik ben een onstopbare brainstormer en ben goed in het klein maken van grote concepten. Ik verbind graag mensen, ideeën, en projecten.  Ik help bij het aanbrengen van structuur en met samen visueel denken."
 profiles:
   - network: LinkedIn
     username: jgroenen
@@ -15,8 +15,5 @@ profiles:
   - network: Github
     username: jgroenen
     url: https://www.github.com/jgroenen
-_quote: "The proof of the pudding is in the eating."
-_keywords: strateeg, verbinder, onstopbare brainstormer, beelddenker, productstrateeg, software developer, software architect, informaticus, public interest technologist, open innovation strategist
-_banner: img/Rotterdam.jpg
+_keywords: strateeg, designer, coder, architect, verbinder, innovator, onstopbare brainstormer, beelddenker, informaticus, public interest technologist
 _twitter_handle: "@jpagroenen"
-_slogan: Co-Creative. Open Source. Human Centered.
