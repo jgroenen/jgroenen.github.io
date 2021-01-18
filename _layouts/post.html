@@ -5,31 +5,26 @@
         <meta http-equiv="content-type" content="text/html; charset=utf-8">
         <meta name="author" content="Johan Groenen (c) 2020">
         
-        <link rel='image_src' href='{{ site.data.person.picture }}'/>
-        <link rel='shortcut icon' type='image/png' href='{{ site.data.person.picture }}'>
+        <link rel='image_src' href='{{ page.title }}'/>
+        <link rel='shortcut icon' type='image/png' href='{{ page.image }}'>
         
         <title>{{ site.data.person.name }}</title>
-        <meta name="title" content="{{ site.data.person.name }} {{ site.data.person.label }}">
-        <meta name="description" content="{{ site.data.person.summary }}">
-        <meta name="keywords" content="{{ site.data.resume.keywords }}">
+        <meta name="title" content="{{ page.title }}">
+        <meta name="description" content="{{ page.description }}">
+        <meta name="keywords" content="{{ page.keywords }}">
 
         <meta property='og:url' content='{{ site.url }}'>
-        <meta property='og:title' name='title' content="{{ site.data.person.name }} {{ site.data.person.label }}">
-        <meta property='og:description' name='description' content="{{ site.data.person.summary }}">
-        <meta property='og:image' content="{{ site.data.person.picture }}">
-        <link rel='image_src' href="{{ site.data.person.picture }}"/>
-        <meta name='keywords' content="
-            {% for skill in site.data.resume.skills %}
-                {{ skill.name }},
-                {% for keyword in skill.keywords %}{{ keyword }},{% endfor %}
-            {% endfor %}
-        ">
+        <meta property='og:title' name='title' content="{{ page.title }}">
+        <meta property='og:description' name='description' content="{{ page.description }}">
+        <meta property='og:image' content="{{ page.image }}">
+        <link rel='image_src' href="{{ page.image }}"/>
+        <meta name='keywords' content="{{ page.keywords }}">
         
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:username" content="{{ site.data.person._twitter_handle }}">
-        <meta name="twitter:title" content="{{ site.data.person.name }} {{ site.data.person.label }}">
-        <meta name="twitter:description" content="{{ site.data.person.summary }}">
-        <meta name="twitter:image:src" content="{{ site.data.person.picture }}">
+        <meta name="twitter:title" content="{{ page.title }}">
+        <meta name="twitter:description" content="{{ page.description }}">
+        <meta name="twitter:image:src" content="{{ page.image }}">
         
         <link href='https://fonts.googleapis.com/css?family=Julius+Sans+One' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="/styles.css">
@@ -51,7 +46,6 @@
         </script>
     </head>
     <body class="vcard" itemscope itemtype="https://schema.org/Person">
-        <!-- <div class="showoff no-mobile no-print" style="background-image: url({{ site.data.person._banner }})"></div> -->
         <div class="wrapper" style="margin-top: 40px; text-align: center">
             <header style="font-size: 0.75em">
                 <h1 class="fn" itemprop="name">{{ site.data.person.name }}</h1>
