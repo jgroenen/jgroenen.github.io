@@ -53,22 +53,14 @@
     <body class="vcard" itemscope itemtype="https://schema.org/Person">
         <!-- <div class="showoff no-mobile no-print" style="background-image: url({{ site.data.person._banner }})"></div> -->
         <div class="wrapper" style="margin-top: 40px; text-align: center">
-            <header>
+            <header style="font-size: 0.75em">
                 <h1 class="fn" itemprop="name">{{ site.data.person.name }}</h1>
                 <h2 itemprop="jobTitle" class="no-print" itemprop="title">{{ site.data.person.label }}</h2>
-                <img itemprop="image" class="photo no-print" src="{{ site.data.person.picture }}" style="max-width: 199px; max-height: 199px; margin: 40px auto" alt="Foto van {{ site.data.person.name }}">
-                <h3 itemprop="description" class="no-print">{{ site.data.person.summary }} <i>"{{ site.data.person._quote }}"</i></h3>
-  
+                <a href="/">terug naar hoofdpagina</a>
             </header>
-            <main style="text-align: left; margin-top: 40px; margin-bottom: 40px">
-                <h1>Updates</h1>
-                {% for post in site.posts %}
-                    <div>
-                    {{ post.date | date: "%d-%m-%Y" }}
-                    <a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
-                    {{ post.content }}
-                    </div>
-                {% endfor %}
+            <main style="text-align: left; margin-top: 40px">
+                <h2>Update: {{ page.title }}</h2>
+                {{ content }}
             </main>
         </div>
         {% include footer.html %}
