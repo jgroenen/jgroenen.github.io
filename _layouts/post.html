@@ -53,7 +53,9 @@
                 <a href="/">terug naar hoofdpagina</a>
             </header>
             <main style="text-align: left; margin-top: 40px">
-                <h2>Update: {{ page.title }}</h2>
+                <span class="tag">{{ page.tag }}</span>
+                {{ page.date | date: "%d-%m-%Y" }}
+                <h2>{{ page.title }}</h2>
                 {{ content }}
             </main>
         </div>

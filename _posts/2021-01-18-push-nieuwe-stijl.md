@@ -1,5 +1,6 @@
 ---
 layout: post
+tag: DESIGN
 title: "Push nieuwe stijl"
 image: /img/posts/push-kick-off.png
 description: Push is geïnspireerd door de Design Sprint van Google Ventures, maar dan gericht op het aanzwengelen van een zeer kort (vier weken) ontwikkel- en implementatietraject.
