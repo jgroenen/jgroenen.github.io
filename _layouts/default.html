@@ -18,12 +18,7 @@
         <meta property='og:description' name='description' content="{{ site.data.person.summary }}">
         <meta property='og:image' content="{{ site.data.person.picture }}">
         <link rel='image_src' href="{{ site.data.person.picture }}"/>
-        <meta name='keywords' content="
-            {% for skill in site.data.resume.skills %}
-                {{ skill.name }},
-                {% for keyword in skill.keywords %}{{ keyword }},{% endfor %}
-            {% endfor %}
-        ">
+        <meta name='keywords' content="{{ site.data.person._keywords | join: ', ' }}">
         
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:username" content="{{ site.data.person._twitter_handle }}">
