@@ -3,7 +3,7 @@ layout: post
 tag: DESIGN
 title: "Push nieuwe stijl"
 image: https://www.jgroenen.nl/img/posts/push-kick-off.png
-teaser: Push is geïnspireerd door de Design Sprint van Google Ventures, maar dan gericht op het aanzwengelen van een zeer kort (vier weken) ontwikkel- en implementatietraject.
+teaser: Vandaag voor het eerst de nieuwe stijl Push uitgeprobeerd. In de praktijk komen we vaak tegen dat een project steeds meer in een lopende band modus komt, waarbij design soms wat buiten de boot dreigt te vallen. Met Push brengen we de design fase weer expliciet terug in iedere doorontwikkeling.
 ---
 Vandaag met <a href="https://www.tiltshift.nl">Tiltshift</a> de nieuwe stijl Push voor het eerst uitgetest. Ten minste, de eerste dag: kick-off. Push is geïnspireerd door de Design Sprint van Google Ventures, zoals we die al vaker hebben, maar dan gericht op het aanzwengelen van een zeer kort (vier weken) ontwikkel- en implementatietraject van een heel stuk functionaliteit in een bestaand applicatielandschap. Het thema van deze push: vergunningen op straat.
 
