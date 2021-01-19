@@ -4,7 +4,7 @@
         "communities of practice": "#ED254E",
         "#publictech": "#266B96",
         "onstopbare brainstormer": "#ff4000",
-        "strategic designer": "#9BC995",
+        "strategic design": "#9BC995",
         "clean coding": "#00CFC1"
     };
 
