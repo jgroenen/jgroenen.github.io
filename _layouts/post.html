@@ -52,9 +52,9 @@
             <a href="/">« terug naar hoofdpagina</a>
         </header>
         <main>
+            <h2>{{ page.title }}</h2>
             {% include tags.html tags=page.tags %}
             {% include date.html date=page.date %}
-            <h2>{{ page.title }}</h2>
             {{ content }}
             <a href="/">« terug naar hoofdpagina</a>
         </main>

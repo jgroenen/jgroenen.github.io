@@ -36,6 +36,7 @@ p {
 }
 header, main {
     padding: 0 20px;
+    margin-top: 40px;
 }
 header {
     text-align: center;
@@ -44,7 +45,7 @@ header {
     display: inline-block;
     background: #266B96;
     color: #fff;
-    margin: 4px;
+    margin: 4px 2px 0 0;
     padding: 4px 6px;
     border-radius: 2px;
 }
