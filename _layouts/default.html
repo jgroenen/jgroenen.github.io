@@ -57,15 +57,9 @@
             <img itemprop="image" class="photo" src="{{ site.data.person.picture }}" style="max-width: 199px; max-height: 199px; margin: 40px auto" alt="Foto van {{ site.data.person.name }}">
             <p itemprop="description">{{ site.data.person.summary }}</p>
         </header>
-        <main>
-            {% for post in site.posts %}
-                <div>
-                    <span class="tag">{{ post.tag }}</span>
-                    {{ post.date | date: "%d-%m-%Y" }}
-                    <a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
-                    {{ post.content }}
-                </div>
-            {% endfor %}
+        <main style="padding: 0">
+            <h2 style="margin-bottom: 20px; text-align: center">Updates</h2>
+            {% include posts.html %}
         </main>
         {% include footer.html %}
     </body>

@@ -10,12 +10,12 @@
         
         <title>{{ site.data.person.name }}</title>
         <meta name="title" content="{{ page.title }}">
-        <meta name="description" content="{{ page.description }}">
+        <meta name="description" content="{{ page.teaser }}">
         <meta name="keywords" content="{{ page.keywords }}">
 
         <meta property='og:url' content='{{ page.url }}'>
         <meta property='og:title' name='title' content="{{ page.title }}">
-        <meta property='og:description' name='description' content="{{ page.description }}">
+        <meta property='og:description' name='description' content="{{ page.teaser }}">
         <meta property='og:image' content="{{ page.image }}">
         <link rel='image_src' href="{{ page.image }}"/>
         <meta name='keywords' content="{{ page.keywords }}">
@@ -23,7 +23,7 @@
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:username" content="{{ site.data.person._twitter_handle }}">
         <meta name="twitter:title" content="{{ page.title }}">
-        <meta name="twitter:description" content="{{ page.description }}">
+        <meta name="twitter:description" content="{{ page.teaser }}">
         <meta name="twitter:image:src" content="{{ page.image }}">
         
         <link href='https://fonts.googleapis.com/css?family=Julius+Sans+One' rel='stylesheet' type='text/css'>
@@ -53,7 +53,19 @@
         </header>
         <main>
             <span class="tag">{{ page.tag }}</span>
-            {{ page.date | date: "%d-%m-%Y" }}
+            <span>{{ page.date | date: "%d m%m %Y" | replace: 'm01', 'januari'
+                                                   | replace: 'm02', 'februari'
+                                                   | replace: 'm03', 'maart'
+                                                   | replace: 'm04', 'april'
+                                                   | replace: 'm05', 'mei'
+                                                   | replace: 'm06', 'juni'
+                                                   | replace: 'm07', 'juli'
+                                                   | replace: 'm08', 'augustus'
+                                                   | replace: 'm09', 'september'
+                                                   | replace: 'm10', 'oktober'
+                                                   | replace: 'm11', 'november'
+                                                   | replace: 'm12', 'december'
+                }}</span>
             <h2>{{ page.title }}</h2>
             {{ content }}
             <a href="/">« terug naar hoofdpagina</a>
