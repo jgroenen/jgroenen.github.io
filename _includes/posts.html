@@ -1,30 +1,28 @@
 <section>
 {% for post in site.posts %}
-    <div>
-        <div style="padding: 20px; box-shadow: 2px 2px 10px #aaa">
-            <div class="image-crop" style="height: 100px; width: 100%; background: url({{ post.image }}) center center no-repeat"></div>
-            
-            <div style="margin: 1em 0">
-                <span>Aantekening {{ post.date | date: "%d m%m %Y" | replace: 'm01', 'januari'
-                                                                   | replace: 'm02', 'februari'
-                                                                   | replace: 'm03', 'maart'
-                                                                   | replace: 'm04', 'april'
-                                                                   | replace: 'm05', 'mei'
-                                                                   | replace: 'm06', 'juni'
-                                                                   | replace: 'm07', 'juli'
-                                                                   | replace: 'm08', 'augustus'
-                                                                   | replace: 'm09', 'september'
-                                                                   | replace: 'm10', 'oktober'
-                                                                   | replace: 'm11', 'november'
-                                                                   | replace: 'm12', 'december'
-                    }}</span>
-                <a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
-            </div>
-
-            <div>{{ post.teaser }}</div>
-
-            <span class="tag" style="margin: 8px 0">{{ post.tag }}</span>
+    <div style="padding: 20px; box-shadow: 2px 2px 10px #aaa; margin-top: 20px">
+        <div class="image-crop" style="height: 100px; width: 100%; background: url({{ post.image }}) center center no-repeat"></div>
+        
+        <div style="margin: 1em 0">
+            <span>Aantekening {{ post.date | date: "%d m%m %Y" | replace: 'm01', 'januari'
+                                                                | replace: 'm02', 'februari'
+                                                                | replace: 'm03', 'maart'
+                                                                | replace: 'm04', 'april'
+                                                                | replace: 'm05', 'mei'
+                                                                | replace: 'm06', 'juni'
+                                                                | replace: 'm07', 'juli'
+                                                                | replace: 'm08', 'augustus'
+                                                                | replace: 'm09', 'september'
+                                                                | replace: 'm10', 'oktober'
+                                                                | replace: 'm11', 'november'
+                                                                | replace: 'm12', 'december'
+                }}</span>
+            <a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
         </div>
+
+        <div>{{ post.teaser }}</div>
+
+        <span class="tag" style="margin: 8px 0">{{ post.tag }}</span>
     </div>
 {% endfor %}
 </section>
