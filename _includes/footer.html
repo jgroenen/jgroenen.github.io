@@ -1,10 +1,22 @@
 <footer style="text-align: center">
     <p>Ik hoor graag van mensen die bezig zijn met vergelijkbare uitdagingen en organiseer daarvoor ook regelmatig meetups! Neem gerust contact op om een keer verder te praten!</p>
-    <p><a class="tel" itemprop="telephone" href="tel:{{ site.data.person.phone }}">{{ site.data.person.phone }}</a></p>
-    <p><a class="email" itemprop="email" href="mailto:{{ site.data.person.email }}">{{ site.data.person.email }}</a></p>
-    <p>
-        {% for profile in site.data.person.profiles %}
-        <a style="line-height: 1.4em" href="{{ profile.url }}">{{ profile.url | replace: "https://", "" | replace: "www.", "" }}</a><br>
-        {% endfor %}
-    </p>
+    <style>
+        .contact-button {
+            display: inline-block;
+            width: 60px;
+            height: 60px;
+            border: 10px solid white;
+            border-radius: 10px;
+            background: url(/img/whatsapp.png)
+                center center no-repeat #fff;
+            background-size: contain;
+            margin: 20px;
+        }
+    </style>
+    <a style="background-image: url(/img/whatsapp.png)" class="contact-button" href="https://wa.me/{{ site.data.person.phone }}"></a>
+    <a style="background-image: url(/img/telefoon.png)" class="contact-button" href="tel:{{ site.data.person.phone }}"></a>
+    <a style="background-image: url(/img/email.png)" class="contact-button" href="mailto:{{ site.data.person.email }}"></a>
+    {% for profile in site.data.person.profiles %}
+    <a style="background-image: url(/img/{{ profile.network | downcase }}.png)" class="contact-button" href="{{ profile.url }}"></a>
+    {% endfor %}
 </footer>
