@@ -52,20 +52,8 @@
             <a href="/">« terug naar hoofdpagina</a>
         </header>
         <main>
-            <span class="tag">{{ page.tag }}</span>
-            <span>{{ page.date | date: "%d m%m %Y" | replace: 'm01', 'januari'
-                                                   | replace: 'm02', 'februari'
-                                                   | replace: 'm03', 'maart'
-                                                   | replace: 'm04', 'april'
-                                                   | replace: 'm05', 'mei'
-                                                   | replace: 'm06', 'juni'
-                                                   | replace: 'm07', 'juli'
-                                                   | replace: 'm08', 'augustus'
-                                                   | replace: 'm09', 'september'
-                                                   | replace: 'm10', 'oktober'
-                                                   | replace: 'm11', 'november'
-                                                   | replace: 'm12', 'december'
-                }}</span>
+            {% include tags.html tags=page.tags %}
+            {% include date.html date=page.date %}
             <h2>{{ page.title }}</h2>
             {{ content }}
             <a href="/">« terug naar hoofdpagina</a>

@@ -58,9 +58,14 @@
             <p itemprop="description">{{ site.data.person.summary }}</p>
         </header>
         <main style="padding: 0">
-            <h2 style="margin-bottom: 20px; text-align: center">Updates</h2>
+
             {% include posts.html %}
+
+            {% include initiatieven.html %}
+
         </main>
+
         {% include footer.html %}
+        
     </body>
 </html>
