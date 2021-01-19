@@ -51,17 +51,19 @@
         </script>
     </head>
     <body class="vcard" itemscope itemtype="https://schema.org/Person">
+        
         <header>
             <h1 class="fn" itemprop="name">{{ site.data.person.name }}</h1>
             <h2 itemprop="jobTitle" itemprop="title">{{ site.data.person.label }}</h2>
             <img itemprop="image" class="photo" src="{{ site.data.person.picture }}" style="max-width: 199px; max-height: 199px; margin: 40px auto" alt="Foto van {{ site.data.person.name }}">
             <p itemprop="description">{{ site.data.person.summary }}</p>
         </header>
+
         <main style="padding: 0">
 
-            {% include posts.html %}
+            {% include cards.html header='Updates' collection=site.posts %}
 
-            {% include initiatieven.html %}
+            {% include cards.html header='Initiatieven' collection=site.initiatieven %}
 
         </main>
 
