@@ -1,6 +1,6 @@
 ---
 layout: post
-tags: [DESIGN]
+tags: [design thinking]
 title: "Push nieuwe stijl"
 image: https://www.jgroenen.nl/img/posts/push-kick-off.png
 teaser: Vandaag voor het eerst de nieuwe stijl Push uitgeprobeerd. In de praktijk komen we vaak tegen dat een project steeds meer in een lopende band modus komt, waarbij design soms wat buiten de boot dreigt te vallen. Met Push brengen we de design fase weer expliciet terug in iedere doorontwikkeling.

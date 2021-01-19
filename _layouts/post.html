@@ -27,7 +27,7 @@
         <meta name="twitter:image:src" content="{{ page.image }}">
         
         <link href='https://fonts.googleapis.com/css?family=Julius+Sans+One' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="/styles.css">
+        <link rel="stylesheet" href="/css/styles.css">
         
         <script type="text/javascript">
             var _gaq = _gaq || [];
@@ -46,11 +46,13 @@
         </script>
     </head>
     <body class="vcard" itemscope itemtype="https://schema.org/Person">
+        
         <header style="font-size: 0.75em">
             <h1 class="fn" itemprop="name">{{ site.data.person.name }}</h1>
             <h2 itemprop="jobTitle" itemprop="title">{{ site.data.person.label }}</h2>
             <a href="/">« terug naar hoofdpagina</a>
         </header>
+
         <main>
             <h2>{{ page.title }}</h2>
             {% include tags.html tags=page.tags %}
@@ -58,6 +60,10 @@
             {{ content }}
             <a href="/">« terug naar hoofdpagina</a>
         </main>
+
         {% include footer.html %}
+
+        <script src="/js/tags.js"></script>
+
     </body>
 </html>
