@@ -1,6 +1,6 @@
 {% if include.card %}
 <div class="card">
-    <div class="image-crop" style="height: 100px; width: 100%; background: url({{ item.image }}) center center no-repeat"></div>
+    <div class="image-crop" style="height: 100px; width: 100%; background: url({{ item.image }}) center center no-repeat; background-size: cover"></div>
     
     <div style="margin: 1em 0">
         <span>Aantekening {% include date.html date=item.date %}</span>
