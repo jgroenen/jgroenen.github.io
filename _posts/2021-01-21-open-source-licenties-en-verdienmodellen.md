@@ -11,6 +11,8 @@ Wanneer is iets een open source licentie? Volgens Walter is kenmerkend voor open
 
 Naast de gebruikersovereenkomst is er de kant van de distributievoorwaarden. Dit is waar de licenties zeer uiteenlopen, van MIT aan de ene kant van het spectrum (de auteur is niet aansprakelijk, moet vermeld worden, en verder mag je doen wat je wil) via APL, MPL, GPL naar AGPL aan de andere kant van het specturm (alle code die je wijzigt of toevoegt moet ook weer worden vrijgegeven onder dezelfde voorwaarden).
 
+![Open Source Licenties]({{ page.image }})
+
 ## Meer dan juridisch
 
 Redenen voor het gebruik van open source licenties, en ook het kiezen daarvan, lopen uiteen, zo vertelt Van Holst. Zo vergemakkelijkt het bijvoorbeeld het samenwerken over organisatiegrenzen heen en maakt het peer review van code eenvoudig, maar liggen er soms ook politiek-ideologische argumenten aan ten grondslag. De hele free software beweging is immers ook ontstaan als verzet tegen de praktijken die closed source softwarebedrijven er eind vorige eeuw op nahielden.
