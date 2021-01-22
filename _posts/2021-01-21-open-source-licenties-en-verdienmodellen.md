@@ -9,7 +9,7 @@ teaser: 'Vandaag een leuke Code for NL meetup over open source licenties en verd
 
 Wanneer is iets een open source licentie? Volgens Walter is kenmerkend voor open source licenties dat ze de omstandigheden creëren om de broncode te mogen en kunnen bekijken en verspreiden, de vrijheid geven om aanpassingen te maken en te mogen verspreiden, dat ze de reputatie van de oorspronkelijke maker beschermen en waarborgen, en geen mensen, activiteiten, producten, en technologiën uitsluiten.
 
-Naast de gebruikersovereenkomst is er de kant van de distributievoorwaarden. Dit is waar de licenties zeer uiteenlopen, van MIT aan de ene kant van het spectrum (de auteur is niet aansprakelijk, moet vermeld worden, en verder mag je doen wat je wil) via APL, MPL, GPL naar AGPL aan de andere kant van het specturm (alle code die je wijzigt of toevoegd moet ook weer worden vrijgegeven onder dezelfde voorwaarden).
+Naast de gebruikersovereenkomst is er de kant van de distributievoorwaarden. Dit is waar de licenties zeer uiteenlopen, van MIT aan de ene kant van het spectrum (de auteur is niet aansprakelijk, moet vermeld worden, en verder mag je doen wat je wil) via APL, MPL, GPL naar AGPL aan de andere kant van het specturm (alle code die je wijzigt of toevoegt moet ook weer worden vrijgegeven onder dezelfde voorwaarden).
 
 ## Meer dan juridisch
 
