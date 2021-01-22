@@ -9,7 +9,7 @@ Vandaag met <a href="https://www.tiltshift.nl">Tiltshift</a> de nieuwe stijl Pus
 
 In de ochtend zijn we begonnen met alleen het team. In een aantal korte sessies hebben we elkaar leren kennen, verwachtingen en wensen afgestemd, huishoudelijke afspraken gemaakt, en leerdoelen in kaart gebracht.
 
-![Push kick-off](https://www.jgroenen.nl/img/posts/push-kick-off.png)
+![Push kick-off]({{ page.image }})
 
 In de middag hebben we met het team de opdrachtgever en de eerste gebruiker doorgezaagd (op een vriendelijke manier) om de opdracht zo concreet mogelijk te maken. Met wat gerichte vragen, en fijne visuele facilitatie van teamgenoot Yvonne, wisten we "de vraag achter de vraag" te achterhalen (in plaats van een technische oplossingsrichting die zich al een beetje in het hoofd van de opdrachtgever had genesteld), zodat we morgen verder kunnen met gerichte interviews over het werk van handhavers, en de manier waarop die informatie uit en over vergunningen zouden kunnen inzetten in hun werk op straat.
 
