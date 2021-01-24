@@ -4,7 +4,7 @@ tags: ['onstopbare brainstormer', 'clean coding']
 title: "Een app om de toekomst te voorspellen"
 image: https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/1d03d073302311.5c05615823c4c.jpg
 caption: <a href="https://www.behance.net/gallery/73302311/Modern-Tarot-Cards">“Modern Tarot Cards”</a> by Neil V Fernando is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/?ref=ccsearch&amp;atype=rich">CC BY-NC-ND 4.0</a>
-teaser: 'Recent kreeg ik het verzoek om een Tarot app te schrijven. In eerste instantie moest ik even nadenken; ik geloof namelijk niet in dit soort zaken. [discussie: moest ik deze klus daarom afwijzen?] Uiteindelijk heb ik het appje gemaakt, en daarbij kwam er een interessante afweging voorbij.'
+teaser: 'Een tijd geleden kreeg ik het verzoek om een Tarot app te schrijven. In eerste instantie moest ik even nadenken; ik geloof namelijk niet in dit soort zaken. [discussie: moest ik deze klus daarom afwijzen?] Uiteindelijk heb ik het appje gemaakt, en daarbij kwam er een interessante afweging voorbij.'
 ---
 <strong>{{ page.teaser }}</strong>
 
