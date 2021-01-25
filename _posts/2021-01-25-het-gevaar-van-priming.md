@@ -14,4 +14,6 @@ Ook in andere projecten waar ik in meedraai komt dit vaak naar boven: een naam z
 
 Soms voelt het vervelend, maar volgens mij blijft het belangrijk om mensen daarop te wijzen. Er op te wijzen dat er daardoor een ontwerp emergeert uit een zak woorden. Waarbij het probleem is dat mensen zich daar allemaal een andere voorstelling bij maken. En dat het niet duidelijk is voor wie welk probleem precies wordt opgelost. Daarmee is het risico levensgroot dat een pad wordt ingeslagen van "tech push": eerst maken, en daarna kijken hoe we het gaan inzetten.
 
-Design biedt manieren om dit te voorkomen, maar in de praktijk is het dan vaak te laat. Een goede manier om daar mee om te gaan is het zoeken van doelgroepen met een probleem gerelateerd aan het concept en voor één van die groepen het probleem goed in beeld te brengen, en dan met het concept in je achterhoofd oplossingen te verzinnen waarin het concept zo ver mogelijk gebogen wordt richting een oplossing van dat probleem.
+Design biedt manieren om dit te voorkomen, maar in de praktijk is het dan vaak te laat. Een goede manier om daar mee om te gaan is om onder het motto "alles is inspiratie" te zoeken naar doelgroepen met een gerelateerd probleem, om vervolgens met het concept in je achterhoofd oplossingen te verzinnen. Daarbij kun je proberen het concept zo ver mogelijk om te buigen richting een oplossing voor dat probleem.
+
+Op die manier zorg je voor gebruikers om in co-creatie mee te ontwikkelen. Alle waarde zit ten slotte in het gebruik.
