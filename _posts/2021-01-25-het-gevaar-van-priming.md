@@ -13,3 +13,5 @@ Ook in andere projecten waar ik in meedraai komt dit vaak naar boven: een naam z
 ![Algoritmeregister]({{ page.image }})
 
 Soms voelt het vervelend, maar volgens mij blijft het belangrijk om mensen daarop te wijzen. Er op te wijzen dat er daardoor een ontwerp emergeert uit een zak woorden. Waarbij het probleem is dat mensen zich daar allemaal een andere voorstelling bij maken. En dat het niet duidelijk is voor wie welk probleem precies wordt opgelost. Daarmee is het risico levensgroot dat een pad wordt ingeslagen van "tech push": eerst maken, en daarna kijken hoe we het gaan inzetten.
+
+Design biedt manieren om dit te voorkomen, maar in de praktijk is het dan vaak te laat. Een goede manier om daar mee om te gaan is het zoeken van doelgroepen met een probleem gerelateerd aan het concept en voor één van die groepen het probleem goed in beeld te brengen, en dan met het concept in je achterhoofd oplossingen te verzinnen waarin het concept zo ver mogelijk gebogen wordt richting een oplossing van dat probleem.
