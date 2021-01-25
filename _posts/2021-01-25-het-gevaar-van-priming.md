@@ -8,7 +8,7 @@ teaser: 'Zojuist een erg interessante sessie gehad over de mogelijkheid om een "
 ---
 <strong>{{ page.teaser }}</strong>
 
-Ook in andere projecten waar ik in meedraai komt dit vaak naar boven: een naam zoemt rond, of bepaalde woorden worden vaak gebruikt, en voordat je het weet loopt iedereen rond met het idee dat er al een oplossingsrichting is, terwijl eigenlijk niet eens duidelijk is wat het probleem is.
+Ook in andere projecten waar ik in meedraai komt dit vaak naar boven: een naam zoemt rond, of bepaalde woorden worden vaak gebruikt, en voordat je het weet loopt iedereen rond met het idee dat er al een oplossingsrichting is, terwijl eigenlijk niet eens duidelijk is wat het probleem is. Dit fenomeen staat ook wel bekend als [priming](https://nl.wikipedia.org/wiki/Priming_(geheugen)).
 
 ![Algoritmeregister]({{ page.image }})
 
