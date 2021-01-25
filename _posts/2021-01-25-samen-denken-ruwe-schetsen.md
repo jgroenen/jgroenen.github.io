@@ -2,7 +2,7 @@
 layout: post
 tags: ['open samenwerking', 'strategic design']
 title: "Samen denken, ruwe schetsen"
-image: /img/posts/ruwe-schetsen.png
+image: https://www.jgroenen.nl/img/posts/ruwe-schetsen.png
 caption: 
 teaser: 'Als ik als visueel denker met mensen samenwerk, kom ik er niet omheen om ideeën ook visueel te maken en die plaatjes samen met mensen te bespreken, om te checken of ik het snap. Daarvoor is het helemaal niet nodig om mooie plaatjes te maken, heb ik gemerkt. Sterker nog, er valt veel voor te zeggen om juist hele ruwe schetsen te gebruiken.'
 ---
