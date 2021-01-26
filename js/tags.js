@@ -5,6 +5,7 @@
         "#publictech": "#266B96",
         "onstopbare brainstormer": "#ff4000",
         "strategic design": "#9BC995",
+        "strategisch ontwerper": "#9BC995",
         "clean coding": "#00CFC1",
         "alles is inspiratie": "#000000",
         "co-creatie": "#000000"
