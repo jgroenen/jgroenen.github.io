@@ -34,4 +34,4 @@ Vragen waar we niet aan toe zijn gekomen, maar die we nog wel met elkaar willen 
 
 ## Meer weten?
 
-De discussie gaat verder op [de Code for NL Slack](https://praatmee.codefor.nl), dus kom vooral meepraten. Voor meer diepgaande vragen aan Walter van Holst kun je kijken de website van [Hooghiemstra & Partners](https://hooghiemstra-en-partners.nl/employee/walter-van-holst/).
+De discussie gaat verder op [de Code for NL Slack](https://praatmee.codefor.nl) in <a href="https://codefornl.slack.com/archives/C01L2643G3W">kanaal #open-samenwerking</a>, dus kom vooral meepraten. Voor meer diepgaande vragen aan Walter van Holst kun je kijken de website van [Hooghiemstra & Partners](https://hooghiemstra-en-partners.nl/employee/walter-van-holst/).
