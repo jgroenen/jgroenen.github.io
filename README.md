@@ -8,7 +8,6 @@ Als je zin hebt om mee te schrijven, leuk! Neem gerust contact op!
 
 ## Backlog Updates/Posts
 
-- ideeën Andreas
 - Haven en Rancher en Datapunt
 - NLx en ADUS en API Umbrella
 - events.codefor.nl en meetup.com en developer.overheid.nl en pleio open source en ... etc.
