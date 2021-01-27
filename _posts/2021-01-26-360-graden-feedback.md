@@ -8,6 +8,15 @@ teaser: 'Gewoon een klein ideetje, waarvan ik niet weet of het bestaat. Er zijn 
 ---
 <strong>{{ page.teaser }}</strong>
 
+## Update
+
+Van [Milo](https://milo.dogodigi.net/) kreeg ik de feedback dat ze als Code Fellows in Eindhoven een paar jaar terug de [Sentimeter](https://github.com/codefornl/sentimeter) gemaakt hebben:
+
+_"Ons idee was dat je een soort virtuele een op een had. Iedereen was dan een attendee om de hierarchie er uit te slopen, en je kon elkaar dan waardering geven (score) op indicators: 
+baas - werknemer - collega en uiteindelijk ook burger(s)."_
+
+[De front-end code](https://github.com/CodeForEindhoven/sentimeter-frontend) staat elders op Github.
+
 ## 360 graden feedback
 
 Van [360-degree feedback op Wikipedia (Engelstalig)](https://en.wikipedia.org/wiki/360-degree_feedback):
