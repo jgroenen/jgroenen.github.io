@@ -2,6 +2,10 @@
 
 [www.jgroenen.nl](https://www.jgroenen.nl)
 
+Check de [issues]() voor what's next!
+
+Als je zin hebt om mee te schrijven, leuk! Neem gerust contact op!
+
 ## Backlog Updates/Posts
 
 - ideeën Andreas
@@ -30,8 +34,6 @@
 - HIER onderwerpen https://en.wikipedia.org/wiki/Software_maintenance
 - HIER onderwerpen https://en.wikipedia.org/wiki/Software_evolution
 - natural computing
-
-Opmerking: als je zin hebt om mee te schrijven, leuk! Neem gerust contact op!
 
 ## Backlog Initiatieven
 
