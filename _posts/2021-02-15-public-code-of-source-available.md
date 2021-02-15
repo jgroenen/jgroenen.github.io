@@ -27,6 +27,8 @@ Vanuit het oogpunt van "vrije software", is het echter een vreemde eend, want al
 
 Wat wel nadrukkelijk de bedoeling is, is dat de broncode bestudeerd en aangepast mag worden, om op die manier volledig transparant te maken wat de app precies wel en niet doet. Dit om te zorgen dat de samenleving de applicatie niet wantrouwt. Vooral _freedom 2_ en dan dus ook vooral het _bestuderen_ deel daarvan is daarom belangrijk. Maar daarvoor hoeft de code niet "free" of "open source" te zijn; daarvoor is het alleen nodig om de broncode beschikbaar te stellen (onder voorwaarden, soms aangeduid met _source available_).
 
+Dit laatste is ook het primaire argument bij discussies rondom het zogenaamde _algoritmeregister_, waarin de inzet van algoritmes door de overheid zou moeten worden vastgelegd. Daarbij is het idee om transparant te maken welke besluiten worden genomen door en op basis algoritmes en computermodellen. In ultieme vorm is het ook daar belangrijk om de broncode beschikbaar te maken voor bestudering.
+
 ## Public Money, Public Code
 
 Een heel andere stroming is _Public Money, Public Code_. Aanhangers daarvan stellen juist dat broncode die gemaakt of besteld is door de overheid moet worden vrijgegeven voor hergebruik, omdat de samenleving ervoor betaald heeft. Dit argument heeft uiteindelijk weinig met transparantie van de overheid te maken, en meer met een redenering die stelt dat investeringen door de overheid veel beter tot hun recht komen als de resultaten daarvan ook beschikbaar worden voor burgers en bedrijven om daarop voort te borduren.
