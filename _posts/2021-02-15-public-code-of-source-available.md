@@ -4,7 +4,7 @@ tags: ['#publictech', 'open samenwerking']
 title: "Public Code of Source Available"
 image: https://www.jgroenen.nl/img/posts/360-degree-feedback.png
 caption: 
-teaser: 'Onder de noemer "open source" wordt er gestreden voor het vrijgeven van software die door de overheid gebruikt wordt of gemaakt is. Dit "gebruik maken" en "maken van" zijn echter twee erg verschillende cases, waarbij "open source" ook niet per se de juiste noemer is.'
+teaser: 'Onder de noemer open source wordt er gestreden voor het vrijgeven van software die door de overheid gebruikt wordt of gemaakt is. Dit gebruik maken en maken van zijn echter twee erg verschillende cases, waarbij open source ook niet per se de juiste noemer is.'
 ---
 <strong>{{ page.teaser }}</strong>
 
