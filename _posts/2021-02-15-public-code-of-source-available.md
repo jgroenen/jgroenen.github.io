@@ -19,6 +19,10 @@ Van vrije software en opensourcesoftware is sprake als de broncode is vrijgegeve
 
 In het geval van software die door de overheid gebruikt wordt of gemaakt is zie je dat de accenten bij de discussie over "open source" vaak op verschillende plaatsen worden gelegd.
 
+## Vrije software of opensourcesoftware
+
+Bovenstaande gooit open source en vrije software op één hoop en in de praktijk betreft het ook nagenoeg dezelfde dingen. Maar de purist zal stellen dat het in de Open Source beweging draait om pragmatisme: [de open source beweging richt zich op het ontwikkelproces](https://www.gnu.org/philosophy/open-source-misses-the-point.html), waarbij het doel is om software "beter" te maken. De  Vrije Software beweging daarentegen richt zich op het sociaal-ethische aspect van eerlijke verdienmodellen. Dit verschil in focus zie je ook terug in de discussies binnen de overheid over het hoe en wat van "open source".
+
 ## CoronaMelder: transparantie en open overheid
 
 De recent door VWS ontwikkelde applicatie "CoronaMelder" is zoals ze dat zelf zeggen "in alle openheid gemaakt". Ondersteund door Code for NL is al vanaf het begin van het project veel code onder open source licentie vrijgegeven, en zijn discussie en bijdragen van buiten het projectteam actief aangemoedigd en meegenomen.
