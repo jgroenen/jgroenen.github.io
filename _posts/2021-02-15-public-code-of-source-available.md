@@ -8,6 +8,10 @@ teaser: 'Onder de noemer open source wordt er gestreden voor het vrijgeven van s
 ---
 <strong>{{ page.teaser }}</strong>
 
+## Update 16 maart 2021
+
+Tijdens de Conferentie NL Digitaal gingen Boris van Hoytema (Foundation for Public Code), Ivonne Janssen-Dings (Provincie Zuid-Holland en Code for NL) en Koos Steenbergen (Ministerie van BZK) hierover met elkaar (en de online deelnemers) [in gesprek](https://opensource.pleio.nl/news/view/7155b323-98f4-4ca0-9777-7a53ffbf2d16/help-open-source-software-wordt-verplicht-wat-nu).
+
 ## Free and Open Source Software (FOSS)
 
 Van vrije software en opensourcesoftware is sprake als de broncode is vrijgegeven onder een licentie die toestaat dat eenieder:
