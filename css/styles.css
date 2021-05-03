@@ -1,4 +1,12 @@
-/* for quick find-replace: the highlight color is #266B96 */
+/*
+
+mint cream eef4ed background
+orchid d664be
+dark orange ff8600
+dark blue gray 56638a
+dark purple 381d2a
+
+*/
 
 html, body {
     height: 100%;
@@ -7,29 +15,30 @@ body {
     font-family: Arial;
     font-size: 100%;
     font-weight: 500;
-    color: #222;
+    color: #381d2a;
+    background: #eef4ed;
     max-width: 480px;
     margin: auto;
 }
 h1 {
     font-size: 2.8em;
-    color: #266B96;
+    color: #d664be;
     margin: 0.4em 0;
     font-family: "Julius Sans One";
     font-weight: 900;
 }
 strong {
-    color: #266B96;
+    color: #381d2a;
 }
 h2 {
     font-size: 2em;
     margin: 0.2em 0;
-    color: #445;
+    color: #381d2a;
     font-family: "Julius Sans One";
     font-weight: 400;
 }
 a {
-    color: #266B96;
+    color: #381d2a;
 }
 p {
     line-height: 1.4em;
@@ -47,7 +56,7 @@ figcaption {
 }
 .tag {
     display: inline-block;
-    background: #aaa;
+    background: #56638a;
     color: #fff;
     margin: 4px 2px 0 0;
     padding: 4px 6px;
@@ -63,7 +72,7 @@ img {
     max-width: 100%
 }
 footer {
-    background: #266B96;
+    background: #56638a;
     color: #fff;
     padding: 20px;
     margin-top: 40px;
