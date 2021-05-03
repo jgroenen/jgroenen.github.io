@@ -1,6 +1,6 @@
 ---
 layout: post
-tags: []
+tags: ['STRATEGIC DESIGN', 'CLEAN CODING']
 title: "De Unix filosofie"
 image: https://upload.wikimedia.org/wikipedia/commons/8/87/Contemporary_wabi-sabi_tea_bowl.jpg
 caption: Een theekopje (zie ook <a href="https://en.wikipedia.org/wiki/Shibui">https://en.wikipedia.org/wiki/Shibui</a>).
