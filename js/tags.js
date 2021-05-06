@@ -7,7 +7,7 @@
             var archetypes = JSON.parse(request.responseText);
             for (let archetype in archetypes) {
                 let archetypeInfo = archetypes[archetype];
-                console.log(`%c${archetype}, ${archetypeInfo.naam}, wil ${archetypeInfo.wil} door ${archetypeInfo.strategie.join(" en ")}`, `background: ${archetypeInfo.kleur}; color: #fff`);
+                console.log(`%c${archetype}, ${archetypeInfo.naam}, wil ${archetypeInfo.wil} door ${archetypeInfo.strategie.join(" en ")}. Is ${archetypeInfo.toon}.`, `background: ${archetypeInfo.kleur}; color: #fff`);
                 underlineTagsInText(archetypeInfo);
                 colorTags(archetypeInfo);
             }

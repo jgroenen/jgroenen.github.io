@@ -1,41 +1,52 @@
 {
     "sage": {
-        "naam": "gids (70%)",
-        "wil": "begrip",
+        "naam": "70% GIDS OP HET GEBIED VAN #PUBLICTECH INNOVATIE",
+        "wil": "begrijpen",
         "toon": "ingelezen, verzekerd, gidsend",
         "strategie": [
-            "het pad naar kennis en wijsheid tonen",
-            "vieren van een leven lang leren"
+            "blijven leren en dat promoten",
+            "kennis en wijsheid opdoen en die delen"
         ],
         "kleur": "#d664be",
         "tags": [
             "#publictech",
-            "innovatie",
-            "creativiteit",
-            "natural computing",
-            "informatica",
-            "software design",
-            "software development",
-            "design thinking",
-            "strategic design",
-            "design principes",
-            "het ontwerp van dingen"
+            "#openinnovatie",
+            "#digitrans",
+            "#tech101",
+            "#ethiekintech",
+            "#designthinking",
+            "#leanstartup",
+            "#servicedesign",
+            "#softwaredesign",
+            "#agiledevelopment",
+            "#cleancode",
+            "#designprinciples"
         ]
     },
     "everyman": {
-        "naam": "gewone man (30%)",
+        "naam": "30% VRIENDELIJKE EN BEHULPZAME PERSOON OP HET GEBIED VAN #PUBLICTECH OPEN SAMENWERKING",
         "wil": "saamhorigheid",
         "toon": "vriendelijk, bescheiden, authentiek",
         "strategie": [
-            "het uitlijnen van waarden",
-            "het maken van een verwelkomende gemeenschap"
+            "uitlijnen van waarden en die uitdragen",
+            "(mee)bouwen van open, verwelkomende gemeenschappen en die promoten"
         ],
         "kleur": "#ff8600",
         "tags": [
-            "open samenwerking",
-            "communities",
-            "co-creatie",
-            "hacking"
+            "#tiltshift",
+            "#codefornl",
+            "#opennederland",
+            "#publicspaces",
+            "#algoritmeregister",
+            "#filtermeniet",
+            "#aligningcivictech",
+            "#cleaningmob",
+            "#designingov",
+            "#nldesignsystem",
+            "#commonground",
+            "#innovatiebudget",
+            "#communityprincipes",
+            "#opensamenwerking"
         ]
     }
 }
