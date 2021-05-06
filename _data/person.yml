@@ -1,10 +1,10 @@
 name: Johan Groenen
-label: "Open Collaborations in Public Tech"
+label: public interest technologist
 picture: https://www.jgroenen.nl/img/jgroenen.png
 email: info@jgroenen.nl
 phone: '+31641518018'
 website: https://www.jgroenen.nl
-summary: "Ik ben adviseur #publictech innovatie. Mijn missie is het stimuleren van creatieve open samenwerking en communities of practice in publieke sector digitale transformatie. Ik verbind mensen, ideeën, en initiatieven, en ben een onstopbare brainstormer. Als beelddenker en strategic designer help ik teams en directies samen visueel denken en zo overlap en structuur vinden in hun ideeën, die ik vervolgens als digital product lead mee in de praktijk breng."
+summary: 
 profiles:
   - network: LinkedIn
     username: jgroenen
@@ -15,5 +15,5 @@ profiles:
   - network: Github
     username: jgroenen
     url: https://www.github.com/jgroenen
-_keywords: ['open samenwerking', 'communities of practice', '#publictech', 'onstopbare brainstormer', 'strategic design', 'clean coding', 'public interest technologist']
+_keywords: ['#publictech', 'open collaboration', 'onstopbare brainstormer', 'strategic design', 'clean code', 'public interest technologist']
 _twitter_handle: "@jpagroenen"

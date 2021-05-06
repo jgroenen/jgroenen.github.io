@@ -47,10 +47,10 @@
     </head>
     <body class="vcard" itemscope itemtype="https://schema.org/Person">
         
-        <header style="font-size: 0.75em">
-            <h1 class="fn" itemprop="name">{{ site.data.person.name }}</h1>
-            <h2 itemprop="jobTitle" itemprop="title">{{ site.data.person.label }}</h2>
-            <a href="/">« terug naar hoofdpagina</a>
+        <header>
+            <h1>{{ site.data.site.title }}</h1>
+            <h2>door <span class="fn" itemprop="name"></span>{{ site.data.person.name }}</span></h2>
+            <a href="/#{{ page.id }}">« terug naar hoofdpagina</a>
         </header>
 
         <main>

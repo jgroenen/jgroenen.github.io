@@ -1,6 +1,6 @@
 ---
 layout: post
-tags: ['onstopbare brainstormer']
+tags: ['hacking']
 title: "pOS feature #1: Happy Highlighter"
 image: https://www.jgroenen.nl/img/posts/happyhighlighter.png
 teaser: 'Om mezelf wat meer te dwingen de dingen te doen waar ik blij van word, heb ik een nieuwe "life hack" of "persoonlijk O.S." feature. Ik heb me voorgenomen om leuke dingen wat vaker snel en kort te beschrijven in dit soort mini blogjes. Daarbij "nudge" ik mezelf om telkens te checken of ik bezig ben met de dingen waar ik bezig mee wil zijn.'

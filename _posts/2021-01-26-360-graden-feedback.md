@@ -1,6 +1,6 @@
 ---
 layout: post
-tags: ['open samenwerking', 'onstopbare brainstormer']
+tags: ['samenwerken', 'hacking']
 title: "Idee voor 360 graden feedback"
 image: https://www.jgroenen.nl/img/posts/360-degree-feedback.png
 caption: 

@@ -5,6 +5,7 @@ orchid d664be
 dark orange ff8600
 dark blue gray 56638a
 dark purple 381d2a
+midnight green eagle green 19535f
 
 */
 
@@ -21,17 +22,17 @@ body {
     margin: auto;
 }
 h1 {
-    font-size: 2.8em;
+    font-size: 2em;
     color: #d664be;
     margin: 0.4em 0;
     font-family: "Julius Sans One";
-    font-weight: 900;
+    font-weight: 400;
 }
 strong {
     color: #381d2a;
 }
 h2 {
-    font-size: 2em;
+    font-size: 1.4em;
     margin: 0.2em 0;
     color: #381d2a;
     font-family: "Julius Sans One";
