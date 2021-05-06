@@ -1,0 +1,43 @@
+{
+    "sage": {
+        "naam": "gids (70%)",
+        "wil": "begrip",
+        "toon": "ingelezen, verzekerd, gidsend",
+        "strategie": [
+            "het pad naar kennis en wijsheid tonen",
+            "vieren van een leven lang leren"
+        ],
+        "kleur": "#d664be",
+        "tags": [
+            "#publictech",
+            "innovatie",
+            "creativiteit",
+            "natural computing",
+            "informatica",
+            "filosofie",
+            "software design",
+            "software development",
+            "design thinking",
+            "strategic design",
+            "design principes",
+            "samenwerken",
+            "design"
+        ]
+    },
+    "everyman": {
+        "naam": "gewone man (30%)",
+        "wil": "saamhorigheid",
+        "toon": "vriendelijk, bescheiden, authentiek",
+        "strategie": [
+            "het uitlijnen van waarden",
+            "het maken van een verwelkomende gemeenschap"
+        ],
+        "kleur": "#ff8600",
+        "tags": [
+            "open samenwerking",
+            "communities",
+            "co-creatie",
+            "hacking"
+        ]
+    }
+}
