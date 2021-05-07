@@ -24,11 +24,18 @@
 
     function underlineTagsInText(archetypeInfo) {
         var text = document.body.innerHTML;
+        var style = `
+            background: ${archetypeInfo.kleur};
+            color: white;
+            padding: 1px 2px;
+            border-radius: 1px;
+            font-weight: 100;
+        `;
         for (let index in archetypeInfo.tags) {
             let tag = archetypeInfo.tags[index];
             let tagReplace = tag.replace(/\s/g, '&nbsp;');
             console.log(`%c highlighting ${tag}`, `background: ${archetypeInfo.kleur}; color: #fff`);
-            text = text.replace(new RegExp(tag, "g"), `<span style='border-bottom: 2px dashed ${archetypeInfo.kleur}'>${tagReplace}</span>`);
+            text = text.replace(new RegExp(tag, "g"), `<span style='${style}'>${tagReplace}</span>`);
         }
         document.body.innerHTML = text;
     }
