@@ -33,6 +33,13 @@ Als je zin hebt om mee te schrijven, leuk! Neem gerust contact op!
 - HIER onderwerpen https://en.wikipedia.org/wiki/Software_maintenance
 - HIER onderwerpen https://en.wikipedia.org/wiki/Software_evolution
 - natural computing
+- paar dingen over XP https://nl.wikipedia.org/wiki/Extreme_programming
+- paar dingen over cleaning mob
+- https://en.wikipedia.org/wiki/Leaky_abstraction
+- full stack software design https://www.freecodecamp.org/news/software-design/
+- wat meer over software design https://en.wikipedia.org/wiki/Software_design
+- design filosofie: https://en.wikipedia.org/wiki/Philosophy_of_design
+- 
 
 ## Backlog Initiatieven
 
