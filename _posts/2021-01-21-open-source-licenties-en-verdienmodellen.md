@@ -1,6 +1,6 @@
 ---
 layout: post
-tags: ['#publictech']
+tags: ['#publictech', '#opensource']
 title: "Open source licenties en verdienmodellen"
 image: https://www.jgroenen.nl/img/posts/opensourcelicenties.png
 teaser: 'Vandaag een leuke Code for NL meetup over open source licenties en verdienmodellen. Walter van Holst van Hooghiemstra en partners vertelde over de verschillende, ook niet juridische, aspecten van deze licenties, waarna er ruimte was voor vragen.'

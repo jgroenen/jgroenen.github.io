@@ -1,6 +1,6 @@
 ---
 layout: post
-tags: ['creativiteit']
+tags: ['#creativiteit', '#diversiteit']
 title: "Unstoppable brainstormer"
 image: https://www.jgroenen.nl/img/posts/360-degree-feedback.png
 caption: 

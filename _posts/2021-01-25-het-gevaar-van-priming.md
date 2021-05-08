@@ -1,6 +1,6 @@
 ---
 layout: post
-tags: ['#publictech', 'design']
+tags: ['#publictech', '#softwaredesign']
 title: "Het gevaar van priming"
 image: https://www.jgroenen.nl/img/posts/algoritmeregister.png
 caption: Afbeelding gemaakt met <a href="https://wordart.com/create">WordArt</a>

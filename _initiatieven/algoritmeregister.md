@@ -1,6 +1,6 @@
 ---
 layout: post
-tags: ['strategic design', '#publictech', 'open samenwerking']
+tags: ['#publictech', '#opensamenwerking', '#softwaredesign']
 title: "Algoritmeregister"
 image: https://www.jgroenen.nl/img/posts/push-kick-off.png
 teaser: 'Welke geautomatiseerde besluiten worden er allemaal over ons genomen en hoe werken die precies? Op het raakvlak tussen democratische controle en #publictech leeft al langer het idee om de algoritmes die ons in vakjes stoppen ergens duidelijk inzichtelijk te krijgen.'

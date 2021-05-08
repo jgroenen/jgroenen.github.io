@@ -21,7 +21,9 @@
             "#agiledevelopment",
             "#cleancode",
             "#designprinciples",
-            "#kunstmatigeintelligentie"
+            "#opensource",
+            "#kunstmatigeintelligentie",
+            "#beelddenken"
         ]
     },
     "everyman": {
@@ -47,7 +49,11 @@
             "#commonground",
             "#innovatiebudget",
             "#communityprincipes",
-            "#opensamenwerking"
+            "#opensamenwerking",
+            "#samenwerking",
+            "#diversiteit",
+            "#creativiteit",
+            "#community"
         ]
     }
 }

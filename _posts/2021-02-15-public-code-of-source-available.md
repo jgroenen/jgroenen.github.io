@@ -1,6 +1,6 @@
 ---
 layout: post
-tags: ['#publictech']
+tags: ['#publictech', '#opensource']
 title: "Public Code of Source Available"
 image: https://www.jgroenen.nl/img/posts/360-degree-feedback.png
 caption: 

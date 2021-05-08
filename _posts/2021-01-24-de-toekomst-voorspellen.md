@@ -1,6 +1,6 @@
 ---
 layout: post
-tags: ['programmeren']
+tags: ['#softwaredesign']
 title: "Een app om de toekomst te voorspellen"
 image: https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/1d03d073302311.5c05615823c4c.jpg
 caption: <a href="https://www.behance.net/gallery/73302311/Modern-Tarot-Cards">“Modern Tarot Cards”</a> by Neil V Fernando is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/?ref=ccsearch&amp;atype=rich">CC BY-NC-ND 4.0</a>
