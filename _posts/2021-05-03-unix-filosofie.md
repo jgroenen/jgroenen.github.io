@@ -8,7 +8,7 @@ teaser: 'Het ontwerpen van software kent, net als alle andere dingen die door me
 ---
 <strong>{{ page.teaser }}</strong>
 
-Op de [Wikipedia pagina over Unix Filosofie](https://en.wikipedia.org/wiki/Unix_philosophy) wordt de oorspronkelijke filosifie als volgt omschreven:
+Op de [Wikipedia pagina over Unix Filosofie](https://en.wikipedia.org/wiki/Unix_philosophy) wordt de oorspronkelijke filosofie als volgt omschreven:
 
   1. Zorg ervoor dat ieder programma één ding goed doet. Heb je iets anders nodig, bouw dan iets nieuws in plaats van oude programma's compliceren met nieuwe features.
   2. Ga ervan uit dat de output van je programma input wordt van een ander, nog onbekend programma. Stop de output niet vol met overbodige informatie. Voorkom moeilijke input met strenge kolom-eisen of binaire formaten. Verplicht geen interactieve input.
