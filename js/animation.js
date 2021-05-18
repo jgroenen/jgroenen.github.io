@@ -2,8 +2,8 @@
     function ImageAnimation(imageElement) {
         var canvas = document.createElement("canvas");
         canvas.className = imageElement.className;
-        canvas.width = imageElement.width;
-        canvas.height = imageElement.height;
+        canvas.width = imageElement.width / 2;
+        canvas.height = imageElement.height / 2;
         canvas.style.cssText = imageElement.style.cssText;
 
         imageElement.replaceWith(canvas);
@@ -51,7 +51,9 @@
             var ctx = canvas.getContext("2d");
             ctx.drawImage(imageElement,
                 0,
-                0
+                0,
+                canvas.width,
+                canvas.height
             );
             
             for (var i = 0; i < canvas.height; ++i) {

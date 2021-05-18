@@ -72,6 +72,10 @@ figcaption {
 img {
     max-width: 100%
 }
+.photo {
+    width: 200px;
+    height: 200px;
+}
 footer {
     background: #56638a;
     color: #fff;
