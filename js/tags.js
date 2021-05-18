@@ -23,7 +23,7 @@
     request.send();
 
     function underlineTagsInText(archetypeInfo) {
-        var text = document.body.innerHTML;
+        var text = document.getElementsByTagName("main")[0].innerHTML;
         var style = `
             background: ${archetypeInfo.kleur};
             color: white;
@@ -37,7 +37,7 @@
             console.log(`%c highlighting ${tag}`, `background: ${archetypeInfo.kleur}; color: #fff`);
             text = text.replace(new RegExp(tag, "g"), `<span style='${style}'>${tagReplace}</span>`);
         }
-        document.body.innerHTML = text;
+        document.getElementsByTagName("main")[0].innerHTML = text;
     }
 
     function colorTags(archetypeInfo) {

@@ -46,10 +46,10 @@ p {
 }
 header, main {
     padding: 0 20px;
-    margin-top: 40px;
 }
 header {
     text-align: center;
+    margin-top: 40px;
 }
 figcaption {
     text-align: center;
