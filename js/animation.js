@@ -6,7 +6,12 @@
         canvas.height = imageElement.height / 2;
         canvas.style.cssText = imageElement.style.cssText;
 
-        imageElement.replaceWith(canvas);
+        var link = document.createElement("a");
+        link.href = "https://nl.wikipedia.org/wiki/Game_of_Life";
+        link.target = "_blank";
+        link.appendChild(canvas);
+        
+        imageElement.replaceWith(link);
 
         var GoL = [];
         for (var i = 0; i < canvas.height; ++i) {
