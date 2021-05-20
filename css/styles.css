@@ -75,6 +75,11 @@ img {
 .photo {
     width: 200px;
     height: 200px;
+    position: relative;
+}
+.photo canvas {
+    width: 200px;
+    height: 200px;
 }
 footer {
     background: #56638a;

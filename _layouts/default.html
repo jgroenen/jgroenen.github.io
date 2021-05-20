@@ -50,7 +50,9 @@
         <header>
             <h1>{{ site.data.site.title }}</h1>
             <h2><span class="fn" itemprop="name">{{ site.data.person.name }}</span></h2>
-            <img itemprop="image" id="photo" class="photo" src="{{ site.data.person.picture }}" style="max-width: 199px; max-height: 199px; margin: 40px auto; cursor: pointer" alt="Foto van {{ site.data.person.name }}">
+            <div class="photo" style="margin: 40px auto; cursor: pointer">
+                <img itemprop="image" id="photo" src="{{ site.data.person.picture }}" alt="Foto van {{ site.data.person.name }}">
+            </div>
         </header>
 
         <main style="padding: 0">
@@ -78,7 +80,8 @@
         {% include footer.html %}
 
         <script src="/js/tags.js"></script>
-        <script src="/js/animation.js"></script>
+        <script src="/js/game-of-life.js"></script>
+        <script src="/js/easter-egg-loader.js"></script>
 
     </body>
 </html>
