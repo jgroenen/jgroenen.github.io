@@ -7,7 +7,7 @@ function GameOfLife(canvas) {
         for (var i = 0; i < canvas.height; ++i) {
             initialGeneration[i] = [];
             for (var j = 0; j < canvas.width; ++j) {
-                initialGeneration[i][j] = Math.random() < 0.5;
+                initialGeneration[i][j] = Math.random() < 0.1;
             }
         }
         return initialGeneration;

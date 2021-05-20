@@ -1,6 +1,7 @@
 (function () {
     var easterEggs = [
-        GameOfLife
+        GameOfLife,
+        ParticleSwarm
     ];
 
     function EasterEggLoader(imageElement) {
