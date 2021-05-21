@@ -1,7 +1,8 @@
 (function () {
     var easterEggs = [
         GameOfLife,
-        ParticleSwarm
+        Boids,
+        CellularAutomaton
     ];
 
     function EasterEggLoader(imageElement) {
