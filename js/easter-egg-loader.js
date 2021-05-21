@@ -2,7 +2,8 @@
     var easterEggs = [
         GameOfLife,
         Boids,
-        CellularAutomaton
+        CellularAutomaton,
+        PythagorasTree
     ];
 
     function EasterEggLoader(imageElement) {
@@ -20,7 +21,7 @@
         link.appendChild(imageElement);
         link.appendChild(canvas);
 
-        easterEgg.runAnimation(85);
+        easterEgg.runAnimation(50);
     }
 
     document.getElementById("photo").onclick = function () {
