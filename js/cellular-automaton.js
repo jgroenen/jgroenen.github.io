@@ -1,7 +1,6 @@
 function CellularAutomaton(canvas) {
     var link = "https://en.wikipedia.org/wiki/Cellular_automaton";
     var ctx = canvas.getContext("2d");
-
     var copyCanvas = document.createElement('canvas');
     copyCanvas.width = canvas.width;
     copyCanvas.height = canvas.height;
@@ -11,7 +10,9 @@ function CellularAutomaton(canvas) {
         90, 30, 45, 73, 75, 86, 150
     ];
     var rule = interestingRules[Math.floor(Math.random() * interestingRules.length)];
-    console.log(`rule ${rule}`);
+
+    console.log(`Cellular Automata rule ${rule}: ${link}`);
+
 
     function createGridline() {
         gridline = [];

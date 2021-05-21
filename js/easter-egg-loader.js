@@ -20,7 +20,7 @@
         link.appendChild(imageElement);
         link.appendChild(canvas);
 
-        easterEgg.runAnimation(100);
+        easterEgg.runAnimation(85);
     }
 
     document.getElementById("photo").onclick = function () {

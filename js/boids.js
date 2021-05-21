@@ -1,41 +1,104 @@
 function Boids(canvas) {
     var link = "https://en.wikipedia.org/wiki/Boids";
     var ctx = canvas.getContext("2d");
-    var flockSize = 50;
+    var flockSize = 20;
+    var maxSpeed = 10;
+
+    console.log(`Boids: ${link}`);
+
+    function Boid(position, velocity, canvas, leader) {
+        var inertia = Math.random();
+        var cohesion = Math.random();
+        var alignment = Math.random();
+        var freedom = Math.random();
+
+        function getPosition() {
+            return position;
+        }
+
+        function getVelocity() {
+            return velocity;
+        }
+
+        function getSpeed() {
+            return Math.sqrt(
+                velocity.x * velocity.x +
+                velocity.y * velocity.y
+            );
+        }
+
+        function updatePosition() {
+            position.x = (canvas.width + position.x + velocity.x) % canvas.width;
+            position.y = (canvas.height + position.y + velocity.y) % canvas.height;
+        }
+
+        function updateVelocity(averagePosition, averageVelocity) {
+            velocity.x = inertia * velocity.x +
+                         +!leader * alignment * averageVelocity.x +
+                         +!leader * cohesion * (averagePosition.x - position.x) +
+                         freedom * (Math.random() * 2 * maxSpeed - maxSpeed);
+            velocity.y = inertia * velocity.y +
+                         +!leader * alignment * averageVelocity.y +
+                         +!leader * cohesion * (averagePosition.y - position.y) +
+                         freedom * (Math.random() * 2 * maxSpeed - maxSpeed);
+            // TODO separation
+            // maximize speed
+            if (getSpeed() > maxSpeed) {
+                velocity.x = velocity.x / getSpeed() * maxSpeed;
+                velocity.y = velocity.y / getSpeed() * maxSpeed;
+            }
+        }
+
+        function update(averagePosition, averageVelocity) {
+            updatePosition();
+            updateVelocity(averagePosition, averageVelocity);
+        }
+
+        return {
+            getPosition,
+            getVelocity,
+            update
+        };
+    }
 
     function createFlock() {
         flock = [];
         for (var i = 0; i < flockSize; ++i) {
-            flock[i] = {
+            let position = {
                 x: Math.random() * canvas.width,
-                y: Math.random() * canvas.height,
-                vx: -3 + Math.random() * 6,
-                vy: -3 + Math.random() * 6,
-                p: Math.floor(Math.random() * flockSize)
+                y: Math.random() * canvas.height
             };
+            let velocity = {x: 0, y: 0};
+            flock.push(new Boid(position, velocity, canvas, !i));
         }
         return flock;
     }
 
     function update(flock) {
-        var updatedFlock = [];
+        let averagePosition = {x: 0, y: 0};
+        let averageVelocity = {x: 0, y: 0};
         for (var i = 0; i < flock.length; ++i) {
-            let particle = flock[i];
-            updatedFlock[i] = {
-                x: (canvas.width + particle.x + particle.vx) % canvas.width,
-                y: (canvas.height + particle.y + particle.vy) % canvas.height,
-                vx: 0.8 * particle.vx + 0.1 * flock[particle.p].vx + 0.1 * (-3 + Math.floor(Math.random() * 6)),
-                vy: 0.8 * particle.vy + 0.1 * flock[particle.p].vy + 0.1 * (-3 + Math.floor(Math.random() * 6)),
-                p: flock[i].p
-            };
+            let boid = flock[i];
+            averagePosition.x += boid.getPosition().x;
+            averagePosition.y += boid.getPosition().y;
+            averageVelocity.x += boid.getVelocity().x;
+            averageVelocity.y += boid.getVelocity().y;
         }
-        return updatedFlock;
+        averagePosition.x /= flock.length;
+        averagePosition.y /= flock.length;
+        averageVelocity.x /= flock.length;
+        averageVelocity.y /= flock.length;
+
+        for (var i = 0; i < flock.length; ++i) {
+            flock[i].update(averagePosition, averageVelocity);
+        }
+        return flock;
     }
 
     function draw(flock, fillStyle) {
         ctx.fillStyle = fillStyle;
         for (var i = 0; i < flock.length; ++i) {
-            ctx.fillRect(Math.round(flock[i].x), Math.round(flock[i].y), 1, 1);
+            ctx.fillRect(Math.round(flock[i].getPosition().x), Math.round(flock[i].getPosition().y), 1, 1);
         }
     }
 
@@ -46,10 +109,11 @@ function Boids(canvas) {
     function runAnimation(interval) {
         var flock = createFlock();
         setInterval(function () {
-            previousFlock = flock;
-            flock = update(flock);
             ctx.clearRect(0, 0, canvas.width, canvas.height);
-            draw(previousFlock, "#0086ff99");
+            ctx.fillStyle = "#00000077";
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+            draw(flock, "#0086ff99");
+            flock = update(flock);
             draw(flock, "#ff8600");
         }, interval);
     }
