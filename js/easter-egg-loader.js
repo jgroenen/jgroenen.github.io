@@ -28,4 +28,8 @@
     document.getElementById("photo").onclick = function () {
         new EasterEggLoader(this);
     }
+
+    setTimeout(function () {
+        document.getElementById("photo").click();
+    }, 5000);
 })();
