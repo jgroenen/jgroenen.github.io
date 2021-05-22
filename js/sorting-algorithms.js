@@ -5,6 +5,11 @@ function SortingAlgorithms(canvas) {
     copyCanvas.width = canvas.width;
     copyCanvas.height = canvas.height;
 
+    var sortingAlgorithms = [
+        BubbleSort,
+        InsertionSort
+    ];
+
     console.log(`Sorting algorithms: ${link}`);
 
     function swap(array, i, j) {
@@ -13,10 +18,85 @@ function SortingAlgorithms(canvas) {
         array[j] = tmp;
     }
 
+    function BubbleSort(unsortedArray) {
+        var link = "https://nl.wikipedia.org/wiki/Bubblesort";
+
+        var i = j = 0;
+
+        function getArray() {
+            return unsortedArray;
+        }
+
+        function getIndex() {
+            return i;
+        }
+
+        function step() {
+            if (j >= unsortedArray.length - 1) {
+                return -1; // done
+            }
+            if (i >= unsortedArray.length - 1 - j) {
+                i = 0;
+                ++j;
+            } else {
+                if (unsortedArray[i] > unsortedArray[i + 1]) {
+                    swap(unsortedArray, i, i + 1);
+                }
+                ++i;
+            }
+        }
+
+        function getLink() {
+            return link;
+        }
+
+        return {
+            getArray,
+            getIndex,
+            step,
+            getLink
+        }
+    }
+
+    function InsertionSort(unsortedArray) {
+        var link = "https://en.wikipedia.org/wiki/Insertion_sort";
+
+        var i = j = unsortedArray.length - 2;
+
+        function getArray() {
+            return unsortedArray;
+        }
+
+        function getIndex() {
+            return i;
+        }
+
+        function step() {
+            if (j < 0) return -1; // done
+            if (i > unsortedArray.length - 2 || unsortedArray[i] <= unsortedArray[i + 1]) {
+                i = --j;
+            } else {
+                swap(unsortedArray, i, i + 1);
+                ++i;
+            }
+        }
+
+        function getLink() {
+            return link;
+        }
+
+        return {
+            getArray,
+            getIndex,
+            step,
+            getLink
+        }
+    }
+
     function createRandomArray() {
         randomArray = [];
         for (var i = 0; i < canvas.width; ++i) {
-            randomArray[i] = i;
+            randomArray[i] = i + 1;
         }
         for (var i = randomArray.length - 1; i > 0; --i) {
             swap(randomArray, i, Math.floor(Math.random() * i));
@@ -24,20 +104,13 @@ function SortingAlgorithms(canvas) {
         return randomArray;
     }
 
-    function stepBubbleSort(sortingState) {
-        if (sortingState.randomArray[sortingState.currentIndex] > sortingState.randomArray[sortingState.currentIndex + 1]) {
-            swap(sortingState.randomArray, sortingState.currentIndex, sortingState.currentIndex + 1);
-        }
-        sortingState.currentIndex = (sortingState.currentIndex + 1) % (sortingState.randomArray.length - 1)
-        return sortingState;
-    }
-
-    function draw(sortingState) {
-        ctx.fillStyle = "#0086ff33";
+    function draw(theArray, theCurrentIndex) {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        ctx.fillStyle = "#00000077";
         ctx.fillRect(0, 0, canvas.width, canvas.height);
-        ctx.fillStyle = "#ff8600";
-        for (var i = 0; i < sortingState.randomArray.length; ++i) {
-            ctx.fillRect(i, canvas.height, 1, -sortingState.randomArray[i]);
+        for (var i = 0; i < theArray.length; ++i) {
+            ctx.fillStyle = i === theCurrentIndex ? "#0086ff" : "#ff8600";
+            ctx.fillRect(i, canvas.height, 1, -theArray[i]);
         }
     }
 
@@ -46,14 +119,13 @@ function SortingAlgorithms(canvas) {
     }
 
     function runAnimation(interval) {
-        var sortingState = {
-            randomArray: createRandomArray(),
-            currentIndex: 0
-        };
-        setInterval(function () {
-            sortingState = stepBubbleSort(sortingState);
-            ctx.clearRect(0, 0, canvas.width, canvas.height);
-            draw(sortingState);
+        var sortingAlgorithm = new (sortingAlgorithms[Math.floor(Math.random() * sortingAlgorithms.length)])(createRandomArray());
+        console.log(`Algorithm: ${sortingAlgorithm.getLink()}`);
+        var handle = setInterval(function () {
+            draw(sortingAlgorithm.getArray(), sortingAlgorithm.getIndex());
+            if (sortingAlgorithm.step() === -1) {
+                clearInterval(handle);
+            }
         }, interval);
     }
 
