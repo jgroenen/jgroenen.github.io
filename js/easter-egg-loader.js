@@ -25,12 +25,15 @@
         easterEgg.runAnimation(50);
     }
 
+    var easterEggLoader;
+
     document.getElementById("photo").onclick = function () {
-        new EasterEggLoader(this);
+        if (typeof easterEggLoader === "undefined")
+            easterEggLoader = new EasterEggLoader(this);
     }
 
     document.onscroll = function () {
-        document.onscroll = function () {};
-        new EasterEggLoader(document.getElementById("photo"));
+        if (typeof easterEggLoader === "undefined")
+            easterEggLoader = new EasterEggLoader(document.getElementById("photo"));
     }
 })();
