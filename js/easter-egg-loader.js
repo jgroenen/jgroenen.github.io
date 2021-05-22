@@ -3,7 +3,8 @@
         GameOfLife,
         Boids,
         CellularAutomaton,
-        PythagorasTree
+        PythagorasTree,
+        SortingAlgorithms
     ];
 
     function EasterEggLoader(imageElement) {
