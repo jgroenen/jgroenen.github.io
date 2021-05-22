@@ -29,7 +29,8 @@
         new EasterEggLoader(this);
     }
 
-    setTimeout(function () {
-        document.getElementById("photo").click();
-    }, 5000);
+    document.onscroll = function () {
+        document.onscroll = function () {};
+        new EasterEggLoader(document.getElementById("photo"));
+    }
 })();
