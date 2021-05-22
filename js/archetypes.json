@@ -7,7 +7,7 @@
             "blijven leren en dat promoten",
             "kennis en wijsheid opdoen en die delen"
         ],
-        "kleur": "#d664be",
+        "kleur": "#0086ff",
         "tags": [
             "#publictech",
             "#creativethinking",
@@ -25,7 +25,13 @@
             "#opensource",
             "#kunstmatigeintelligentie",
             "#naturalcomputing",
-            "#beelddenken"
+            "#beelddenken",
+            "#communityprincipes",
+            "#opensamenwerking",
+            "#samenwerking",
+            "#diversiteit",
+            "#creativiteit",
+            "#community"
         ]
     },
     "everyman": {
@@ -49,13 +55,7 @@
             "#designingov",
             "#nldesignsystem",
             "#commonground",
-            "#innovatiebudget",
-            "#communityprincipes",
-            "#opensamenwerking",
-            "#samenwerking",
-            "#diversiteit",
-            "#creativiteit",
-            "#community"
+            "#innovatiebudget"
         ]
     }
 }

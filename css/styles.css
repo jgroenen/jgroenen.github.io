@@ -34,12 +34,12 @@ strong {
 h2 {
     font-size: 1.4em;
     margin: 0.2em 0;
-    color: #381d2a;
+    color: #d664be;
     font-family: "Julius Sans One";
     font-weight: 400;
 }
 a {
-    color: #381d2a;
+    color: #d664be;
 }
 p {
     line-height: 1.4em;
@@ -50,6 +50,10 @@ header, main {
 header {
     text-align: center;
     margin-top: 40px;
+}
+header a {
+    display: block;
+    margin: 41px auto;
 }
 figcaption {
     text-align: center;
