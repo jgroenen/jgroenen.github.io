@@ -8,7 +8,7 @@ teaser: 'Je project open stellen voor open samenwerking met andere organisaties,
 ---
 <strong>{{ page.teaser }}</strong>
 
-Drie projecten die momenteel in de [Code for NL community](https://praatmee.codefor.nl) leven werden besproken: [Vrijwillig machtigen](https://www.notion.so/Innovatiebudget-2020-Machtigen-03b9bffc50314f73ac2cb061ff95ac35) door Anouschka Scholten, [CoronaCheck](https://coronacheck.nl/nl/) door Eva van Slooten en [Algoritmeregister](https://publiekecontrole.com/) door Ivonne Jansen-Dings. Daarbij kwam een aantal vragen aan bod:
+Drie projecten die momenteel in de [Code for NL community](https://praatmee.codefor.nl) leven werden besproken: [Vrijwillig machtigen](https://www.notion.so/Innovatiebudget-2020-Machtigen-03b9bffc50314f73ac2cb061ff95ac35) door Anouschka Scholten, [CoronaCheck](https://coronacheck.nl/nl/) door Eva van Sloten en [Algoritmeregister](https://publiekecontrole.com/) door Ivonne Jansen-Dings. Daarbij kwam een aantal vragen aan bod:
 
 # Wat is werken met "de community"?
 
