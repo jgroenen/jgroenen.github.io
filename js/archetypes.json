@@ -1,44 +1,6 @@
 {
-    "magician": {
-        "naam": "70% VISIONAIR OP HET GEBIED VAN #PUBLICTECH INNOVATIE",
-        "wil": "transformatie, kennis, visie, geloof, ontdekking",
-        "toon": "mystiek, geïnformeerd, geruststellend",
-        "strategie": [
-            "een visie ontwikkelen en daarnaar leven",
-            "transformatie"
-        ],
-        "kleur": "#0086ff",
-        "tags": [
-            "#publictech",
-            "#creativethinking",
-            "#openinnovatie",
-            "#digitaletransformatie",
-            "#tech101",
-            "#ethiekintech",
-            "#designthinking",
-            "#leanstartup",
-            "#servicedesign",
-            "#softwaredesign",
-            "#agiledevelopment",
-            "#cleancode",
-            "#designprinciples",
-            "#opensource",
-            "#kunstmatigeintelligentie",
-            "#naturalcomputing",
-            "#beelddenken",
-            "#communityprincipes",
-            "#opensamenwerking",
-            "#samenwerking",
-            "#diversiteit",
-            "#creativiteit",
-            "#community",
-            "#kwartiermaken",
-            "#interventie",
-            "#softwareteams"
-        ]
-    },
     "everyman": {
-        "naam": "30% VRIENDELIJKE EN BEHULPZAME PERSOON OP HET GEBIED VAN #PUBLICTECH OPEN SAMENWERKING",
+        "naam": "70% VRIENDELIJKE EN BEHULPZAME VERBINDER OP HET GEBIED VAN OPEN #CIVICTECH EN #PUBLICTECH COMMUNITIES",
         "wil": "saamhorigheid",
         "toon": "vriendelijk, bescheiden, authentiek",
         "strategie": [
@@ -47,18 +9,25 @@
         ],
         "kleur": "#ff8600",
         "tags": [
-            "#tiltshift",
-            "#codefornl",
-            "#opennederland",
-            "#publicspaces",
-            "#algoritmeregister",
-            "#filtermeniet",
-            "#aligningcivictech",
-            "#cleaningmob",
-            "#designingov",
-            "#nldesignsystem",
-            "#commonground",
-            "#innovatiebudget"
+            "#community",
+            "#meetup",
+            "#opensamenwerking",
+            "#dtv"
+        ]
+    },
+    "creator": {
+        "naam": "30% CREATIEVE ONDERNEMER OP HET GEBIED VAN #CIVICTECH EN #PUBLICTECH INNOVATIE",
+        "wil": "creatie, originaliteit, zelf-expressie, visie, verbeelding",
+        "toon": "inspirerend, prikkelend, uitdagend",
+        "strategie": [
+            "inspireren de verbeelding te gebruiken",
+            "aanmoedigen van streven naar originaliteit"
+        ],
+        "kleur": "#0086ff",
+        "tags": [
+            "#allesisinspiratie",
+            "#ideation",
+            "#project"
         ]
     }
 }
