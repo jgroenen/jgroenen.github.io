@@ -49,8 +49,10 @@ h2 {
 a {
     color: var(--color-one);
 }
-p {
+p, .p-ish {
     line-height: 1.4em;
+    margin-block-end: 1em;
+    margin-block-start: 1em;
 }
 header, main {
     padding: 0 20px;
@@ -95,6 +97,17 @@ figcaption {
     line-height: 1.4em;
     margin-top: 2em;
     padding: 1.4em;
+}
+.card.cta {
+    background: var(--color-one);
+    color: var(--color-base-light);
+}
+.card.cta h2 {
+    color: var(--color-base-light);
+}
+.card.cta .button {
+    background: var(--color-base-light);
+    color: var(--color-one);
 }
 img {
     max-width: 100%
