@@ -3,7 +3,7 @@
 {
     "concepten": {
         {% for concept in site.concepten %}
-            "{{ concept.title | downcase }}": "{{ site.url }}{{ concept.url }}"{% if forloop.last == false %},{% endif %}
+            "{{ concept.label | default: concept.title | downcase }}": "{{ site.url }}{{ concept.url }}"{% if forloop.last == false %},{% endif %}
         {% endfor %}
     }
 }

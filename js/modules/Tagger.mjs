@@ -5,9 +5,9 @@ export default function () {
             var text = texts[i].innerHTML;
             if (!text) break;
             for (let tag in tags) {
-                let tagFindExp = new RegExp(`${tag.toLowerCase()}(\\W{1})`, "ig");
+                let tagFindExp = new RegExp(`(\\s|\^|\\()${tag.toLowerCase()}(\\W{2}|\\.\\s|\\s{1})`, "ig");
                 let tagReplaceExp = tag.toLowerCase().replace(/\s/g, '&nbsp;');
-                tagReplaceExp = `<a href="${tags[tag]}" class="inline-tag">${tagReplaceExp}</a>$1`;
+                tagReplaceExp = `$1<a href="${tags[tag]}" class="inline-tag">${tagReplaceExp}</a>$2`;
                 if (text.search(tagFindExp) !== -1) {
                     console.log(`tagging ${tag}`);
                     text = text.replace(tagFindExp, tagReplaceExp);

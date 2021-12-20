@@ -1,6 +1,6 @@
 ---
 layout: post
-tags: ['open samenwerking']
+tags: ['open samenwerking', 'code for nl', 'open source']
 title: "Open Samenwerken, hoe doe je dat?"
 image: https://live.staticflickr.com/6226/6278328485_22a07a4803_b.jpg
 caption: '"Collaborate [11/52]" by Brenderous is licensed with CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/'

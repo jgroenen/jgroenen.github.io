@@ -2,8 +2,8 @@
 <a name="{{ item.id }}"></a>
 <div class="card">
     {% if include.type=='woordenboek' %}
-        <p> {{ item.title }} </p>
-        <p>{{ item.teaser }}</p>
+        <p> {{ item.label | default: item.title | downcase }} </p>
+        <div>{{ item.teaser }}</div>
     {% else %}
         <div class="image-crop" style="height: 100px; width: 100%; background: url({{ item.image }}) center center no-repeat; background-size: cover"></div>
         <div style="margin: 1em 0">
@@ -16,6 +16,6 @@
         {% include tags.html tags=item.tags %}
     {% endif %}
 
-    <a class="button" href="{{ item.url }}">Lees meer over {{ item.title }}</a>
+    <a class="button" href="{{ item.url }}">Lees meer over {{ item.label | default: item.title }}</a>
 </div>
 {% endif %}

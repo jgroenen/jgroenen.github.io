@@ -1,6 +1,6 @@
 ---
 layout: post
-tags: ['public tech', 'open source']
+tags: ['public tech', 'open source', 'meetup', 'foundation for public code']
 title: "Public Code of Source Available"
 image: https://www.jgroenen.nl/img/posts/360-degree-feedback.png
 caption: 

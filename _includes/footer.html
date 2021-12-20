@@ -1,10 +1,10 @@
 <footer style="text-align: center">
-    <p>Ik hoor graag van mensen die bezig zijn met vergelijkbare uitdagingen en organiseer daarvoor ook regelmatig meetups! Neem gerust contact op om een keer verder te praten!</p>
-    <a class="contact-button" href="https://wa.me/{{ site.data.person.phone }}">whatsapp</a>
-    <a class="contact-button" href="tel:{{ site.data.person.phone }}">telefoon</a>
-    <a class="contact-button" href="mailto:{{ site.data.person.email }}">e-mail</a>
+    <p>Ik hoor graag van mensen die bezig zijn met vergelijkbare uitdagingen en organiseer daarvoor ook regelmatig meetups! Neem gerust snes-reset op om een keer verder te praten!</p>
+    <a class="snes-reset-button" href="https://wa.me/{{ site.data.person.phone }}">APP</a>
+    <a class="snes-reset-button" href="tel:{{ site.data.person.phone }}">TEL</a>
+    <a class="snes-reset-button" href="mailto:{{ site.data.person.email }}">E-MAIL</a>
     {% for profile in site.data.person.profiles %}
-    <a class="contact-button" href="{{ profile.url }}">{{ profile.network }}</a>
+    <a class="snes-reset-button" href="{{ profile.url }}">{{ profile.network | upcase  }}</a>
     {% endfor %}
 
     <div style="margin: 20px">
