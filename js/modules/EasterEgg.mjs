@@ -8,7 +8,7 @@ export default function (imageElement, colors) {
     var started = false;
 
     (async function () {
-        var easterEggClasses = [
+        var easterEggClasses = [ // FIXME load from json file
             "GameOfLife",
             "Boids",
             "CellularAutomaton",

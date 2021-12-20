@@ -11,7 +11,7 @@ export default function (canvas, colors) {
     ];
     var rule = interestingRules[Math.floor(Math.random() * interestingRules.length)];
 
-    console.log(`Cellular Automata rule ${rule}: ${link}`);
+    //console.log(`Cellular Automata rule ${rule}: ${link}`);
 
     function createGridline() {
         var gridline = [];

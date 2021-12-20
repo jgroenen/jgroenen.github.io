@@ -5,7 +5,7 @@ export default function (canvas, colors) {
     var maxSpeed = 10;
     var flock;
 
-    console.log(`Boids: ${link}`);
+    //console.log(`Boids: ${link}`);
 
     function Boid(position, velocity, canvas, leader) {
         var inertia = Math.random();

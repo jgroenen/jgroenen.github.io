@@ -2,7 +2,7 @@ export default function (canvas, colors) {
     var link = "https://en.wikipedia.org/wiki/Pythagoras_tree_(fractal)";
     var ctx = canvas.getContext("2d");
 
-    console.log(`Pythagoras Tree: ${link}`);
+    //console.log(`Pythagoras Tree: ${link}`);
 
     function Edge(startPoint, radAngle, length, depth) {
         var endPoint = {

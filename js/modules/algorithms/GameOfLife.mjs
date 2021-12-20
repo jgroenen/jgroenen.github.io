@@ -2,7 +2,7 @@ export default function (canvas, colors) {
     var link = "https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life";
     var ctx = canvas.getContext("2d");
 
-    console.log(`Conway's Game of Life: ${link}`);
+    //console.log(`Conway's Game of Life: ${link}`);
 
     function generateInitialGeneration() {
         var initialGeneration = [];

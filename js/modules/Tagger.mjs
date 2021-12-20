@@ -9,7 +9,7 @@ export default function () {
                 let tagReplaceExp = tag.toLowerCase().replace(/\s/g, '&nbsp;');
                 tagReplaceExp = `$1<a href="${tags[tag]}" class="inline-tag">${tagReplaceExp}</a>$2`;
                 if (text.search(tagFindExp) !== -1) {
-                    console.log(`tagging ${tag}`);
+                    //console.log(`tagging ${tag}`);
                     text = text.replace(tagFindExp, tagReplaceExp);
                 }
             }

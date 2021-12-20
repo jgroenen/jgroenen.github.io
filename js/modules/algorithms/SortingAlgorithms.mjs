@@ -10,7 +10,7 @@ export default function (canvas, colors) {
         InsertionSort
     ];
 
-    console.log(`Sorting algorithms: ${link}`);
+    //console.log(`Sorting algorithms: ${link}`);
 
     function swap(array, i, j) {
         var tmp = array[i];
@@ -123,7 +123,7 @@ export default function (canvas, colors) {
 
     function runAnimation(interval) {
         var sortingAlgorithm = new (sortingAlgorithms[Math.floor(Math.random() * sortingAlgorithms.length)])(createRandomArray());
-        console.log(`Algorithm: ${sortingAlgorithm.getLink()}`);
+        //console.log(`Algorithm: ${sortingAlgorithm.getLink()}`);
         var handle = setInterval(function () {
             draw(sortingAlgorithm.getArray(), sortingAlgorithm.getIndex());
             if (sortingAlgorithm.step() === -1) {
