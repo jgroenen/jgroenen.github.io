@@ -76,8 +76,8 @@ figcaption {
 }
 .card {
     padding: 20px;
+    margin: 20px 0;
     box-shadow: 0px 2px 4px #00000033;
-    margin-top: 40px;
     overflow: hidden;
 }
 .card, .post {

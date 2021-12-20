@@ -45,7 +45,7 @@
             })();
         </script>
     </head>
-    <body class="vcard post" itemscope itemtype="https://schema.org/Person">
+    <body class="vcard" itemscope itemtype="https://schema.org/Person">
 
         <div class="wrapper">
         
@@ -60,6 +60,8 @@
                 {{ content }}
                 <p><a href="{{ page.link }}">{{ page.link }}</a></p>
                 <p>Op- of aanmerkingen? Ik sta graag open voor discussie, bijvoorbeeld op <a href="https://www.twitter.com/jpagroenen">Twitter</a>.</p>
+
+                {% include cta.html %}
 
                 {% assign tag = page.title|downcase %}
                 {% include cards.html collection=site.posts header="Gerelateerde aantekeningen" tag=tag %}
