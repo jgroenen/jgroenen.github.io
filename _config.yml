@@ -2,3 +2,7 @@ collections:
   initiatieven:
     output: true
     permalink: /:collection/:name/
+  concepten:
+    output: true
+    permalink: /woordenboek/:name/
+    layout: concept

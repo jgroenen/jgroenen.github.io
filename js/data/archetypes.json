@@ -1,0 +1,57 @@
+{
+    "everyman": {
+        "type": "everyman",
+        "naam": "50% VRIENDELIJKE EN BEHULPZAME VERBINDER VAN MENSEN, IDEEËN EN PROJECTEN OP HET GEBIED VAN OPEN #CIVICTECH EN #PUBLICTECH COMMUNITIES",
+        "wil": "saamhorigheid",
+        "toon": "vriendelijk, bescheiden, authentiek",
+        "strategie": [
+            "uitlijnen van waarden en die uitdragen",
+            "(mee)bouwen van open, verwelkomende gemeenschappen en die promoten"
+        ],
+        "kleur": "#4251A2",
+        "tags": [
+            "community",
+            "open samenwerking",
+            "public tech",
+            "civic tech"
+        ]
+    },
+    "creator": {
+        "type": "creator",
+        "naam": "40% CREATIEVE (BEELD)DENKER, SOFTWARE DESIGNER EN HACKER OP HET GEBIED VAN #CIVICTECH EN #PUBLICTECH INNOVATIE",
+        "wil": "creatie, originaliteit, zelf-expressie, visie, verbeelding",
+        "toon": "inspirerend, prikkelend, uitdagend",
+        "strategie": [
+            "inspireren de verbeelding te gebruiken",
+            "aanmoedigen van streven naar originaliteit"
+        ],
+        "kleur": "#F3AB19",
+        "tags": [
+            "beelddenken",
+            "software design",
+            "hackathon",
+            "inspiratie",
+            "natural computing"
+        ],
+        "quotes": [
+            "alles is inspiratie",
+            "the future cannot be predicted, but futures can be invented",
+            "nature is an endless combination and repetition of a very few laws"
+        ]
+    },
+    "ruler": {
+        "type": "ruler",
+        "naam": "10% PRO-ACTIEVE ONDERNEMER, COACH EN INVESTEERDER OP HET GEBIED VAN #CIVICTECH EN #PUBLICTECH INNOVATIE",
+        "wil": "",
+        "toon": "",
+        "strategie": [
+            "",
+            ""
+        ],
+        "kleur": "#E70617",
+        "tags": [
+        ],
+        "quotes": [
+        ]
+    }
+}

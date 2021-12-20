@@ -1,6 +1,12 @@
 <section style="margin-top: 40px">
     <h2 style="text-align: center">{{ include.header }}</h2>
     {% for item in include.collection %}
-        {% include card.html card=item %}
+        {% if include.tag %}
+            {% if item.tags contains include.tag %}
+                {% include card.html card=item %}
+            {% endif %}
+        {% else %}
+            {% include card.html card=item type=include.type %}
+        {% endif %}
     {% endfor %}
 </section>

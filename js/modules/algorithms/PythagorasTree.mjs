@@ -1,4 +1,4 @@
-function PythagorasTree(canvas) {
+export default function (canvas, colors) {
     var link = "https://en.wikipedia.org/wiki/Pythagoras_tree_(fractal)";
     var ctx = canvas.getContext("2d");
 
@@ -76,7 +76,7 @@ function PythagorasTree(canvas) {
                 canvas.height / 4,
                 0)
         ];
-        ctx.fillStyle = "#0086ff33";
+        ctx.fillStyle = colors[0] + "99";
         ctx.fillRect(0, 0, canvas.width, canvas.height);
         var handle = setInterval(function () {
             let edge = edges.shift();
@@ -84,7 +84,7 @@ function PythagorasTree(canvas) {
                 clearInterval(handle);
             } else {
                 edges = edges.concat(calculateNewEdges(edge));
-                draw(edge, "#ff8600");
+                draw(edge, colors[1]);
             }
         }, interval);
     }

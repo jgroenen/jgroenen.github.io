@@ -1,4 +1,4 @@
-function CellularAutomaton(canvas) {
+export default function (canvas, colors) {
     var link = "https://en.wikipedia.org/wiki/Cellular_automaton";
     var ctx = canvas.getContext("2d");
     var copyCanvas = document.createElement('canvas');
@@ -13,9 +13,8 @@ function CellularAutomaton(canvas) {
 
     console.log(`Cellular Automata rule ${rule}: ${link}`);
 
-
     function createGridline() {
-        gridline = [];
+        var gridline = [];
         for (var i = 0; i < canvas.height; ++i) {
             gridline[i] = 0;
         }
@@ -37,8 +36,8 @@ function CellularAutomaton(canvas) {
 
     function draw(gridline) {
         for (var i = 0; i < gridline.length; ++i) {
-            if (gridline[i]) ctx.fillStyle = "#ff8600";
-            else ctx.fillStyle = "#0086ff99";
+            if (gridline[i]) ctx.fillStyle = colors[1];
+            else ctx.fillStyle = colors[0] + "99";
             ctx.fillRect(i, 0, 1, 1);
         }
     }
@@ -50,7 +49,7 @@ function CellularAutomaton(canvas) {
     function runAnimation(interval) {
         var gridline = createGridline();
         setInterval(function () {
-            previousGridline = gridline;
+            //var previousGridline = gridline;
             gridline = update(gridline);
             copyCanvas.getContext("2d").clearRect(0, 0, canvas.width, canvas.height);
             copyCanvas.getContext("2d").drawImage(canvas, 0, 0);

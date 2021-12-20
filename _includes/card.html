@@ -1,15 +1,21 @@
 {% if include.card %}
 <a name="{{ item.id }}"></a>
 <div class="card">
-    <div class="image-crop" style="height: 100px; width: 100%; background: url({{ item.image }}) center center no-repeat; background-size: cover"></div>
-    
-    <div style="margin: 1em 0">
-        <span>Aantekening {% include date.html date=item.date %}</span>
-        <a href="{{ item.url }}"><h2>{{ item.title }}</h2></a>
-    </div>
+    {% if include.type=='woordenboek' %}
+        <p> {{ item.title }} </p>
+        <p>{{ item.teaser }}</p>
+    {% else %}
+        <div class="image-crop" style="height: 100px; width: 100%; background: url({{ item.image }}) center center no-repeat; background-size: cover"></div>
+        <div style="margin: 1em 0">
+            <span>Aantekening {% include date.html date=item.date %}</span>
+            <a href="{{ item.url }}"><h2>{{ item.title }}</h2></a>
+        </div>
 
-    <div>{{ item.teaser }}</div>
+        <p>{{ item.teaser }}</p>
 
-    {% include tags.html tags=item.tags %}
+        {% include tags.html tags=item.tags %}
+    {% endif %}
+
+    <a class="button" href="{{ item.url }}">Lees meer over {{ item.title }}</a>
 </div>
 {% endif %}

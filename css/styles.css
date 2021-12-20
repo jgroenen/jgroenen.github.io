@@ -1,13 +1,14 @@
-/*
-
-mint cream eef4ed background
-orchid d664be
-dark orange ff8600
-dark blue gray 56638a
-dark purple 381d2a
-midnight green eagle green 19535f
-
-*/
+:root {
+    --color-base-light: #FCF8F7;
+    --color-base-dark: #000000;
+    --color-one: #4251A2;
+    --color-two: #E70617;
+    --color-three: #9C8923;
+    --color-four: #F3AB19;
+    --color-five: #96C625;
+    --color-six: #B27BB4;
+    --color-seven: #34BEEF;
+}
 
 html, body {
     height: 100%;
@@ -16,30 +17,33 @@ body {
     font-family: Arial;
     font-size: 100%;
     font-weight: 500;
-    color: #381d2a;
-    background: #eef4ed;
+    color: #0c090d;
+    background: var(--color-base-light);
+}
+.wrapper {
     max-width: 480px;
     margin: auto;
 }
+h1, h2 {
+    font-family: "DejaVu Sans";
+}
 h1 {
     font-size: 2em;
-    color: #d664be;
     margin: 0.4em 0;
-    font-family: "Julius Sans One";
     font-weight: 400;
+    color: var(--color-one);
 }
 strong {
-    color: #381d2a;
+    color: var(--color-one);
 }
 h2 {
     font-size: 1.4em;
     margin: 0.2em 0;
-    color: #d664be;
-    font-family: "Julius Sans One";
-    font-weight: 400;
+    font-weight: 100;
+    color: var(--color-one);
 }
 a {
-    color: #d664be;
+    color: var(--color-one);
 }
 p {
     line-height: 1.4em;
@@ -59,20 +63,34 @@ figcaption {
     text-align: center;
     font-size: 0.75em;
 }
-.tag {
+.inline-tag {
     display: inline-block;
-    background: #56638a;
-    color: #fff;
-    margin: 4px 2px 0 0;
-    padding: 4px 6px;
-    border-radius: 2px;
+    transform: rotate(-0.5deg);
+    color: white;
+    padding: 0 2px 0 6px;
+    font-family: courier;
+    text-shadow: -1px 1px 2px #00000099;
+    box-shadow: 0px 1px 2px #00000099;
+    background-color: var(--color-two);
+    font-weight: 500;
 }
 .card {
     padding: 20px;
-    box-shadow: 0px 4px 8px #ccc;
+    box-shadow: 0px 2px 4px #00000033;
     margin-top: 40px;
     overflow: hidden;
-    background: #fff;
+}
+.card, .post {
+    background: white;
+}
+.button {
+    display: block;
+    background: var(--color-one);
+    color: var(--color-base-light);
+    text-align: center;
+    line-height: 1.4em;
+    margin-top: 2em;
+    padding: 1.4em;
 }
 img {
     max-width: 100%
@@ -87,13 +105,13 @@ img {
     height: 200px;
 }
 footer {
-    background: #56638a;
-    color: #fff;
+    background: var(--color-base-dark);
+    color: var(--color-base-light);
     padding: 20px;
     margin-top: 40px;
 }
 footer a {
-    color: #fff;
+    color: var(--color-base-light);
 }
 @media only screen and (max-width: 380px) {
     h2 {

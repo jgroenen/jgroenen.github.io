@@ -45,7 +45,7 @@
             })();
         </script>
     </head>
-    <body class="vcard post" itemscope itemtype="https://schema.org/Person">
+    <body class="vcard" itemscope itemtype="https://schema.org/Person">
 
         <div class="wrapper">
         
@@ -57,10 +57,8 @@
 
             <main>
                 <h2>{{ page.title }}</h2>
-                {% include date.html date=page.date %}
-                {% include tags.html tags=page.tags %}
                 {{ content }}
-                {% include tags.html tags=page.tags %}
+                <br>
                 <a href="/">« terug naar hoofdpagina</a>
             </main>
 

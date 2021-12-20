@@ -1,6 +1,6 @@
 ---
 layout: post
-tags: ['#samenwerking', '#beelddenken']
+tags: ['open samenwerking', 'beelddenken']
 title: "Samen denken, ruwe schetsen"
 image: https://www.jgroenen.nl/img/posts/ruwe-schetsen.png
 caption: 

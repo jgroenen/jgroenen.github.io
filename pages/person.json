@@ -1,2 +1,14 @@
 ---
+permalink: person.json
 ---
+{
+    "meta": { "theme": "kendall" },
+    "basics": {
+      "name": "{{ site.data.person.name }}",
+      "label": "{{ site.data.person.label }}",
+      "image": "{{ site.data.person.image }}",
+      "summary": "{{ site.data.person.summary }}",
+      "website": "{{ site.data.person.website }}",
+      "email": "{{ site.data.person.email }}"
+    }
+}

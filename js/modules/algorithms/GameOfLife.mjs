@@ -1,11 +1,11 @@
-function GameOfLife(canvas) {
+export default function (canvas, colors) {
     var link = "https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life";
     var ctx = canvas.getContext("2d");
 
     console.log(`Conway's Game of Life: ${link}`);
 
     function generateInitialGeneration() {
-        initialGeneration = [];
+        var initialGeneration = [];
         for (var i = 0; i < canvas.height; ++i) {
             initialGeneration[i] = [];
             for (var j = 0; j < canvas.width; ++j) {
@@ -40,11 +40,11 @@ function GameOfLife(canvas) {
         return nextGeneration;
     }
 
-    function draw(currentGeneration, fillStyle) {
+    function draw(currentGeneration) {
         for (var i = 0; i < canvas.height; ++i) {
             for (var j = 0; j < canvas.width; ++j) {
-                if (currentGeneration[i][j]) ctx.fillStyle = fillStyle;
-                else ctx.fillStyle = "#00000033";
+                if (currentGeneration[i][j]) ctx.fillStyle = colors[1];
+                else ctx.fillStyle = colors[0] + "99";
                 ctx.fillRect(i, j, 1, 1);
             }
         }         
@@ -57,11 +57,11 @@ function GameOfLife(canvas) {
     function runAnimation(interval) {
         var currentGeneration = generateInitialGeneration();
         setInterval(function () {
-            previousGeneration = currentGeneration;
+            var previousGeneration = currentGeneration;
             currentGeneration = calculateNextGeneration(currentGeneration);
             ctx.clearRect(0, 0, canvas.width, canvas.height);
-            draw(previousGeneration, "#0086ff99");
-            draw(currentGeneration, "#ff8600");
+            //draw(previousGeneration);
+            draw(currentGeneration);
         }, interval);
     }
 

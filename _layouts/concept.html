@@ -52,15 +52,18 @@
             <header>
                 <h1>{{ site.data.site.title }}</h1>
                 <h2><span class="fn" itemprop="name"></span>{{ site.data.person.name }}</span></h2>
-                <a href="/#{{ page.id }}">« terug naar hoofdpagina</a>
+                <a href="..#{{ page.id }}">« woordenboek</a>
             </header>
 
             <main>
-                <h2>{{ page.title }}</h2>
-                {% include date.html date=page.date %}
-                {% include tags.html tags=page.tags %}
+                <p>Mijn idee over {{ page.title }} :</p>
                 {{ content }}
-                {% include tags.html tags=page.tags %}
+                <p><a href="{{ page.link }}">{{ page.link }}</a></p>
+                <p>Op- of aanmerkingen? Ik sta graag open voor discussie, bijvoorbeeld op <a href="https://www.twitter.com/jpagroenen">Twitter</a>.</p>
+
+                {% assign tag = page.title|downcase %}
+                {% include cards.html collection=site.posts header="Gerelateerde aantekeningen" tag=tag %}
+                <br>
                 <a href="/">« terug naar hoofdpagina</a>
             </main>
 

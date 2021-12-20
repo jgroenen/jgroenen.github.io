@@ -1,8 +1,9 @@
-function Boids(canvas) {
+export default function (canvas, colors) {
     var link = "https://en.wikipedia.org/wiki/Boids";
     var ctx = canvas.getContext("2d");
     var flockSize = 20;
     var maxSpeed = 10;
+    var flock;
 
     console.log(`Boids: ${link}`);
 
@@ -110,11 +111,11 @@ function Boids(canvas) {
         var flock = createFlock();
         setInterval(function () {
             ctx.clearRect(0, 0, canvas.width, canvas.height);
-            ctx.fillStyle = "#00000077";
+            ctx.fillStyle = colors[0] + "99";
             ctx.fillRect(0, 0, canvas.width, canvas.height);
-            draw(flock, "#0086ff99");
+            draw(flock, colors[0]);
             flock = update(flock);
-            draw(flock, "#ff8600");
+            draw(flock, colors[1]);
         }, interval);
     }
 

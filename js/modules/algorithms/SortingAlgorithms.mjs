@@ -1,4 +1,4 @@
-function SortingAlgorithms(canvas) {
+export default function (canvas, colors) {
     var link = "https://en.wikipedia.org/wiki/Sorting_algorithm";
     var ctx = canvas.getContext("2d");
     var copyCanvas = document.createElement('canvas');
@@ -21,7 +21,9 @@ function SortingAlgorithms(canvas) {
     function BubbleSort(unsortedArray) {
         var link = "https://nl.wikipedia.org/wiki/Bubblesort";
 
-        var i = j = 0;
+        var i, j;
+        
+        i = j = 0;
 
         function getArray() {
             return unsortedArray;
@@ -60,8 +62,9 @@ function SortingAlgorithms(canvas) {
 
     function InsertionSort(unsortedArray) {
         var link = "https://en.wikipedia.org/wiki/Insertion_sort";
-
-        var i = j = unsortedArray.length - 2;
+        var i, j;
+        
+        i = j = unsortedArray.length - 2;
 
         function getArray() {
             return unsortedArray;
@@ -94,7 +97,7 @@ function SortingAlgorithms(canvas) {
     }
 
     function createRandomArray() {
-        randomArray = [];
+        var randomArray = [];
         for (var i = 0; i < canvas.width; ++i) {
             randomArray[i] = i + 1;
         }
@@ -106,10 +109,10 @@ function SortingAlgorithms(canvas) {
 
     function draw(theArray, theCurrentIndex) {
         ctx.clearRect(0, 0, canvas.width, canvas.height);
-        ctx.fillStyle = "#00000077";
+        ctx.fillStyle = colors[0] + "99";
         ctx.fillRect(0, 0, canvas.width, canvas.height);
         for (var i = 0; i < theArray.length; ++i) {
-            ctx.fillStyle = i === theCurrentIndex ? "#0086ff" : "#ff8600";
+            ctx.fillStyle = i === theCurrentIndex ? colors[0] : colors[1];
             ctx.fillRect(i, canvas.height, 1, -theArray[i]);
         }
     }
