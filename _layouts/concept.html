@@ -58,7 +58,7 @@
 
             <main>
                 {% assign label = page.label | default: page.title | downcase %}
-                <p>Over {{ label }} :</p>
+                <p>Wat ik bedoel met {{ label }} </p>
                 {{ content }}
                 <p><a href="{{ page.link }}">{{ page.link }}</a></p>
                 <p>Op- of aanmerkingen? Ik sta graag open voor discussie, bijvoorbeeld op <a href="https://www.twitter.com/jpagroenen">Twitter</a>.</p>
@@ -72,13 +72,12 @@
                 {% endfor %}
                 {% assign tags = tags | uniq %}
 
-                <h2>Gerelateerd</h2>
-                {% include tags.html tags=tags %}
-
-                {% include cta.html %}
+                Check ook: {% include tags.html tags=tags %}
 
                 {% assign tag = page.title|downcase %}
-                {% include cards.html collection=site.posts header="Gerelateerde aantekeningen" tag=tag %}
+                {% include cards.html collection=site.posts header="Aantekeningen" tag=tag %}
+
+                {% include cta.html %}
                 <br>
                 <a href="/">« terug naar hoofdpagina</a>
             </main>
