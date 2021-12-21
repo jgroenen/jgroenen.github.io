@@ -57,10 +57,23 @@
             </header>
 
             <main>
-                <p>Mijn idee over {{ page.label | default: page.title }} :</p>
+                {% assign label = page.label | default: page.title | downcase %}
+                <p>Over {{ label }} :</p>
                 {{ content }}
                 <p><a href="{{ page.link }}">{{ page.link }}</a></p>
                 <p>Op- of aanmerkingen? Ik sta graag open voor discussie, bijvoorbeeld op <a href="https://www.twitter.com/jpagroenen">Twitter</a>.</p>
+
+                {% assign tags = page.tags %}
+                {% for concept in site.concepten %}
+                    {% if concept.tags contains label %}
+                        {% assign otherLabel = concept.label | default: concept.title | downcase %}
+                        {% assign tags = tags | push: otherLabel %}
+                    {% endif %}
+                {% endfor %}
+                {% assign tags = tags | uniq %}
+
+                <h2>Gerelateerd</h2>
+                {% include tags.html tags=tags %}
 
                 {% include cta.html %}
 
