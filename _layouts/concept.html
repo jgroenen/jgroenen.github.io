@@ -74,10 +74,10 @@
                     </center>
                 </div>
 
+                {% include cta.html %}
+
                 {% assign tag = page.title|downcase %}
                 {% include cards.html collection=site.posts header="Aantekeningen" tag=tag %}
-
-                {% include cta.html %}
                 <br>
                 <a href="/">« terug naar hoofdpagina</a>
             </main>
