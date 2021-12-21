@@ -11,11 +11,11 @@
             <a href="{{ item.url }}"><h2>{{ item.title }}</h2></a>
         </div>
 
-        <p>{{ item.teaser }}</p>
+        <div class="p-ish">{{ item.teaser }}</div>
 
         {% include tags.html tags=item.tags %}
     {% endif %}
 
-    <a class="button" href="{{ item.url }}">Lees meer over {{ item.label | default: item.title }}</a>
+    <a class="button" href="{{ item.url }}">Lees "{{ item.label | default: item.title }}"</a>
 </div>
 {% endif %}

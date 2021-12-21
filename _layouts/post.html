@@ -52,9 +52,8 @@
             {% include header.html %}
 
             <main>
+                <span>Aantekening {% include date.html date=page.date %}</span>
                 <h2>{{ page.title }}</h2>
-                {% include tags.html tags=page.tags %}
-                {% include date.html date=page.date %}
                 {{ content }}
                 {% include tags.html tags=page.tags %}
                 {% include cta.html %}
