@@ -49,30 +49,30 @@
 
         <div class="wrapper">
         
-            <header>
-                <h1>{{ site.data.site.title }}</h1>
-                <h2><span class="fn" itemprop="name"></span>{{ site.data.person.name }}</span></h2>
-                <a class="snes-reset-button" href="/">RESET</a>
-                <a href="..#{{ page.id }}">« woordenboek</a>
-            </header>
+            {% include header.html header='persoonlijke woordenboek' %}
 
             <main>
-                {% assign label = page.label | default: page.title | downcase %}
-                <p>Wat ik bedoel met {{ label }} </p>
-                {{ content }}
-                <p><a href="{{ page.link }}">{{ page.link }}</a></p>
-                <p>Op- of aanmerkingen? Ik sta graag open voor discussie, bijvoorbeeld op <a href="https://www.twitter.com/jpagroenen">Twitter</a>.</p>
+                <div class="card">
+                    {% assign label = page.label | default: page.title | downcase %}
+                    <p> {{ label }} </p>
+                    {{ content }}
+                    <p><a href="{{ page.link }}">{{ page.link }}</a></p>
+                    <p>Op- of aanmerkingen? Ik sta graag open voor discussie, bijvoorbeeld op <a href="https://www.twitter.com/jpagroenen">Twitter</a>.</p>
 
-                {% assign tags = page.tags %}
-                {% for concept in site.concepten %}
-                    {% if concept.tags contains label %}
-                        {% assign otherLabel = concept.label | default: concept.title | downcase %}
-                        {% assign tags = tags | push: otherLabel %}
-                    {% endif %}
-                {% endfor %}
-                {% assign tags = tags | uniq %}
+                    {% assign tags = page.tags %}
+                    {% for concept in site.concepten %}
+                        {% if concept.tags contains label %}
+                            {% assign otherLabel = concept.label | default: concept.title | downcase %}
+                            {% assign tags = tags | push: otherLabel %}
+                        {% endif %}
+                    {% endfor %}
+                    {% assign tags = tags | uniq %}
 
-                Check ook: {% include tags.html tags=tags %}
+                    <center>
+                        {% include tags.html tags=tags %}
+                        <a class="button" href="..#{{ page.id }}">Check mijn persoonlijke woordenboek</a>
+                    </center>
+                </div>
 
                 {% assign tag = page.title|downcase %}
                 {% include cards.html collection=site.posts header="Aantekeningen" tag=tag %}

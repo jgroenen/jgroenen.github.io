@@ -49,17 +49,12 @@
 
         <div class="wrapper">
         
-            <header>
-                <h1>{{ site.data.site.title }}</h1>
-                <h2><span class="fn" itemprop="name"></span>{{ site.data.person.name }}</span></h2>
-                <a class="snes-reset-button" href="/">RESET</a>
-                <a href="/#{{ page.id }}">« terug naar hoofdpagina</a>
-            </header>
+            {% include header.html %}
 
             <main>
                 <h2>{{ page.title }}</h2>
-                {% include date.html date=page.date %}
                 {% include tags.html tags=page.tags %}
+                {% include date.html date=page.date %}
                 {{ content }}
                 {% include tags.html tags=page.tags %}
                 {% include cta.html %}

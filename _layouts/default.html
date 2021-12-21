@@ -49,14 +49,7 @@
 
         <div class="wrapper">
         
-            <header>
-                <h2 class="inline-tag" style="transform: rotate(-2deg); margin: 0.5em;">{{ site.data.site.quote }}</h2>
-                <h1>{{ site.data.site.title }}</h1>
-                <h2><span class="fn" itemprop="name">{{ site.data.person.name }}</span></h2>
-                <div class="photo" style="margin: 40px auto; cursor: pointer">
-                    <img itemprop="image" id="photo" src="{{ site.data.person.picture }}" alt="Foto van {{ site.data.person.name }}">
-                </div>
-            </header>
+            {% include header.html %}
 
             <main>
                 <div class="card" style="text-align: center">
