@@ -1,5 +1,4 @@
 ---
-layout: aantekening
 tags: ['creativiteit', 'inspiratie']
 title: "Unstoppable brainstormer"
 image: https://www.jgroenen.nl/img/posts/360-degree-feedback.png

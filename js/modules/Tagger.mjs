@@ -3,7 +3,7 @@ export default function () {
         var texts = document.getElementsByTagName("p");
         for (let i in texts) {
             var text = texts[i].innerHTML;
-            if (!text) break;
+            if (!text) continue;
             for (let tag in tags) {
                 let tagFindExp = new RegExp(`(\\s|\^|\\()${tag.toLowerCase()}(\\W{2}|\\.\\s|\\s{1})`, "ig");
                 let tagReplaceExp = tag.toLowerCase().replace(/\s/g, '&nbsp;');

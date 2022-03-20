@@ -1,5 +1,4 @@
 ---
-layout: aantekening
 tags: ['software design', 'open source']
 title: "Een app om de toekomst te voorspellen"
 image: https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/1d03d073302311.5c05615823c4c.jpg

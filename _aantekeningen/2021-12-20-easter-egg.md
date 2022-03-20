@@ -1,5 +1,4 @@
 ---
-layout: aantekening
 tags: ['natural computing', 'inspiratie']
 title: "There be Easter Eggs"
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Cellular_Automata_running_Wolfram-rule-30.svg/789px-Cellular_Automata_running_Wolfram-rule-30.svg.png

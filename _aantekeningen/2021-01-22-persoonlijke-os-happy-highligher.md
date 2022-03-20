@@ -1,5 +1,4 @@
 ---
-layout: aantekening
 tags: ['software design', 'hacking', 'open source']
 title: "pOS feature #1: Happy Highlighter"
 image: https://www.jgroenen.nl/img/posts/happyhighlighter.png

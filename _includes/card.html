@@ -25,6 +25,6 @@
         {% include tags.html tags=item.tags %}
     {% endif %}
 
-    <a class="button" href="{{ item.url }}">Meer over "{{ item.label | default: item.title }}"</a>
+    <a class="button" href="{{ item.url }}">Bekijk {{ include.type }} "{{ item.label | default: item.title }}"</a>
 </div>
 {% endif %}

@@ -1,11 +1,13 @@
 ---
-layout: kaart
-tags: ['#publictech', '#opensamenwerking', '#softwaredesign']
+tags: ['public-tech', 'open samenwerking', 'software design']
 title: "Algoritmeregister"
 image: https://www.jgroenen.nl/img/posts/push-kick-off.png
+caption:
 teaser: 'Welke geautomatiseerde besluiten worden er allemaal over ons genomen en hoe werken die precies? Op het raakvlak tussen democratische controle en #publictech leeft al langer het idee om de algoritmes die ons in vakjes stoppen ergens duidelijk inzichtelijk te krijgen.'
 ---
 {{ page.teaser }}
+
+Een open source applicatie waarin overheidsorganisaties informatie rondom de verantwoording van inzet van algoritmische toepassingen kunnen registreren, bijhouden en publiceren.
 
 Mijn [Code for NL](https://codefor.nl) bestuursgenoot [Ivonne Janssen]() is strategisch adviseur technologie en ethiek bij de provincie Zuid-Holland, en leidt momenteel een verkenningsproject om in kaart te brengen of en hoe een algoritmeregister hieraan zou kunnen bijdragen. Om een open samenwerking op te starten is gekozen dit traject direct een plek te geven in de Code for NL community.
 

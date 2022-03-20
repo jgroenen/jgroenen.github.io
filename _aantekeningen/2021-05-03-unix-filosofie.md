@@ -1,5 +1,4 @@
 ---
-layout: aantekening
 tags: ['software design', 'open source', 'inspiratie']
 title: "De Unix filosofie"
 image: https://upload.wikimedia.org/wikipedia/commons/8/87/Contemporary_wabi-sabi_tea_bowl.jpg

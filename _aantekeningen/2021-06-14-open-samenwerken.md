@@ -1,5 +1,4 @@
 ---
-layout: aantekening
 tags: ['open samenwerking', 'code for nl', 'open source']
 title: "Open Samenwerken, hoe doe je dat?"
 image: https://live.staticflickr.com/6226/6278328485_22a07a4803_b.jpg

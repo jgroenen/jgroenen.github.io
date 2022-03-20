@@ -1,50 +1,8 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta name='viewport' content='width=320,initial-scale=1,user-scalable=0'>
-        <meta http-equiv="content-type" content="text/html; charset=utf-8">
-        <meta name="author" content="Johan Groenen (c) 2020">
-        
-        <link rel='image_src' href='{{ site.data.person.picture }}'/>
-        <link rel='shortcut icon' type='image/png' href='{{ site.data.person.picture }}'>
-        
-        <title>{{ site.data.person.name }}</title>
-        <meta name="title" content="{{ site.data.person.name }} {{ site.data.person.label }}">
-        <meta name="description" content="{{ site.data.person.summary }}">
-        <meta name="keywords" content="{{ site.data.resume.keywords }}">
 
-        <meta property='og:url' content='{{ site.url }}'>
-        <meta property='og:title' name='title' content="{{ site.data.person.name }} {{ site.data.person.label }}">
-        <meta property='og:description' name='description' content="{{ site.data.person.summary }}">
-        <meta property='og:image' content="{{ site.data.person.picture }}">
-        <link rel='image_src' href="{{ site.data.person.picture }}"/>
-        <meta name='keywords' content="{{ site.data.person._keywords | join: ', ' }}">
-        
-        <meta name="twitter:card" content="summary_large_image">
-        <meta name="twitter:username" content="{{ site.data.person._twitter_handle }}">
-        <meta name="twitter:title" content="{{ site.data.person.name }} {{ site.data.person.label }}">
-        <meta name="twitter:description" content="{{ site.data.person.summary }}">
-        <meta name="twitter:image:src" content="{{ site.data.person.picture }}">
-        
-        <link href='https://fonts.googleapis.com/css?family=Julius+Sans+One' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="/css/styles.css">
-        
-        <script type="text/javascript">
-            var _gaq = _gaq || [];
-            _gaq.push(['_setAccount', 'UA-834340-4']); // FIXME
-            _gaq.push(['_setDomainName', 'jgroenen.nl']); // FIXME
-            _gaq.push(['_trackPageview']);
-            
-            (function() {
-                var ga = document.createElement('script');
-                ga.type = 'text/javascript';
-                ga.async = true;
-                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-                var s = document.getElementsByTagName('script')[0];
-                s.parentNode.insertBefore(ga, s);
-            })();
-        </script>
-    </head>
+    {% include head.html %}
+
     <body class="vcard" itemscope itemtype="https://schema.org/Person">
 
         <div class="wrapper">
@@ -54,11 +12,7 @@
             <main>
                 <div class="card" style="text-align: center">
                     <p>{{ page.teaser }}</p>
-
-                    <a href="/kaarten" class="button">Check de public_tech kaartenbak</a>
                 </div>
-
-                <!-- {% include cards.html header='Aantekeningen' collection=site.posts %} -->
 
                 <section>
                     <p>Ik heb een achtergrond in theoretische informatica en natural computing: modelleren en analyseren van complexe natuurlijke systemen en emergente eigenschappen daarvan. Dan moet je bijvoorbeeld denken aan hoe hersenen leren, hoe soorten evolueren door middel van mutatie en selectie van DNA, hoe zwermen vogels en scholen vissen gecoördineerd bewegen, of hoe vuurvliegjes (glimwormen) hun lichtjes synchroniseren.</p>
@@ -70,7 +24,7 @@
 
                 {% include cta.html %}
 
-                {% include cards.html collection=site.posts header="Recente aantekeningen" limit=3 %}
+                {% include cards.html collection=site.aantekeningen header="" limit=3 %}
 
             </main>
 

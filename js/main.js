@@ -6,8 +6,6 @@ var kaarten = await fetch ('/js/data/kaarten.json').then(rs => rs.json()).then(k
 var tagger = new Tagger();
 tagger.underline(kaarten);
 
-console.log(kaarten);
-
 var archetypes = await fetch('/js/data/archetypes.json').then(rs => rs.json());
 var archetyper = new Archetyper();
 

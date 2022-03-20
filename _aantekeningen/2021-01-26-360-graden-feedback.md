@@ -1,5 +1,4 @@
 ---
-layout: aantekening
 tags: ['open samenwerking', 'software design']
 title: "Idee voor 360 graden feedback"
 image: https://www.jgroenen.nl/img/posts/360-degree-feedback.png

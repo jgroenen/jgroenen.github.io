@@ -1,5 +1,4 @@
 ---
-layout: aantekening
 tags: ['public tech', 'software design', 'algoritmeregister', 'code for nl', 'meetup']
 title: "Het gevaar van priming"
 image: https://www.jgroenen.nl/img/posts/algoritmeregister.png

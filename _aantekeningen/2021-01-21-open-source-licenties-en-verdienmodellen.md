@@ -1,5 +1,4 @@
 ---
-layout: aantekening
 tags: ['public tech', 'open source', 'code for nl', 'meetup']
 title: "Open source licenties en verdienmodellen"
 image: https://www.jgroenen.nl/img/posts/opensourcelicenties.png

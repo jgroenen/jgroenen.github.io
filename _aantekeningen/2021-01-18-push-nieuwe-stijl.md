@@ -1,5 +1,4 @@
 ---
-layout: aantekening
 tags: ['software design', 'design thinking']
 title: "Push nieuwe stijl"
 image: https://www.jgroenen.nl/img/posts/push-kick-off.png
