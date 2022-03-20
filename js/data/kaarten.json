@@ -1,0 +1,14 @@
+---
+---
+{
+    "kaarten": {
+        {% for kaart in site.kaarten %}
+            "{{ kaart.label | default: kaart.title | downcase }}": "{{ site.url }}{{ kaart.url }}"{% if forloop.last == false %},{% endif %}
+        {% endfor %}
+    },
+    "tags": {
+        {% for kaart in site.kaarten %}
+            "{{ kaart.label | default: kaart.title | downcase }}": {{ kaart.tags | jsonify }}{% if forloop.last == false %},{% endif %}
+        {% endfor %}
+    }
+}

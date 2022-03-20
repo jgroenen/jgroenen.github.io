@@ -1,8 +1,13 @@
+title: Johan Groenen
+quote: alles is inspiratie
+description: Open&nbsp;Samenwerking<br>en Innovatie<br>in Public&nbsp;Tech
 collections:
-  initiatieven:
+  aantekeningen:
     output: true
-    permalink: /:collection/:name/
-  concepten:
+    permalink: /aantekeningen/:year/:month/:day/:title/
+  kaarten:
     output: true
-    permalink: /woordenboek/:name/
-    layout: concept
+    permalink: /kaarten/:name/
+  meetups:
+    output: true
+    permalink: /meetups/:year/:month/:day/:title/

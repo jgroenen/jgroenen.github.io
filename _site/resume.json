@@ -1,0 +1,11 @@
+{
+    "meta": { "theme": "kendall" },
+    "basics": {
+      "name": "Johan Groenen",
+      "label": "public interest technologist",
+      "image": "",
+      "summary": "",
+      "website": "https://www.jgroenen.nl",
+      "email": "info@jgroenen.nl"
+    }
+}

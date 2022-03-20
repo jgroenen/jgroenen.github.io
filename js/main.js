@@ -2,9 +2,11 @@ import Tagger from './modules/Tagger.mjs';
 import EasterEgg from './modules/EasterEgg.mjs';
 import Archetyper from './modules/Archetyper.mjs';
 
-var concepten = await fetch ('/js/data/concepten.json').then(rs => rs.json()).then(concepten => concepten.concepten);
+var kaarten = await fetch ('/js/data/kaarten.json').then(rs => rs.json()).then(kaarten => kaarten.kaarten);
 var tagger = new Tagger();
-tagger.underline(concepten);
+tagger.underline(kaarten);
+
+console.log(kaarten);
 
 var archetypes = await fetch('/js/data/archetypes.json').then(rs => rs.json());
 var archetyper = new Archetyper();

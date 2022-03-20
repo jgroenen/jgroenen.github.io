@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    
+    {% include head.html %}
+
+    <body class="vcard" itemscope itemtype="https://schema.org/Person">
+
+        <div class="wrapper">
+        
+            {% include header.html %}
+
+            <main>
+                <span>Aantekening {% include date.html date=page.date %}</span>
+                <h2>{{ page.title }}</h2>
+                {{ content }}
+                {% include tags.html tags=page.tags %}
+                {% include cta.html %}
+                <br>
+                <a href="/">« terug naar hoofdpagina</a>
+            </main>
+
+        </div>
+
+        {% include footer.html %}
+
+        <script type="module" src="/js/main.js"></script>
+
+    </body>
+</html>
