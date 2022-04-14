@@ -11,9 +11,8 @@
 
             <main>
                 <div class="card">
-                    {% assign label = page.label | default: page.title | downcase %}
                     <p> <span class="inline-tag">{{ page.collection }}</span> </p>
-                    <h1> {{ label }} </h1>
+                    <h2>{{ page.title }}</h2>
                     <p>{% include date.html date=page.date %}</p>
                     {{ content }}
                     <p><a href="{{ page.link }}">{{ page.link }}</a></p>
