@@ -1,16 +1,11 @@
 ---
-tags: ['public-tech', 'open samenwerking', 'software design']
-title: "Algoritmeregister"
+tags: ['public tech', 'open samenwerking', 'software design', 'open source', 'common ground']
+title: Algoritmeregister
 image: https://www.jgroenen.nl/img/posts/push-kick-off.png
 caption:
-teaser: 'Welke geautomatiseerde besluiten worden er allemaal over ons genomen en hoe werken die precies? Op het raakvlak tussen democratische controle en #publictech leeft al langer het idee om de algoritmes die ons in vakjes stoppen ergens duidelijk inzichtelijk te krijgen.'
+teaser: Een algoritmeregister ondersteunt de algoritmeverantwoordelijke bij het snel en overzichtelijk inventariseren, registreren en actualiseren van informatie over de inzet van algoritmische toepassingen binnen de organisatie, op basis van de Algoritmeregister Standaard voor registratie van algoritmische toepassingen in overheidsorganisaties.
+link: https://www.algoritmeregister.org
 ---
 {{ page.teaser }}
 
-Een open source applicatie waarin overheidsorganisaties informatie rondom de verantwoording van inzet van algoritmische toepassingen kunnen registreren, bijhouden en publiceren.
-
-Mijn [Code for NL](https://codefor.nl) bestuursgenoot [Ivonne Janssen]() is strategisch adviseur technologie en ethiek bij de provincie Zuid-Holland, en leidt momenteel een verkenningsproject om in kaart te brengen of en hoe een algoritmeregister hieraan zou kunnen bijdragen. Om een open samenwerking op te starten is gekozen dit traject direct een plek te geven in de Code for NL community.
-
-Volgende week ga ik helpen bij een aantal design sessies om te kijken of we onder andere kunnen definiëren waaraan zo'n register precies zou moeten voldoen.
-
-Interesse? Kom meepraten in kanaal #algoritmeregister op [de Code for NL Slack-omgeving](https://praatmee.codefor.nl)!
+De Pilotgroep werkt samen aan het in de praktijk inzetten van algoritmeregisters en daarvan leren. In open bijeenkomsten bespreken we de ervaringen en halen we concrete feedback op uit de praktijk. Die verwerken we in de volgende versies van de standaard, instrumenten en software.
