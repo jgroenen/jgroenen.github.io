@@ -1,8 +1,0 @@
----
----
-{
-    "random": [
-        {% for x in site.data.random.random %}"{{ x }}"{% unless forloop.last %},{% endunless %}
-        {% endfor %}
-    ]
-}
