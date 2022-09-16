@@ -15,11 +15,9 @@
                 </div>
 
                 <section>
-                    <p>Ik heb een achtergrond in theoretische informatica en natural computing: modelleren en analyseren van complexe natuurlijke systemen en emergente eigenschappen daarvan. Dan moet je bijvoorbeeld denken aan hoe hersenen leren, hoe soorten evolueren door middel van mutatie en selectie van DNA, hoe zwermen vogels en scholen vissen gecoördineerd bewegen, of hoe vuurvliegjes (glimwormen) hun lichtjes synchroniseren.</p>
-                    <p>Ik heb ruime ervaring op het gebied van ontwerp, ontwikkeling, onderhoud, en beheer van web based software, voor zeer grote organisaties, maar ook kleine toepassingen, typisch op basis van data services (API's) en mobiele web applicaties. Als lead software designer heb ik een groot aantal projecten geleid en enkele startups helpen opstarten en groeien.</p>
-                    <p>Ik ben mede-oprichter van <a href="https://www.tiltshift.nl">Tiltshift</a>; wij ontwerpen software voor de publieke sector. Dat doen we samen met de mensen die de software gaan gebruiken.</p>
-                    <p>Ook ben ik mede-oprichter van <a href="https://codefor.nl">Stichting Code for NL</a>, de Nederlandse community van developers en designers die samenwerken aan een open, eerlijke, en inclusieve digitale overheid en samenleving.</p>
-                    <p>Tot slot ben ik bestuurslid van <a href="https://www.opennederland.nl">Vereniging Open Nederland</a>,  de vereniging voor makers en (her)gebruikers van <a href="https://en.wikipedia.org/wiki/Free_content">free content</a> in Nederland.</p>
+                    {% for about in site.data.about %}
+                        <p>{{ about }}</p>
+                    {% endfor %}
                 </section>
 
                 {% include cta.html %}
