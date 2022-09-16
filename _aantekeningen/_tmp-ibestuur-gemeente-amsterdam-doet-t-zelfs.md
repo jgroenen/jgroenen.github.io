@@ -1,1 +1,0 @@
-https://ibestuur.nl/nieuws/gemeente-amsterdam-doet-t-zelfs

@@ -1,1 +1,0 @@
-https://www.agconnect.nl/artikel/design-thinking-maatwerk-helemaal-terug

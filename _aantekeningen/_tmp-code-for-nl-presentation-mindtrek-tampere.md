@@ -1,1 +1,0 @@
-https://www.slideshare.net/JohanGroenen/code-for-nl-presentation-mindtrek-tampere
