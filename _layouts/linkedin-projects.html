@@ -28,7 +28,8 @@
             }
             .project-card {
                 margin: 12px 24px;
-                padding-bottom: 8px;
+                padding-bottom: 12px;
+                padding-right: 16px;
                 display: flex;
                 border-bottom: 1px solid #F3F2EF;
             }
@@ -114,6 +115,7 @@
             <h1 style="padding: 24px 24px 12px">Projecten</h1>
             {% assign orgs = site.data.projecten.opdrachtgevers %}
             {% for project in site.data.projecten.projecten %}
+            {% if project.status != "archive" %}
             <div class="project-card">
                 <div class="project-logo">
                     {% if orgs[project.opdrachtgever].logo %}
@@ -127,7 +129,7 @@
                     {% endif %}
                 </div>
                 <div class="project-body">
-                    <h2>{{ project.titel }}</h2>
+                    <h2>{{ project.rol }} {{ project.titel }}</h2>
                     <p><a href="{{ orgs[project.opdrachtgever].url }}">{{ orgs[project.opdrachtgever].naam }}</a></p>
                     {% if project.duur %}
                     <div class="project-meta">
@@ -144,6 +146,7 @@
                     {% endif %}
                 </div>
             </div>
+            {% endif %}
             {% endfor %}
         </section>
 
