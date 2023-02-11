@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            html, body {
+                margin: 0;
+                padding: 0;
+                background: #F3F2EF;
+                font-family: Arial;
+            }
+            section {
+                background: #FFFFFF;
+                border-radius: 12px;
+                box-shadow: 0px 0px 0px 1px rgba(0,0,0,0.08);
+                padding: 0;
+                margin: 8px auto 0;
+                max-width: 636px;
+            }
+            section h1 {
+                margin: 0;
+            }
+            .project-card {
+                margin: 12px 24px;
+                padding-bottom: 8px;
+                display: flex;
+                border-bottom: 1px solid #F3F2EF;
+            }
+            .project-meta {
+                color: #AAAAAA;
+            }
+            .project-card h2 {
+                font-size: 1.1em;
+                line-height: 1.4em;
+                margin: 0;
+                font-weight: 600;
+            }
+            .project-card p {
+                margin: 4px 0;
+            }
+            .project-logo {
+                width: 48px;
+                padding: 4px 8px;
+            }
+            .project-body {
+                flex: 1;
+            }
+            .project-body a {
+                text-decoration: none;
+                color: #AAAAAA;
+            }
+            .banner-image {
+                width: 100%;
+                border-radius: 12px 12px 0 0 ;
+            }
+            .linkedin-button {
+                border-radius: 24px;
+                background: #0A66C2;
+                color: #FFFFFF !important;
+                padding: 10px 20px;
+                font-weight: 600;
+                font-size: 1em;
+                text-decoration: none;
+                margin: 12px 0;
+                display: inline-block;
+            }
+            .profile-image {
+                border-radius: 100%;
+                border: 2px solid white;
+                width: 140px;
+                margin: -100px 0 12px 24px;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <section style="margin-top: 24px">
+            <img class="banner-image" src="https://media.licdn.com/dms/image/D4E16AQHAK2ogvU6w-w/profile-displaybackgroundimage-shrink_350_1400/0/1675954016838?e=1681344000&v=beta&t=KJbf5EL1neYVklvFd1aLgVVTI8TfIfScodkuJ95b9kQ">
+            <img class="profile-image" src="https://media.licdn.com/dms/image/C4D03AQE_HiG3vQQ_Bw/profile-displayphoto-shrink_400_400/0/1629710125291?e=1681344000&v=beta&t=2IUHxjodkQPKCHe4Q92Iv_ODuUpCYl3sH5vensITmRY">
+            <h1 style="font-size: 1.8em; padding: 0 24px">Johan Groenen</h1>
+            <div style="padding: 0 24px">
+                <div style="margin: 0">
+                    <p style="font-size: 1.1em; margin: 0">Kwartiermaker voor open samenwerkingen en innovatie in #publictech. Productstrategie en uitvoer. Meest recent #algorithmregister. Partner bij Tiltshift. Bestuur Code for NL.</p>
+                    <p><a class="linkedin-button" href="https://www.linkedin.com/in/jgroenen/">Profiel op LinkedIn</a></p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h1 style="padding: 24px 24px 12px">Hulp nodig?</h1>
+            <div style="padding: 0 24px">
+                <div style="margin: 0">
+                    <p style="font-size: 1.1em; margin: 0">Open samenwerking opzetten en of innoveren in #publictech?</p>
+                    <p><a style="background: #E54545" class="linkedin-button" href="https://www.tiltshift.nl/mensen/johan-groenen/">Check Tiltshift</a></p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h1 style="padding: 24px 24px 12px">Projecten</h1>
+            {% assign orgs = site.data.projecten.opdrachtgevers %}
+            {% for project in site.data.projecten.projecten %}
+            <div class="project-card">
+                <div class="project-logo">
+                    {% if orgs[project.opdrachtgever].logo %}
+                        <img src="{{ orgs[project.opdrachtgever].logo }}" width="48px" height="48px">
+                    {% else %}
+                        <img src="{{ orgs["tiltshift"].logo }}" width="48px" height="48px">
+                    {% endif %}
+                </div>
+                <div class="project-body">
+                    <h2>{{ project.titel }}</h2>
+                    <p><a href="{{ orgs[project.opdrachtgever].url }}">{{ orgs[project.opdrachtgever].naam }}</a></p>
+                    {% if project.duur %}
+                    <div class="project-meta">
+                        <p>{{ project.begin }} - {{ project.einde }} · {{ project.duur }}</p>
+                        <p>{{ project.standplaats}}</p>
+                    </div>
+                    {% endif %}
+                    <p style="margin-top: 16px">{{ project.omschrijving }}</p>
+                    {% if project.vaardigheden %}
+                    <p style="margin-top: 16px"><b>Vaardigheden</b>: {{ project.vaardigheden }}</p>
+                    {% endif %}
+                    {% if project.url %}
+                        <a style="float: right" target="_blank" href="{{ project.url }}">Bekijk de projectwebsite &gt;</a>
+                    {% endif %}
+                </div>
+            </div>
+            {% endfor %}
+
+    </body>
+</html>
