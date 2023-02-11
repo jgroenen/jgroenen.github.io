@@ -22,6 +22,9 @@
             section h1 {
                 margin: 0;
             }
+            section:first-of-type {
+                margin: 24px auto 0;
+            }
             .project-card {
                 margin: 12px 24px;
                 padding-bottom: 8px;
@@ -72,11 +75,19 @@
                 width: 140px;
                 margin: -100px 0 12px 24px;
             }
+            @media only screen and (max-width: 700px) {
+                section, .banner-image {
+                    border-radius: 0;
+                }
+                section, section:first-of-type {
+                    margin: 0;
+                }
+            }
         </style>
     </head>
     
     <body>
-        <section style="margin-top: 24px">
+        <section>
             <img class="banner-image" src="https://media.licdn.com/dms/image/D4E16AQHAK2ogvU6w-w/profile-displaybackgroundimage-shrink_350_1400/0/1675954016838?e=1681344000&v=beta&t=KJbf5EL1neYVklvFd1aLgVVTI8TfIfScodkuJ95b9kQ">
             <img class="profile-image" src="https://media.licdn.com/dms/image/C4D03AQE_HiG3vQQ_Bw/profile-displayphoto-shrink_400_400/0/1629710125291?e=1681344000&v=beta&t=2IUHxjodkQPKCHe4Q92Iv_ODuUpCYl3sH5vensITmRY">
             <h1 style="font-size: 1.8em; padding: 0 24px">Johan Groenen</h1>
