@@ -116,9 +116,13 @@
             <div class="project-card">
                 <div class="project-logo">
                     {% if orgs[project.opdrachtgever].logo %}
-                        <img src="{{ orgs[project.opdrachtgever].logo }}" width="48px" height="48px">
+                        <a href="{{ orgs[project.opdrachtgever].url }}">
+                            <img src="{{ orgs[project.opdrachtgever].logo }}" width="48px" height="48px">
+                        </a>
                     {% else %}
-                        <img src="{{ orgs["tiltshift"].logo }}" width="48px" height="48px">
+                        <a href="{{ orgs["tiltshift"].url }}">
+                            <img src="{{ orgs["tiltshift"].logo }}" width="48px" height="48px">
+                        </a>
                     {% endif %}
                 </div>
                 <div class="project-body">
@@ -143,11 +147,11 @@
         </section>
 
         <section>
-            <h1 style="padding: 24px 24px 12px">Meer weten?</h1>
+            <h1 style="padding: 24px 24px 12px">Wil je ook zo'n projectpagina?</h1>
             <div style="padding: 0 24px">
                 <div style="margin: 0">
-                    <p style="font-size: 1.1em; margin: 0">Neem contact op via Tiltshift.</p>
-                    <p><a style="background: #E54545" class="linkedin-button" href="https://www.tiltshift.nl/mensen/johan-groenen/">Bekijk Tiltshift</a></p>
+                    <p style="font-size: 1.1em; margin: 0">Laat het weten, dan kijken we er samen even naar.</p>
+                    <p><a style="background: #E54545" class="linkedin-button" href="mailto:johan@jgroenen.nl">Stuur een mail</a></p>
                 </div>
             </div>
         </section>
