@@ -77,7 +77,7 @@ projecten:
     omschrijving: Voorbereiden van en adviseren bij het opzetten van het programma Algoritmeregister.
     vaardigheden: strategie, community management, product design, prototyping
     url: https://algoritmes.pleio.nl
-    tags: algoritmeregister
+    tags: algoritmeregister, open samenwerking
   - titel: Consortium Publieke Controle op Algoritmes
     rol: Kartrekker
     logo:  https://media.licdn.com/dms/image/C4E0BAQFgmXb1CiKVtw/company-logo_100_100/0/1624351300143?e=1684368000&v=beta&t=AT6tl-I8pQNxUYs2dUC27pJae3XFToBhLeEv4l-moi4
@@ -89,7 +89,7 @@ projecten:
     omschrijving: Dit project is nog niet goed omschreven.
     vaardigheden: community management, product design, prototyping
     url: 
-    tags: common ground
+    tags: algoritmeregister, open samenwerking, common ground, innovatie
   - titel: Algorithm Registers for European Cities
     rol: Expert
     logo:  https://media.licdn.com/dms/image/C4E0BAQFgmXb1CiKVtw/company-logo_100_100/0/1624351300143?e=1684368000&v=beta&t=AT6tl-I8pQNxUYs2dUC27pJae3XFToBhLeEv4l-moi4
@@ -101,6 +101,7 @@ projecten:
     omschrijving: Dit project is nog niet goed omschreven.
     vaardigheden: 
     url: https://www.algorithmregister.org
+    tags: algoritmeregister, open samenwerking
   - titel: Demodam
     rol: Adviseur
     logo:  https://media.licdn.com/dms/image/C4E0BAQFgmXb1CiKVtw/company-logo_100_100/0/1624351300143?e=1684368000&v=beta&t=AT6tl-I8pQNxUYs2dUC27pJae3XFToBhLeEv4l-moi4
@@ -112,7 +113,7 @@ projecten:
     omschrijving: Dit project is nog niet goed omschreven.
     vaardigheden: 
     url: 
-    tags: common ground, open innovatie
+    tags: open samenwerking, common ground, innovatie
   - titel: Kennisloods Rotterdam
     rol: Innovatiecoach
     logo:  https://media.licdn.com/dms/image/C4E0BAQFgmXb1CiKVtw/company-logo_100_100/0/1624351300143?e=1684368000&v=beta&t=AT6tl-I8pQNxUYs2dUC27pJae3XFToBhLeEv4l-moi4
@@ -124,7 +125,7 @@ projecten:
     omschrijving: Dit project is nog niet goed omschreven.
     vaardigheden: 
     url: 
-    tags: common ground
+    tags: datagedreven werken, innovatie
   - titel: Data Servicepunt Flevoland
     rol: Productstrateeg
     logo:  https://media.licdn.com/dms/image/C4E0BAQFgmXb1CiKVtw/company-logo_100_100/0/1624351300143?e=1684368000&v=beta&t=AT6tl-I8pQNxUYs2dUC27pJae3XFToBhLeEv4l-moi4
@@ -135,7 +136,7 @@ projecten:
     standplaats: 
     omschrijving: Dit project is nog niet goed omschreven.
     vaardigheden: 
-    url: 
+    url: datagedreven werken, innovatie
   - titel: AI met Impact
     rol: Community Management Coach
     logo:  https://media.licdn.com/dms/image/C4E0BAQFgmXb1CiKVtw/company-logo_100_100/0/1624351300143?e=1684368000&v=beta&t=AT6tl-I8pQNxUYs2dUC27pJae3XFToBhLeEv4l-moi4
@@ -147,7 +148,7 @@ projecten:
     omschrijving: Dit project is nog niet goed omschreven.
     vaardigheden: 
     url: 
-    tags: common ground
+    tags: datagedreven werken, open samenwerking, community of practice, innovatie
   - titel: NL Design System
     rol: Medeorganisator
     logo:  https://media.licdn.com/dms/image/C4E0BAQFgmXb1CiKVtw/company-logo_100_100/0/1624351300143?e=1684368000&v=beta&t=AT6tl-I8pQNxUYs2dUC27pJae3XFToBhLeEv4l-moi4
@@ -159,7 +160,7 @@ projecten:
     omschrijving: Dit project is nog niet goed omschreven.
     vaardigheden: 
     url: 
-    tags: common ground
+    tags: open samenwerking, common ground, innovatie
   - titel: Datalab Amsterdam (Innovatieve Toepassingen, Intake en Advies, Product Strategy)
     rol: Medeoprichter
     logo:  https://media.licdn.com/dms/image/C4E0BAQFgmXb1CiKVtw/company-logo_100_100/0/1624351300143?e=1684368000&v=beta&t=AT6tl-I8pQNxUYs2dUC27pJae3XFToBhLeEv4l-moi4
@@ -171,6 +172,7 @@ projecten:
     omschrijving: Dit project is nog niet goed omschreven.
     vaardigheden: 
     url: 
+    tags: datagedreven werken, common ground, innovatie
   - titel: Datapunt Amsterdam
     rol: Adviseur
     logo:  https://media.licdn.com/dms/image/C4E0BAQFgmXb1CiKVtw/company-logo_100_100/0/1624351300143?e=1684368000&v=beta&t=AT6tl-I8pQNxUYs2dUC27pJae3XFToBhLeEv4l-moi4
@@ -182,6 +184,7 @@ projecten:
     omschrijving: Dit project is nog niet goed omschreven.
     vaardigheden: 
     url: 
+    tags: datagedreven werken, common ground, innovatie
   - titel: Tiltshift
     rol: Medeoprichter
     logo:  https://media.licdn.com/dms/image/C4E0BAQFgmXb1CiKVtw/company-logo_100_100/0/1624351300143?e=1684368000&v=beta&t=AT6tl-I8pQNxUYs2dUC27pJae3XFToBhLeEv4l-moi4
@@ -193,6 +196,7 @@ projecten:
     omschrijving: Uitvoerend leiderschap in digitale transformatie.
     vaardigheden: 
     url: https://www.tiltshift.nl
+    tags: startup
   - titel: Code for NL
     rol: Medeoprichter
     logo:  https://media.licdn.com/dms/image/C4E0BAQFgmXb1CiKVtw/company-logo_100_100/0/1624351300143?e=1684368000&v=beta&t=AT6tl-I8pQNxUYs2dUC27pJae3XFToBhLeEv4l-moi4
@@ -204,6 +208,7 @@ projecten:
     omschrijving: Code for NL is de Nederlandse community van mensen die samenwerken aan een open, eerlijke en inclusieve digitale overheid en samenleving.
     vaardigheden: 
     url: https://www.codefor.nl
+    tags: open samenwerking, community of practice, startup
   - titel: Explore Andreas (Open Raadsinformatie Amsterdam)
     rol: Designer
     logo:  https://media.licdn.com/dms/image/C4E0BAQFgmXb1CiKVtw/company-logo_100_100/0/1624351300143?e=1684368000&v=beta&t=AT6tl-I8pQNxUYs2dUC27pJae3XFToBhLeEv4l-moi4
@@ -215,6 +220,7 @@ projecten:
     omschrijving: Dit project is nog niet goed omschreven.
     vaardigheden: 
     url: 
+    tags: innovatie
   - titel: Interventie Digitale Transformatie Wonen Amsterdam
     rol: Adviseur
     logo:  https://media.licdn.com/dms/image/C4E0BAQFgmXb1CiKVtw/company-logo_100_100/0/1624351300143?e=1684368000&v=beta&t=AT6tl-I8pQNxUYs2dUC27pJae3XFToBhLeEv4l-moi4
@@ -226,6 +232,7 @@ projecten:
     omschrijving: Dit project is nog niet goed omschreven.
     vaardigheden: 
     url: 
+    tags: digitale transformatie, innovatie
   - titel: Meldingen Openbare Ruimte Rotterdam
     rol: Adviseur
     logo:  https://media.licdn.com/dms/image/C4E0BAQFgmXb1CiKVtw/company-logo_100_100/0/1624351300143?e=1684368000&v=beta&t=AT6tl-I8pQNxUYs2dUC27pJae3XFToBhLeEv4l-moi4
@@ -237,6 +244,7 @@ projecten:
     omschrijving: Dit project is nog niet goed omschreven.
     vaardigheden: 
     url: 
+    tags: digitale transformatie, open samenwerking, common ground, innovatie
   - titel: Digitale Ondersteuning Bestrijding COVID-19
     rol: Adviseur
     logo:  https://media.licdn.com/dms/image/C4E0BAQFgmXb1CiKVtw/company-logo_100_100/0/1624351300143?e=1684368000&v=beta&t=AT6tl-I8pQNxUYs2dUC27pJae3XFToBhLeEv4l-moi4
@@ -248,6 +256,7 @@ projecten:
     omschrijving: Dit project is nog niet goed omschreven.
     vaardigheden: 
     url: 
+    tags: innovatie
   - titel: Kwetsbare Groepen Amsterdam
     rol: Productmanager
     logo:  https://media.licdn.com/dms/image/C4E0BAQFgmXb1CiKVtw/company-logo_100_100/0/1624351300143?e=1684368000&v=beta&t=AT6tl-I8pQNxUYs2dUC27pJae3XFToBhLeEv4l-moi4
@@ -259,6 +268,7 @@ projecten:
     omschrijving: Dit project is nog niet goed omschreven.
     vaardigheden: 
     url: 
+    tags: 
   - titel: Straatnotes Amsterdam (veilige communicatie straatcoaches, slimme analyse)
     rol: Productstrateeg
     logo:  https://media.licdn.com/dms/image/C4E0BAQFgmXb1CiKVtw/company-logo_100_100/0/1624351300143?e=1684368000&v=beta&t=AT6tl-I8pQNxUYs2dUC27pJae3XFToBhLeEv4l-moi4
@@ -269,7 +279,8 @@ projecten:
     standplaats: 
     omschrijving: Dit project is nog niet goed omschreven.
     vaardigheden: 
-    url:  
+    url: 
+    tags: datagedreven werken, privacy by design, common ground, innovatie, fixxx
   - titel: ADUS Amsterdam (informatie delen)
     rol: Adviseur
     logo:  https://media.licdn.com/dms/image/C4E0BAQFgmXb1CiKVtw/company-logo_100_100/0/1624351300143?e=1684368000&v=beta&t=AT6tl-I8pQNxUYs2dUC27pJae3XFToBhLeEv4l-moi4
@@ -281,6 +292,7 @@ projecten:
     omschrijving: Dit project is nog niet goed omschreven.
     vaardigheden: 
     url: 
+    tags: datagedreven werken, privacy by design, common ground, innovatie
   - titel: "Makkelijke Markt: Bonnenboekje"
     rol: Productstrateeg
     logo:  https://media.licdn.com/dms/image/C4E0BAQFgmXb1CiKVtw/company-logo_100_100/0/1624351300143?e=1684368000&v=beta&t=AT6tl-I8pQNxUYs2dUC27pJae3XFToBhLeEv4l-moi4
@@ -292,6 +304,7 @@ projecten:
     omschrijving: Na het samenvoegen van de Amsterdamse stadsdelen was centralisatie van de administratie van de straatmarkten al vaker dan eens mislukt. Met Fixxx methode voor snelle innovatie die werkt lukte het wel.
     vaardigheden: 
     url: 
+    tags: datagedreven werken, basis op orde, common ground, innovatie, fixxx
   - titel: "Makkelijke Markt: Digitaal Indelen"
     rol: Productstrateeg
     logo:  https://media.licdn.com/dms/image/C4E0BAQFgmXb1CiKVtw/company-logo_100_100/0/1624351300143?e=1684368000&v=beta&t=AT6tl-I8pQNxUYs2dUC27pJae3XFToBhLeEv4l-moi4
@@ -303,6 +316,7 @@ projecten:
     omschrijving: "Digitaal indelen van de straatmarkten is geen sinecure. De markten digitaliseren, aanmelden voor alle marktkooplieden mogelijk maken, slim en eerlijk indelen met een duidelijke link naar beleid en het laatste woord aan de marktmeesters: al deze aspecten passeerden de revue."
     vaardigheden: 
     url: 
+    tags: digitale transformatie, datagedreven werken, common ground, innovatie, fixxx
   - titel: "Makkelijke Markt: Eerlijk Controleren"
     rol: Adviseur
     logo:  https://media.licdn.com/dms/image/C4E0BAQFgmXb1CiKVtw/company-logo_100_100/0/1624351300143?e=1684368000&v=beta&t=AT6tl-I8pQNxUYs2dUC27pJae3XFToBhLeEv4l-moi4
@@ -314,6 +328,7 @@ projecten:
     omschrijving: Met de introductie van het bonnenboekje, kregen we zicht op overtredingen van de marktregels. Dit leverde een oneerlijk voordeel op ten opzichte van anderen. In dit traject voegden we functionaliteit toe om marktkooplieden op een slimme en eerlijke manier extra te controleren.
     vaardigheden: 
     url: 
+    tags: datagedreven werken, common ground, innovatie, fixxx
   - titel: SMS Flevowegen
     rol: Productontwikkelaar
     logo:  https://media.licdn.com/dms/image/C4E0BAQFgmXb1CiKVtw/company-logo_100_100/0/1624351300143?e=1684368000&v=beta&t=AT6tl-I8pQNxUYs2dUC27pJae3XFToBhLeEv4l-moi4
@@ -325,6 +340,7 @@ projecten:
     omschrijving: Groot onderhoud aan bruggen en sluizen levert veel overlast voor omwonenden en bedrijven. Die moeten daardoor namelijk ver omrijden. Zij wilden graag via SMS op de hoogte gehouden worden van werkzaamheden en stremmingen. 
     vaardigheden: design research, service design, prototyping, software development
     url: 
+    tags: innovatie
   - titel: Service Center Publieke Professionals
     rol: Adviseur
     logo:  https://media.licdn.com/dms/image/C4E0BAQFgmXb1CiKVtw/company-logo_100_100/0/1624351300143?e=1684368000&v=beta&t=AT6tl-I8pQNxUYs2dUC27pJae3XFToBhLeEv4l-moi4
@@ -336,6 +352,7 @@ projecten:
     omschrijving: Dit project is nog niet goed omschreven.
     vaardigheden: 
     url: 
+    tags: digitale transformatie, innovatie
   - titel: Clean Street
     rol: Productstrateeg
     logo:  https://media.licdn.com/dms/image/C4E0BAQFgmXb1CiKVtw/company-logo_100_100/0/1624351300143?e=1684368000&v=beta&t=AT6tl-I8pQNxUYs2dUC27pJae3XFToBhLeEv4l-moi4
@@ -347,6 +364,7 @@ projecten:
     omschrijving: Dit project is nog niet goed omschreven.
     vaardigheden: 
     url: 
+    tags: datagedreven werken, common ground, innovatie, fixxx
   - titel: Tourbuzz
     rol: Productstrateeg
     logo:  https://media.licdn.com/dms/image/C4E0BAQFgmXb1CiKVtw/company-logo_100_100/0/1624351300143?e=1684368000&v=beta&t=AT6tl-I8pQNxUYs2dUC27pJae3XFToBhLeEv4l-moi4
@@ -358,6 +376,7 @@ projecten:
     omschrijving: Dit project is nog niet goed omschreven.
     vaardigheden: 
     url: 
+    tags: datagedreven werken, common ground, innovatie, fixxx
   - titel: Sneller Melden
     rol: Productstrateeg
     logo:  https://media.licdn.com/dms/image/C4E0BAQFgmXb1CiKVtw/company-logo_100_100/0/1624351300143?e=1684368000&v=beta&t=AT6tl-I8pQNxUYs2dUC27pJae3XFToBhLeEv4l-moi4
@@ -369,6 +388,7 @@ projecten:
     omschrijving: Dit project is nog niet goed omschreven.
     vaardigheden: 
     url: 
+    tags: datagedreven werken, common ground, innovatie, fixxx
   - titel: Clarity
     rol: Productstrateeg
     logo:  https://media.licdn.com/dms/image/C4E0BAQFgmXb1CiKVtw/company-logo_100_100/0/1624351300143?e=1684368000&v=beta&t=AT6tl-I8pQNxUYs2dUC27pJae3XFToBhLeEv4l-moi4
@@ -380,6 +400,7 @@ projecten:
     omschrijving: Dit project is nog niet goed omschreven.
     vaardigheden: 
     url: 
+    tags: open samenwerking, innovatie, fixxx
   - titel: WindowStore (AdMoves)
     rol: Productontwikkelaar
     logo:  https://media.licdn.com/dms/image/C4E0BAQFgmXb1CiKVtw/company-logo_100_100/0/1624351300143?e=1684368000&v=beta&t=AT6tl-I8pQNxUYs2dUC27pJae3XFToBhLeEv4l-moi4
@@ -390,6 +411,7 @@ projecten:
     standplaats: 
     omschrijving: Dit project is nog niet goed omschreven.
     vaardigheden: 
+    tags: startup
     status: archive
   - titel: The Next Ad
     rol: Productmanager
@@ -401,6 +423,7 @@ projecten:
     standplaats: 
     omschrijving: Dit project is nog niet goed omschreven.
     vaardigheden: 
+    tags: startup
   - titel: Media Injection
     rol: Platformarchitect
     logo:  https://media.licdn.com/dms/image/C4E0BAQFgmXb1CiKVtw/company-logo_100_100/0/1624351300143?e=1684368000&v=beta&t=AT6tl-I8pQNxUYs2dUC27pJae3XFToBhLeEv4l-moi4
@@ -411,6 +434,7 @@ projecten:
     standplaats: 
     omschrijving: Dit project is nog niet goed omschreven.
     vaardigheden: 
+    tags: startup
   - titel: ClubGolf
     rol: Productontwikkelaar
     logo:  https://media.licdn.com/dms/image/C4E0BAQFgmXb1CiKVtw/company-logo_100_100/0/1624351300143?e=1684368000&v=beta&t=AT6tl-I8pQNxUYs2dUC27pJae3XFToBhLeEv4l-moi4
