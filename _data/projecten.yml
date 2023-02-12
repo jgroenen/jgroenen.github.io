@@ -1,4 +1,8 @@
 opdrachtgevers:
+  pnb:
+    naam: Provincie Noord-Brabant
+    url: https://www.linkedin.com/company/provincie-noord-brabant/
+    logo: https://media.licdn.com/dms/image/C4E0BAQEk7AcbcgloKA/company-logo_200_200/0/1553178756300?e=1684368000&v=beta&t=35RTtSUX9bEUgKKSIse_9ZRjbRqQySF6gisB8R3LmaQ
   waag:
     naam: Waag Futurelab
     url: https://www.linkedin.com/company/waag-society/
@@ -50,6 +54,18 @@ opdrachtgevers:
     url: https://www.linkedin.com/company/thirdwave-b.v./
     logo: https://media.licdn.com/dms/image/C4D0BAQEQ4aVLXMV2wg/company-logo_200_200/0/1519935310874?e=1684368000&v=beta&t=ONU3Vk8zEYN2-Y0QVvA83M5kf1Bsp9vsPKjpD5z0vwg
 projecten:
+  - titel: Algoritmeregister Beheertool
+    rol: Product Owner
+    logo:  https://media.licdn.com/dms/image/C4E0BAQFgmXb1CiKVtw/company-logo_100_100/0/1624351300143?e=1684368000&v=beta&t=AT6tl-I8pQNxUYs2dUC27pJae3XFToBhLeEv4l-moi4
+    begin: okt. 2022
+    opdrachtgever: pnb
+    einde: heden
+    duur: 
+    standplaats: Den Bosch, Nederland
+    omschrijving: Productontwerp en aansturing van de implementatie van een beheertool voor algoritmeregistraties in Microsoft PowerApps.
+    vaardigheden: product owner, product design
+    url: 
+    tags: algoritmeregister, actief
   - titel: Algoritmeregister van de Nederlandse Overheid
     rol: Adviseur Product Management
     logo:  https://media.licdn.com/dms/image/C4E0BAQFgmXb1CiKVtw/company-logo_100_100/0/1624351300143?e=1684368000&v=beta&t=AT6tl-I8pQNxUYs2dUC27pJae3XFToBhLeEv4l-moi4
