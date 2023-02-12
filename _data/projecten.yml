@@ -1,4 +1,16 @@
 opdrachtgevers:
+  tna:
+    naam: The Next Ad
+    url: https://www.linkedin.com/company/the-next-ad/
+    logo: https://media.licdn.com/dms/image/C560BAQHHJYunQhUg8Q/company-logo_200_200/0/1519895137255?e=1684368000&v=beta&t=s0vF7d38B1eGFruvC8fakR6nYYoMCFTiylawBFD-VCI
+  mi:
+    naam: Media Injection
+    url: https://www.linkedin.com/company/media-injection/
+    logo: https://media.licdn.com/dms/image/C4D0BAQGvZ6SgkrnBAA/company-logo_200_200/0/1519926607932?e=1684368000&v=beta&t=ZVOZnzNoLfK_QJUPw10wcxP9BW0igpMPGXPd86lWFdg
+  design4nl:
+    naam: Design for NL (Stichting Code for NL)
+    url: https://www.linkedin.com/company/designfornl/
+    logo: https://media.licdn.com/dms/image/C4E0BAQFVMpfd_XxELQ/company-logo_200_200/0/1652098935310?e=1684368000&v=beta&t=KO_CHZbWbzhNQ2hEhB8nbWy0oLGWWe5DkqkmB5Ay7dI
   pnb:
     naam: Provincie Noord-Brabant
     url: https://www.linkedin.com/company/provincie-noord-brabant/
@@ -66,6 +78,30 @@ projecten:
     vaardigheden: product owner, product design
     url: 
     tags: algoritmeregister, actief
+  - titel: AI for NL
+    rol: Ondersteuning
+    logo:  https://media.licdn.com/dms/image/C4E0BAQFgmXb1CiKVtw/company-logo_100_100/0/1624351300143?e=1684368000&v=beta&t=AT6tl-I8pQNxUYs2dUC27pJae3XFToBhLeEv4l-moi4
+    begin: 
+    opdrachtgever: c4nl
+    einde: 
+    duur: 
+    standplaats: Nederland
+    omschrijving: Community of Practice voor publieke inzet van AI en data science.
+    vaardigheden: community management
+    url: 
+    tags: community of practice, actief
+  - titel: Design for NL
+    rol: Ondersteuning
+    logo:  https://media.licdn.com/dms/image/C4E0BAQFgmXb1CiKVtw/company-logo_100_100/0/1624351300143?e=1684368000&v=beta&t=AT6tl-I8pQNxUYs2dUC27pJae3XFToBhLeEv4l-moi4
+    begin: 
+    opdrachtgever: design4nl
+    einde: 
+    duur: 
+    standplaats: Nederland
+    omschrijving: Community of Practice voor de inzet van design in de publieke sector.
+    vaardigheden: community management
+    url: 
+    tags: community of practice, actief
   - titel: Algoritmeregister van de Nederlandse Overheid
     rol: Adviseur Product Management
     logo:  https://media.licdn.com/dms/image/C4E0BAQFgmXb1CiKVtw/company-logo_100_100/0/1624351300143?e=1684368000&v=beta&t=AT6tl-I8pQNxUYs2dUC27pJae3XFToBhLeEv4l-moi4
@@ -196,7 +232,7 @@ projecten:
     omschrijving: Uitvoerend leiderschap in digitale transformatie.
     vaardigheden: 
     url: https://www.tiltshift.nl
-    tags: startup
+    tags: startup, actief
   - titel: Code for NL
     rol: Medeoprichter
     logo:  https://media.licdn.com/dms/image/C4E0BAQFgmXb1CiKVtw/company-logo_100_100/0/1624351300143?e=1684368000&v=beta&t=AT6tl-I8pQNxUYs2dUC27pJae3XFToBhLeEv4l-moi4
@@ -208,7 +244,7 @@ projecten:
     omschrijving: Code for NL is de Nederlandse community van mensen die samenwerken aan een open, eerlijke en inclusieve digitale overheid en samenleving.
     vaardigheden: 
     url: https://www.codefor.nl
-    tags: open samenwerking, community of practice, startup
+    tags: open samenwerking, community of practice, startup, actief
   - titel: Explore Andreas (Open Raadsinformatie Amsterdam)
     rol: Designer
     logo:  https://media.licdn.com/dms/image/C4E0BAQFgmXb1CiKVtw/company-logo_100_100/0/1624351300143?e=1684368000&v=beta&t=AT6tl-I8pQNxUYs2dUC27pJae3XFToBhLeEv4l-moi4
@@ -244,7 +280,7 @@ projecten:
     omschrijving: Dit project is nog niet goed omschreven.
     vaardigheden: 
     url: 
-    tags: digitale transformatie, open samenwerking, common ground, innovatie
+    tags: digitale transformatie, open samenwerking, common ground, innovatie, actief
   - titel: Digitale Ondersteuning Bestrijding COVID-19
     rol: Adviseur
     logo:  https://media.licdn.com/dms/image/C4E0BAQFgmXb1CiKVtw/company-logo_100_100/0/1624351300143?e=1684368000&v=beta&t=AT6tl-I8pQNxUYs2dUC27pJae3XFToBhLeEv4l-moi4
@@ -400,7 +436,7 @@ projecten:
     omschrijving: Dit project is nog niet goed omschreven.
     vaardigheden: 
     url: 
-    tags: open samenwerking, innovatie, fixxx
+    tags: innovatie
   - titel: WindowStore (AdMoves)
     rol: Productontwikkelaar
     logo:  https://media.licdn.com/dms/image/C4E0BAQFgmXb1CiKVtw/company-logo_100_100/0/1624351300143?e=1684368000&v=beta&t=AT6tl-I8pQNxUYs2dUC27pJae3XFToBhLeEv4l-moi4
@@ -416,7 +452,7 @@ projecten:
   - titel: The Next Ad
     rol: Productmanager
     logo:  https://media.licdn.com/dms/image/C4E0BAQFgmXb1CiKVtw/company-logo_100_100/0/1624351300143?e=1684368000&v=beta&t=AT6tl-I8pQNxUYs2dUC27pJae3XFToBhLeEv4l-moi4
-    opdrachtgever: 
+    opdrachtgever: tna
     begin: 
     einde: 
     duur: 
@@ -427,7 +463,7 @@ projecten:
   - titel: Media Injection
     rol: Platformarchitect
     logo:  https://media.licdn.com/dms/image/C4E0BAQFgmXb1CiKVtw/company-logo_100_100/0/1624351300143?e=1684368000&v=beta&t=AT6tl-I8pQNxUYs2dUC27pJae3XFToBhLeEv4l-moi4
-    opdrachtgever: 
+    opdrachtgever: mi
     begin: 
     einde: 
     duur: 
