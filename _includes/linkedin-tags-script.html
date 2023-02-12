@@ -1,0 +1,31 @@
+<script type="module">
+    var activeFilters = {};
+    function filter() {
+        let tag = this.dataset.tag;
+        if (activeFilters[tag]) {
+            delete activeFilters[tag];
+            document.querySelectorAll(`[data-tag='${tag}']`).forEach((el) => el.classList.remove('active-tag'));
+        }
+        else {
+            activeFilters[tag] = true;
+            document.querySelectorAll(`[data-tag='${tag}']`).forEach((el) => el.classList.add('active-tag'));
+        }
+        var filterString = Object.keys(activeFilters).reduce((str, tag) => str + `[data-tags*='${tag}']`, "");
+        if (filterString) {
+            document
+                .querySelectorAll(`[data-tags]`)
+                .forEach((el) => el.style.display = "none");
+            document
+                .querySelectorAll(filterString)
+                .forEach((el) => el.style.display = "block");
+        }
+        else {
+            document
+                .querySelectorAll(`[data-tags]`)
+                .forEach((el) => el.style.display = "block");
+        }
+    }
+    document
+        .querySelectorAll('.linkedin-tag')
+        .forEach((el) => el.addEventListener('click', filter));
+</script>

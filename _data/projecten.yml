@@ -61,6 +61,7 @@ projecten:
     omschrijving: Voorbereiden van en adviseren bij het opzetten van het programma Algoritmeregister.
     vaardigheden: strategie, community management, product design, prototyping
     url: https://algoritmes.pleio.nl
+    tags: algoritmeregister
   - titel: Consortium Publieke Controle op Algoritmes
     rol: Kartrekker
     logo:  https://media.licdn.com/dms/image/C4E0BAQFgmXb1CiKVtw/company-logo_100_100/0/1624351300143?e=1684368000&v=beta&t=AT6tl-I8pQNxUYs2dUC27pJae3XFToBhLeEv4l-moi4
@@ -72,6 +73,7 @@ projecten:
     omschrijving: Dit project is nog niet goed omschreven.
     vaardigheden: community management, product design, prototyping
     url: 
+    tags: common ground
   - titel: Algorithm Registers for European Cities
     rol: Expert
     logo:  https://media.licdn.com/dms/image/C4E0BAQFgmXb1CiKVtw/company-logo_100_100/0/1624351300143?e=1684368000&v=beta&t=AT6tl-I8pQNxUYs2dUC27pJae3XFToBhLeEv4l-moi4
@@ -94,6 +96,7 @@ projecten:
     omschrijving: Dit project is nog niet goed omschreven.
     vaardigheden: 
     url: 
+    tags: common ground, open innovatie
   - titel: Kennisloods Rotterdam
     rol: Innovatiecoach
     logo:  https://media.licdn.com/dms/image/C4E0BAQFgmXb1CiKVtw/company-logo_100_100/0/1624351300143?e=1684368000&v=beta&t=AT6tl-I8pQNxUYs2dUC27pJae3XFToBhLeEv4l-moi4
@@ -105,6 +108,7 @@ projecten:
     omschrijving: Dit project is nog niet goed omschreven.
     vaardigheden: 
     url: 
+    tags: common ground
   - titel: Data Servicepunt Flevoland
     rol: Productstrateeg
     logo:  https://media.licdn.com/dms/image/C4E0BAQFgmXb1CiKVtw/company-logo_100_100/0/1624351300143?e=1684368000&v=beta&t=AT6tl-I8pQNxUYs2dUC27pJae3XFToBhLeEv4l-moi4
@@ -127,6 +131,7 @@ projecten:
     omschrijving: Dit project is nog niet goed omschreven.
     vaardigheden: 
     url: 
+    tags: common ground
   - titel: NL Design System
     rol: Medeorganisator
     logo:  https://media.licdn.com/dms/image/C4E0BAQFgmXb1CiKVtw/company-logo_100_100/0/1624351300143?e=1684368000&v=beta&t=AT6tl-I8pQNxUYs2dUC27pJae3XFToBhLeEv4l-moi4
@@ -138,6 +143,7 @@ projecten:
     omschrijving: Dit project is nog niet goed omschreven.
     vaardigheden: 
     url: 
+    tags: common ground
   - titel: Datalab Amsterdam (Innovatieve Toepassingen, Intake en Advies, Product Strategy)
     rol: Medeoprichter
     logo:  https://media.licdn.com/dms/image/C4E0BAQFgmXb1CiKVtw/company-logo_100_100/0/1624351300143?e=1684368000&v=beta&t=AT6tl-I8pQNxUYs2dUC27pJae3XFToBhLeEv4l-moi4

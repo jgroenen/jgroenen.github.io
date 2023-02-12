@@ -86,6 +86,7 @@
                 }
             }
         </style>
+        <link rel="stylesheet" href="/css/linkedin-tags.css" />
     </head>
     
     <body>
@@ -113,10 +114,13 @@
 
         <section>
             <h1 style="padding: 24px 24px 12px">Projecten</h1>
+        
+            {% include linkedin-tags-script.html %}
+
             {% assign orgs = site.data.projecten.opdrachtgevers %}
             {% for project in site.data.projecten.projecten %}
             {% if project.status != "archive" %}
-            <div class="project-card">
+            <div class="project-card" data-tags="{{ project.tags }}">
                 <div class="project-logo">
                     {% if orgs[project.opdrachtgever].logo %}
                         <a href="{{ orgs[project.opdrachtgever].url }}">
@@ -141,8 +145,16 @@
                     {% if project.vaardigheden %}
                     <p style="margin-top: 16px"><b>Vaardigheden</b>: {{ project.vaardigheden }}</p>
                     {% endif %}
+                    {% if project.tags %}
+                    <p class="linkedin-tags">
+                        {% assign tags = project.tags | split: ", " %}
+                        {% for tag in tags %} <span class="linkedin-tag" data-tag="{{ tag }}">{{ tag }}</span> {% endfor %}
+                    </p>
+                    {% endif %}
                     {% if project.url %}
-                        <a style="float: right" target="_blank" href="{{ project.url }}">Bekijk de projectwebsite &gt;</a>
+                    <p style="text-align: right">
+                        <a target="_blank" href="{{ project.url }}">Bekijk de projectwebsite &gt;</a>
+                    </p>
                     {% endif %}
                 </div>
             </div>
