@@ -1,11 +1,11 @@
-{% capture tags %}{{ project.aanpak }},{{ project.tags }},{{ project.domein }},{{ project.status }}{% endcapture %}
+{% capture tags %}{{ project.aanpak }},{{ project.domein }},{{ project.tags }},{{ project.status }}{% endcapture %}
 {% assign tags = tags | split: "," %}
 {% if tags %}
     <div class="linkedin-tags">
         {% for tag in tags %}
             {% assign tag = tag | strip %}
             {% if tag != null and tag != "" %}
-            <span class="linkedin-tag" data-tag="{{ tag }}">{{ tag }}</span>
+            <span class="linkedin-tag" data-tag="{{ tag | strip }}">{{ tag | strip }}</span>
             {% endif %}
         {% endfor %}
     </div>

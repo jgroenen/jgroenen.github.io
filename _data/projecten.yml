@@ -16,21 +16,21 @@
   status: actief
   domein: code for nl
   opdrachtgever: c4nl
-  aanpak: Community Building
+  aanpak: Opstarten
   rol: Community Developer
   omschrijving: "Community of Practice voor publieke inzet van AI en data science."
   begin: 
   einde: 
   duur: 
   standplaats: Nederland
-  vaardigheden: strategie, community-ontwikkeling, community management
+  vaardigheden: strategie, community management
   url: 
-  tags: 
+  tags: community of practice
 - titel: "Design for NL"
   status: actief
   domein: code for nl
   opdrachtgever: design4nl
-  aanpak: Community Building
+  aanpak: Opstarten
   rol: Community Developer
   omschrijving: "Community of Practice voor de inzet van design in de publieke sector."
   begin: 
@@ -39,7 +39,7 @@
   standplaats: Nederland
   vaardigheden: strategie, community-ontwikkeling, community management
   url: 
-  tags: 
+  tags: community of practice
 - titel: "Algoritmeregister van de Nederlandse Overheid"
   status: afgerond
   domein: algoritmeregister
@@ -128,7 +128,7 @@
   status: actief
   domein: code for nl
   opdrachtgever: c4nl
-  aanpak: Community Building
+  aanpak: Opstarten
   rol: Community Developer
   omschrijving: "Dit project is nog niet goed omschreven."
   begin: 
@@ -142,7 +142,7 @@
   status: actief
   domein: code for nl
   opdrachtgever: az
-  aanpak: Community Building
+  aanpak: Opstarten
   rol: Community Developer
   omschrijving: "Dit project is nog niet goed omschreven."
   begin: 
@@ -151,7 +151,7 @@
   standplaats: Den Haag, Nederland
   vaardigheden: strategie, community-ontwikkeling, community management
   url: https://www.nldesignsystem.nl
-  tags: common ground, open samenwerking, innovatie
+  tags: common ground, open samenwerking, community of practice, innovatie
 - titel: "Datalab Amsterdam"
   status: afgerond
   domein: datalab amsterdam
