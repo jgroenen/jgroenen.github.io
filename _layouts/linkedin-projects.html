@@ -17,7 +17,10 @@
             <div style="padding: 0 24px">
                 <div style="margin: 0">
                     <p style="font-size: 1.1em; margin: 0">Kwartiermaker voor open samenwerkingen en innovatie in #publictech. Productstrategie en uitvoer. Meest recent #algorithmregister. Partner bij Tiltshift. Bestuur Code for NL.</p>
-                    <p><a class="linkedin-button" href="https://www.linkedin.com/in/jgroenen/">Profiel op LinkedIn</a></p>
+                    <p>
+                        <a class="linkedin-button" href="https://www.linkedin.com/in/jgroenen/">Connect op LinkedIn</a>
+                        <a style="background: #1E9BF0" class="linkedin-button" href="https://twitter.com/jpagroenen">Volg op Twitter</a>
+                    </p>
                 </div>
             </div>
         </section>
@@ -40,7 +43,7 @@
             {% assign orgs = site.data.organisaties %}
             {% for project in site.data.projecten %}
             {% if project.status != "archive" %}
-            <div class="project-card" data-tags="{{ project.tags }}">
+            <div class="project-card" data-tags="{{ project.tags }}, {{ project.status }}, {{ project.aanpak }}, {{ project.domein }}">
                 <div class="project-logo">
                     {% if orgs[project.opdrachtgever].logo %}
                         <a href="{{ orgs[project.opdrachtgever].url }}">
@@ -65,8 +68,17 @@
                     {% if project.vaardigheden %}
                     <p style="margin-top: 16px"><b>Vaardigheden</b>: {{ project.vaardigheden }}</p>
                     {% endif %}
-                    {% if project.tags %}
+                    {% if project.tags or project.domein or project.aanpak or project.status %}
                     <div class="linkedin-tags">
+                        {% if project.status %}
+                            <span class="linkedin-tag" data-tag="{{ project.status }}">{{ project.status }}</span>
+                        {% endif %}
+                        {% if project.aanpak %}
+                            <span class="linkedin-tag" data-tag="{{ project.aanpak | downcase }}">{{ project.aanpak | downcase }}</span>
+                        {% endif %}
+                        {% if project.domein %}
+                            <span class="linkedin-tag" data-tag="{{ project.domein }}">{{ project.domein }}</span>
+                        {% endif %}
                         {% assign tags = project.tags | split: ", " %}
                         {% for tag in tags %}
                             <span class="linkedin-tag" data-tag="{{ tag }}">{{ tag }}</span>

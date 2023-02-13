@@ -1,427 +1,504 @@
-- titel: Algoritmeregister Beheertool
-  rol: Product Owner
-  logo:  https://media.licdn.com/dms/image/C4E0BAQFgmXb1CiKVtw/company-logo_100_100/0/1624351300143?e=1684368000&v=beta&t=AT6tl-I8pQNxUYs2dUC27pJae3XFToBhLeEv4l-moi4
-  begin: okt. 2022
+- titel: "Algoritmeregister Beheertool"
+  status: actief
+  domein: algoritmeregister
   opdrachtgever: pnb
+  aanpak: agile development
+  rol: Product Owner
+  omschrijving: "Productontwerp en aansturing van de implementatie van een beheertool voor algoritmeregistraties in Microsoft PowerApps."
+  begin: okt. 2022
   einde: heden
   duur: 
   standplaats: Den Bosch, Nederland
-  omschrijving: Productontwerp en aansturing van de implementatie van een beheertool voor algoritmeregistraties in Microsoft PowerApps.
-  vaardigheden: product owner, product design
+  vaardigheden: 
   url: 
-  tags: algoritmeregister, actief
-- titel: AI for NL
-  rol: Ondersteuning
-  logo:  https://media.licdn.com/dms/image/C4E0BAQFgmXb1CiKVtw/company-logo_100_100/0/1624351300143?e=1684368000&v=beta&t=AT6tl-I8pQNxUYs2dUC27pJae3XFToBhLeEv4l-moi4
-  begin: 
+  tags: 
+- titel: "AI for NL"
+  status: actief
+  domein: code for nl
   opdrachtgever: c4nl
-  einde: 
-  duur: 
-  standplaats: Nederland
-  omschrijving: Community of Practice voor publieke inzet van AI en data science.
-  vaardigheden: community management
-  url: 
-  tags: community of practice, actief
-- titel: Design for NL
-  rol: Ondersteuning
-  logo:  https://media.licdn.com/dms/image/C4E0BAQFgmXb1CiKVtw/company-logo_100_100/0/1624351300143?e=1684368000&v=beta&t=AT6tl-I8pQNxUYs2dUC27pJae3XFToBhLeEv4l-moi4
+  aanpak: community of practice
+  rol: Community Developer
+  omschrijving: "Community of Practice voor publieke inzet van AI en data science."
   begin: 
-  opdrachtgever: design4nl
   einde: 
   duur: 
   standplaats: Nederland
-  omschrijving: Community of Practice voor de inzet van design in de publieke sector.
-  vaardigheden: community management
+  vaardigheden: strategie, community-ontwikkeling, community management
   url: 
-  tags: community of practice, actief
-- titel: Algoritmeregister van de Nederlandse Overheid
-  rol: Adviseur Product Management
-  logo:  https://media.licdn.com/dms/image/C4E0BAQFgmXb1CiKVtw/company-logo_100_100/0/1624351300143?e=1684368000&v=beta&t=AT6tl-I8pQNxUYs2dUC27pJae3XFToBhLeEv4l-moi4
-  begin: feb. 2022
+  tags: 
+- titel: "Design for NL"
+  status: actief
+  domein: code for nl
+  opdrachtgever: design4nl
+  aanpak: community of practice
+  rol: Community Developer
+  omschrijving: "Community of Practice voor de inzet van design in de publieke sector."
+  begin: 
+  einde: 
+  duur: 
+  standplaats: Nederland
+  vaardigheden: strategie, community-ontwikkeling, community management
+  url: 
+  tags: 
+- titel: "Algoritmeregister van de Nederlandse Overheid"
+  status: afgerond
+  domein: algoritmeregister
   opdrachtgever: bzk
+  aanpak: agile development
+  rol: Adviseur Product Management
+  omschrijving: "Voorbereiden van en adviseren bij het opzetten van het programma Algoritmeregister."
+  begin: feb. 2022
   einde: dec. 2022
   duur: 9 mnd.
   standplaats: Den Haag, Nederland
-  omschrijving: Voorbereiden van en adviseren bij het opzetten van het programma Algoritmeregister.
   vaardigheden: strategie, community management, product design, prototyping
   url: https://algoritmes.pleio.nl
-  tags: algoritmeregister, open samenwerking
-- titel: Consortium Publieke Controle op Algoritmes
-  rol: Kartrekker
-  logo:  https://media.licdn.com/dms/image/C4E0BAQFgmXb1CiKVtw/company-logo_100_100/0/1624351300143?e=1684368000&v=beta&t=AT6tl-I8pQNxUYs2dUC27pJae3XFToBhLeEv4l-moi4
+  tags: 
+- titel: "Consortium Publieke Controle op Algoritmes"
+  status: afgerond
+  domein: algoritmeregister
   opdrachtgever: bzk
+  aanpak: open samenwerking
+  rol: Kartrekker
+  omschrijving: "Dit project is nog niet goed omschreven."
   begin: sept. 2021
   einde: feb. 2022
   duur: 6 mnd.
   standplaats: Online
-  omschrijving: Dit project is nog niet goed omschreven.
   vaardigheden: community management, product design, prototyping
   url: 
-  tags: algoritmeregister, open samenwerking, common ground, innovatie
-- titel: Algorithm Registers for European Cities
-  rol: Expert
-  logo:  https://media.licdn.com/dms/image/C4E0BAQFgmXb1CiKVtw/company-logo_100_100/0/1624351300143?e=1684368000&v=beta&t=AT6tl-I8pQNxUYs2dUC27pJae3XFToBhLeEv4l-moi4
+  tags: innovatie
+- titel: "Algorithm Registers for European Cities"
+  status: afgerond
+  domein: algoritmeregister
   opdrachtgever: eurocities
+  aanpak: open samenwerking
+  rol: Expert
+  omschrijving: "Dit project is nog niet goed omschreven."
   begin: feb. 2022
   einde: dec. 2022
   duur: 11 mnd.
   standplaats: Online
-  omschrijving: Dit project is nog niet goed omschreven.
   vaardigheden: 
   url: https://www.algorithmregister.org
-  tags: algoritmeregister, open samenwerking
-- titel: Demodam
-  rol: Adviseur
-  logo:  https://media.licdn.com/dms/image/C4E0BAQFgmXb1CiKVtw/company-logo_100_100/0/1624351300143?e=1684368000&v=beta&t=AT6tl-I8pQNxUYs2dUC27pJae3XFToBhLeEv4l-moi4
+  tags: 
+- titel: "Demodam"
+  status: gestaakt
+  domein: common ground
   opdrachtgever: demodam
+  aanpak: open samenwerking
+  rol: Adviseur
+  omschrijving: "Dit project is nog niet goed omschreven."
   begin: 
   einde: 
   duur: 
   standplaats: 
-  omschrijving: Dit project is nog niet goed omschreven.
   vaardigheden: 
   url: 
-  tags: open samenwerking, common ground, innovatie
-- titel: Kennisloods Rotterdam
-  rol: Innovatiecoach
-  logo:  https://media.licdn.com/dms/image/C4E0BAQFgmXb1CiKVtw/company-logo_100_100/0/1624351300143?e=1684368000&v=beta&t=AT6tl-I8pQNxUYs2dUC27pJae3XFToBhLeEv4l-moi4
+  tags: innovatie
+- titel: "Kennisloods Rotterdam"
+  status: afgerond
+  domein: datagedreven werken
   opdrachtgever: rotterdam
+  aanpak: software design thinking
+  rol: Innovatiecoach
+  omschrijving: "Dit project is nog niet goed omschreven."
   begin: 
   einde: 
   duur: 
   standplaats: 
-  omschrijving: Dit project is nog niet goed omschreven.
   vaardigheden: 
   url: 
-  tags: datagedreven werken, innovatie
-- titel: Data Servicepunt Flevoland
-  rol: Productstrateeg
-  logo:  https://media.licdn.com/dms/image/C4E0BAQFgmXb1CiKVtw/company-logo_100_100/0/1624351300143?e=1684368000&v=beta&t=AT6tl-I8pQNxUYs2dUC27pJae3XFToBhLeEv4l-moi4
+  tags: innovatie
+- titel: "Data Servicepunt Flevoland"
+  status: afgerond
+  domein: datagedreven werken
   opdrachtgever: flevoland
+  aanpak: 
+  rol: Productstrateeg
+  omschrijving: "Dit project is nog niet goed omschreven."
   begin: 
   einde: 
   duur: 
   standplaats: 
-  omschrijving: Dit project is nog niet goed omschreven.
   vaardigheden: 
-  url: datagedreven werken, innovatie
-- titel: AI met Impact
-  rol: Community Management Coach
-  logo:  https://media.licdn.com/dms/image/C4E0BAQFgmXb1CiKVtw/company-logo_100_100/0/1624351300143?e=1684368000&v=beta&t=AT6tl-I8pQNxUYs2dUC27pJae3XFToBhLeEv4l-moi4
+  url: 
+  tags: innovatie
+- titel: "AI met Impact"
+  status: actief
+  domein: code for nl
   opdrachtgever: c4nl
+  aanpak: community of practice
+  rol: Community Developer
+  omschrijving: "Dit project is nog niet goed omschreven."
   begin: 
   einde: 
   duur: 
   standplaats: 
-  omschrijving: Dit project is nog niet goed omschreven.
-  vaardigheden: 
+  vaardigheden: strategie, community-ontwikkeling, community management
   url: 
   tags: datagedreven werken, open samenwerking, community of practice, innovatie
-- titel: NL Design System
-  rol: Medeorganisator
-  logo:  https://media.licdn.com/dms/image/C4E0BAQFgmXb1CiKVtw/company-logo_100_100/0/1624351300143?e=1684368000&v=beta&t=AT6tl-I8pQNxUYs2dUC27pJae3XFToBhLeEv4l-moi4
+- titel: "NL Design System"
+  status: actief
+  domein: code for nl
   opdrachtgever: az
+  aanpak: community of practice
+  rol: Community Developer
+  omschrijving: "Dit project is nog niet goed omschreven."
   begin: 
   einde: 
   duur: 
-  standplaats: 
-  omschrijving: Dit project is nog niet goed omschreven.
-  vaardigheden: 
-  url: 
-  tags: open samenwerking, common ground, innovatie
-- titel: Datalab Amsterdam (Innovatieve Toepassingen, Intake en Advies, Product Strategy)
-  rol: Medeoprichter
-  logo:  https://media.licdn.com/dms/image/C4E0BAQFgmXb1CiKVtw/company-logo_100_100/0/1624351300143?e=1684368000&v=beta&t=AT6tl-I8pQNxUYs2dUC27pJae3XFToBhLeEv4l-moi4
+  standplaats: Den Haag, Nederland
+  vaardigheden: strategie, community-ontwikkeling, community management
+  url: https://www.nldesignsystem.nl
+  tags: common ground, open samenwerking, innovatie
+- titel: "Datalab Amsterdam"
+  status: afgerond
+  domein: datalab amsterdam
   opdrachtgever: amsterdam
+  aanpak: lean startup
+  rol: Medeoprichter
+  omschrijving: "Opstarten van Datalab Amsterdam, dé data- en innovatiewerkplaats van de Gemeente Amsterdam. Eerste in zijn soort, daarna veel navolging gekregen. Intake en advies, methodeontwikkeling, productstrategie."
   begin: 
   einde: 
   duur: 
   standplaats: 
-  omschrijving: Dit project is nog niet goed omschreven.
-  vaardigheden: 
+  vaardigheden: strategie, productstrategie
   url: 
-  tags: datagedreven werken, common ground, innovatie
-- titel: Datapunt Amsterdam
+  tags: datagedreven werken, startup, innovatie
+- titel: "Datapunt Amsterdam"
+  status: 
+  domein: 
+  opdrachtgever: amsterdam
+  aanpak: 
   rol: Adviseur
-  logo:  https://media.licdn.com/dms/image/C4E0BAQFgmXb1CiKVtw/company-logo_100_100/0/1624351300143?e=1684368000&v=beta&t=AT6tl-I8pQNxUYs2dUC27pJae3XFToBhLeEv4l-moi4
-  opdrachtgever: amsterdam
+  omschrijving: "Dit project is nog niet goed omschreven."
   begin: 
   einde: 
   duur: 
   standplaats: 
-  omschrijving: Dit project is nog niet goed omschreven.
   vaardigheden: 
   url: 
   tags: datagedreven werken, common ground, innovatie
-- titel: Tiltshift
-  rol: Medeoprichter
-  logo:  https://media.licdn.com/dms/image/C4E0BAQFgmXb1CiKVtw/company-logo_100_100/0/1624351300143?e=1684368000&v=beta&t=AT6tl-I8pQNxUYs2dUC27pJae3XFToBhLeEv4l-moi4
+- titel: "Tiltshift"
+  status: 
+  domein: 
   opdrachtgever: tiltshift
+  aanpak: 
+  rol: Medeoprichter
+  omschrijving: "Uitvoerend leiderschap in digitale transformatie."
   begin: 
   einde: 
   duur: 
   standplaats: 
-  omschrijving: Uitvoerend leiderschap in digitale transformatie.
   vaardigheden: 
   url: https://www.tiltshift.nl
   tags: startup, actief
-- titel: Code for NL
-  rol: Medeoprichter
-  logo:  https://media.licdn.com/dms/image/C4E0BAQFgmXb1CiKVtw/company-logo_100_100/0/1624351300143?e=1684368000&v=beta&t=AT6tl-I8pQNxUYs2dUC27pJae3XFToBhLeEv4l-moi4
+- titel: "Code for NL"
+  status: 
+  domein: code for nl
   opdrachtgever: c4nl
+  aanpak: 
+  rol: Oprichter
+  omschrijving: "Code for NL is de Nederlandse community van mensen die samenwerken aan een open, eerlijke en inclusieve digitale overheid en samenleving."
   begin: 
   einde: 
   duur: 
   standplaats: 
-  omschrijving: Code for NL is de Nederlandse community van mensen die samenwerken aan een open, eerlijke en inclusieve digitale overheid en samenleving.
-  vaardigheden: 
+  vaardigheden: strategie, community-ontwikkeling, community management
   url: https://www.codefor.nl
   tags: open samenwerking, community of practice, startup, actief
-- titel: Explore Andreas (Open Raadsinformatie Amsterdam)
-  rol: Designer
-  logo:  https://media.licdn.com/dms/image/C4E0BAQFgmXb1CiKVtw/company-logo_100_100/0/1624351300143?e=1684368000&v=beta&t=AT6tl-I8pQNxUYs2dUC27pJae3XFToBhLeEv4l-moi4
+- titel: "Explore Andreas (Open Raadsinformatie Amsterdam)"
+  status: 
+  domein: 
   opdrachtgever: amsterdam
+  aanpak: 
+  rol: Designer
+  omschrijving: "Dit project is nog niet goed omschreven."
   begin: 
   einde: 
   duur: 
   standplaats: 
-  omschrijving: Dit project is nog niet goed omschreven.
   vaardigheden: 
   url: 
   tags: innovatie
-- titel: Interventie Digitale Transformatie Wonen Amsterdam
+- titel: "Interventie Digitale Transformatie Wonen Amsterdam"
+  status: 
+  domein: 
+  opdrachtgever: amsterdam
+  aanpak: 
   rol: Adviseur
-  logo:  https://media.licdn.com/dms/image/C4E0BAQFgmXb1CiKVtw/company-logo_100_100/0/1624351300143?e=1684368000&v=beta&t=AT6tl-I8pQNxUYs2dUC27pJae3XFToBhLeEv4l-moi4
-  opdrachtgever:  amsterdam
+  omschrijving: "Dit project is nog niet goed omschreven."
   begin: 
   einde: 
   duur: 
   standplaats: 
-  omschrijving: Dit project is nog niet goed omschreven.
   vaardigheden: 
   url: 
   tags: digitale transformatie, innovatie
-- titel: Meldingen Openbare Ruimte Rotterdam
-  rol: Adviseur
-  logo:  https://media.licdn.com/dms/image/C4E0BAQFgmXb1CiKVtw/company-logo_100_100/0/1624351300143?e=1684368000&v=beta&t=AT6tl-I8pQNxUYs2dUC27pJae3XFToBhLeEv4l-moi4
+- titel: "Meldingen Openbare Ruimte Rotterdam"
+  status: 
+  domein: 
   opdrachtgever: rotterdam
+  aanpak: 
+  rol: Adviseur
+  omschrijving: "Dit project is nog niet goed omschreven."
   begin: 
   einde: 
   duur: 
   standplaats: 
-  omschrijving: Dit project is nog niet goed omschreven.
   vaardigheden: 
   url: 
   tags: digitale transformatie, open samenwerking, common ground, innovatie, actief
-- titel: Digitale Ondersteuning Bestrijding COVID-19
-  rol: Adviseur
-  logo:  https://media.licdn.com/dms/image/C4E0BAQFgmXb1CiKVtw/company-logo_100_100/0/1624351300143?e=1684368000&v=beta&t=AT6tl-I8pQNxUYs2dUC27pJae3XFToBhLeEv4l-moi4
+- titel: "Digitale Ondersteuning Bestrijding COVID-19"
+  status: 
+  domein: 
   opdrachtgever: vws
+  aanpak: 
+  rol: Adviseur
+  omschrijving: "Dit project is nog niet goed omschreven."
   begin: 
   einde: 
   duur: 
   standplaats: 
-  omschrijving: Dit project is nog niet goed omschreven.
   vaardigheden: 
   url: 
   tags: innovatie
-- titel: Kwetsbare Groepen Amsterdam
-  rol: Productmanager
-  logo:  https://media.licdn.com/dms/image/C4E0BAQFgmXb1CiKVtw/company-logo_100_100/0/1624351300143?e=1684368000&v=beta&t=AT6tl-I8pQNxUYs2dUC27pJae3XFToBhLeEv4l-moi4
+- titel: "Kwetsbare Groepen Amsterdam"
+  status: 
+  domein: 
   opdrachtgever: 
+  aanpak: 
+  rol: Productmanager
+  omschrijving: "Dit project is nog niet goed omschreven."
   begin: 
   einde: 
   duur: 
   standplaats: 
-  omschrijving: Dit project is nog niet goed omschreven.
   vaardigheden: 
   url: 
   tags: 
-- titel: Straatnotes Amsterdam (veilige communicatie straatcoaches, slimme analyse)
-  rol: Productstrateeg
-  logo:  https://media.licdn.com/dms/image/C4E0BAQFgmXb1CiKVtw/company-logo_100_100/0/1624351300143?e=1684368000&v=beta&t=AT6tl-I8pQNxUYs2dUC27pJae3XFToBhLeEv4l-moi4
+- titel: "Straatnotes Amsterdam (veilige communicatie straatcoaches, slimme analyse)"
+  status: 
+  domein: 
   opdrachtgever: amsterdam
+  aanpak: 
+  rol: Productstrateeg
+  omschrijving: "Dit project is nog niet goed omschreven."
   begin: 
   einde: 
   duur: 
   standplaats: 
-  omschrijving: Dit project is nog niet goed omschreven.
   vaardigheden: 
   url: 
   tags: datagedreven werken, privacy by design, common ground, innovatie, fixxx
-- titel: ADUS Amsterdam (informatie delen)
-  rol: Adviseur
-  logo:  https://media.licdn.com/dms/image/C4E0BAQFgmXb1CiKVtw/company-logo_100_100/0/1624351300143?e=1684368000&v=beta&t=AT6tl-I8pQNxUYs2dUC27pJae3XFToBhLeEv4l-moi4
+- titel: "ADUS Amsterdam (informatie delen)"
+  status: 
+  domein: 
   opdrachtgever: amsterdam
+  aanpak: 
+  rol: Adviseur
+  omschrijving: "Dit project is nog niet goed omschreven."
   begin: 
   einde: 
   duur: 
   standplaats: 
-  omschrijving: Dit project is nog niet goed omschreven.
   vaardigheden: 
   url: 
   tags: datagedreven werken, privacy by design, common ground, innovatie
 - titel: "Makkelijke Markt: Bonnenboekje"
-  rol: Productstrateeg
-  logo:  https://media.licdn.com/dms/image/C4E0BAQFgmXb1CiKVtw/company-logo_100_100/0/1624351300143?e=1684368000&v=beta&t=AT6tl-I8pQNxUYs2dUC27pJae3XFToBhLeEv4l-moi4
+  status: 
+  domein: 
   opdrachtgever: amsterdam
+  aanpak: 
+  rol: Productstrateeg
+  omschrijving: "Na het samenvoegen van de Amsterdamse stadsdelen was centralisatie van de administratie van de straatmarkten al vaker dan eens mislukt. Met Fixxx methode voor snelle innovatie die werkt lukte het wel."
   begin: 
   einde: 
   duur: 
   standplaats: 
-  omschrijving: Na het samenvoegen van de Amsterdamse stadsdelen was centralisatie van de administratie van de straatmarkten al vaker dan eens mislukt. Met Fixxx methode voor snelle innovatie die werkt lukte het wel.
   vaardigheden: 
   url: 
   tags: datagedreven werken, basis op orde, common ground, innovatie, fixxx
 - titel: "Makkelijke Markt: Digitaal Indelen"
-  rol: Productstrateeg
-  logo:  https://media.licdn.com/dms/image/C4E0BAQFgmXb1CiKVtw/company-logo_100_100/0/1624351300143?e=1684368000&v=beta&t=AT6tl-I8pQNxUYs2dUC27pJae3XFToBhLeEv4l-moi4
+  status: 
+  domein: 
   opdrachtgever: amsterdam
+  aanpak: 
+  rol: Productstrateeg
+  omschrijving: "Digitaal indelen van de straatmarkten is geen sinecure. De markten digitaliseren, aanmelden voor alle marktkooplieden mogelijk maken, slim en eerlijk indelen met een duidelijke link naar beleid en het laatste woord aan de marktmeesters: al deze aspecten passeerden de revue."
   begin: 
   einde: 
   duur: 
   standplaats: 
-  omschrijving: "Digitaal indelen van de straatmarkten is geen sinecure. De markten digitaliseren, aanmelden voor alle marktkooplieden mogelijk maken, slim en eerlijk indelen met een duidelijke link naar beleid en het laatste woord aan de marktmeesters: al deze aspecten passeerden de revue."
   vaardigheden: 
   url: 
   tags: digitale transformatie, datagedreven werken, common ground, innovatie, fixxx
 - titel: "Makkelijke Markt: Eerlijk Controleren"
-  rol: Adviseur
-  logo:  https://media.licdn.com/dms/image/C4E0BAQFgmXb1CiKVtw/company-logo_100_100/0/1624351300143?e=1684368000&v=beta&t=AT6tl-I8pQNxUYs2dUC27pJae3XFToBhLeEv4l-moi4
+  status: 
+  domein: 
   opdrachtgever: amsterdam
+  aanpak: 
+  rol: Adviseur
+  omschrijving: "Met de introductie van het bonnenboekje, kregen we zicht op overtredingen van de marktregels. Dit leverde een oneerlijk voordeel op ten opzichte van anderen. In dit traject voegden we functionaliteit toe om marktkooplieden op een slimme en eerlijke manier extra te controleren."
   begin: 
   einde: 
   duur: 
   standplaats: Amsterdam, Nederland
-  omschrijving: Met de introductie van het bonnenboekje, kregen we zicht op overtredingen van de marktregels. Dit leverde een oneerlijk voordeel op ten opzichte van anderen. In dit traject voegden we functionaliteit toe om marktkooplieden op een slimme en eerlijke manier extra te controleren.
   vaardigheden: 
   url: 
   tags: datagedreven werken, common ground, innovatie, fixxx
-- titel: SMS Flevowegen
-  rol: Productontwikkelaar
-  logo:  https://media.licdn.com/dms/image/C4E0BAQFgmXb1CiKVtw/company-logo_100_100/0/1624351300143?e=1684368000&v=beta&t=AT6tl-I8pQNxUYs2dUC27pJae3XFToBhLeEv4l-moi4
+- titel: "SMS Flevowegen"
+  status: 
+  domein: 
   opdrachtgever: flevoland
+  aanpak: 
+  rol: Productontwikkelaar
+  omschrijving: "Groot onderhoud aan bruggen en sluizen levert veel overlast voor omwonenden en bedrijven. Die moeten daardoor namelijk ver omrijden. Zij wilden graag via SMS op de hoogte gehouden worden van werkzaamheden en stremmingen."
   begin: 
   einde: 
   duur: 
   standplaats: 
-  omschrijving: Groot onderhoud aan bruggen en sluizen levert veel overlast voor omwonenden en bedrijven. Die moeten daardoor namelijk ver omrijden. Zij wilden graag via SMS op de hoogte gehouden worden van werkzaamheden en stremmingen. 
   vaardigheden: design research, service design, prototyping, software development
   url: 
   tags: innovatie
-- titel: Service Center Publieke Professionals
-  rol: Adviseur
-  logo:  https://media.licdn.com/dms/image/C4E0BAQFgmXb1CiKVtw/company-logo_100_100/0/1624351300143?e=1684368000&v=beta&t=AT6tl-I8pQNxUYs2dUC27pJae3XFToBhLeEv4l-moi4
+- titel: "Service Center Publieke Professionals"
+  status: 
+  domein: 
   opdrachtgever: amsterdam
+  aanpak: 
+  rol: Adviseur
+  omschrijving: "Dit project is nog niet goed omschreven."
   begin: 
   einde: 
   duur: 
   standplaats: 
-  omschrijving: Dit project is nog niet goed omschreven.
   vaardigheden: 
   url: 
   tags: digitale transformatie, innovatie
-- titel: Clean Street
-  rol: Productstrateeg
-  logo:  https://media.licdn.com/dms/image/C4E0BAQFgmXb1CiKVtw/company-logo_100_100/0/1624351300143?e=1684368000&v=beta&t=AT6tl-I8pQNxUYs2dUC27pJae3XFToBhLeEv4l-moi4
+- titel: "Clean Street"
+  status: 
+  domein: 
   opdrachtgever: amsterdam
+  aanpak: 
+  rol: Productstrateeg
+  omschrijving: "Dit project is nog niet goed omschreven."
   begin: 
   einde: 
   duur: 
   standplaats: 
-  omschrijving: Dit project is nog niet goed omschreven.
   vaardigheden: 
   url: 
   tags: datagedreven werken, common ground, innovatie, fixxx
-- titel: Tourbuzz
-  rol: Productstrateeg
-  logo:  https://media.licdn.com/dms/image/C4E0BAQFgmXb1CiKVtw/company-logo_100_100/0/1624351300143?e=1684368000&v=beta&t=AT6tl-I8pQNxUYs2dUC27pJae3XFToBhLeEv4l-moi4
+- titel: "Tourbuzz"
+  status: 
+  domein: 
   opdrachtgever: amsterdam
+  aanpak: 
+  rol: Productstrateeg
+  omschrijving: "Dit project is nog niet goed omschreven."
   begin: 
   einde: 
   duur: 
   standplaats: 
-  omschrijving: Dit project is nog niet goed omschreven.
   vaardigheden: 
   url: 
   tags: datagedreven werken, common ground, innovatie, fixxx
-- titel: Sneller Melden
-  rol: Productstrateeg
-  logo:  https://media.licdn.com/dms/image/C4E0BAQFgmXb1CiKVtw/company-logo_100_100/0/1624351300143?e=1684368000&v=beta&t=AT6tl-I8pQNxUYs2dUC27pJae3XFToBhLeEv4l-moi4
+- titel: "Sneller Melden"
+  status: 
+  domein: 
   opdrachtgever: amsterdam
+  aanpak: 
+  rol: Productstrateeg
+  omschrijving: "Dit project is nog niet goed omschreven."
   begin: 
   einde: 
   duur: 
   standplaats: 
-  omschrijving: Dit project is nog niet goed omschreven.
   vaardigheden: 
   url: 
   tags: datagedreven werken, common ground, innovatie, fixxx
-- titel: Clarity
-  rol: Productstrateeg
-  logo:  https://media.licdn.com/dms/image/C4E0BAQFgmXb1CiKVtw/company-logo_100_100/0/1624351300143?e=1684368000&v=beta&t=AT6tl-I8pQNxUYs2dUC27pJae3XFToBhLeEv4l-moi4
+- titel: "Clarity"
+  status: 
+  domein: 
   opdrachtgever: waag
+  aanpak: 
+  rol: Productstrateeg
+  omschrijving: "Dit project is nog niet goed omschreven."
   begin: 
   einde: 
   duur: 
   standplaats: 
-  omschrijving: Dit project is nog niet goed omschreven.
   vaardigheden: 
   url: 
   tags: innovatie
-- titel: WindowStore (AdMoves)
-  rol: Productontwikkelaar
-  logo:  https://media.licdn.com/dms/image/C4E0BAQFgmXb1CiKVtw/company-logo_100_100/0/1624351300143?e=1684368000&v=beta&t=AT6tl-I8pQNxUYs2dUC27pJae3XFToBhLeEv4l-moi4
+- titel: "WindowStore (AdMoves)"
+  status: archive
+  domein: 
   opdrachtgever: 
+  aanpak: 
+  rol: Productontwikkelaar
+  omschrijving: "Dit project is nog niet goed omschreven."
   begin: 
   einde: 
   duur: 
   standplaats: 
-  omschrijving: Dit project is nog niet goed omschreven.
   vaardigheden: 
+  url: 
   tags: startup
-  status: archive
-- titel: The Next Ad
-  rol: Productmanager
-  logo:  https://media.licdn.com/dms/image/C4E0BAQFgmXb1CiKVtw/company-logo_100_100/0/1624351300143?e=1684368000&v=beta&t=AT6tl-I8pQNxUYs2dUC27pJae3XFToBhLeEv4l-moi4
+- titel: "The Next Ad"
+  status: 
+  domein: 
   opdrachtgever: tna
+  aanpak: 
+  rol: Productmanager
+  omschrijving: "Dit project is nog niet goed omschreven."
   begin: 
   einde: 
   duur: 
   standplaats: 
-  omschrijving: Dit project is nog niet goed omschreven.
   vaardigheden: 
+  url: 
   tags: startup
-- titel: Media Injection
-  rol: Platformarchitect
-  logo:  https://media.licdn.com/dms/image/C4E0BAQFgmXb1CiKVtw/company-logo_100_100/0/1624351300143?e=1684368000&v=beta&t=AT6tl-I8pQNxUYs2dUC27pJae3XFToBhLeEv4l-moi4
+- titel: "Media Injection"
+  status: 
+  domein: 
   opdrachtgever: mi
+  aanpak: 
+  rol: Platformarchitect
+  omschrijving: "Dit project is nog niet goed omschreven."
   begin: 
   einde: 
   duur: 
   standplaats: 
-  omschrijving: Dit project is nog niet goed omschreven.
   vaardigheden: 
+  url: 
   tags: startup
-- titel: ClubGolf
-  rol: Productontwikkelaar
-  logo:  https://media.licdn.com/dms/image/C4E0BAQFgmXb1CiKVtw/company-logo_100_100/0/1624351300143?e=1684368000&v=beta&t=AT6tl-I8pQNxUYs2dUC27pJae3XFToBhLeEv4l-moi4
-  opdrachtgever: thirdwave
-  begin: 
-  einde: 
-  duur: 
-  standplaats: 
-  omschrijving: Ledenbeheersysteem en self service voor grootste online golfclub van Nederland.
-  vaardigheden: 
+- titel: "ClubGolf"
   status: archive
-- titel: Zoek een Advocaat
-  rol: Productontwikkelaar
-  logo:  https://media.licdn.com/dms/image/C4E0BAQFgmXb1CiKVtw/company-logo_100_100/0/1624351300143?e=1684368000&v=beta&t=AT6tl-I8pQNxUYs2dUC27pJae3XFToBhLeEv4l-moi4
+  domein: 
   opdrachtgever: thirdwave
+  aanpak: 
+  rol: Productontwikkelaar
+  omschrijving: "Ledenbeheersysteem en self service voor grootste online golfclub van Nederland."
   begin: 
   einde: 
   duur: 
   standplaats: 
+  vaardigheden: 
+  url: 
+  tags: 
+- titel: "Zoek een Advocaat"
+  status: archive
+  domein: 
+  opdrachtgever: thirdwave
+  aanpak: 
+  rol: Productontwikkelaar
   omschrijving: "Nederlandse deel van de Europese Find-a-Lawyer infrastructuur: "
+  begin: 
+  einde: 
+  duur: 
+  standplaats: 
   vaardigheden: 
-  status: archive
+  url: 
+  tags: 

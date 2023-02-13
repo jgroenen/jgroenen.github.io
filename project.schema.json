@@ -2,7 +2,7 @@
     "$schema": "https://json-schema.org/draft/2020-12/schema",
     "$id": "https://www.jgroenen.nl/project.schema.json",
     "title": "Project",
-    "description": "A single project",
+    "description": "Een enkel project",
     "type": "object",
     "properties": {
         "titel": {
