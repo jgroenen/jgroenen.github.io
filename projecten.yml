@@ -1,0 +1,17 @@
+---
+---
+{% for p in site.data.projecten %}- titel: "{{ p.titel }}"
+  status: {{ p.status }}
+  domein: {{ p.domein }}
+  opdrachtgever: {{ p.opdrachtgever }}
+  aanpak: {{ p.aanpak }}
+  rol: {{ p.rol }}
+  omschrijving: "{{ p.omschrijving }}"
+  begin: {{ p.begin }}
+  einde: {{ p.einde }}
+  duur: {{ p.duur }}
+  standplaats: {{ p.standplaats }}
+  vaardigheden: {{ p.vaardigheden }}
+  url: {{ p.url }}
+  tags: {{ p.tags }}
+{% endfor %}
