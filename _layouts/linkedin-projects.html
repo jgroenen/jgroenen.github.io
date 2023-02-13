@@ -5,87 +5,7 @@
         <meta http-equiv="content-type" content="text/html; charset=utf-8" />
         <meta name="author" content="Johan Groenen (c) 2023" />
         {% include social-previews.html %}
-        <style>
-            html, body {
-                margin: 0;
-                padding: 0;
-                background: #F3F2EF;
-                font-family: Arial;
-            }
-            section {
-                background: #FFFFFF;
-                border-radius: 12px;
-                box-shadow: 0px 0px 0px 1px rgba(0,0,0,0.08);
-                padding: 0;
-                margin: 8px auto 0;
-                max-width: 636px;
-            }
-            section h1 {
-                margin: 0;
-            }
-            section:first-of-type {
-                margin: 24px auto 0;
-            }
-            .project-card {
-                margin: 12px 24px;
-                padding-bottom: 12px;
-                padding-right: 16px;
-                display: flex;
-                border-bottom: 1px solid #F3F2EF;
-            }
-            .project-meta {
-                color: #AAAAAA;
-            }
-            .project-card h2 {
-                font-size: 1.1em;
-                line-height: 1.4em;
-                margin: 0;
-                font-weight: 600;
-            }
-            .project-card p {
-                margin: 4px 0;
-            }
-            .project-logo {
-                width: 48px;
-                padding: 4px 8px;
-            }
-            .project-body {
-                flex: 1;
-            }
-            .project-body a {
-                text-decoration: none;
-                color: #AAAAAA;
-            }
-            .banner-image {
-                width: 100%;
-                border-radius: 12px 12px 0 0 ;
-            }
-            .linkedin-button {
-                border-radius: 24px;
-                background: #0A66C2;
-                color: #FFFFFF !important;
-                padding: 10px 20px;
-                font-weight: 600;
-                font-size: 1em;
-                text-decoration: none;
-                margin: 12px 0;
-                display: inline-block;
-            }
-            .profile-image {
-                border-radius: 100%;
-                border: 2px solid white;
-                width: 140px;
-                margin: -100px 0 12px 24px;
-            }
-            @media only screen and (max-width: 700px) {
-                section, .banner-image {
-                    border-radius: 0;
-                }
-                section, section:first-of-type {
-                    margin: 0;
-                }
-            }
-        </style>
+        <link rel="stylesheet" href="/css/linkedin-style.css" />
         <link rel="stylesheet" href="/css/linkedin-tags.css" />
     </head>
     
@@ -146,10 +66,12 @@
                     <p style="margin-top: 16px"><b>Vaardigheden</b>: {{ project.vaardigheden }}</p>
                     {% endif %}
                     {% if project.tags %}
-                    <p class="linkedin-tags">
+                    <div class="linkedin-tags">
                         {% assign tags = project.tags | split: ", " %}
-                        {% for tag in tags %} <span class="linkedin-tag" data-tag="{{ tag }}">{{ tag }}</span> {% endfor %}
-                    </p>
+                        {% for tag in tags %}
+                            <span class="linkedin-tag" data-tag="{{ tag }}">{{ tag }}</span>
+                        {% endfor %}
+                    </div>
                     {% endif %}
                     {% if project.url %}
                     <p style="text-align: right">
