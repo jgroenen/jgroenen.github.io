@@ -1,4 +1,4 @@
-{% capture tags %}{{ project.tags }},{{ project.domein }},{{ project.aanpak }},{{ project.status }}{% endcapture %}
+{% capture tags %}{{ project.aanpak }},{{ project.tags }},{{ project.domein }},{{ project.status }}{% endcapture %}
 {% assign tags = tags | split: "," %}
 {% if tags %}
     <div class="linkedin-tags">

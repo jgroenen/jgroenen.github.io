@@ -2,7 +2,7 @@
   status: actief
   domein: algoritmeregister
   opdrachtgever: pnb
-  aanpak: agile development
+  aanpak: Agile Development
   rol: Product Owner
   omschrijving: "Productontwerp en aansturing van de implementatie van een beheertool voor algoritmeregistraties in Microsoft PowerApps."
   begin: okt. 2022
@@ -16,7 +16,7 @@
   status: actief
   domein: code for nl
   opdrachtgever: c4nl
-  aanpak: community of practice
+  aanpak: Community Building
   rol: Community Developer
   omschrijving: "Community of Practice voor publieke inzet van AI en data science."
   begin: 
@@ -30,7 +30,7 @@
   status: actief
   domein: code for nl
   opdrachtgever: design4nl
-  aanpak: community of practice
+  aanpak: Community Building
   rol: Community Developer
   omschrijving: "Community of Practice voor de inzet van design in de publieke sector."
   begin: 
@@ -44,7 +44,7 @@
   status: afgerond
   domein: algoritmeregister
   opdrachtgever: bzk
-  aanpak: agile development
+  aanpak: Opstarten
   rol: Adviseur Product Management
   omschrijving: "Voorbereiden van en adviseren bij het opzetten van het programma Algoritmeregister."
   begin: feb. 2022
@@ -58,7 +58,7 @@
   status: afgerond
   domein: algoritmeregister
   opdrachtgever: bzk
-  aanpak: open samenwerking
+  aanpak: Open Samenwerking
   rol: Kartrekker
   omschrijving: "Dit project is nog niet goed omschreven."
   begin: sept. 2021
@@ -72,7 +72,7 @@
   status: afgerond
   domein: algoritmeregister
   opdrachtgever: eurocities
-  aanpak: open samenwerking
+  aanpak: Design Thinking
   rol: Expert
   omschrijving: "Dit project is nog niet goed omschreven."
   begin: feb. 2022
@@ -86,7 +86,7 @@
   status: afgerond
   domein: common ground
   opdrachtgever: demodam
-  aanpak: open samenwerking
+  aanpak: Pivot
   rol: Adviseur
   omschrijving: "Dit project is nog niet goed omschreven."
   begin: 
@@ -100,7 +100,7 @@
   status: afgerond
   domein: datagedreven werken
   opdrachtgever: rotterdam
-  aanpak: software design thinking
+  aanpak: Opstarten
   rol: Innovatiecoach
   omschrijving: "Dit project is nog niet goed omschreven."
   begin: 
@@ -114,7 +114,7 @@
   status: afgerond
   domein: datagedreven werken
   opdrachtgever: flevoland
-  aanpak: 
+  aanpak: Pilot
   rol: Productstrateeg
   omschrijving: "Dit project is nog niet goed omschreven."
   begin: 
@@ -128,7 +128,7 @@
   status: actief
   domein: code for nl
   opdrachtgever: c4nl
-  aanpak: community of practice
+  aanpak: Community Building
   rol: Community Developer
   omschrijving: "Dit project is nog niet goed omschreven."
   begin: 
@@ -142,7 +142,7 @@
   status: actief
   domein: code for nl
   opdrachtgever: az
-  aanpak: community of practice
+  aanpak: Community Building
   rol: Community Developer
   omschrijving: "Dit project is nog niet goed omschreven."
   begin: 
@@ -156,7 +156,7 @@
   status: afgerond
   domein: datalab amsterdam
   opdrachtgever: amsterdam
-  aanpak: lean startup
+  aanpak: Opstarten
   rol: Medeoprichter
   omschrijving: "Opstarten van Datalab Amsterdam, dé data- en innovatiewerkplaats van de Gemeente Amsterdam. Eerste in zijn soort, daarna veel navolging gekregen. Intake en advies, methodeontwikkeling, productstrategie."
   begin: 
@@ -170,7 +170,7 @@
   status: 
   domein: 
   opdrachtgever: amsterdam
-  aanpak: 
+  aanpak: Opstarten
   rol: Adviseur
   omschrijving: "Dit project is nog niet goed omschreven."
   begin: 
@@ -184,7 +184,7 @@
   status: 
   domein: 
   opdrachtgever: tiltshift
-  aanpak: 
+  aanpak: Opstarten
   rol: Medeoprichter
   omschrijving: "Uitvoerend leiderschap in digitale transformatie."
   begin: 
@@ -198,7 +198,7 @@
   status: 
   domein: code for nl
   opdrachtgever: c4nl
-  aanpak: 
+  aanpak: Opstarten
   rol: Medeoprichter
   omschrijving: "Code for NL is de Nederlandse community van mensen die samenwerken aan een open, eerlijke en inclusieve digitale overheid en samenleving."
   begin: 
@@ -212,7 +212,7 @@
   status: afgerond
   domein: 
   opdrachtgever: amsterdam
-  aanpak: discovery, ideation
+  aanpak: Explore
   rol: Conceptontwikkelaar
   omschrijving: "Andreas is het systeem voor raadsinformatie van de Gemeente Amsterdam. In deze explore ontwikkelden wij in co-creatie met potentiële afnemers een aantal concepten voor beter gebruik van open raadsinformatie."
   begin: 
@@ -222,11 +222,25 @@
   vaardigheden: design thinking, 
   url: 
   tags: innovatie
-- titel: "Interventie Digitale Transformatie Wonen Amsterdam"
+- titel: "Taken-app Handhaving"
+  status: afgerond
+  domein: 
+  opdrachtgever: amsterdam
+  aanpak: Design Sprint
+  rol: Conceptontwikkelaar
+  omschrijving: ""
+  begin: 
+  einde: 
+  duur: 
+  standplaats: Amsterdam, Nederland
+  vaardigheden: design thinking, design sprint
+  url: 
+  tags: innovatie
+- titel: "Digitale Transformatie Wonen Amsterdam"
   status: 
   domein: 
   opdrachtgever: amsterdam
-  aanpak: 
+  aanpak: Explore
   rol: Adviseur
   omschrijving: "Dit project is nog niet goed omschreven."
   begin: 
@@ -237,10 +251,10 @@
   url: 
   tags: digitale transformatie, innovatie
 - titel: "Meldingen Openbare Ruimte Rotterdam"
-  status: 
+  status: actief
   domein: 
   opdrachtgever: rotterdam
-  aanpak: 
+  aanpak: Opstarten
   rol: Adviseur
   omschrijving: "Dit project is nog niet goed omschreven."
   begin: 
@@ -254,7 +268,7 @@
   status: 
   domein: 
   opdrachtgever: vws
-  aanpak: 
+  aanpak: Design Sprint
   rol: Adviseur
   omschrijving: "Dit project is nog niet goed omschreven."
   begin: 
@@ -265,10 +279,10 @@
   url: 
   tags: innovatie
 - titel: "Kwetsbare Groepen Amsterdam"
-  status: 
+  status: afgerond
   domein: 
   opdrachtgever: 
-  aanpak: 
+  aanpak: Agile Development
   rol: Productmanager
   omschrijving: "Dit project is nog niet goed omschreven."
   begin: 
@@ -278,13 +292,13 @@
   vaardigheden: 
   url: 
   tags: 
-- titel: "Straatnotes Amsterdam (veilige communicatie straatcoaches, slimme analyse)"
+- titel: "Straatnotes Amsterdam"
   status: 
-  domein: 
+  domein: straatnotes
   opdrachtgever: amsterdam
-  aanpak: 
+  aanpak: Fixxx
   rol: Productstrateeg
-  omschrijving: "Dit project is nog niet goed omschreven."
+  omschrijving: "veilige communicatie straatcoaches, slimme analyse"
   begin: 
   einde: 
   duur: 
@@ -292,13 +306,13 @@
   vaardigheden: 
   url: 
   tags: datagedreven werken, privacy by design, common ground, innovatie, fixxx
-- titel: "ADUS Amsterdam (informatie delen)"
-  status: 
-  domein: 
+- titel: "ADUS Amsterdam"
+  status: afgerond
+  domein: straatnotes
   opdrachtgever: amsterdam
-  aanpak: 
+  aanpak: Fixxx
   rol: Adviseur
-  omschrijving: "Dit project is nog niet goed omschreven."
+  omschrijving: "informatie delen"
   begin: 
   einde: 
   duur: 
@@ -310,7 +324,7 @@
   status: 
   domein: 
   opdrachtgever: amsterdam
-  aanpak: 
+  aanpak: Fixxx
   rol: Productstrateeg
   omschrijving: "Na het samenvoegen van de Amsterdamse stadsdelen was centralisatie van de administratie van de straatmarkten al vaker dan eens mislukt. Met Fixxx methode voor snelle innovatie die werkt lukte het wel."
   begin: 
@@ -324,7 +338,7 @@
   status: 
   domein: 
   opdrachtgever: amsterdam
-  aanpak: 
+  aanpak: Fixxx
   rol: Productstrateeg
   omschrijving: "Digitaal indelen van de straatmarkten is geen sinecure. De markten digitaliseren, aanmelden voor alle marktkooplieden mogelijk maken, slim en eerlijk indelen met een duidelijke link naar beleid en het laatste woord aan de marktmeesters: al deze aspecten passeerden de revue."
   begin: 
@@ -338,7 +352,7 @@
   status: 
   domein: 
   opdrachtgever: amsterdam
-  aanpak: 
+  aanpak: Fixxx
   rol: Adviseur
   omschrijving: "Met de introductie van het bonnenboekje, kregen we zicht op overtredingen van de marktregels. Dit leverde een oneerlijk voordeel op ten opzichte van anderen. In dit traject voegden we functionaliteit toe om marktkooplieden op een slimme en eerlijke manier extra te controleren."
   begin: 
@@ -352,7 +366,7 @@
   status: 
   domein: 
   opdrachtgever: flevoland
-  aanpak: 
+  aanpak: Agile Development
   rol: Productontwikkelaar
   omschrijving: "Groot onderhoud aan bruggen en sluizen levert veel overlast voor omwonenden en bedrijven. Die moeten daardoor namelijk ver omrijden. Zij wilden graag via SMS op de hoogte gehouden worden van werkzaamheden en stremmingen."
   begin: 
@@ -366,7 +380,7 @@
   status: 
   domein: 
   opdrachtgever: amsterdam
-  aanpak: 
+  aanpak: Continuous Prototyping
   rol: Adviseur
   omschrijving: "Dit project is nog niet goed omschreven."
   begin: 
@@ -380,7 +394,7 @@
   status: 
   domein: 
   opdrachtgever: amsterdam
-  aanpak: 
+  aanpak: Fixxx
   rol: Productstrateeg
   omschrijving: "Dit project is nog niet goed omschreven."
   begin: 
@@ -394,7 +408,7 @@
   status: 
   domein: 
   opdrachtgever: amsterdam
-  aanpak: 
+  aanpak: Fixxx
   rol: Productstrateeg
   omschrijving: "Dit project is nog niet goed omschreven."
   begin: 
@@ -408,7 +422,7 @@
   status: 
   domein: 
   opdrachtgever: amsterdam
-  aanpak: 
+  aanpak: Fixxx
   rol: Productstrateeg
   omschrijving: "Dit project is nog niet goed omschreven."
   begin: 
@@ -419,11 +433,11 @@
   url: 
   tags: datagedreven werken, common ground, innovatie, fixxx
 - titel: "Clarity"
-  status: 
-  domein: 
+  status: afgerond
+  domein: code for nl
   opdrachtgever: waag
-  aanpak: 
-  rol: Productstrateeg
+  aanpak: Design Sprint
+  rol: Concept Developer
   omschrijving: "Dit project is nog niet goed omschreven."
   begin: 
   einde: 
@@ -432,8 +446,8 @@
   vaardigheden: 
   url: 
   tags: innovatie
-- titel: "WindowStore (AdMoves)"
-  status: archive
+- titel: "Opstarten AdMoves WindowStore"
+  status: archief
   domein: 
   opdrachtgever: 
   aanpak: 
@@ -446,8 +460,8 @@
   vaardigheden: 
   url: 
   tags: startup
-- titel: "The Next Ad"
-  status: 
+- titel: "Ontwikkelen The Next Ad"
+  status: archief
   domein: 
   opdrachtgever: tna
   aanpak: 
@@ -460,8 +474,8 @@
   vaardigheden: 
   url: 
   tags: startup
-- titel: "Media Injection"
-  status: 
+- titel: "Ontwikkelen Media Injection"
+  status: archief
   domein: 
   opdrachtgever: mi
   aanpak: 
@@ -474,10 +488,38 @@
   vaardigheden: 
   url: 
   tags: startup
-- titel: "ClubGolf"
-  status: archive
+- titel: "Ontwikkelen Media Library"
+  status: archief
   domein: 
-  opdrachtgever: thirdwave
+  opdrachtgever: mi
+  aanpak: 
+  rol: Productdeveloper
+  omschrijving: "Ontwikkelen media library en browser extentie"
+  begin: 
+  einde: 
+  duur: 
+  standplaats: 
+  vaardigheden: 
+  url: 
+  tags: startup
+- titel: "Ontwikkelen Media Injection App"
+  status: archief
+  domein: 
+  opdrachtgever: mi
+  aanpak: 
+  rol: Product Manager
+  omschrijving: "Outsourcing aansturen"
+  begin: 
+  einde: 
+  duur: 
+  standplaats: 
+  vaardigheden: 
+  url: 
+  tags: startup
+- titel: "Ontwikkelen Clubgolf Manager"
+  status: archief
+  domein: 
+  opdrachtgever: Clubgolf
   aanpak: 
   rol: Productontwikkelaar
   omschrijving: "Ledenbeheersysteem en self service voor grootste online golfclub van Nederland."
@@ -488,13 +530,41 @@
   vaardigheden: 
   url: 
   tags: 
-- titel: "Zoek een Advocaat"
-  status: archive
+- titel: "Ontwikkelen Zoek een Advocaat"
+  status: archief
   domein: 
-  opdrachtgever: thirdwave
+  opdrachtgever: Nederlandse Orde van Advocaten
   aanpak: 
   rol: Productontwikkelaar
   omschrijving: "Nederlandse deel van de Europese Find-a-Lawyer infrastructuur: "
+  begin: 
+  einde: 
+  duur: 
+  standplaats: 
+  vaardigheden: 
+  url: 
+  tags: 
+- titel: "Ontwikkelen Mediabank"
+  status: archief
+  domein: 
+  opdrachtgever: Afvalverwerking Utrecht
+  aanpak: 
+  rol: Productontwikkelaar
+  omschrijving: 
+  begin: 
+  einde: 
+  duur: 
+  standplaats: 
+  vaardigheden: 
+  url: 
+  tags: 
+- titel: "Ontwikkelen Nummerxxx"
+  status: archief
+  domein: 
+  opdrachtgever: Nederlandse Orde van Advocaten
+  aanpak: 
+  rol: Productontwikkelaar
+  omschrijving: 
   begin: 
   einde: 
   duur: 

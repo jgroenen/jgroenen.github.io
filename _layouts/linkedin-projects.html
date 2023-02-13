@@ -42,7 +42,7 @@
 
             {% assign orgs = site.data.organisaties %}
             {% for project in site.data.projecten %}
-            {% if project.status != "archive" %}
+            {% if project.status != "archief" %}
             <div class="project-card" data-tags>
                 <div class="project-logo">
                     {% if orgs[project.opdrachtgever].logo %}
@@ -56,7 +56,7 @@
                     {% endif %}
                 </div>
                 <div class="project-body">
-                    <h2>{{ project.rol }} {{ project.titel }}</h2>
+                    <h2>{{ project.aanpak }} {{ project.titel }}</h2>
 
                     <p><a href="{{ orgs[project.opdrachtgever].url }}">{{ orgs[project.opdrachtgever].naam }}</a></p>
 
