@@ -1,0 +1,65 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://www.jgroenen.nl/project.schema.json",
+    "title": "Project",
+    "description": "A single project",
+    "type": "object",
+    "properties": {
+        "titel": {
+            "description": "",
+            "type": "string"
+        },
+        "status": {
+            "description": "",
+            "type": "string"
+        },
+        "domein": {
+            "description": "",
+            "type": "string"
+        },
+        "opdrachtgever": {
+            "description": "",
+            "type": "string"
+        },
+        "aanpak": {
+            "description": "",
+            "type": "string"
+        },
+        "rol": {
+            "description": "",
+            "type": "string"
+        },
+        "omschrijving": {
+            "description": "",
+            "type": "string"
+        },
+        "begin": {
+            "description": "",
+            "type": "string"
+        },
+        "einde": {
+            "description": "",
+            "type": "string"
+        },
+        "duur": {
+            "description": "",
+            "type": "string"
+        },
+        "standplaats": {
+            "description": "",
+            "type": "string"
+        },
+        "vaardigheden": {
+            "description": "",
+            "type": "string"
+        },
+        "url": {
+            "description": "",
+            "type": "string"
+        },
+        "tags": {
+            "description": "",
+            "type": "string"
+        }
+    }
+  }
