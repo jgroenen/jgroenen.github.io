@@ -4,13 +4,18 @@
         let tag = this.dataset.tag;
         if (activeFilters[tag]) {
             delete activeFilters[tag];
-            document.querySelectorAll(`[data-tag='${tag}']`).forEach((el) => el.classList.remove('active-tag'));
+            document
+                .querySelectorAll(`[data-tag='${tag}']`)
+                .forEach((el) => el.classList.remove('active-tag'));
         }
         else {
             activeFilters[tag] = true;
-            document.querySelectorAll(`[data-tag='${tag}']`).forEach((el) => el.classList.add('active-tag'));
+            document
+                .querySelectorAll(`[data-tag='${tag}']`)
+                .forEach((el) => el.classList.add('active-tag'));
         }
-        var filterString = Object.keys(activeFilters).reduce((str, tag) => str + `[data-tags*='${tag}']`, "");
+        var filterString = Object.keys(activeFilters)
+            .reduce((str, tag) => str + `[data-tags*='${tag}']`, "");
         if (filterString) {
             document
                 .querySelectorAll(`[data-tags]`)
@@ -26,6 +31,10 @@
         }
     }
     document
-        .querySelectorAll('.linkedin-tag')
+        .querySelectorAll('[data-tag]')
         .forEach((el) => el.addEventListener('click', filter));
+    document
+        .querySelectorAll('[data-tags]')
+        .forEach((el) => el.dataset.tags = Array.from(el.querySelectorAll('[data-tag]'))
+            .map((tagEl) => tagEl.dataset.tag).join(", "));
 </script>
