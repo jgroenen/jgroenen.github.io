@@ -37,8 +37,8 @@
         
             {% include linkedin-tags-script.html %}
 
-            {% assign orgs = site.data.projecten.opdrachtgevers %}
-            {% for project in site.data.projecten.projecten %}
+            {% assign orgs = site.data.organisaties %}
+            {% for project in site.data.projecten %}
             {% if project.status != "archive" %}
             <div class="project-card" data-tags="{{ project.tags }}">
                 <div class="project-logo">
