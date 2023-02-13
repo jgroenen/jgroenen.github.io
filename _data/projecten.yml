@@ -1,5 +1,5 @@
 - titel: "Algoritmeregister Beheertool"
-  status: actief
+  status: lopend
   domein: algoritmeregister
   opdrachtgever: pnb
   aanpak: Agile Development
@@ -13,7 +13,7 @@
   url: 
   tags: 
 - titel: "AI for NL"
-  status: actief
+  status: lopend
   domein: code for nl
   opdrachtgever: c4nl
   aanpak: Opstarten
@@ -27,7 +27,7 @@
   url: 
   tags: community of practice
 - titel: "Design for NL"
-  status: actief
+  status: lopend
   domein: code for nl
   opdrachtgever: design4nl
   aanpak: Opstarten
@@ -72,7 +72,7 @@
   status: afgerond
   domein: algoritmeregister
   opdrachtgever: eurocities
-  aanpak: Design Thinking
+  aanpak: Open Samenwerking
   rol: Expert
   omschrijving: "Dit project is nog niet goed omschreven."
   begin: feb. 2022
@@ -86,7 +86,7 @@
   status: afgerond
   domein: common ground
   opdrachtgever: demodam
-  aanpak: Pivot
+  aanpak: Coaching
   rol: Adviseur
   omschrijving: "Dit project is nog niet goed omschreven."
   begin: 
@@ -100,7 +100,7 @@
   status: afgerond
   domein: datagedreven werken
   opdrachtgever: rotterdam
-  aanpak: Opstarten
+  aanpak: Coaching
   rol: Innovatiecoach
   omschrijving: "Dit project is nog niet goed omschreven."
   begin: 
@@ -114,7 +114,7 @@
   status: afgerond
   domein: datagedreven werken
   opdrachtgever: flevoland
-  aanpak: Pilot
+  aanpak: Opstarten
   rol: Productstrateeg
   omschrijving: "Dit project is nog niet goed omschreven."
   begin: 
@@ -125,10 +125,10 @@
   url: 
   tags: innovatie
 - titel: "AI met Impact"
-  status: actief
+  status: afgerond
   domein: code for nl
   opdrachtgever: c4nl
-  aanpak: Opstarten
+  aanpak: Open Samenwerking
   rol: Community Developer
   omschrijving: "Dit project is nog niet goed omschreven."
   begin: 
@@ -137,12 +137,12 @@
   standplaats: 
   vaardigheden: strategie, community-ontwikkeling, community management
   url: 
-  tags: datagedreven werken, open samenwerking, innovatie
+  tags: datagedreven werken, AI
 - titel: "NL Design System"
-  status: actief
+  status: afgerond
   domein: code for nl
   opdrachtgever: az
-  aanpak: Opstarten
+  aanpak: Open Samenwerking
   rol: Community Developer
   omschrijving: "Dit project is nog niet goed omschreven."
   begin: 
@@ -151,7 +151,7 @@
   standplaats: Den Haag, Nederland
   vaardigheden: strategie, community-ontwikkeling, community management
   url: https://www.nldesignsystem.nl
-  tags: common ground, open samenwerking, community of practice, innovatie
+  tags: common ground, community of practice, innovatie
 - titel: "Datalab Amsterdam"
   status: afgerond
   domein: datalab amsterdam
@@ -193,7 +193,7 @@
   standplaats: 
   vaardigheden: 
   url: https://www.tiltshift.nl
-  tags: startup, actief
+  tags: startup
 - titel: "Code for NL"
   status: 
   domein: code for nl
@@ -207,7 +207,7 @@
   standplaats: 
   vaardigheden: strategie, community-ontwikkeling, community management
   url: https://www.codefor.nl
-  tags: open samenwerking, community of practice, startup, actief
+  tags: community of practice, startup
 - titel: "Andreas"
   status: afgerond
   domein: 
@@ -250,11 +250,11 @@
   vaardigheden: 
   url: 
   tags: digitale transformatie, innovatie
-- titel: "Meldingen Openbare Ruimte Rotterdam"
-  status: actief
+- titel: "Meldingen Openbare Ruimte"
+  status: lopend
   domein: 
   opdrachtgever: rotterdam
-  aanpak: Opstarten
+  aanpak: Open Samenwerking
   rol: Adviseur
   omschrijving: "Dit project is nog niet goed omschreven."
   begin: 
@@ -263,7 +263,7 @@
   standplaats: 
   vaardigheden: 
   url: 
-  tags: digitale transformatie, open samenwerking, common ground, innovatie, actief
+  tags: digitale transformatie, common ground, innovatie
 - titel: "Digitale Ondersteuning Bestrijding COVID-19"
   status: 
   domein: 
