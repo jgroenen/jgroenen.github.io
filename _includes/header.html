@@ -1,15 +1,12 @@
-<nav>
-    <a class="inline-tag" href="/">/home</a>
-    <a class="inline-tag" href="/kaarten">/kaarten</a>
-    <a class="inline-tag" href="/meetups">/meetups</a>
-    <a class="inline-tag" href="/aantekeningen">/aantekeningen</a>
-</nav>
-<header>
-    <h1>{{ site.description }}</h1>
-    <h2 class="inline-tag" style="margin: -4em 0.5em 0.5em">{{ include.header | default: site.quote }}</h2>
-    <h2><span class="fn" itemprop="name">{{ site.title }}</span></h2>
+<aside style="background: white; padding: 20px">
+    <h1>{{ site.title }}</h1>
+    <p><span class="fn" itemprop="name">{{ site.description }}</span></p>
     <div class="photo" style="margin: 40px auto; cursor: pointer">
         <img itemprop="image" id="photo" src="{{ site.data.person.picture }}" alt="Foto van {{ site.data.person.name }}">
     </div>
-    <!-- <a class="snes-reset-button" href="/">RESET</a> -->
-</header>
+    <nav>
+        <p><a class="inline-tag" href="/">/home</a></p>
+        <p><a class="inline-tag" href="/kaarten">/kaarten</a></p>
+        <p><a class="inline-tag" href="/aantekeningen">/aantekeningen</a></p>
+    </nav>
+</aside>

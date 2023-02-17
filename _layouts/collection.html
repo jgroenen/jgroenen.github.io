@@ -5,9 +5,7 @@
     
     <body>
 
-        <div class="wrapper">
-        
-            {% include header.html header=page.title %}
+        <div class="wrapper" style="display: flex">
 
             <main>
                 {{ content }}
@@ -15,6 +13,8 @@
                 <br>
                 <a href="/">« terug naar hoofdpagina</a>
             </main>
+        
+            {% include header.html %}
 
         </div>
 
