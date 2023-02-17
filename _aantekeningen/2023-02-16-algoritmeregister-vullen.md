@@ -38,9 +38,9 @@ Criteria die ik voor het eerst hoorde:
 - hoge mogelijkheid van doelverschuiving
 - type technologie is onbekend/spannend
 
-En de - in mijn optiek mooiste:
+En de - in mijn optiek - mooiste:
 
-- verbaasdheid over het bestaan van een bepaalde toepassing
+- verbaasdheid over het bestaan van een bepaalde gebruik van een algoritmische toepassing
 
 ## What's in a name
 
