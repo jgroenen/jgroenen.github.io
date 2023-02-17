@@ -1,0 +1,43 @@
+<div class="project-card" data-tags>
+    <div class="project-logo">
+        {% if orgs[project.opdrachtgever].logo %}
+            <a href="{{ orgs[project.opdrachtgever].url }}">
+                <img src="{{ orgs[project.opdrachtgever].logo }}" width="48px" height="48px">
+            </a>
+        {% else %}
+            <a href="{{ orgs["tiltshift"].url }}">
+                <img src="{{ orgs["tiltshift"].logo }}" width="48px" height="48px">
+            </a>
+        {% endif %}
+    </div>
+    <div class="project-body">
+        <h2>{{ project.aanpak }} {{ project.titel }}</h2>
+
+        <p class="subtitle"><a href="{{ orgs[project.opdrachtgever].url }}">{{ orgs[project.opdrachtgever].naam }}</a></p>
+
+        {% if project.duur %}
+        <div class="project-meta">
+            <p>{{ project.begin }} - {{ project.einde }} · {{ project.duur }}</p>
+            <p>{{ project.standplaats}}</p>
+        </div>
+        {% endif %}
+
+        <p style="margin-top: 16px">{{ project.omschrijving }}</p>
+
+        {% if project.vaardigheden %}
+        <p style="margin-top: 16px"><b>Vaardigheden</b>: {{ project.vaardigheden }}</p>
+        {% endif %}
+
+        {% capture tags %}{{ project.aanpak }},{{ project.domein }},{{ project.tags }},{{ project.status }}{% endcapture %}
+        {% assign tags = tags | split: "," %}
+        {% if tags %}
+            {% include linkedin-tags.html tags=tags%}
+        {% endif %}
+
+        {% if project.url %}
+        <p style="text-align: right">
+            <a target="_blank" href="{{ project.url }}">Bekijk de projectwebsite &gt;</a>
+        </p>
+        {% endif %}
+    </div>
+</div>

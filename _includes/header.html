@@ -1,12 +1,14 @@
-<aside style="background: white; padding: 20px">
-    <h1>{{ site.title }}</h1>
-    <p><span class="fn" itemprop="name">{{ site.description }}</span></p>
-    <div class="photo" style="margin: 40px auto; cursor: pointer">
-        <img itemprop="image" id="photo" src="{{ site.data.person.picture }}" alt="Foto van {{ site.data.person.name }}">
+<header class="card-section">
+    <img class="banner-image" src="https://media.licdn.com/dms/image/D4E16AQHAK2ogvU6w-w/profile-displaybackgroundimage-shrink_350_1400/0/1675954016838?e=1681344000&v=beta&t=KJbf5EL1neYVklvFd1aLgVVTI8TfIfScodkuJ95b9kQ">
+    <img class="profile-image" src="{{ site.data.person.picture }}" style="width: 20%; margin: -14% 0 12px 24px">
+    <h1 style="font-size: 1.8em; padding: 0 24px">{{ site.title }}</h1>
+    <div style="padding: 0 24px">
+        <div style="margin: 0">
+            <p style="font-size: 1.1em; margin: 0">{{ site.description }}</p>
+            <p>
+                <a class="linkedin-button" href="https://www.linkedin.com/in/jgroenen/">LinkedIn</a>
+                <a style="background: #1E9BF0" class="linkedin-button" href="https://twitter.com/jpagroenen">Twitter</a>
+            </p>
+        </div>
     </div>
-    <nav>
-        <p><a class="inline-tag" href="/">/home</a></p>
-        <p><a class="inline-tag" href="/kaarten">/kaarten</a></p>
-        <p><a class="inline-tag" href="/aantekeningen">/aantekeningen</a></p>
-    </nav>
-</aside>
+</header>

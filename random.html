@@ -1,3 +1,35 @@
 ---
-layout: random
+layout: default
 ---
+<script type="module">
+    var ideeen = await fetch ('/js/data/ideeen.json').then(rs => rs.json()).then(ideeen => ideeen.ideeen);
+    var id;
+
+    function next() {
+        id = Math.floor(Math.random() * ideeen.length);
+        var idee = ideeen[id];
+        document.getElementById("card").innerHTML = `<a target="_blank" href="https://www.google.com/search?q=${idee}">${idee}</a>`;
+    }
+
+    document.getElementById("nextButton").addEventListener('click', next);
+
+    next();
+</script>
+<div class="content">
+    <p><span id="card"></span></p>
+    <p><button id="nextButton">Next</button></p>
+</div>
+<style>
+    .content {
+        padding: 10px;
+    }
+    .content p {
+        text-align: center
+    }
+    #nextButton {
+        font-size: 1em;
+        padding: 10px;
+        border: 2px solid black;
+        margin: auto;
+    }
+</style>

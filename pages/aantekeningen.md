@@ -1,6 +1,6 @@
 ---
-layout: collection
+layout: default
 permalink: aantekeningen/
-title: aantekeningen
+title: Aantekeningen
 ---
-{% include cards.html header='' collection=site.aantekeningen type='aantekening' %}
+{% include cards.html collection=site.aantekeningen %}

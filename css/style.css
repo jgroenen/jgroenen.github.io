@@ -4,20 +4,29 @@ html, body {
     background: #F3F2EF;
     font-family: Arial;
 }
-section {
+.card-section {
     background: #FFFFFF;
     border-radius: 12px;
     box-shadow: 0px 0px 0px 1px rgba(0,0,0,0.08);
     padding: 0;
     margin: 8px auto 0;
     max-width: 636px;
+    min-width: 300px;
 }
-section h1 {
+.card-section h1 {
     margin: 0;
 }
-section:first-of-type {
-    margin: 24px auto 0;
+.card-section > p,
+.card-section > h2,
+.card-section > figcaption,
+.card-section > p img {
+    margin: 24px;
+    max-width: 100%;
 }
+.card-section > p img {
+    margin: 0;
+}
+
 .project-card {
     margin: 12px 24px;
     padding-bottom: 12px;
@@ -34,7 +43,7 @@ section:first-of-type {
     margin: 0;
     font-weight: 600;
 }
-.project-card p {
+.project-card .subtitle {
     margin: 4px 0;
 }
 .project-logo {
@@ -69,11 +78,42 @@ section:first-of-type {
     width: 140px;
     margin: -100px 0 12px 24px;
 }
-@media only screen and (max-width: 700px) {
-    section, .banner-image {
+.wrapper {
+    display: flex;
+    margin: auto;
+    max-width: 920px;
+    margin-top: 24px;
+}
+.right-card {
+    margin-left: 20px;
+}
+.linkedin-tags {
+    margin-top: 8px;
+}
+.linkedin-tag {
+    background: #F3F2EF;
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 2px;
+    margin: 4px 4px 4px 0;
+    font-size: 0.8em;
+    cursor: pointer;
+}
+.active-tag {
+    background: #0A66C2;
+    color: #FFFFFF;
+}
+@media only screen and (max-width: 920px) {
+    .card-section, .banner-image {
         border-radius: 0;
+        min-width: 100vw;
     }
-    section, section:first-of-type {
-        margin: 0;
+    .wrapper {
+        display: block;
+        width: 100vw;
+        margin-top: 0;
+    }
+    .right-card {
+        margin-left: 0;
     }
 }

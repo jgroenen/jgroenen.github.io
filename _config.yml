@@ -19,10 +19,10 @@ defaults:
   - scope:
       type: kaarten
     values:
-      layout: details
+      layout: default
       collection: kaarten
   - scope:
       type: aantekeningen
     values:
-      layout: details
+      layout: default
       collection: aantekeningen

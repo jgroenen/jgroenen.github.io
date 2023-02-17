@@ -1,3 +1,11 @@
 ---
-layout: linkedin-projects
+layout: default
+permalink: projecten/
+title: Projecten
 ---
+{% assign orgs = site.data.organisaties %}
+{% for project in site.data.projecten %}
+{% if project.status != "archief" %}
+    {% include project-card.html %}
+{% endif %}
+{% endfor %}

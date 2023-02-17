@@ -1,30 +1,17 @@
 {% if include.card %}
 <a name="{{ item.id }}"></a>
-<div class="card">
-    {% if include.type=='kaart' %}
-        <p> {{ item.label | default: item.title | downcase }} </p>
-        <div>{{ item.teaser }}</div>
-    {% else if include.type=='meetup' %}
-        <div style="margin: 1em 0">
-            <span>{{ item.type }}{% include date.html date=item.date %}</span>
-            <a href="{{ item.url }}"><h2>{{ item.title }}</h2></a>
-        </div>
+<div class="project-card" data-tags>
+    <div class="project-logo">
+        <img src="{{ item.image }}" width="48px" height="48px">
+    </div>
+    <div class="project-body">
+        <h2>{{ item.title }}</h2>
 
-        <div class="p-ish">{{ item.teaser }}</div>
+        <p class="subtitle">{% include date.html date=item.date %} . {% include linkedin-tags.html tags=item.tags %}</p>
 
-        {% include tags.html tags=item.tags %}
-    {% else %}
-        <div class="image-crop" style="height: 100px; width: 100%; background: url({{ item.image }}) center center no-repeat; background-size: cover"></div>
-        <div style="margin: 1em 0">
-            <span>Aantekening {% include date.html date=item.date %}</span>
-            <a href="{{ item.url }}"><h2>{{ item.title }}</h2></a>
-        </div>
+        <p>{{ item.teaser }}</p>
 
-        <div class="p-ish">{{ item.teaser }}</div>
-
-        {% include tags.html tags=item.tags %}
-    {% endif %}
-
-    <a class="button" href="{{ item.url }}">Bekijk {{ include.type }} "{{ item.label | default: item.title }}"</a>
+        <p><a class="button" href="{{ item.url }}">Lees {{ item.label | default: item.title }}</a></p>
+    </div>
 </div>
 {% endif %}
