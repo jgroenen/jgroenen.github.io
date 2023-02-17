@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: random/
 ---
 <script type="module">
     var ideeen = await fetch ('/js/data/ideeen.json').then(rs => rs.json()).then(ideeen => ideeen.ideeen);
@@ -8,7 +9,7 @@ layout: default
     function next() {
         id = Math.floor(Math.random() * ideeen.length);
         var idee = ideeen[id];
-        document.getElementById("card").innerHTML = `<a target="_blank" href="https://www.google.com/search?q=${idee}">${idee}</a>`;
+        document.getElementById("card").innerHTML = `Idee <b>${id + 1}</b>:<br><br>${idee}`;
     }
 
     document.getElementById("nextButton").addEventListener('click', next);
@@ -16,7 +17,7 @@ layout: default
     next();
 </script>
 <div class="content">
-    <p><span id="card"></span></p>
+    <p><span id="card"></span><br><br></p>
     <p><button id="nextButton">Next</button></p>
 </div>
 <style>
@@ -24,7 +25,9 @@ layout: default
         padding: 10px;
     }
     .content p {
-        text-align: center
+        text-align: center;
+        max-width: 20em;
+        margin: auto;
     }
     #nextButton {
         font-size: 1em;
