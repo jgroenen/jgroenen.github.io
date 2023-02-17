@@ -3,4 +3,5 @@ layout: default
 permalink: aantekeningen/
 title: Aantekeningen
 ---
-{% include cards.html collection=site.aantekeningen %}
+{% assign collection = site.aantekeningen|sort|reverse %}
+{% include cards.html collection=collection %}

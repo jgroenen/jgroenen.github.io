@@ -1,5 +1,7 @@
 {% if include.date %}
-<span style="line-height: 1.4em">{{ include.date | date: "%d&nbsp;m%m&nbsp;%Y" | replace: 'm01', 'januari'
+<span style="line-height: 1.4em">{{ include.date
+| date: "%-d&nbsp;m%m&nbsp;%Y"
+| replace: 'm01', 'januari'
 | replace: 'm02', 'februari'
 | replace: 'm03', 'maart'
 | replace: 'm04', 'april'
