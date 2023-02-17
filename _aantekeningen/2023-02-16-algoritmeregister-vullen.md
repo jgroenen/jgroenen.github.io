@@ -1,23 +1,29 @@
 ---
 tags: ['algoritmeregister', 'software design']
-title: "Algoritmeregister Vullen"
+title: "Een algoritmeregister vullen"
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Polygon_Greedy_triangulation_steps.svg/260px-Polygon_Greedy_triangulation_steps.svg.png
 caption: Algoritme om een willekeurig veelvlak in driehoeken op te delen (zie ook <a href="https://nl.wikipedia.org/wiki/Algoritme">https://nl.wikipedia.org/wiki/Algoritme</a>).
 teaser: 'Gisteren was er weer een bijeenkomst in het kader van algoritmeregister, deze keer met een focus op het vullen van het algoritmeregister: wat moet erin (en wat niet).'
 ---
 <strong>{{ page.teaser }}</strong>
 
-![]({{ page.image }})
-
-<figcaption>{{page.caption}}</figcaption>
-
 ## Wat is een algoritme?
 
 De vraag die iedere keer voorbij komt is: wat is een algoritme? Om dit in wetten vast te gaan leggen zal er vast en zeker een antwoord moeten komen op die vraag, alhoewel de juiste vraag dan volgens mij zou moeten zijn: "wat willen we vastleggen", en daar dus het woord voor vinden, in plaats van vastklampen aan het woord "algoritme" en de betekenis daarvan danwel proberen vast te pinnen, danwel proberen zodanig op te rekken en te verleggen dat het past bij wat je eigenlijk vast wil leggen.
 
+![]({{ page.image }})
+
+<figcaption>{{page.caption}}</figcaption>
+
 Als je een stapje terug doet kom je volgens mij bij een zinvoller inzicht: wat we proberen te voorkomen is dat er beslissingen worden genomen als onderdeel van de "implementatie" van techniek, die eigenlijk discretionair zijn en waar dus verantwoording voor moet worden afgelegd. Waar we nu nog regelmatig software inzetten zonder (al te kritisch) verantwoordelijkheid te nemen voor wat die software precies doet ("zo werkt het nu eenmaal"), moet de mindset veel meer gaan zijn: als die software op een bepaalde manier werkt, dan zijn wij daarvoor verantwoordelijk, dus willen we precies weten hoe dat is, en als dat niet overeenkomt met onze waarden (of de wet), dan moet die software buigen (en niet wij, de wet of de samenleving).
 
+## Wat is een algoritmeregister
+
 Wat er dus moet worden vastgelegd is precies die beslissing. En waar je dus "algoritmeregister" lees, moet je eigenlijk denken "overzicht van verantwoording bij de inzet van algoritmische toepassingen".
+
+Vaak is er in discussies nog een onduidelijkheid: waar de een algoritmeregister zegt, doelt die op een intern overzicht van de ingezette algoritmische toepassingen, terwijl de ander doelt op een publiek toegankelijke plek (website) waarop deze informatie voor een bepaalde doelgroep beschikbaar wordt gesteld. In het ene geval betreft het dus een tool om meer grip te krijgen op de eigen inzet van algoritmes, in het andere geval gaat het om een manier van transparantie verschaffen aan de buitenwereld in het kader van een open overheid.
+
+Vervolgens speelt dan ook nog de vraag: wat is in dat opzicht de rol van het "nationale algoritmeregister" en, als we daar "gebruik van maken", is er dan nog een noodzaak om een eigen algoritmeregister te realiseren en onderhouden, bijvoorbeeld op de eigen website.
 
 ## Wanneer moet een algoritme in het register?
 

@@ -4,6 +4,10 @@ html, body {
     background: #F3F2EF;
     font-family: Arial;
 }
+figcaption {
+    font-style: italic;
+    text-align: center
+}
 .card-section {
     background: #FFFFFF;
     border-radius: 12px;
@@ -23,10 +27,10 @@ html, body {
     margin: 24px;
     max-width: 100%;
 }
-.card-section > p img {
+.card-section > p:has(img) {
     margin: 0;
+    text-align: center;
 }
-
 .project-card {
     margin: 12px 24px;
     padding-bottom: 12px;
