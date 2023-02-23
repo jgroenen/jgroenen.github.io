@@ -3,7 +3,7 @@ tags: ['algoritmeregister', 'software design']
 title: "Een algoritmeregister vullen"
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Polygon_Greedy_triangulation_steps.svg/260px-Polygon_Greedy_triangulation_steps.svg.png
 caption: Algoritme om een willekeurig veelvlak in driehoeken op te delen (zie ook <a href="https://nl.wikipedia.org/wiki/Algoritme">https://nl.wikipedia.org/wiki/Algoritme</a>).
-teaser: 'Gisteren was er weer een bijeenkomst in het kader van algoritmeregister, deze keer met een focus op het vullen van het algoritmeregister: wat moet erin (en wat niet).'
+teaser: 'Gisteren was er een bijeenkomst van de provincies in het kader van algoritmeregister, deze keer met een focus op het vullen van het algoritmeregister: wat moet erin (en wat niet).'
 ---
 <strong>{{ page.teaser }}</strong>
 
