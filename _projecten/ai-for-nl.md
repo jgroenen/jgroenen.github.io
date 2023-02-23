@@ -1,0 +1,17 @@
+---
+titel: "AI for NL"
+status: "lopend"
+domein: "code for nl"
+opdrachtgever: "c4nl"
+aanpak: "Community of Practice"
+rol: "Adviseur"
+omschrijving: "Community of Practice voor publieke inzet van AI en data science."
+begin: ""
+einde: "heden"
+duur: ""
+sort-jaar: "2022"
+standplaats: "Nederland"
+vaardigheden: "strategie, community management"
+url: ""
+tags: "community of practice"
+---

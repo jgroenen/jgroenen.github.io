@@ -1,0 +1,17 @@
+---
+titel: "Consortium Publieke Controle op Algoritmes"
+status: "afgerond"
+domein: "algoritmeregister"
+opdrachtgever: "bzk"
+aanpak: "Open Samenwerking"
+rol: "Kartrekker"
+omschrijving: "Dit project is nog niet goed omschreven."
+begin: "sept. 2021"
+einde: "feb. 2022"
+duur: "6 mnd."
+sort-jaar: "2022"
+standplaats: "Online"
+vaardigheden: "community management, product design, prototyping"
+url: ""
+tags: "innovatie"
+---

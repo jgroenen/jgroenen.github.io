@@ -1,0 +1,17 @@
+---
+titel: "Ontwikkelen Mediabank"
+status: "archief"
+domein: ""
+opdrachtgever: "Afvalverwerking Utrecht"
+aanpak: ""
+rol: "Productontwikkelaar"
+omschrijving: ""
+begin: ""
+einde: ""
+duur: ""
+sort-jaar: "2010"
+standplaats: ""
+vaardigheden: ""
+url: ""
+tags: ""
+---

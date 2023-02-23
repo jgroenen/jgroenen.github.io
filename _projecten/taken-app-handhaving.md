@@ -1,0 +1,17 @@
+---
+titel: "Taken-app Handhaving"
+status: "afgerond"
+domein: ""
+opdrachtgever: "amsterdam"
+aanpak: "Design Sprint"
+rol: "Concept Developer"
+omschrijving: ""
+begin: ""
+einde: ""
+duur: ""
+sort-jaar: "2018"
+standplaats: "Amsterdam, Nederland"
+vaardigheden: "design thinking, design sprint"
+url: ""
+tags: "innovatie"
+---

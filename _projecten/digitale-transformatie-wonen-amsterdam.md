@@ -1,0 +1,17 @@
+---
+titel: "Digitale Transformatie Wonen"
+status: ""
+domein: ""
+opdrachtgever: "amsterdam"
+aanpak: "Kwartiermaken"
+rol: "Adviseur"
+omschrijving: "Dit project is nog niet goed omschreven."
+begin: ""
+einde: ""
+duur: ""
+sort-jaar: "2019"
+standplaats: ""
+vaardigheden: ""
+url: ""
+tags: "digitale transformatie, innovatie"
+---

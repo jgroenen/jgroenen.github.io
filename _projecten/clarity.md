@@ -1,0 +1,17 @@
+---
+titel: "Clarity"
+status: "afgerond"
+domein: "code for nl"
+opdrachtgever: "waag"
+aanpak: "Design Sprint"
+rol: "Concept Developer"
+omschrijving: "Dit project is nog niet goed omschreven."
+begin: ""
+einde: ""
+duur: ""
+sort-jaar: "2018"
+standplaats: ""
+vaardigheden: ""
+url: ""
+tags: "innovatie"
+---

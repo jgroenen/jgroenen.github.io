@@ -14,6 +14,8 @@ collections:
   kaarten:
     output: true
     permalink: /kaarten/:name/
+  projecten:
+    output: true
 
 defaults:
   - scope:
@@ -26,3 +28,8 @@ defaults:
     values:
       layout: aantekening
       collection: aantekeningen
+  - scope:
+      type: projecten
+    values:
+      layout: aantekening
+      collection: projecten

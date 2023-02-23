@@ -1,0 +1,17 @@
+---
+titel: "Kennisloods Rotterdam"
+status: "afgerond"
+domein: "datagedreven werken"
+opdrachtgever: "rotterdam"
+aanpak: "Kwartiermaken"
+rol: "Adviseur"
+omschrijving: "Dit project is nog niet goed omschreven."
+begin: ""
+einde: ""
+duur: ""
+sort-jaar: "2018"
+standplaats: ""
+vaardigheden: ""
+url: ""
+tags: "innovatie"
+---

@@ -1,0 +1,10 @@
+<script type="module">
+    function toggle() {
+        const main = this.closest('.project-body').getElementsByClassName('project-main')[0];
+        main.style.display = main.style.display === "none" ? "block" : "none";
+    }
+
+    document
+        .querySelectorAll(`.project-header h2`)
+        .forEach((el) => el.addEventListener('click', toggle));
+</script>

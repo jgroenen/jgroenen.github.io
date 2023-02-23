@@ -1,0 +1,17 @@
+---
+titel: "Tourbuzz"
+status: ""
+domein: ""
+opdrachtgever: "amsterdam"
+aanpak: "Agile Development"
+rol: "Product Owner"
+omschrijving: "Dit project is nog niet goed omschreven."
+begin: ""
+einde: ""
+duur: ""
+sort-jaar: "2016"
+standplaats: ""
+vaardigheden: ""
+url: ""
+tags: "datagedreven werken, common ground, innovatie, fixxx"
+---

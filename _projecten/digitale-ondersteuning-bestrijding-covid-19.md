@@ -1,0 +1,17 @@
+---
+titel: "Digitale Ondersteuning Bestrijding COVID-19"
+status: ""
+domein: ""
+opdrachtgever: "vws"
+aanpak: "Design Sprint"
+rol: "Concept Developer"
+omschrijving: "Dit project is nog niet goed omschreven."
+begin: ""
+einde: ""
+duur: ""
+sort-jaar: "2020"
+standplaats: ""
+vaardigheden: ""
+url: ""
+tags: "innovatie"
+---

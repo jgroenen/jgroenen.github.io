@@ -1,0 +1,17 @@
+---
+titel: "Straatnotes Amsterdam"
+status: ""
+domein: "straatnotes"
+opdrachtgever: "amsterdam"
+aanpak: "Agile Development"
+rol: "Product Owner"
+omschrijving: "veilige communicatie straatcoaches, slimme analyse"
+begin: ""
+einde: ""
+duur: ""
+sort-jaar: "2016"
+standplaats: ""
+vaardigheden: ""
+url: ""
+tags: "datagedreven werken, privacy by design, common ground, innovatie, fixxx"
+---

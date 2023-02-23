@@ -1,0 +1,17 @@
+---
+titel: "Ontwikkelen The Next Ad"
+status: "archief"
+domein: ""
+opdrachtgever: "tna"
+aanpak: ""
+rol: "Productmanager"
+omschrijving: "Dit project is nog niet goed omschreven."
+begin: ""
+einde: ""
+duur: ""
+sort-jaar: "2013"
+standplaats: ""
+vaardigheden: ""
+url: ""
+tags: "startup"
+---

@@ -1,0 +1,17 @@
+---
+titel: "Ontwikkelen Media Library"
+status: "archief"
+domein: ""
+opdrachtgever: "mi"
+aanpak: ""
+rol: "Productdeveloper"
+omschrijving: "Ontwikkelen media library en browser extentie"
+begin: ""
+einde: ""
+duur: ""
+sort-jaar: "2013"
+standplaats: ""
+vaardigheden: ""
+url: ""
+tags: "startup"
+---
