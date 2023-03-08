@@ -12,6 +12,6 @@ duur: ""
 sort-jaar: "2016"
 standplaats: ""
 vaardigheden: ""
-url: ""
+link: ""
 tags: "datagedreven werken, privacy by design, common ground, innovatie, fixxx"
 ---

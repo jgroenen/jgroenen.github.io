@@ -12,6 +12,6 @@ duur: ""
 sort-jaar: "2019"
 standplaats: ""
 vaardigheden: "strategie, community-ontwikkeling, community management"
-url: ""
+link: ""
 tags: "datagedreven werken, AI"
 ---

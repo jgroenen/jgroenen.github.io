@@ -12,6 +12,6 @@ duur: ""
 sort-jaar: "2015"
 standplaats: ""
 vaardigheden: "strategie, productstrategie"
-url: ""
+link: ""
 tags: "datagedreven werken, startup, innovatie"
 ---

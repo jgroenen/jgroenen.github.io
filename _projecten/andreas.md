@@ -12,6 +12,6 @@ duur: ""
 sort-jaar: "2018"
 standplaats: "Amsterdam, Nederland"
 vaardigheden: "design thinking,"
-url: ""
+link: ""
 tags: "innovatie"
 ---

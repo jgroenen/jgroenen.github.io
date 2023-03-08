@@ -12,6 +12,6 @@ duur: ""
 sort-jaar: "2018"
 standplaats: ""
 vaardigheden: "design research, service design, prototyping, software development"
-url: ""
+link: ""
 tags: "innovatie"
 ---

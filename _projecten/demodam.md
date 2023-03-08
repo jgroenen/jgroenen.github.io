@@ -12,6 +12,6 @@ duur: ""
 sort-jaar: "2022"
 standplaats: ""
 vaardigheden: ""
-url: ""
+link: ""
 tags: "innovatie"
 ---

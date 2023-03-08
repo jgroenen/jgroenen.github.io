@@ -12,6 +12,6 @@ duur: "6 mnd."
 sort-jaar: "2022"
 standplaats: "Online"
 vaardigheden: "community management, product design, prototyping"
-url: ""
+link: ""
 tags: "innovatie"
 ---

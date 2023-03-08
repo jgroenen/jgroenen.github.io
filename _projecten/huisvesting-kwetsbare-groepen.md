@@ -12,6 +12,6 @@ duur: ""
 sort-jaar: "2019"
 standplaats: ""
 vaardigheden: ""
-url: "https://www.huisvestingkwetsbaregroepen.nl/"
+link: "https://www.huisvestingkwetsbaregroepen.nl/"
 tags: ""
 ---

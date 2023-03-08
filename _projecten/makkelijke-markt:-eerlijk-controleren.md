@@ -12,6 +12,6 @@ duur: ""
 sort-jaar: "2019"
 standplaats: "Amsterdam, Nederland"
 vaardigheden: ""
-url: ""
+link: ""
 tags: "datagedreven werken, common ground, innovatie, fixxx"
 ---

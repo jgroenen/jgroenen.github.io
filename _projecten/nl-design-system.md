@@ -12,6 +12,6 @@ duur: ""
 sort-jaar: "2017"
 standplaats: "Den Haag, Nederland"
 vaardigheden: "strategie, community-ontwikkeling, community management"
-url: "https://www.nldesignsystem.nl"
+link: "https://www.nldesignsystem.nl"
 tags: "common ground, community of practice, innovatie"
 ---

@@ -12,6 +12,6 @@ duur: "11 mnd."
 sort-jaar: "2022"
 standplaats: "Online"
 vaardigheden: ""
-url: "https://www.algorithmregister.org"
+link: "https://www.algorithmregister.org"
 tags: ""
 ---

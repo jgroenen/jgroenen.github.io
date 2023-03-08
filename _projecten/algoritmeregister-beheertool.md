@@ -12,6 +12,6 @@ duur: "lopend"
 sort-jaar: "2023"
 standplaats: "Den Bosch, Nederland"
 vaardigheden: "product owner"
-url: ""
+link: "https://github.com/Algoritmeregister/beheertool"
 tags: ""
 ---

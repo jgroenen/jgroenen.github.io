@@ -17,7 +17,8 @@
             <p>{{ project.rol}} {{ project.aanpak }}</p>
         </div>
 
-        <div class="project-main" style="display: none">
+        <div class="project-main">
+            <!--
             {% if project.duur %}
             <div class="project-meta">
                 <p>{{ project.begin }} - {{ project.einde }} · {{ project.duur }}</p>
@@ -32,10 +33,11 @@
             {% if tags %}
                 {% include linkedin-tags.html tags=tags%}
             {% endif %}
+            -->
 
-            {% if project.url %}
+            {% if project.link != "" %}
             <p style="text-align: right">
-                <a target="_blank" href="{{ project.url }}">Bekijk de projectwebsite &gt;</a>
+                <a target="_blank" href="{{ project.link }}">{{ project.titel }} »</a>
             </p>
             {% endif %}
         </div>

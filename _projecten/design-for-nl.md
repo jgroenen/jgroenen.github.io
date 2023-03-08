@@ -12,6 +12,6 @@ duur: ""
 sort-jaar: "2022"
 standplaats: "Nederland"
 vaardigheden: "strategie, community-ontwikkeling, community management"
-url: ""
+link: ""
 tags: "community of practice"
 ---

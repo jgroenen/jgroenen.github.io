@@ -12,6 +12,6 @@ duur: ""
 sort-jaar: "2023"
 standplaats: ""
 vaardigheden: ""
-url: ""
+link: ""
 tags: "digitale transformatie, common ground, innovatie"
 ---

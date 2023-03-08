@@ -12,6 +12,6 @@ duur: ""
 sort-jaar: "2018"
 standplaats: ""
 vaardigheden: ""
-url: ""
+link: ""
 tags: "innovatie"
 ---

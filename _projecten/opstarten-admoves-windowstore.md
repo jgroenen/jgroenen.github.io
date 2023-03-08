@@ -12,6 +12,6 @@ duur: ""
 sort-jaar: "2015"
 standplaats: ""
 vaardigheden: ""
-url: ""
+link: ""
 tags: "startup"
 ---

@@ -12,6 +12,6 @@ duur: "9 mnd."
 sort-jaar: "2022"
 standplaats: "Den Haag, Nederland"
 vaardigheden: "strategie, community management, product design, prototyping"
-url: "https://algoritmes.pleio.nl"
+link: "https://algoritmes.overheid.nl"
 tags: ""
 ---

@@ -12,6 +12,6 @@ duur: ""
 sort-jaar: "2015"
 standplaats: ""
 vaardigheden: ""
-url: ""
+link: ""
 tags: "datagedreven werken, basis op orde, common ground, innovatie, fixxx"
 ---
