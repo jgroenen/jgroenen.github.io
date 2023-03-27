@@ -22,10 +22,13 @@ figcaption {
 }
 .card-section > p,
 .card-section > h2,
-.card-section > figcaption,
-.card-section > p img {
+.card-section > figcaption {
     margin: 24px;
     max-width: 100%;
+}
+.card-section > p img {
+    margin: auto;
+    max-width: 90%;
 }
 .card-section > p:has(img) {
     margin: 0;
