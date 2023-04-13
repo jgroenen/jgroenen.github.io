@@ -1,0 +1,17 @@
+---
+titel: "Algoritmeregister Beheertool"
+status: "lopend"
+domein: "algoritmeregister"
+opdrachtgever: "pnb"
+aanpak: "Agile Development"
+rol: "Product Owner"
+omschrijving: "Product owner software-ontwikkeling beheertool voor algoritmeregistraties in Microsoft PowerApps."
+begin: "okt. 2022"
+einde: "heden"
+duur: "lopend"
+sort-jaar: "2023"
+standplaats: "Den Bosch, Nederland"
+vaardigheden: "product owner"
+link: "https://github.com/Algoritmeregister/beheertool"
+tags: ""
+---

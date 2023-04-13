@@ -1,0 +1,17 @@
+---
+titel: "Data Servicepunt Flevoland"
+status: "afgerond"
+domein: "datagedreven werken"
+opdrachtgever: "flevoland"
+aanpak: "Kwartiermaken"
+rol: "Adviseur"
+omschrijving: "Dit project is nog niet goed omschreven."
+begin: ""
+einde: ""
+duur: ""
+sort-jaar: "2018"
+standplaats: ""
+vaardigheden: ""
+link: ""
+tags: "innovatie"
+---

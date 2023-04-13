@@ -1,0 +1,17 @@
+---
+titel: "Datapunt Amsterdam"
+status: ""
+domein: ""
+opdrachtgever: "amsterdam"
+aanpak: "Architectuur"
+rol: "Adviseur"
+omschrijving: "Dit project is nog niet goed omschreven."
+begin: ""
+einde: ""
+duur: ""
+sort-jaar: "2015"
+standplaats: ""
+vaardigheden: ""
+link: ""
+tags: "datagedreven werken, common ground, innovatie"
+---

@@ -1,0 +1,17 @@
+---
+titel: "Ontwikkelen Media Injection App"
+status: "archief"
+domein: ""
+opdrachtgever: "mi"
+aanpak: ""
+rol: "Product Manager"
+omschrijving: "Outsourcing aansturen"
+begin: ""
+einde: ""
+duur: ""
+sort-jaar: "2014"
+standplaats: ""
+vaardigheden: ""
+link: ""
+tags: "startup"
+---

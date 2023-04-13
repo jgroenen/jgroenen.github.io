@@ -1,0 +1,17 @@
+---
+titel: "Ontwikkelen Clubgolf Manager"
+status: "archief"
+domein: ""
+opdrachtgever: "Clubgolf"
+aanpak: ""
+rol: "Productontwikkelaar"
+omschrijving: "Ledenbeheersysteem en self service voor grootste online golfclub van Nederland."
+begin: ""
+einde: ""
+duur: ""
+sort-jaar: "2010"
+standplaats: ""
+vaardigheden: ""
+link: ""
+tags: ""
+---

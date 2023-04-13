@@ -1,0 +1,17 @@
+---
+titel: "ADUS Amsterdam"
+status: "afgerond"
+domein: "straatnotes"
+opdrachtgever: "amsterdam"
+aanpak: "Architectuur"
+rol: "Adviseur"
+omschrijving: "informatie delen"
+begin: ""
+einde: ""
+duur: ""
+sort-jaar: "2019"
+standplaats: ""
+vaardigheden: ""
+link: ""
+tags: "datagedreven werken, privacy by design, common ground, innovatie"
+---

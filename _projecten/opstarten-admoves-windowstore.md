@@ -1,0 +1,17 @@
+---
+titel: "Opstarten AdMoves WindowStore"
+status: "archief"
+domein: ""
+opdrachtgever: ""
+aanpak: ""
+rol: "Productontwikkelaar"
+omschrijving: "Dit project is nog niet goed omschreven."
+begin: ""
+einde: ""
+duur: ""
+sort-jaar: "2015"
+standplaats: ""
+vaardigheden: ""
+link: ""
+tags: "startup"
+---

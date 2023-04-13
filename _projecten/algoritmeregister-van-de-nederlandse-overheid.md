@@ -1,0 +1,17 @@
+---
+titel: "Algoritmeregister van de Nederlandse Overheid"
+status: "afgerond"
+domein: "algoritmeregister"
+opdrachtgever: "bzk"
+aanpak: "Agile Development"
+rol: "Product Owner"
+omschrijving: "Voorbereiden van en adviseren bij het opzetten van het programma Algoritmeregister."
+begin: "feb. 2022"
+einde: "dec. 2022"
+duur: "9 mnd."
+sort-jaar: "2022"
+standplaats: "Den Haag, Nederland"
+vaardigheden: "strategie, community management, product design, prototyping"
+link: "https://algoritmes.overheid.nl"
+tags: ""
+---

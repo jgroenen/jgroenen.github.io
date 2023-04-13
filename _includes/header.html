@@ -1,15 +1,15 @@
-<nav>
-    <a class="inline-tag" href="/">/home</a>
-    <a class="inline-tag" href="/kaarten">/kaarten</a>
-    <a class="inline-tag" href="/meetups">/meetups</a>
-    <a class="inline-tag" href="/aantekeningen">/aantekeningen</a>
-</nav>
-<header>
-    <h1>{{ site.description }}</h1>
-    <h2 class="inline-tag" style="margin: -4em 0.5em 0.5em">{{ include.header | default: site.quote }}</h2>
-    <h2><span class="fn" itemprop="name">{{ site.title }}</span></h2>
-    <div class="photo" style="margin: 40px auto; cursor: pointer">
-        <img itemprop="image" id="photo" src="{{ site.data.person.picture }}" alt="Foto van {{ site.data.person.name }}">
+<header class="card-section">
+    <img class="banner-image" src="https://media.licdn.com/dms/image/D4E16AQHAK2ogvU6w-w/profile-displaybackgroundimage-shrink_350_1400/0/1675954016838?e=1681344000&v=beta&t=KJbf5EL1neYVklvFd1aLgVVTI8TfIfScodkuJ95b9kQ">
+    <img class="profile-image" src="{{ site.data.person.picture }}">
+    <h1 style="font-size: 1.4em; padding: 0 24px">{{ site.title }}</h1>
+    <div style="padding: 0 24px">
+        <div style="margin: 0">
+            <p style="margin: 0">{{ site.description }}</p>
+            <p>
+                <a class="linkedin-button" href="https://www.linkedin.com/in/jgroenen/">LinkedIn</a>
+                <a style="background: #1E9BF0" class="linkedin-button" href="https://twitter.com/jpagroenen">Twitter</a>
+                <a href="https://github.com/jgroenen"><img style="height: 46px; vertical-align: middle; margin-bottom: 4px" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"></a>
+            </p>
+        </div>
     </div>
-    <!-- <a class="snes-reset-button" href="/">RESET</a> -->
 </header>

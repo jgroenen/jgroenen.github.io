@@ -1,0 +1,17 @@
+---
+titel: "Ontwikkelen Nummerxxx"
+status: "archief"
+domein: ""
+opdrachtgever: "Nederlandse Orde van Advocaten"
+aanpak: ""
+rol: "Productontwikkelaar"
+omschrijving: ""
+begin: ""
+einde: ""
+duur: ""
+sort-jaar: "2012"
+standplaats: ""
+vaardigheden: ""
+link: ""
+tags: ""
+---

@@ -1,0 +1,17 @@
+---
+titel: "PB Dag 7"
+status: ""
+domein: ""
+opdrachtgever: "permanentbeta"
+aanpak: "Open Conferentie"
+rol: "Organisator"
+omschrijving: "Dit project is nog niet goed omschreven."
+begin: ""
+einde: ""
+duur: ""
+sort-jaar: "2015"
+standplaats: ""
+vaardigheden: ""
+link: "http://pb7.apitecture.nl/"
+tags: "permanent beta, open kennisdeling"
+---

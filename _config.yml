@@ -1,6 +1,11 @@
 title: Johan Groenen
+subtitle: Ook beginnen met open source ontwikkelen? Neem contact op!
+img: https://www.jgroenen.nl/img/jgroenen.png
+url: https://www.jgroenen.nl
+keywords: kwartiermaker, open samenwerking, digitale transformatie, innovatie, publictech
+twitter_user: "@jpagroenen"
 quote: alles is inspiratie
-description: Open&nbsp;Samenwerking<br>en Innovatie<br>in Public&nbsp;Tech
+description: "Ik werk aan goede publieke software projecten, dat wil zeggen: open, agile en human-centered. Product Lead. Lead Architect. #goodpublictech"
 
 collections:
   aantekeningen:
@@ -9,23 +14,22 @@ collections:
   kaarten:
     output: true
     permalink: /kaarten/:name/
-  meetups:
+  projecten:
     output: true
-    permalink: /meetups/:year/:month/:day/:title/
 
 defaults:
   - scope:
       type: kaarten
     values:
-      layout: details
+      layout: default
       collection: kaarten
-  - scope:
-      type: meetups
-    values:
-      layout: details
-      collection: meetups
   - scope:
       type: aantekeningen
     values:
-      layout: details
+      layout: aantekening
       collection: aantekeningen
+  - scope:
+      type: projecten
+    values:
+      layout: aantekening
+      collection: projecten

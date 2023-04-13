@@ -1,0 +1,17 @@
+---
+titel: "Demodam"
+status: "afgerond"
+domein: "common ground"
+opdrachtgever: "demodam"
+aanpak: "Open Samenwerking"
+rol: "Adviseur"
+omschrijving: "Dit project is nog niet goed omschreven."
+begin: ""
+einde: ""
+duur: ""
+sort-jaar: "2022"
+standplaats: ""
+vaardigheden: ""
+link: ""
+tags: "innovatie"
+---
