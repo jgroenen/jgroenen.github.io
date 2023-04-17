@@ -10,7 +10,7 @@ omschrijving: "Product Lead software-ontwikkeling beheertool voor algoritmeregis
 begin: "okt. 2022"
 einde: "heden"
 duur: "lopend"
-sort-jaar: "2023"
+sort-jaar: "2023-XX"
 standplaats: "Den Bosch, Nederland"
 vaardigheden: "product lead"
 link: "https://github.com/Algoritmeregister/beheertool"

@@ -5,7 +5,7 @@ status: "afgerond"
 domein: "datalab amsterdam"
 opdrachtgever: "amsterdam"
 aanpak: "Kwartiermaken"
-rol: Adviseur Strategie, Adviseur Innovatie
+rol: Strategisch Adviseur, Adviseur Innovatie
 omschrijving: "Opstarten van Datalab Amsterdam, dé data- en innovatiewerkplaats van de Gemeente Amsterdam. Eerste in zijn soort, daarna veel navolging gekregen. Intake en advies, methodeontwikkeling, productstrategie."
 begin: ""
 einde: ""

@@ -1,0 +1,18 @@
+---
+titel: "Consortium Publieke Controle op Algoritmes"
+type: "in opdracht"
+status: "afgerond"
+domein: "algoritmeregister"
+opdrachtgever: "bzk"
+aanpak: "Design Thinking"
+rol: "Prototype Developer"
+omschrijving: "Dit project is nog niet goed omschreven."
+begin: "sept. 2021"
+einde: "feb. 2022"
+duur: "6 mnd."
+sort-jaar: "2021"
+standplaats: "Online"
+vaardigheden: "community management, product design, prototyping"
+link: ""
+tags: "innovatie"
+---
