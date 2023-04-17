@@ -1,0 +1,17 @@
+---
+titel: "Ontwikkelen Media Injection"
+status: "archief"
+domein: ""
+opdrachtgever: "mi"
+aanpak: ""
+rol: "Platformarchitect"
+omschrijving: "Dit project is nog niet goed omschreven."
+begin: ""
+einde: ""
+duur: ""
+sort-jaar: "2013"
+standplaats: ""
+vaardigheden: ""
+link: ""
+tags: "startup"
+---
