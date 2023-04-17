@@ -5,7 +5,7 @@ status: ""
 domein: "code for nl"
 opdrachtgever: "c4nl"
 aanpak: "Community of Practice"
-rol: "Adviseur"
+rol: Adviseur Strategie
 omschrijving: "Community of Practice voor publieke inzet van AI en data science."
 begin: ""
 einde: "heden"

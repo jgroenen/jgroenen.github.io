@@ -4,7 +4,7 @@ status: ""
 domein: ""
 opdrachtgever: "amsterdam"
 aanpak: "Agile Development"
-rol: Adviseur
+rol: Adviseur Innovatie
 omschrijving: "Dit project is nog niet goed omschreven."
 begin: ""
 einde: ""

@@ -5,7 +5,7 @@ status: "afgerond"
 domein: ""
 opdrachtgever: "amsterdam"
 aanpak: "Interventie"
-rol: "Adviseur"
+rol: Adviseur Strategie
 omschrijving: "Dit project is nog niet goed omschreven."
 begin: ""
 einde: ""

@@ -5,7 +5,7 @@ status: "afgerond"
 domein: "datagedreven werken"
 opdrachtgever: "flevoland"
 aanpak: "Kwartiermaken"
-rol: "Adviseur"
+rol: Adviseur Architectuur
 omschrijving: "Dit project is nog niet goed omschreven."
 begin: ""
 einde: ""

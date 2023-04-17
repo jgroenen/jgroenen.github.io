@@ -5,7 +5,7 @@ status: ""
 domein: "common ground"
 opdrachtgever: "demodam"
 aanpak: "Open Samenwerking"
-rol: "Adviseur"
+rol: Adviseur Strategie
 omschrijving: "Dit project is nog niet goed omschreven."
 begin: ""
 einde: ""

@@ -5,7 +5,7 @@ status: "afgerond"
 domein: "straatnotes"
 opdrachtgever: "amsterdam"
 aanpak: "Architectuur"
-rol: "Adviseur"
+rol: Adviseur Architectuur
 omschrijving: "informatie delen"
 begin: ""
 einde: ""

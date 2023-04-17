@@ -1,5 +1,5 @@
 ---
-titel: "Makkelijke Markt: Bonnenboekje"
+titel: Makkelijke Markt "Bonnenboekje"
 type: in opdracht
 status: afgerond
 domein: 

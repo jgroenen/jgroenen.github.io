@@ -4,8 +4,8 @@ type: "in opdracht"
 status: ""
 domein: ""
 opdrachtgever: "amsterdam"
-aanpak: "Architectuur"
-rol: "Adviseur"
+aanpak: Kwartiermaken
+rol: Adviseur Architectuur
 omschrijving: "Dit project is nog niet goed omschreven."
 begin: ""
 einde: ""
