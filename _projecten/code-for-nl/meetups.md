@@ -1,5 +1,5 @@
 ---
-titel: "Code for NL Meetups"
+titel: "Code for NL"
 type: eigen initiatief
 status: ""
 domein: ""

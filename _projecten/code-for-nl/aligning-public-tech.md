@@ -1,5 +1,5 @@
 ---
-titel: "Unconference Aligning Public Tech"
+titel: "Aligning Public Tech"
 type: "eigen initiatief"
 status: ""
 domein: ""

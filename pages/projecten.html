@@ -4,7 +4,13 @@ permalink: projecten/
 title: Projecten
 ---
 {% assign orgs = site.data.organisaties %}
-{% assign projecten = site.projecten | where: "type", "in opdracht" | sort: "sort-jaar" | reverse %}
+{% assign projecten = "" | split: "" %}
+{% for project in site.projecten %}
+    {% if project.type == 'in opdracht' or project.type == 'eigen initiatief' %}
+        {% assign projecten = projecten | push:project %}
+    {% endif %}
+{% endfor %}
+{% assign projecten = projecten | sort: "sort-jaar" | reverse %}
 {% for project in projecten %}
 {% if project.status != "archief" %}
     {% include project-card.html %}
