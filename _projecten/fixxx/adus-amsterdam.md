@@ -4,7 +4,7 @@ type: "in opdracht"
 status: "afgerond"
 domein: "straatnotes"
 opdrachtgever: "amsterdam"
-aanpak: "Architectuur"
+aanpak: Platform Refactoring
 rol: Adviseur Architectuur
 omschrijving: "informatie delen"
 begin: ""

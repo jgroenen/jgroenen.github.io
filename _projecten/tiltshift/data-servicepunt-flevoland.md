@@ -4,7 +4,7 @@ type: "in opdracht"
 status: "afgerond"
 domein: "datagedreven werken"
 opdrachtgever: "flevoland"
-aanpak: "Kwartiermaken"
+aanpak: "Adviestraject"
 rol: Adviseur Architectuur
 omschrijving: "Dit project is nog niet goed omschreven."
 begin: ""
