@@ -5,7 +5,7 @@ status: afgerond
 domein: 
 opdrachtgever: "amsterdam"
 aanpak: "Agile Development"
-rol: "Product Owner"
+rol: "Product Lead"
 omschrijving: "Na het samenvoegen van de Amsterdamse stadsdelen was centralisatie van de administratie van de straatmarkten al vaker dan eens mislukt. Met Fixxx methode voor snelle innovatie die werkt lukte het wel."
 begin: ""
 einde: ""

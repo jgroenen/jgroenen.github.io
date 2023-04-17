@@ -5,7 +5,7 @@ status: afgerond
 domein: Straatmarkten
 opdrachtgever: "amsterdam"
 aanpak: Agile Development
-rol: Product Owner
+rol: Adviseur
 omschrijving: "Met de introductie van het bonnenboekje, kregen we zicht op overtredingen van de marktregels. Dit leverde een oneerlijk voordeel op ten opzichte van anderen. In dit traject voegden we functionaliteit toe om marktkooplieden op een slimme en eerlijke manier extra te controleren."
 begin: 
 einde: 
