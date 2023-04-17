@@ -1,5 +1,6 @@
 ---
 titel: "Algoritmeregister Beheertool"
+type: "in opdracht"
 status: "lopend"
 domein: "algoritmeregister"
 opdrachtgever: "pnb"

@@ -1,5 +1,6 @@
 ---
 titel: "NL Design System"
+type: in opdracht
 status: "afgerond"
 domein: "code for nl"
 opdrachtgever: "az"

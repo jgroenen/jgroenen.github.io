@@ -1,9 +1,10 @@
 ---
 titel: "Digitale Transformatie Wonen"
-status: ""
+type: "in opdracht"
+status: "afgerond"
 domein: ""
 opdrachtgever: "amsterdam"
-aanpak: "Kwartiermaken"
+aanpak: "Interventie"
 rol: "Adviseur"
 omschrijving: "Dit project is nog niet goed omschreven."
 begin: ""

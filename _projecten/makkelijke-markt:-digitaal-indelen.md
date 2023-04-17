@@ -1,10 +1,11 @@
 ---
 titel: "Makkelijke Markt: Digitaal Indelen"
-status: ""
+type: "ad hoc"
+status: "afgerond"
 domein: ""
 opdrachtgever: "amsterdam"
 aanpak: "Agile Development"
-rol: "Product Owner"
+rol: "Adviseur"
 omschrijving: "Digitaal indelen van de straatmarkten is geen sinecure. De markten digitaliseren, aanmelden voor alle marktkooplieden mogelijk maken, slim en eerlijk indelen met een duidelijke link naar beleid en het laatste woord aan de marktmeesters: al deze aspecten passeerden de revue."
 begin: ""
 einde: ""

@@ -1,10 +1,11 @@
 ---
 titel: "Clean Street"
+type: "in opdracht"
 status: ""
 domein: ""
 opdrachtgever: "amsterdam"
 aanpak: "Agile Development"
-rol: "Product Owner"
+rol: "Product Manager"
 omschrijving: "Dit project is nog niet goed omschreven."
 begin: ""
 einde: ""

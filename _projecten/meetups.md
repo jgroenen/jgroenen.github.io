@@ -1,5 +1,6 @@
 ---
 titel: "Code for NL Meetups"
+type: eigen initiatief
 status: ""
 domein: ""
 opdrachtgever: "c4nl"

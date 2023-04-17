@@ -1,5 +1,6 @@
 ---
 titel: "Consortium Publieke Controle op Algoritmes"
+type: "in opdracht"
 status: "afgerond"
 domein: "algoritmeregister"
 opdrachtgever: "bzk"

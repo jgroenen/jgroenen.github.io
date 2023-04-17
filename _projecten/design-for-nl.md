@@ -1,6 +1,7 @@
 ---
 titel: "Design for NL"
-status: "lopend"
+type: "informeel"
+status: ""
 domein: "code for nl"
 opdrachtgever: "design4nl"
 aanpak: "Community of Practice"

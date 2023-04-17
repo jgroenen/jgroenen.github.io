@@ -1,5 +1,6 @@
 ---
 titel: "Huisvesting Kwetsbare Groepen"
+type: in opdracht
 status: "afgerond"
 domein: ""
 opdrachtgever: "amsterdam"

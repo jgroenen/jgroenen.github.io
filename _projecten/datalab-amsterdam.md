@@ -1,5 +1,6 @@
 ---
 titel: "Datalab Amsterdam"
+type: "in opdracht"
 status: "afgerond"
 domein: "datalab amsterdam"
 opdrachtgever: "amsterdam"

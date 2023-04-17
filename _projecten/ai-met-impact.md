@@ -1,5 +1,6 @@
 ---
 titel: "AI met Impact"
+type: "in opdracht"
 status: "afgerond"
 domein: "code for nl"
 opdrachtgever: "c4nl"

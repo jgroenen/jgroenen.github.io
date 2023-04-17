@@ -1,10 +1,11 @@
 ---
 titel: "Clarity"
+type: "in opdracht"
 status: "afgerond"
 domein: "code for nl"
 opdrachtgever: "waag"
 aanpak: "Design Sprint"
-rol: "Concept Developer"
+rol: "Prototype Developer"
 omschrijving: "Dit project is nog niet goed omschreven."
 begin: ""
 einde: ""

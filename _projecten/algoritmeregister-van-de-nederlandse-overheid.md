@@ -1,5 +1,6 @@
 ---
 titel: "Algoritmeregister van de Nederlandse Overheid"
+type: "in opdracht"
 status: "afgerond"
 domein: "algoritmeregister"
 opdrachtgever: "bzk"

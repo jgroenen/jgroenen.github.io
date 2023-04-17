@@ -1,7 +1,8 @@
 ---
 titel: "Makkelijke Markt: Bonnenboekje"
-status: ""
-domein: ""
+type: in opdracht
+status: afgerond
+domein: 
 opdrachtgever: "amsterdam"
 aanpak: "Agile Development"
 rol: "Product Owner"

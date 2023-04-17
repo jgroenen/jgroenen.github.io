@@ -1,5 +1,6 @@
 ---
 titel: "Unconference Aligning Public Tech"
+type: "eigen initiatief"
 status: ""
 domein: ""
 opdrachtgever: "c4nl"

@@ -1,5 +1,6 @@
 ---
 titel: "Digitale Ondersteuning Bestrijding COVID-19"
+type: "ad hoc"
 status: ""
 domein: ""
 opdrachtgever: "vws"

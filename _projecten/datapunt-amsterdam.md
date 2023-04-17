@@ -1,5 +1,6 @@
 ---
 titel: "Datapunt Amsterdam"
+type: "in opdracht"
 status: ""
 domein: ""
 opdrachtgever: "amsterdam"

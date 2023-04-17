@@ -1,6 +1,7 @@
 ---
 titel: "Demodam"
-status: "afgerond"
+type: "ad hoc"
+status: ""
 domein: "common ground"
 opdrachtgever: "demodam"
 aanpak: "Open Samenwerking"

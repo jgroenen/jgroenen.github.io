@@ -1,6 +1,7 @@
 ---
 titel: "Verbetering Dienstverlening Meldingen Openbare Ruimte"
-status: "lopend"
+type: "informeel"
+status: ""
 domein: ""
 opdrachtgever: "rotterdam"
 aanpak: "Open Samenwerking"

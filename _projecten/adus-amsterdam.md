@@ -1,5 +1,6 @@
 ---
 titel: "ADUS Amsterdam"
+type: "in opdracht"
 status: "afgerond"
 domein: "straatnotes"
 opdrachtgever: "amsterdam"

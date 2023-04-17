@@ -1,5 +1,6 @@
 ---
 titel: "Data Servicepunt Flevoland"
+type: "in opdracht"
 status: "afgerond"
 domein: "datagedreven werken"
 opdrachtgever: "flevoland"

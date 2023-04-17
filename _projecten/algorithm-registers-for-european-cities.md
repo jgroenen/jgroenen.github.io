@@ -1,5 +1,6 @@
 ---
 titel: "Algorithm Registers for European Cities"
+type: "in opdracht"
 status: "afgerond"
 domein: "algoritmeregister"
 opdrachtgever: "eurocities"
