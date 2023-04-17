@@ -13,6 +13,6 @@ duur: "lopend"
 sort-jaar: "2023-XX"
 standplaats: "Den Bosch, Nederland"
 vaardigheden: "product lead"
-link: "https://github.com/Algoritmeregister/beheertool"
+link: https://www.algoritmeregister.org/beheertool/
 tags: ""
 ---
