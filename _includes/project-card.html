@@ -2,11 +2,11 @@
     <div class="project-logo">
         {% if orgs[project.opdrachtgever].logo %}
             <a href="{{ orgs[project.opdrachtgever].url }}">
-                <img src="{{ orgs[project.opdrachtgever].logo }}" width="48px" height="48px">
+                <img src="https://img.apitecture.nl/?url={{ orgs[project.opdrachtgever].logo | url_encode }}" width="48px" height="48px">
             </a>
         {% else %}
             <a href="{{ orgs["tiltshift"].url }}">
-                <img src="{{ orgs["tiltshift"].logo }}" width="48px" height="48px">
+                <img src="https://img.apitecture.nl/?url={{ orgs["tiltshift"].logo | url_encode }}" width="48px" height="48px">
             </a>
         {% endif %}
     </div>

@@ -1,0 +1,18 @@
+---
+titel: "Gegevensboekhouding"
+type: "in opdracht"
+status: "lopend"
+domein: "gegevensboekhouding"
+opdrachtgever: "minjenv"
+aanpak: "Design Thinking"
+rol: "Tech Lead / Product Lead"
+omschrijving: "Dit project is nog niet goed omschreven."
+begin: "juni 2023"
+einde: ""
+duur: ""
+sort-jaar: "2023-06"
+standplaats: "Den Haag"
+vaardigheden: ""
+link: "https://www.gegevensboekhouding.nl"
+tags: ""
+---
