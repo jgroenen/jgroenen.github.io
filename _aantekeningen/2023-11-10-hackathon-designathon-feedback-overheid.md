@@ -53,7 +53,7 @@ Uitgangspunt van ons concept is het burgerperspectief. Wij zijn van mening dat d
 
 Wij gegeven deze initiatieven een rol in onze oplossing: ze kunnen aangeven met welke filter ze kijken naar De Feedbak, dus welke feedback voor hen relevant is en die zo meenemen in hun activiteiten. Dat kan breed zijn: van het doen van onderzoek en analyse, tot het gebruiken van veelgehoorde feedback als basis voor bijvoorbeeld [pol.is](https://www.zuid-holland.nl/onderwerpen/digitaal-zuid-holland/vervolg-expeditie-publieke-platformen/pilot-pol-platform/) of een politiek standpunt.
 
-## Synnergie tussen initiatieven
+## Synergie tussen initiatieven
 
 We mikken daarbij op 1 + 1 = 3: initiatieven in de overheid én in de samenleving kunnen op die manier de voor hen relevante feedback bekijken en meenemen in hun activiteiten. Maar **ook** kunnen ze zien ze welke initiatieven óók naar die feedback kijken, waardoor ze daarmee kunnen afstemmen en samenwerken.
 
