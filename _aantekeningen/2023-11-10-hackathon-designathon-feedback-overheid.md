@@ -62,3 +62,7 @@ We mikken daarbij op 1 + 1 = 3: initiatieven in de overheid én in de samenlevin
 Als klap op de vuurpijl, kan de burger die de feedback geeft direct een url ontvangen naar de gegeven feedback. Op die webpagina ziet hij of zij dan niet alleen de informatie die is ingezonden, maar ook de initiatieven die geïnteresseerd (geabonneerd) zijn op die feedback en mogelijk reacties. Daarvoor is het niet nodig om persoonsgegevens achter te laten, maar het blijft toch mogelijk om te zien wat er met de feedback gebeurt (en optioneel ook om te reageren).
 
 Dus waar het voor de burger eerder met "dank u wel voor uw feedback" stopte, kan deze nu kijken of er initiatieven zijn om samen mee op te trekken. Zo kan de burger ook een rol pakken in het verbeteren van de publieke structuren.
+
+### P.S.
+
+Mooie is ook dat door er een open feed van te maken, innovaties op het gebied van AI en routering en automatische reacties en dergelijke aan alle kanten kunnen plaatsvinden (bij de verschillende initiatieven), zonder elkaar in de weg te zitten; dus én-én in plaats van óf/óf.
