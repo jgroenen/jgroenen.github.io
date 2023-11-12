@@ -39,18 +39,26 @@ Via een aantal omzwervingen kwamen we met een ideation, waarvoor we onder andere
 
 ![]({{ page.image }})
 
-Het idee is als volgt: ingrediënt één is "De Feedbak": een centrale service (feedbak.overheid.nl), waarin alle feedback die binnenkomt bij de overheid - via webformulieren, via klantenservice, via brieven, whatever - centraal terecht komt. Deze kan open toegankelijk zijn in een publiek beschikbare "feedbackfeed". (We gaan ervanuit dat er geen persoonsgegevens meer in staan, een uitdaging waar onze collega teams in challenge 1 en 2 aan werken, onder andere door middel van goede inputschermen en AI.) Optioneel kan de feedbackfeed alleen toegankelijk worden gemaakt voor bepaalde groepen; daarvoor kijken we naar de tweede ingrediënt van ons concept: Initiatieven.
+Het idee is als volgt: ingrediënt één is "De Feedbak": een centrale service, waar alle feedback die binnenkomt bij de overheid - via webformulieren, via klantenservice, via brieven, whatever - gestuurd kan worden terecht komt. Deze kan open toegankelijk en doorzoekbaar zijn in een publiek beschikbare "feedbackfeed" (bijv. feedback.overheid.nl en api.feedback.overheid.nl).
 
 ![](/img/posts/feedbak-screen.png)
 
+We gaan ervanuit dat er geen persoonsgegevens meer in staan, een uitdaging waar onze collega teams in challenge 1 en 2 aan werken, onder andere door middel van goede inputschermen en AI.
+
+Optioneel kan de feedbackfeed alleen toegankelijk worden gemaakt voor bepaalde groepen; daarvoor kijken we naar de tweede ingrediënt van ons concept: **Initiatieven**.
+
 ## Initiatieven
 
-Uitgangspunt van ons concept is het burgerperspectief. Wij zijn van mening dat de overheid het niet alleen hoeft te doen, en dat ook niet kan. De feedback is zo breed, dat het ook niet per se aan de overheid is om daar intern wat mee te doen. Er zijn veel initiatieven in de samenleving, vanuit stichtingen, onderzoeksinstellingen, politieke partijen, etc. die zich inzetten voor het verbeteren van de publieke structuren, waar de overheid er één van is. Wij gegeven deze initiatieven een rol in onze oplossing: ze kunnen aangeven met welke filter ze kijken naar De Feedbak, dus welke feedback voor hen relevant is. Daardoor kunnen ze die feedback meenemen in hun activiteiten. Dat kan breed zijn: van het doen van onderzoek en analyse, tot het gebruiken van veelgehoorde feedback als basis voor bijvoorbeeld [pol.is](https://www.zuid-holland.nl/onderwerpen/digitaal-zuid-holland/vervolg-expeditie-publieke-platformen/pilot-pol-platform/) of een politiek standpunt.
+Uitgangspunt van ons concept is het burgerperspectief. Wij zijn van mening dat de overheid het niet alleen hoeft te doen, en dat ook niet kan. De feedback is zo breed, dat het ook niet per se aan de overheid is om daar intern wat mee te doen. Er zijn veel initiatieven in de samenleving, vanuit stichtingen, onderzoeksinstellingen, politieke partijen, etc. die zich inzetten voor het verbeteren van de publieke structuren, waar de overheid er één van is.
+
+Wij gegeven deze initiatieven een rol in onze oplossing: ze kunnen aangeven met welke filter ze kijken naar De Feedbak, dus welke feedback voor hen relevant is en die zo meenemen in hun activiteiten. Dat kan breed zijn: van het doen van onderzoek en analyse, tot het gebruiken van veelgehoorde feedback als basis voor bijvoorbeeld [pol.is](https://www.zuid-holland.nl/onderwerpen/digitaal-zuid-holland/vervolg-expeditie-publieke-platformen/pilot-pol-platform/) of een politiek standpunt.
 
 ## Synnergie tussen initiatieven
 
-We mikken daarbij op 1 + 1 = 3: initiatieven in de overheid én in de samenleving kunnen op die manier de voor hen relevante feedback bekijken en meenemen in hun activiteiten. Ook zien ze welke initiatieven óók naar die feedback kijken, waardoor ze daarmee kunnen afstemmen en samenwerken.
+We mikken daarbij op 1 + 1 = 3: initiatieven in de overheid én in de samenleving kunnen op die manier de voor hen relevante feedback bekijken en meenemen in hun activiteiten. Maar **ook** kunnen ze zien ze welke initiatieven óók naar die feedback kijken, waardoor ze daarmee kunnen afstemmen en samenwerken.
 
-## 1 + 1 = 4: De burger!
+## 1 + 1 = 4: de burger!
 
-Als klap op de vuurpijl, kan de burger die de feedback geeft een url ontvangen voor diens feedback. Op die webpagina ziet hij of zij dan niet alleen de informatie die is ingezonden, maar ook de initiatieven die geïnteresseerd (geabonneerd) zijn op die feedback. Dus waar het voor de burger eerder met "dank u wel voor uw feedback" stopte, kan deze nu kijken of er initiatieven zijn om samen mee op te trekken. Zo kan de burger ook een rol krijgen in het verbeteren van de publieke structuren.
+Als klap op de vuurpijl, kan de burger die de feedback geeft direct een url ontvangen naar de gegeven feedback. Op die webpagina ziet hij of zij dan niet alleen de informatie die is ingezonden, maar ook de initiatieven die geïnteresseerd (geabonneerd) zijn op die feedback en mogelijk reacties. Daarvoor is het niet nodig om persoonsgegevens achter te laten, maar het blijft toch mogelijk om te zien wat er met de feedback gebeurt (en optioneel ook om te reageren).
+
+Dus waar het voor de burger eerder met "dank u wel voor uw feedback" stopte, kan deze nu kijken of er initiatieven zijn om samen mee op te trekken. Zo kan de burger ook een rol pakken in het verbeteren van de publieke structuren.
