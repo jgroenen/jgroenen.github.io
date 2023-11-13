@@ -33,7 +33,7 @@ Onder leiding van teamgenoot Evelien brachten we het probleem in beeld op een ta
 
 Vanuit de ervaring van teamlid Paula - design researcher en opdrachtgever gebruikersonderzoek overheidscommunicatie - kwamen we tot het inzicht dat er een grote hoeveelheid "input" is die wordt achtergelaten op plaatsen waar deze niet thuishoort, waardoor er niks mee gedaan kan worden, omdat het op de verkeerde plaats binnenkomt. We besloten ons te focussen op de "reststroom" van "verkeerde feedback"; hoe kunnen we ervoor zorgen dat daar toch iets mee gebeurt, en hoe geven we de burger daarbij een rol?
 
-## De Feedback
+## De Feedbak
 
 Via een aantal omzwervingen kwamen we met een ideation, waarvoor we onder andere [de crazy-8 techniek](https://www.tiltshift.nl/materialen/crazy-8/) gebruikten, kwamen we tot het concept "De Feedbak".
 
@@ -63,6 +63,6 @@ Als klap op de vuurpijl, kan de burger die de feedback geeft direct een url ontv
 
 Dus waar het voor de burger eerder met "dank u wel voor uw feedback" stopte, kan deze nu kijken of er initiatieven zijn om samen mee op te trekken. Zo kan de burger ook een rol pakken in het verbeteren van de publieke structuren.
 
-### P.S.
+## P.S.
 
 Mooie is ook dat door er een open feed van te maken, innovaties op het gebied van AI en routering en automatische reacties en dergelijke aan alle kanten kunnen plaatsvinden (bij de verschillende initiatieven), zonder elkaar in de weg te zitten; dus én-én in plaats van óf/óf.
