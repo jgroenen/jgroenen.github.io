@@ -1,5 +1,5 @@
 ---
-titel: "Gegevensboekhouding"
+titel: "Gegevens- & algoritmeboekhouding"
 type: "in opdracht"
 status: "lopend"
 domein: "gegevensboekhouding"
@@ -13,6 +13,6 @@ duur: ""
 sort-jaar: "2023-06"
 standplaats: "Den Haag"
 vaardigheden: ""
-link: "https://www.gegevensboekhouding.nl"
+link: ""
 tags: ""
 ---
