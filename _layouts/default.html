@@ -5,7 +5,7 @@
         <meta http-equiv="content-type" content="text/html; charset=utf-8" />
         <meta name="author" content="Johan Groenen (c) 2023" />
         {% include social-previews.html %}
-        <link rel="stylesheet" href="/css/style.css" />
+        <link rel="stylesheet" href="{{ "/css/style.css" | relative_url }}" />
     </head>
     
     <body>
@@ -36,6 +36,6 @@
             </section>
         </div>
 
-        <script type="module" src="js/main.js"></script>
+        <script type="module" src="{{ "/js/main.js" | relative_url }}"></script>
     </body>
 </html>
