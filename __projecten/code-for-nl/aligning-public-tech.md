@@ -1,11 +1,11 @@
 ---
-titel: "Aligning Public Tech"
+titel: "Unconference: Aligning Public Tech"
 type: "eigen initiatief"
 status: ""
 domein: ""
 opdrachtgever: "c4nl"
 aanpak: "Open Unconference"
-rol: "Organisator"
+rol: "Co-organisator"
 omschrijving: "Dit project is nog niet goed omschreven."
 begin: ""
 einde: ""

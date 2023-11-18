@@ -1,6 +1,7 @@
 ---
 ---
-{% for p in site.data.projecten %}- titel: "{{ p.titel }}"
+{% for p in site.projecten %}- titel: "{{ p.titel }}"
+  type: {{ p.type }}
   status: {{ p.status }}
   domein: {{ p.domein }}
   opdrachtgever: {{ p.opdrachtgever }}
@@ -10,6 +11,7 @@
   begin: {{ p.begin }}
   einde: {{ p.einde }}
   duur: {{ p.duur }}
+  sort-jaar: {{ p.sort-jaar }}
   standplaats: {{ p.standplaats }}
   vaardigheden: {{ p.vaardigheden }}
   url: {{ p.url }}

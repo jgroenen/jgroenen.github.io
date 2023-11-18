@@ -5,7 +5,7 @@ status: "afgerond"
 domein: ""
 opdrachtgever: "amsterdam"
 aanpak: "Design Sprint"
-rol: "Concept Designer"
+rol: Verkenner
 omschrijving: "Andreas is het systeem voor raadsinformatie van de Gemeente Amsterdam. In deze explore ontwikkelden wij in co-creatie met potentiële afnemers een aantal concepten voor beter gebruik van open raadsinformatie."
 begin: ""
 einde: ""

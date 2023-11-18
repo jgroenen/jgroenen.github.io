@@ -5,7 +5,7 @@ status: ""
 domein: ""
 opdrachtgever: "amsterdam"
 aanpak: "Service Design"
-rol: "Product Lead"
+rol: Adviseur productstrategie
 omschrijving: "Dit project is nog niet goed omschreven."
 begin: ""
 einde: ""

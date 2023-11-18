@@ -5,7 +5,7 @@ status: "afgerond"
 domein: "code for nl"
 opdrachtgever: "c4nl"
 aanpak: "Community of Practice"
-rol: Strategisch Adviseur, Coach
+rol: Strategisch Adviseur Community
 omschrijving: "Dit project is nog niet goed omschreven."
 begin: ""
 einde: ""

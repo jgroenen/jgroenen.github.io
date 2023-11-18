@@ -1,5 +1,5 @@
 ---
-titel: Makkelijke Markt "Digitaal Indelen"
+titel: Makkelijke Markt Digitaal Indelen
 type: in opdracht
 status: "afgerond"
 domein: ""

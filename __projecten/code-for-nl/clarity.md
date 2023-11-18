@@ -5,7 +5,7 @@ status: "afgerond"
 domein: "code for nl"
 opdrachtgever: "waag"
 aanpak: "Design Sprint"
-rol: "Prototype Developer"
+rol: Product Lead
 omschrijving: "Dit project is nog niet goed omschreven."
 begin: ""
 einde: ""

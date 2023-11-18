@@ -5,7 +5,7 @@ status: ""
 domein: "code for nl"
 opdrachtgever: "design4nl"
 aanpak: "Community of Practice"
-rol: Adviseur Strategie
+rol: Strategisch Adviseur Community
 omschrijving: "Community of Practice voor de inzet van design in de publieke sector."
 begin: ""
 einde: ""

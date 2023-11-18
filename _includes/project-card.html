@@ -1,19 +1,13 @@
 <div class="project-card" data-tags>
     <div class="project-logo">
-        {% if orgs[project.opdrachtgever].logo %}
-            <a href="{{ orgs[project.opdrachtgever].url }}">
-                <img src="https://img.apitecture.nl/?url={{ orgs[project.opdrachtgever].logo | url_encode }}" width="48px" height="48px">
-            </a>
-        {% else %}
-            <a href="{{ orgs["tiltshift"].url }}">
-                <img src="https://img.apitecture.nl/?url={{ orgs["tiltshift"].logo | url_encode }}" width="48px" height="48px">
-            </a>
-        {% endif %}
+        <a href="{{ project.org_url }}">
+            <img src="https://img.apitecture.nl/?url={{ project.org_logo | url_encode }}" width="48px" height="48px">
+        </a>
     </div>
     <div class="project-body">
         <div class="project-header">
-            <h2><span style="font-weight: 500">{{ project.rol}}</span><br>{{ project.titel }} ({{ project.aanpak }})</h2>
-            <p class="subtitle"><a href="{{ orgs[project.opdrachtgever].url }}">{{ orgs[project.opdrachtgever].naam }}</a></p>
+            <h2><span style="font-weight: 500">{{ project.rol}}</span><br>{{ project.titel }}</h2>
+            <p class="subtitle"><a href="{{ project.org_url }}">{{ project.org_naam }}</a></p>
         </div>
 
         <div class="project-main">
@@ -34,9 +28,9 @@
             {% endif %}
             -->
 
-            {% if project.link != "" %}
+            {% if project.url %}
             <p style="text-align: right">
-                <a target="_blank" href="{{ project.link }}">{{ project.titel }} »</a>
+                <a target="_blank" href="{{ project.url }}">{{ project.titel }} »</a>
             </p>
             {% endif %}
         </div>

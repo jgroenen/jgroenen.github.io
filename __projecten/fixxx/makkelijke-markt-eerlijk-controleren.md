@@ -1,5 +1,5 @@
 ---
-titel: Makkelijke Markt "Eerlijk Controleren"
+titel: Makkelijke Markt Eerlijk Controleren
 type: in opdracht
 status: afgerond
 domein: Straatmarkten
