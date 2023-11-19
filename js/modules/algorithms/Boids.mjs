@@ -111,7 +111,7 @@ export default function (canvas, colors) {
         var flock = createFlock();
         setInterval(function () {
             ctx.clearRect(0, 0, canvas.width, canvas.height);
-            ctx.fillStyle = colors[0] + "99";
+            ctx.fillStyle = colors[0];
             ctx.fillRect(0, 0, canvas.width, canvas.height);
             draw(flock, colors[0]);
             flock = update(flock);

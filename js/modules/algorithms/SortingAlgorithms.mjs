@@ -109,7 +109,7 @@ export default function (canvas, colors) {
 
     function draw(theArray, theCurrentIndex) {
         ctx.clearRect(0, 0, canvas.width, canvas.height);
-        ctx.fillStyle = colors[0] + "99";
+        ctx.fillStyle = colors[0];
         ctx.fillRect(0, 0, canvas.width, canvas.height);
         for (var i = 0; i < theArray.length; ++i) {
             ctx.fillStyle = i === theCurrentIndex ? colors[0] : colors[1];

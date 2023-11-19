@@ -15,7 +15,7 @@ export default function (canvas, colors) {
 
     function createGridline() {
         var gridline = [];
-        for (var i = 0; i < canvas.height; ++i) {
+        for (var i = 0; i < canvas.width; ++i) {
             gridline[i] = 0;
         }
         gridline[Math.floor(canvas.width / 2)] = 1;
@@ -37,7 +37,7 @@ export default function (canvas, colors) {
     function draw(gridline) {
         for (var i = 0; i < gridline.length; ++i) {
             if (gridline[i]) ctx.fillStyle = colors[1];
-            else ctx.fillStyle = colors[0] + "99";
+            else ctx.fillStyle = colors[0];
             ctx.fillRect(i, 0, 1, 1);
         }
     }
