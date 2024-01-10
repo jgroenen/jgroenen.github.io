@@ -1,0 +1,17 @@
+---
+titel: "J&V Clientsysteem"
+status: ""
+domein: "straatnotes"
+opdrachtgever: "amsterdam"
+aanpak: "Agile Development"
+rol: "Product Lead"
+omschrijving: "privacy complient volgsysteem, slimme analyse"
+begin: ""
+einde: ""
+duur: ""
+sort-jaar: "2018"
+standplaats: ""
+vaardigheden: ""
+link: ""
+tags: "datagedreven werken, privacy by design, common ground, innovatie, fixxx"
+---
