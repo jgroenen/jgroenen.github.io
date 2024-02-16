@@ -6,7 +6,7 @@ permalink: resume.json
     "basics": {
       "name": "{{ site.data.person.name }}",
       "label": "{{ site.data.person.label }}",
-      "image": "{{ site.data.person.image }}",
+      "image": "{{ site.data.person.picture }}",
       "summary": "{{ site.data.person.summary }}",
       "url": "{{ site.data.person.website }}",
       "email": "{{ site.data.person.email }}"
