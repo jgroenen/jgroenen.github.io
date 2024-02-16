@@ -8,7 +8,7 @@ permalink: resume.json
       "label": "{{ site.data.person.label }}",
       "image": "{{ site.data.person.image }}",
       "summary": "{{ site.data.person.summary }}",
-      "website": "{{ site.data.person.website }}",
+      "url": "{{ site.data.person.website }}",
       "email": "{{ site.data.person.email }}"
     }
 }
