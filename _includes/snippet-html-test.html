@@ -1,0 +1,20 @@
+<div src="{{ "/snippets/header.html" | relative_url }}"></div>
+<script>
+    function loadSrc(rootElement) {
+        var selector = 'div[src],h1[src],h2[src],h3[src],h4[src],h5[src],h6[src],p[src],span[src]';
+        rootElement.querySelectorAll(selector).forEach(function (element) {
+            loadContentFromSrc(element);
+        });
+    }
+    function loadContentFromSrc(element) {
+        fetch(element.getAttribute('src'))
+            .then(function (response) {
+                return response.text();
+            })
+            .then(function (html) {
+                element.innerHTML = html;
+                loadSrc(element);
+            });
+    }
+    loadSrc(document);
+</script>

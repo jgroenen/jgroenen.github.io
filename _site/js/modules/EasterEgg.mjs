@@ -1,9 +1,4 @@
-export default function (imageElement, colors) {
-    var canvas = document.createElement("canvas");
-    canvas.width = imageElement.width / 2;
-    canvas.height = imageElement.height / 2;
-    canvas.style.cssText += "; position: absolute; left: 0";
-
+export default function (canvas, colors) {
     var easterEgg;
     var started = false;
 
@@ -23,13 +18,7 @@ export default function (imageElement, colors) {
     function start() {
         if (started || !easterEgg) return;
         started = true;
-        var link = document.createElement("a");
-        link.href = easterEgg.getLink();
-        link.target = "_blank";
-        imageElement.replaceWith(link);
-        link.appendChild(imageElement);
-        link.appendChild(canvas);
-        easterEgg.runAnimation(50);
+        easterEgg.runAnimation(40);
     }
 
     return {

@@ -41,11 +41,13 @@ export default function (canvas, colors) {
     }
 
     function draw(currentGeneration) {
+        ctx.fillStyle = "#000000";
+        ctx.fillRect(0, 0, canvas.width, canvas.height);
         for (var i = 0; i < canvas.height; ++i) {
             for (var j = 0; j < canvas.width; ++j) {
                 if (currentGeneration[i][j]) ctx.fillStyle = colors[1];
-                else ctx.fillStyle = colors[0] + "99";
-                ctx.fillRect(i, j, 1, 1);
+                else ctx.fillStyle = colors[0];
+                ctx.fillRect(j, i, 1, 1);
             }
         }         
     }

@@ -1,111 +1,403 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta name='viewport' content='width=320,initial-scale=1,user-scalable=0'>
-        <meta http-equiv="content-type" content="text/html; charset=utf-8">
-        <meta name="author" content="Johan Groenen (c) 2020">
-        
-        <link rel='image_src' href='https://www.jgroenen.nl/img/jgroenen.png'/>
-        <link rel='shortcut icon' type='image/png' href='https://www.jgroenen.nl/img/jgroenen.png'>
-        
-        <title>Johan Groenen</title>
-        <meta name="title" content="Johan Groenen public interest technologist">
-        <meta name="description" content="">
-        <meta name="keywords" content="">
+        <meta name="viewport" content="width=320,initial-scale=1,user-scalable=0" />
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta name="author" content="Johan Groenen (c) 2023" />
+        <link rel="image_src" href="https://www.jgroenen.nl/img/jgroenen.png" />
+<link rel="shortcut icon" type="image/png" href="https://www.jgroenen.nl/img/jgroenen.png" />
 
-        <meta property='og:url' content='http://0.0.0.0:4000'>
-        <meta property='og:title' name='title' content="Johan Groenen public interest technologist">
-        <meta property='og:description' name='description' content="">
-        <meta property='og:image' content="https://www.jgroenen.nl/img/jgroenen.png">
-        <link rel='image_src' href="https://www.jgroenen.nl/img/jgroenen.png"/>
-        <meta name='keywords' content="#publictech, open collaboration, onstopbare brainstormer, strategic design, clean code, public interest technologist">
-        
-        <meta name="twitter:card" content="summary_large_image">
-        <meta name="twitter:username" content="@jpagroenen">
-        <meta name="twitter:title" content="Johan Groenen public interest technologist">
-        <meta name="twitter:description" content="">
-        <meta name="twitter:image:src" content="https://www.jgroenen.nl/img/jgroenen.png">
-        
-        <link href='https://fonts.googleapis.com/css?family=Julius+Sans+One' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="/css/styles.css">
+<title>Johan Groenen | Projecten</title>
+<meta name="title" content="Johan Groenen | Projecten" />
+<meta name="description" content="#PublicTech #CivicTech Community Organisator & Innovatie Lead | Partner Tiltshift | Voorzitter Code for NL | Secretaris Open Nederland #Open #Agile #HumanCentered" />
+<meta name="keywords" content="kwartiermaker, open samenwerking, digitale transformatie, innovatie, publictech, product management, community management, civictech" />
+
+<meta property="og:url" content="http://localhost:4000/" />
+<meta property="og:title" name="title" content="Johan Groenen | Projecten" />
+<meta property="og:description" name="site.description" content="#PublicTech #CivicTech Community Organisator & Innovatie Lead | Partner Tiltshift | Voorzitter Code for NL | Secretaris Open Nederland #Open #Agile #HumanCentered" />
+<meta property="og:image" content="https://www.jgroenen.nl/img/jgroenen.png" />
+<link rel="image_src" href="https://www.jgroenen.nl/img/jgroenen.png" />
+<meta name="keywords" content="kwartiermaker, open samenwerking, digitale transformatie, innovatie, publictech, product management, community management, civictech" />
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:username" content="@jpagroenen" />
+<meta name="twitter:title" content="Johan Groenen | Projecten" />
+<meta name="twitter:description" content="#PublicTech #CivicTech Community Organisator & Innovatie Lead | Partner Tiltshift | Voorzitter Code for NL | Secretaris Open Nederland #Open #Agile #HumanCentered" />
+<meta name="twitter:image:src" content="https://www.jgroenen.nl/img/jgroenen.png" />
+
+        <link rel="stylesheet" href="/css/style.css" />
     </head>
-    <body class="vcard" itemscope itemtype="https://schema.org/Person">
-
+    
+    <body>
+        <script type="module">
+    var activeFilters = {};
+    function filter() {
+        let tag = this.dataset.tag;
+        if (activeFilters[tag]) {
+            delete activeFilters[tag];
+            document
+                .querySelectorAll(`[data-tag='${tag}']`)
+                .forEach((el) => el.classList.remove('active-tag'));
+        }
+        else {
+            activeFilters[tag] = true;
+            document
+                .querySelectorAll(`[data-tag='${tag}']`)
+                .forEach((el) => el.classList.add('active-tag'));
+        }
+        var filterString = Object.keys(activeFilters)
+            .reduce((str, tag) => str + `[data-tags*='${tag}']`, "");
+        if (filterString) {
+            document
+                .querySelectorAll(`[data-tags]`)
+                .forEach((el) => el.style.display = "none");
+            document
+                .querySelectorAll(filterString)
+                .forEach((el) => el.style.display = "flex");
+        }
+        else {
+            document
+                .querySelectorAll(`[data-tags]`)
+                .forEach((el) => el.style.display = "flex");
+        }
+    }
+    document
+        .querySelectorAll('[data-tag]')
+        .forEach((el) => el.addEventListener('click', filter));
+    document
+        .querySelectorAll('[data-tags]')
+        .forEach((el) => el.dataset.tags = Array.from(el.querySelectorAll('[data-tag]'))
+            .map((tagEl) => tagEl.dataset.tag).join(", "));
+</script>
         <div class="wrapper">
-        
-            <nav>
-    <a class="inline-tag" href="/">/home</a>
-    <a class="inline-tag" href="/kaartenbak">/kaartenbak</a>
-    <a class="inline-tag" href="/meetups">/meetups</a>
-    <a class="inline-tag" href="/aantekeningen">/aantekeningen</a>
-</nav>
-<header>
-    <h1>Open&nbsp;Samenwerking<br>en Innovatie<br>in Public&nbsp;Tech</h1>
-    <h2 class="inline-tag" style="margin: -4em 0.5em 0.5em">inspiratie ∞ innovatie</h2>
-    <h2><span class="fn" itemprop="name">Johan Groenen</span></h2>
-    <div class="photo" style="margin: 40px auto; cursor: pointer">
-        <img itemprop="image" id="photo" src="https://www.jgroenen.nl/img/jgroenen.png" alt="Foto van Johan Groenen">
+            <aside>
+                <header class="card-section">
+    <img class="banner-image" src="https://img.apitecture.nl/?url=https%3A%2F%2Fmedia.licdn.com%2Fdms%2Fimage%2FD4E16AQHAK2ogvU6w-w%2Fprofile-displaybackgroundimage-shrink_200_800%2F0%2F1675954016838%3Fe%3D1693440000%26v%3Dbeta%26t%3D1VXV28BqpyjtHNRHW_4-0kyIaF9knpolPTtPvhaD48o">
+    <img class="profile-image" src="https://www.jgroenen.nl/img/jgroenen.png">
+    <h1 style="font-size: 1.4em; padding: 0 24px">Johan Groenen</h1>
+    <div style="padding: 0 24px">
+        <div style="margin: 0">
+            <p style="margin: 0">#PublicTech #CivicTech Community Organisator & Innovatie Lead | Partner Tiltshift | Voorzitter Code for NL | Secretaris Open Nederland #Open #Agile #HumanCentered</p>
+            <canvas height="100%" style="width: 100%; margin-top: 10px; height: 20px; background: #000000; transition: height 0.1s"></canvas>
+            <p style="margin-top: 0">
+                <a class="linkedin-button" href="https://www.linkedin.com/in/jgroenen/">LinkedIn</a>
+                <a style="background: #6364FF" class="linkedin-button" href="https://mastodon.social/@jpagroenen">Mastodon</a>
+                <a href="https://github.com/jgroenen"><img style="height: 46px; vertical-align: middle; margin-bottom: 4px" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"></a>
+            </p>
+        </div>
     </div>
-    <!-- <a class="snes-reset-button" href="/">RESET</a> -->
 </header>
 
-            <main>
-                <div class="card" style="text-align: center">
-                    <p>public tech ondernemer met een achtergrond in natural computing en Software design. Onstopbare brainstormer die kansen ziet en mensen, ideeën, en initiatieven verbindt.</p>
 
-                    <a href="/kaartenbak" class="button">Check mijn persoonlijke kaartenbak</a>
-                </div>
+                <!-- <div src="/snippets/header.html"></div>
+<script>
+    function loadSrc(rootElement) {
+        var selector = 'div[src],h1[src],h2[src],h3[src],h4[src],h5[src],h6[src],p[src],span[src]';
+        rootElement.querySelectorAll(selector).forEach(function (element) {
+            loadContentFromSrc(element);
+        });
+    }
+    function loadContentFromSrc(element) {
+        fetch(element.getAttribute('src'))
+            .then(function (response) {
+                return response.text();
+            })
+            .then(function (html) {
+                element.innerHTML = html;
+                loadSrc(element);
+            });
+    }
+    loadSrc(document);
+</script> -->
 
-                <!-- <section style="margin-top: 40px">
-    <h2 style="text-align: center">Aantekeningen</h2>
-    
-</section> -->
-
-                <section>
-                    <p>Ik heb een achtergrond in theoretische informatica en natural computing: modelleren en analyseren van complexe natuurlijke systemen en emergente eigenschappen daarvan. Dan moet je bijvoorbeeld denken aan hoe hersenen leren, hoe soorten evolueren door middel van mutatie en selectie van DNA, hoe zwermen vogels en scholen vissen gecoördineerd bewegen, of hoe vuurvliegjes (glimwormen) hun lichtjes synchroniseren.</p>
-                    <p>Ik heb ruime ervaring op het gebied van ontwerp, ontwikkeling, onderhoud, en beheer van web based software, voor zeer grote organisaties, maar ook kleine toepassingen, typisch op basis van data services (API's) en mobiele web applicaties. Als lead software designer heb ik een groot aantal projecten geleid en enkele startups helpen opstarten en groeien.</p>
-                    <p>Ik ben mede-oprichter van <a href="https://www.tiltshift.nl">Tiltshift</a>; wij ontwerpen software voor de publieke sector. Dat doen we samen met de mensen die de software gaan gebruiken.</p>
-                    <p>Ook ben ik mede-oprichter van <a href="https://codefor.nl">Stichting Code for NL</a>, de Nederlandse community van developers en designers die samenwerken aan een open, eerlijke, en inclusieve digitale overheid en samenleving.</p>
-                    <p>Tot slot ben ik bestuurslid van <a href="https://www.opennederland.nl">Vereniging Open Nederland</a>,  de vereniging voor makers en (her)gebruikers van <a href="https://en.wikipedia.org/wiki/Free_content">free content</a> in Nederland.</p>
-                </section>
-
-                <section class="card cta">
-    <h2>Meer weten of hulp nodig?</h2>
-    <div class="p-ish">Wil je aan de slag met digitale transformatie of kun je wat hulp gebruiken in je software project? Heb je een goed idee voor innovatieve dienstverlening, maar weet je niet waar te beginnen?</div>
-    <div class="p-ish">Maak gerust een afspraak voor een intake- en adviesgesprek.</div>
-    <a class="button" href="https://calendly.com/johan-at-tiltshift/intake">Maak een afspraak</a>
-</section>
-
-                <section style="margin-top: 40px">
-    <h2 style="text-align: center">Recente aantekeningen</h2>
-    
-</section>
-
-            </main>
-
+                <section class="card-section">
+    <img style="height: 48px; float: right; padding: 20px" src="https://www.tiltshift.nl/assets/img/logo_cropped.svg">
+    <h1 style="padding: 24px 24px 12px">Uitvoerend leiderschap in digitale transformatie</h1>
+    <div style="padding: 0 24px">
+        <div style="margin: 0">
+            <p style="margin: 0">Open samenwerking opzetten? Datalab starten? Beginnen met datagedreven werken en innovatieve toepassingen ontwikkelen in de uitvoer? Doe het met Tiltshift!</p>
+            <p><a style="background: #E54545" class="linkedin-button" href="https://www.tiltshift.nl/mensen/johan-groenen">Mijn Tiltshift pagina</a></p>
         </div>
+    </div>
+</section>
 
-        <footer style="text-align: center">
-    <p>Ik hoor graag van mensen die bezig zijn met vergelijkbare uitdagingen en organiseer daarvoor ook regelmatig meetups! Neem gerust snes-reset op om een keer verder te praten!</p>
-    <a class="snes-reset-button" href="https://wa.me/+31641518018">APP</a>
-    <a class="snes-reset-button" href="tel:+31641518018">TEL</a>
-    <a class="snes-reset-button" href="mailto:info@jgroenen.nl">E-MAIL</a>
-    
-    <a class="snes-reset-button" href="https://www.linkedin.com/in/jgroenen">LINKEDIN</a>
-    
-    <a class="snes-reset-button" href="https://www.twitter.com/jpagroenen">TWITTER</a>
-    
-    <a class="snes-reset-button" href="https://www.github.com/jgroenen">GITHUB</a>
-    
+                
+            </aside>
 
-    <div style="margin: 20px">
-        <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
-            <img alt="Creative Commons-Licentie" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
-            <br><br>
-            (c) 2021 Johan Groenen <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Naamsvermelding 4.0 Internationaal-licentie
+            <section class="card-section right-card">
+                <h1 style="padding: 24px 24px 12px">Projecten</h1>
+                
+
+    <div class="project-card" data-tags>
+    <div class="project-logo">
+        <a href="https://www.linkedin.com/company/ministerie-van-justitie-en-veiligheid-/">
+            <img src="https://img.apitecture.nl/?url=https%3A%2F%2Fmedia.licdn.com%2Fdms%2Fimage%2FC4E0BAQG50y6Gxf46JA%2Fcompany-logo_200_200%2F0%2F1659950489882%3Fe%3D1694649600%26v%3Dbeta%26t%3DDLIG_RZa_khCou0ghIrI5fwo3X1AqzzjFHzfbKB9YQk" width="48px" height="48px">
         </a>
     </div>
-</footer>
+    <div class="project-body">
+        <div class="project-header">
+            <h2><span style="font-weight: 500">Product Discovery & Open Samenwerking</span><br>Gegevens- & Algoritmeboekhouding</h2>
+            <p class="subtitle"><a href="https://www.linkedin.com/company/ministerie-van-justitie-en-veiligheid-/">Ministerie van Justitie en Veiligheid</a></p>
+        </div>
+
+        <div class="project-main">
+            <!--
+            
+
+            <p style="margin-top: 16px">Dit project is nog niet goed omschreven.</p>
+
+            
+            
+            
+                <div class="linkedin-tags">
+    
+        
+        
+        <span class="linkedin-tag" data-tag="Product Discovery & Open Samenwerking">Product Discovery & Open Samenwerking</span>
+        
+    
+        
+        
+        <span class="linkedin-tag" data-tag="Design Thinking">Design Thinking</span>
+        
+    
+        
+        
+    
+        
+        
+        <span class="linkedin-tag" data-tag="null">null</span>
+        
+    
+</div>
+            
+            -->
+
+            
+        </div>
+    </div>
+</div>
+
+    <div class="project-card" data-tags>
+    <div class="project-logo">
+        <a href="https://www.linkedin.com/company/provincie-noord-brabant/">
+            <img src="https://img.apitecture.nl/?url=https%3A%2F%2Fmedia.licdn.com%2Fdms%2Fimage%2FC4E0BAQFB_1lfwmQDdg%2Fcompany-logo_200_200%2F0%2F1678933292806%3Fe%3D1694649600%26v%3Dbeta%26t%3DekBKPs7uh9B28G-TIlu2kn11WQ3t9aYiJEW9zwWZDcs" width="48px" height="48px">
+        </a>
+    </div>
+    <div class="project-body">
+        <div class="project-header">
+            <h2><span style="font-weight: 500">Product Lead</span><br>Sensorenregister Beheertool</h2>
+            <p class="subtitle"><a href="https://www.linkedin.com/company/provincie-noord-brabant/">Provincie Noord-Brabant</a></p>
+        </div>
+
+        <div class="project-main">
+            <!--
+            
+
+            <p style="margin-top: 16px">Product Lead software-ontwikkeling beheertool voor sensorenregistraties in Microsoft PowerApps.</p>
+
+            
+            
+            
+                <div class="linkedin-tags">
+    
+        
+        
+        <span class="linkedin-tag" data-tag="Product Lead">Product Lead</span>
+        
+    
+        
+        
+        <span class="linkedin-tag" data-tag="Agile Development">Agile Development</span>
+        
+    
+        
+        
+    
+        
+        
+        <span class="linkedin-tag" data-tag="null">null</span>
+        
+    
+</div>
+            
+            -->
+
+            
+        </div>
+    </div>
+</div>
+
+    <div class="project-card" data-tags>
+    <div class="project-logo">
+        <a href="https://www.linkedin.com/company/ministerie-van-justitie-en-veiligheid-/">
+            <img src="https://img.apitecture.nl/?url=https%3A%2F%2Fmedia.licdn.com%2Fdms%2Fimage%2FC4E0BAQG50y6Gxf46JA%2Fcompany-logo_200_200%2F0%2F1659950489882%3Fe%3D1694649600%26v%3Dbeta%26t%3DDLIG_RZa_khCou0ghIrI5fwo3X1AqzzjFHzfbKB9YQk" width="48px" height="48px">
+        </a>
+    </div>
+    <div class="project-body">
+        <div class="project-header">
+            <h2><span style="font-weight: 500">Product Lead</span><br>Gegevens- & Algoritmeboekhouding</h2>
+            <p class="subtitle"><a href="https://www.linkedin.com/company/ministerie-van-justitie-en-veiligheid-/">Ministerie van Justitie en Veiligheid</a></p>
+        </div>
+
+        <div class="project-main">
+            <!--
+            
+
+            <p style="margin-top: 16px">Dit project is nog niet goed omschreven.</p>
+
+            
+            
+            
+                <div class="linkedin-tags">
+    
+        
+        
+        <span class="linkedin-tag" data-tag="Product Lead">Product Lead</span>
+        
+    
+        
+        
+        <span class="linkedin-tag" data-tag="Design Thinking">Design Thinking</span>
+        
+    
+        
+        
+    
+        
+        
+        <span class="linkedin-tag" data-tag="null">null</span>
+        
+    
+</div>
+            
+            -->
+
+            
+        </div>
+    </div>
+</div>
+
+    <div class="project-card" data-tags>
+    <div class="project-logo">
+        <a href="https://www.linkedin.com/company/provincie-noord-brabant/">
+            <img src="https://img.apitecture.nl/?url=https%3A%2F%2Fmedia.licdn.com%2Fdms%2Fimage%2FC4E0BAQFB_1lfwmQDdg%2Fcompany-logo_200_200%2F0%2F1678933292806%3Fe%3D1694649600%26v%3Dbeta%26t%3DekBKPs7uh9B28G-TIlu2kn11WQ3t9aYiJEW9zwWZDcs" width="48px" height="48px">
+        </a>
+    </div>
+    <div class="project-body">
+        <div class="project-header">
+            <h2><span style="font-weight: 500">Product Lead</span><br>Algoritmeregister Beheertool</h2>
+            <p class="subtitle"><a href="https://www.linkedin.com/company/provincie-noord-brabant/">Provincie Noord-Brabant</a></p>
+        </div>
+
+        <div class="project-main">
+            <!--
+            
+
+            <p style="margin-top: 16px">Product Lead software-ontwikkeling beheertool voor algoritmeregistraties in Microsoft PowerApps.</p>
+
+            
+            
+            
+                <div class="linkedin-tags">
+    
+        
+        
+        <span class="linkedin-tag" data-tag="Product Lead">Product Lead</span>
+        
+    
+        
+        
+        <span class="linkedin-tag" data-tag="Agile Development">Agile Development</span>
+        
+    
+        
+        
+    
+        
+        
+        <span class="linkedin-tag" data-tag="null">null</span>
+        
+    
+</div>
+            
+            -->
+
+            
+            <p style="text-align: right">
+                <a target="_blank" href="https://www.algoritmeregister.org/beheertool">Algoritmeregister Beheertool »</a>
+            </p>
+            
+        </div>
+    </div>
+</div>
+
+    <div class="project-card" data-tags>
+    <div class="project-logo">
+        <a href="https://www.linkedin.com/company/ministerie-van-bzk/">
+            <img src="https://img.apitecture.nl/?url=https%3A%2F%2Fmedia.licdn.com%2Fdms%2Fimage%2FC4E0BAQGcYLYARqV-Bg%2Fcompany-logo_200_200%2F0%2F1652875297587%3Fe%3D1694649600%26v%3Dbeta%26t%3DNi_Txx9zhdF6G0tbeyfUq0VdqNpRdMuKLfYd1pNKjJ8" width="48px" height="48px">
+        </a>
+    </div>
+    <div class="project-body">
+        <div class="project-header">
+            <h2><span style="font-weight: 500">Product Lead</span><br>Algoritmeregister van de Nederlandse Overheid</h2>
+            <p class="subtitle"><a href="https://www.linkedin.com/company/ministerie-van-bzk/">Ministerie van Binnenlandse Zaken en Koninkrijksrelates</a></p>
+        </div>
+
+        <div class="project-main">
+            <!--
+            
+
+            <p style="margin-top: 16px">Voorbereiden van en adviseren bij het opzetten van het programma Algoritmeregister.</p>
+
+            
+            
+            
+                <div class="linkedin-tags">
+    
+        
+        
+        <span class="linkedin-tag" data-tag="Product Lead">Product Lead</span>
+        
+    
+        
+        
+        <span class="linkedin-tag" data-tag="Agile Development">Agile Development</span>
+        
+    
+        
+        
+    
+        
+        
+        <span class="linkedin-tag" data-tag="null">null</span>
+        
+    
+</div>
+            
+            -->
+
+            
+            <p style="text-align: right">
+                <a target="_blank" href="https://algoritmes.overheid.nl">Algoritmeregister van de Nederlandse Overheid »</a>
+            </p>
+            
+        </div>
+    </div>
+</div>
+
+
+<div class="project-card">
+    <div class="project-body">
+        <p style="text-align: right">
+            <a href="/projecten" style="color: #000">Bekijk alle projecten »</a>
+        </p>
+    </div>
+</div>
+
+
+            </section>
+        </div>
 
         <script type="module" src="/js/main.js"></script>
     </body>

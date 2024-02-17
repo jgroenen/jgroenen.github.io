@@ -1,10 +1,10 @@
 {
   "version": "https://jsonfeed.org/version/1",
-  "title": "Johan Groenen - public interest technologist",
-  "description": null,
-  "home_page_url": "http://0.0.0.0:4000",
-  "feed_url": "http://0.0.0.0:4000/feed.json",
-  "favicon": "http://0.0.0.0:4000/favicon.png",
+  "title": "Johan Groenen - ",
+  "description": "Community Organisator & Innovatie Lead | Partner Tiltshift | Voorzitter Code for NL | Secretaris Open Nederland",
+  "home_page_url": "http://localhost:4000",
+  "feed_url": "http://localhost:4000/feed.json",
+  "favicon": "http://localhost:4000/favicon.png",
   
   "items": [
     

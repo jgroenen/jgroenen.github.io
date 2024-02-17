@@ -76,7 +76,7 @@ export default function (canvas, colors) {
                 canvas.height / 4,
                 0)
         ];
-        ctx.fillStyle = colors[0] + "99";
+        ctx.fillStyle = colors[0];
         ctx.fillRect(0, 0, canvas.width, canvas.height);
         var handle = setInterval(function () {
             let edge = edges.shift();
