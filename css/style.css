@@ -37,7 +37,7 @@ figcaption {
 .project-card {
     margin: 12px 24px;
     padding-bottom: 12px;
-    padding-right: 16px;
+    padding-right: 40px;
     display: flex;
     border-bottom: 1px solid #F3F2EF;
     position: relative;
