@@ -1,4 +1,4 @@
-<div class="project-card" data-tags>
+<div class="project-card {% unless project.tot != "null" %}project-card-actief{% endunless %}" data-tags>
     <div class="project-logo">
         <a href="{{ project.org_url }}">
             <img src="https://img.apitecture.nl/?url={{ project.org_logo | url_encode }}" width="48px" height="48px">

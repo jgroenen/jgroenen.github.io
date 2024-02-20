@@ -1,11 +1,11 @@
 name: Johan Groenen
-label: #publictech
+label: "#PublicTech #CivicTech"
 picture: https://www.jgroenen.nl/img/jgroenen.png
 banner: https://www.jgroenen.nl/img/banner.jpeg
 email: info@jgroenen.nl
 phone: '+31641518018'
 website: https://www.jgroenen.nl
-summary: Community Organisator & Innovatie Lead | Partner Tiltshift | Voorzitter Code for NL | Secretaris Open Nederland
+summary: "#PublicTech #CivicTech Community Organisator & Product Lead | Partner Tiltshift | Voorzitter Code for NL | Secretaris Open Nederland #Open #Agile #HumanCentered"
 profiles:
   - network: LinkedIn
     username: jgroenen
@@ -16,5 +16,8 @@ profiles:
   - network: Github
     username: jgroenen
     url: https://www.github.com/jgroenen
+  - network: Mastodon
+    username: jpagroenen
+    url: https://mastodon.social/@jpagroenen
 _keywords: ['#publictech', 'open collaboration', 'onstopbare brainstormer', 'strategic design', 'clean code', 'public interest technologist']
 _twitter_handle: "@jpagroenen"

@@ -40,6 +40,7 @@ figcaption {
     padding-right: 16px;
     display: flex;
     border-bottom: 1px solid #F3F2EF;
+    position: relative;
 }
 .project-meta {
     color: #AAAAAA;
@@ -52,6 +53,17 @@ figcaption {
 }
 .project-card .subtitle {
     margin: 8px 0;
+}
+.project-card-actief::after {
+    content: "Actief";
+    background: #E54545;
+    color: #FFFFFF;
+    padding: 8px 24px;
+    transform: rotate(-90deg);
+    transform-origin: 100% 0%;
+    position: absolute;
+    right: 34px;
+    top: -12px;
 }
 .project-logo {
     width: 48px;
