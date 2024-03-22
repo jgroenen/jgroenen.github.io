@@ -6,7 +6,6 @@
         <meta name="author" content="Johan Groenen (c) 2023" />
         {% include social-previews.html %}
         <link rel="stylesheet" href="{{ "/css/style.css" | relative_url }}" />
-        {% include piwik.html %}
     </head>
     
     <body>
@@ -40,5 +39,7 @@
         </div>
 
         <script type="module" src="{{ "/js/main.js" | relative_url }}"></script>
+        
+        {% include piwik.html %}
     </body>
 </html>
