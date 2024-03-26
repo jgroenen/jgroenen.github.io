@@ -1,0 +1,9 @@
+---
+layout: default
+permalink: tools/
+title: Tools
+---
+{% assign tools = site.data.tools |  where: "publicatie_status", "live" %}
+{% for tool in tools %}
+    {% include tool-card.html %}
+{% endfor %}
