@@ -21,7 +21,12 @@ export default function (canvas, colors) {
         easterEgg.runAnimation(40);
     }
 
+    function isRunning() {
+        return started;
+    }
+
     return {
-        start
+        start,
+        isRunning
     }
 }
