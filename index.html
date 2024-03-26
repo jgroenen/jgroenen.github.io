@@ -2,17 +2,56 @@
 layout: default
 title: Projecten
 ---
-{% assign projecten = site.data.projecten | where: "publicatie_status", "live" | reverse %}
-{% for project in projecten limit: 5 %}
-    {% include project-card.html %}
-{% endfor %}
+<div>
 
-<div class="project-card">
-    <div class="project-body">
-        <p style="text-align: right">
-            <a href="/projecten" style="color: #000">Bekijk alle projecten »</a>
-        </p>
+<section class="card-section right-card">
+    <h1 style="padding: 24px 24px 12px">Projecten</h1>
+    {% assign projecten = site.data.projecten | where: "publicatie_status", "live" | reverse %}
+    {% for project in projecten limit: 3 %}
+        {% include project-card.html %}
+    {% endfor %}
+
+    <div class="project-card">
+        <div class="project-body">
+            <p style="text-align: right">
+                <a href="/projecten" style="color: #000">Bekijk alle projecten »</a>
+            </p>
+        </div>
     </div>
+</section>
+
+<section class="card-section right-card">
+    <h1 style="padding: 24px 24px 12px">Tools</h1>
+    {% assign tools = site.data.tools | where: "publicatie_status", "live" %}
+    {% for tool in tools limit: 2 %}
+        {% include tool-card.html %}
+    {% endfor %}
+
+    <div class="project-card">
+        <div class="project-body">
+            <p style="text-align: right">
+                <a href="/tools" style="color: #000">Bekijk alle tools »</a>
+            </p>
+        </div>
+    </div>
+</section>
+
+
+
+<section class="card-section right-card">
+    <h1 style="padding: 24px 24px 12px">Aantekeningen</h1>
+    {% assign collection = site.aantekeningen|sort|reverse %}
+    {% include cards.html collection=collection limit=1 %}
+
+    <div class="project-card">
+        <div class="project-body">
+            <p style="text-align: right">
+                <a href="/aantekeningen" style="color: #000">Bekijk alle aantekeningen »</a>
+            </p>
+        </div>
+    </div>
+</section>
+
 </div>
 
 {% comment %}

@@ -3,10 +3,13 @@ layout: default
 permalink: projecten/
 title: Projecten
 ---
-{% assign projecten = site.data.projecten |  where: "publicatie_status", "live" | reverse %}
-{% for project in projecten %}
-    {% include project-card.html %}
-{% endfor %}
-{% comment %}
-{% include toggle-cards-script.html %}
-{% endcomment %}
+<section class="card-section right-card">
+    <h1 style="padding: 24px 24px 12px">{{ page.title }}</h1>
+    {% assign projecten = site.data.projecten |  where: "publicatie_status", "live" | reverse %}
+    {% for project in projecten %}
+        {% include project-card.html %}
+    {% endfor %}
+    {% comment %}
+    {% include toggle-cards-script.html %}
+    {% endcomment %}
+</section>
