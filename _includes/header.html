@@ -1,12 +1,14 @@
 <header class="card-section">
-    <a href="/"><img class="banner-image" src="https://img.apitecture.nl/?url={{ site.banner | url_encode }}"></a>
+    <a href="/">
+        <img class="banner-image" src="https://img.apitecture.nl/?url={{ site.banner | url_encode }}">
+        {% include computer.html %}
+    </a>
     <img class="profile-image" src="{{ site.data.person.picture }}">
     <img class="klik" src="{{ "/img/klik.svg" | relative_url }}" style="width: 100px; margin-left: -20px">
     <h1 style="font-size: 1.4em; padding: 0 24px">{{ site.title }}</h1>
     <div style="padding: 0 24px">
         <div style="margin: 0">
             <p style="margin: 0">{{ site.description }}</p>
-            <canvas height="100%" style="width: 100%; margin-top: 10px; height: 20px; background: #000000; transition: height 0.1s"></canvas>
             <p style="margin-top: 0">
                 <a class="linkedin-button" href="https://www.linkedin.com/in/jgroenen/">LinkedIn</a>
                 <a style="background: #6364FF" class="linkedin-button" href="https://mastodon.social/@jpagroenen">Mastodon</a>
