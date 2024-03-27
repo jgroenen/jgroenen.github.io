@@ -5,7 +5,7 @@ title: Projecten
 <div>
 
 <section class="card-section right-card">
-    <h1 style="padding: 24px 24px 12px">Projecten</h1>
+    <h1 style="padding: 24px 24px 12px">Mijn Projecten</h1>
     {% assign projecten = site.data.projecten | where: "publicatie_status", "live" | reverse %}
     {% for project in projecten limit: 3 %}
         {% include project-card.html %}
@@ -21,7 +21,7 @@ title: Projecten
 </section>
 
 <section class="card-section right-card">
-    <h1 style="padding: 24px 24px 12px">Aantekeningen</h1>
+    <h1 style="padding: 24px 24px 12px">Mijn Aantekeningen</h1>
     {% assign collection = site.aantekeningen|sort|reverse %}
     {% include cards.html collection=collection limit=1 %}
 
@@ -35,23 +35,7 @@ title: Projecten
 </section>
 
 <section class="card-section right-card">
-    <h1 style="padding: 24px 24px 12px">Tools</h1>
-    {% assign tools = site.data.tools | where: "publicatie_status", "live" %}
-    {% for tool in tools limit: 2 %}
-        {% include tool-card.html %}
-    {% endfor %}
-
-    <div class="project-card">
-        <div class="project-body">
-            <p style="text-align: right">
-                <a href="/tools" style="color: #000">Bekijk alle tools »</a>
-            </p>
-        </div>
-    </div>
-</section>
-
-<section class="card-section right-card">
-    <h1 style="padding: 24px 24px 12px">Communities</h1>
+    <h1 style="padding: 24px 24px 12px">Mijn Communities</h1>
     {% assign communities = site.data.communities | where: "publicatie_status", "live" %}
     {% for community in communities limit: 2 %}
         {% include community-card.html %}
@@ -61,6 +45,22 @@ title: Projecten
         <div class="project-body">
             <p style="text-align: right">
                 <a href="/communities" style="color: #000">Bekijk alle communities »</a>
+            </p>
+        </div>
+    </div>
+</section>
+
+<section class="card-section right-card">
+    <h1 style="padding: 24px 24px 12px">Toffe Tools</h1>
+    {% assign tools = site.data.tools | where: "publicatie_status", "live" %}
+    {% for tool in tools limit: 2 %}
+        {% include tool-card.html %}
+    {% endfor %}
+
+    <div class="project-card">
+        <div class="project-body">
+            <p style="text-align: right">
+                <a href="/tools" style="color: #000">Bekijk alle tools »</a>
             </p>
         </div>
     </div>
