@@ -21,6 +21,20 @@ title: Projecten
 </section>
 
 <section class="card-section right-card">
+    <h1 style="padding: 24px 24px 12px">Aantekeningen</h1>
+    {% assign collection = site.aantekeningen|sort|reverse %}
+    {% include cards.html collection=collection limit=1 %}
+
+    <div class="project-card">
+        <div class="project-body">
+            <p style="text-align: right">
+                <a href="/aantekeningen" style="color: #000">Bekijk alle aantekeningen »</a>
+            </p>
+        </div>
+    </div>
+</section>
+
+<section class="card-section right-card">
     <h1 style="padding: 24px 24px 12px">Tools</h1>
     {% assign tools = site.data.tools | where: "publicatie_status", "live" %}
     {% for tool in tools limit: 2 %}
@@ -36,17 +50,17 @@ title: Projecten
     </div>
 </section>
 
-
-
 <section class="card-section right-card">
-    <h1 style="padding: 24px 24px 12px">Aantekeningen</h1>
-    {% assign collection = site.aantekeningen|sort|reverse %}
-    {% include cards.html collection=collection limit=1 %}
+    <h1 style="padding: 24px 24px 12px">Communities</h1>
+    {% assign communities = site.data.communities | where: "publicatie_status", "live" %}
+    {% for community in communities limit: 2 %}
+        {% include community-card.html %}
+    {% endfor %}
 
     <div class="project-card">
         <div class="project-body">
             <p style="text-align: right">
-                <a href="/aantekeningen" style="color: #000">Bekijk alle aantekeningen »</a>
+                <a href="/communities" style="color: #000">Bekijk alle communities »</a>
             </p>
         </div>
     </div>
