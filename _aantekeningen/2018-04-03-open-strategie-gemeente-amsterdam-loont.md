@@ -1,7 +1,7 @@
 ---
 tags: ['open source', 'innovatie']
 title: "Open strategie gemeente Amsterdam loont"
-image: https://ibestuur.nl/images/2629.jpg
+image: https://ibestuur-uploads.storage.googleapis.com/app/uploads/2018/03/2629.jpg
 caption: Makkelijke Markt App voor de Gemeente Amsterdam
 teaser: 'Het aanpakken van overlast op straat of weten welke kraamhouders op de weekmarkt staan. Iedere gemeente zoekt er oplossingen voor, maar in Amsterdam zijn open source samenwerking en hergebruik van (open) databronnen daarbij leidend. Het leuke is dat het ook nog wat oplevert: qua financiën én qua manier van denken.'
 ---
