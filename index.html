@@ -35,7 +35,7 @@ title: Projecten
 </section>
 
 <section class="card-section right-card">
-    <h1 style="padding: 24px 24px 12px">Mijn Communities</h1>
+    <h1 style="padding: 24px 24px 12px">Mijn Open Communities</h1>
     {% assign communities = site.data.communities | where: "publicatie_status", "live" %}
     {% for community in communities limit: 2 %}
         {% include community-card.html %}
