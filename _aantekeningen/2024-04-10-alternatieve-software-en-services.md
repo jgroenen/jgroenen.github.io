@@ -10,7 +10,7 @@ We gebruiken iedere dag een enorm aantal stukjes software, zowel geïnstalleerd 
 ![{{ page.caption }}]({{ page.image}})
 <figcaption>{{ page.caption }}</figcaption>
 
-Onder veel noemers wordt er gewerkt om deze situatie te veranderen. Initiatieven als Public Spaces, het sturen richting Open Source bij de overheid, discussies over Digitale Autonomie, en nieuwe Europese wetgeving zijn erop gericht op Europese bodem een alternatief ecosysteem te ontwikkelen voor de software en services die we dagelijks gebruiken.
+Onder veel noemers wordt er gewerkt om deze situatie te veranderen. Initiatieven als Public Spaces, het sturen richting Open Source bij de overheid, discussies over Digitale Autonomie en Digitale Gemeenschapsgoederen, en nieuwe Europese wetgeving zijn erop gericht op Europese bodem een alternatief ecosysteem te ontwikkelen voor de software en services die we dagelijks gebruiken.
 
 ## Links
 
