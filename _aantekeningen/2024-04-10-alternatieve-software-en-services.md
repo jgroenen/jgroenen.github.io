@@ -12,6 +12,10 @@ We gebruiken iedere dag een enorm aantal stukjes software, zowel geïnstalleerd 
 
 Onder veel noemers wordt er gewerkt om deze situatie te veranderen. Initiatieven als Public Spaces, het sturen richting Open Source bij de overheid, discussies over Digitale Autonomie en Digitale Gemeenschapsgoederen, en nieuwe Europese wetgeving zijn erop gericht op Europese bodem een alternatief ecosysteem te ontwikkelen voor de software en services die we dagelijks gebruiken.
 
+## PS.
+
+Check ook de link hieronder naar Switching Software voor "public instances": vrij te gebruiken instanties voor bijvoorbeeld collaborative editing.
+
 ## Links
 
 [https://switching.software/](https://switching.software/)
