@@ -1,0 +1,26 @@
+# Net niet: de goede ideeën die het daglicht niet zien
+Ideation geeft veel goede ideeën
+Vaak maar één team, dus één vervolg
+Uitlichten van concepten: Andreas, Vergunningen, Algoreg
+
+--
+# Private money, private code?
+Public money, public code, want investering van de overheid is voor de samenleving;
+open source vooral voor generieke toepassingen (nav presentatie recent), niet voor heel specifieke toepassingen (want geen hergebruik)
+open source in public tech is andere open source dan die in free software
+free software zijn eigen inspanningen voor eigen gebruik (tools voor de coders zelf)
+maar public code is voor overheden; licentie nodig die private investeringen daarin de moeite waard maakt, om ook een economie voor innovatie bovenop die code bases te maken, anders alleen de verdienmodellen mogelijk op software "as is", dus dan moet alle innovatie vanuit de overheid komen (en die maken geen projecten omdat ze nou net niet precies ideeën hebben over waar mogelijk competitive edge zit)
+
+--
+# Een economie van open draait op kudo's
+
+--
+#Overheid als NN en organisaties als Chinese Rooms
+https://en.wikipedia.org/wiki/Organizational_intelligence
+en dus ook iets over emergente eigenschappen van systemen, en de manier om daarmee om te gaan (trainen/cybernetica ipv ontwerpen)
+
+--
+# git commit messages
+stukje schrijven over goeie git commit messages
+
+--
