@@ -10,5 +10,8 @@ permalink: resume.json
       "summary": "{{ site.data.person.summary }}",
       "url": "{{ site.data.person.website }}",
       "email": "{{ site.data.person.email }}"
+    },
+    "skills": {
+      "keywords": ["{{ site.data.person.keywords | join: '", "' }}"]
     }
 }
