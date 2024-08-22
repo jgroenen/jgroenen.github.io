@@ -125,6 +125,10 @@ figcaption {
     margin: -10% 0 12px 24px;
     box-shadow: 0 2px 8px var(--shadow-color);
     cursor: pointer;
+    position: relative;
+}
+.klik {
+    position: relative;
 }
 .wrapper {
     display: flex;
