@@ -1,0 +1,13 @@
+---
+permalink: /activityPub/profile
+---
+{
+    "@context": "https://www.w3.org/ns/activitystreams",
+    "type": "Person",
+    "id": "https://www.jgroenen.nl/activityPub/profile",
+    "name": "{{ site.title }}",
+    "preferredUsername": "jpagroenen",
+    "summary": "{{ site.description }}",
+    "inbox": "https://www.jgroenen.nl/activityPub/inbox",
+    "outbox": "https://www.jgroenen.nl/activityPub/outbox"
+}

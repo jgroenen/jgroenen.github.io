@@ -1,0 +1,10 @@
+---
+permalink: /activityPub/outbox
+---
+{
+    "@context": "https://www.w3.org/ns/activitystreams",
+    "summary": "Outbox for Johan Groenen",
+    "type": "OrderedCollection",
+    "totalItems": 0,
+    "orderedItems": []
+}
