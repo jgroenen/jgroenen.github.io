@@ -8,6 +8,9 @@ quote: alles is inspiratie
 description: "Open Samenwerking aan Publieke Technologie en Verantwoorde Inzet van Technologie in de Publieke Sector #PublicTech #Community #Innovatie #GovTech #CivicTech"
 banner: "https://media.licdn.com/dms/image/D4E16AQHAK2ogvU6w-w/profile-displaybackgroundimage-shrink_200_800/0/1675954016838?e=1693440000&v=beta&t=1VXV28BqpyjtHNRHW_4-0kyIaF9knpolPTtPvhaD48o"
 
+include:
+  - .well-known
+
 collections:
   aantekeningen:
     output: true

@@ -1,5 +1,4 @@
 ---
-permalink: /.well-known/webfinger/index.json
 ---
 {
     "subject": "acct:johan@jgroenen.nl",
