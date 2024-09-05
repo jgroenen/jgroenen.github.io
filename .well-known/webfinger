@@ -3,7 +3,9 @@
 {
     "subject": "acct:johan@jgroenen.nl",
     "aliases": [
-        "https://www.jgroenen.nl/activityPub/profile.json"
+        "https://mastodon.nl/@jpagroenen",
+        "https://mastodon.social/@jpagroenen",
+        "https://bookwyrm.social/user/jpagroenen"
     ],
     "links": [
         {
