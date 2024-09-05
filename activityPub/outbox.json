@@ -1,5 +1,5 @@
 ---
-permalink: /activityPub/outbox
+permalink: /activityPub/outbox.json
 ---
 {
     "@context": "https://www.w3.org/ns/activitystreams",

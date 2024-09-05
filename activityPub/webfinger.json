@@ -1,21 +1,21 @@
 ---
-permalink: /.well-known/webfinger
+permalink: /.well-known/webfinger/index.json
 ---
 {
     "subject": "acct:johan@jgroenen.nl",
     "aliases": [
-        "https://www.jgroenen.nl/activityPub/profile"
+        "https://www.jgroenen.nl/activityPub/profile.json"
     ],
     "links": [
         {
             "rel": "http://webfinger.net/rel/profile-page",
             "type": "text/html",
-            "href": "https://www.jgroenen.nl/activityPub/profile"
+            "href": "https://www.jgroenen.nl/activityPub/profile.json"
         },
         {
             "rel": "self",
             "type": "application/activity+json",
-            "href": "https://www.jgroenen.nl/activityPub/inbox",
+            "href": "https://www.jgroenen.nl/activityPub/inbox.json",
         }
     ]
 ]
