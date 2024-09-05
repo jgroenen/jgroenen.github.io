@@ -14,7 +14,7 @@
         {
             "rel": "self",
             "type": "application/activity+json",
-            "href": "https://www.jgroenen.nl/activityPub/inbox.json",
+            "href": "https://www.jgroenen.nl/activityPub/inbox.json"
         }
     ]
 ]
