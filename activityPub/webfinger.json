@@ -4,13 +4,13 @@ permalink: /.well-known/webfinger
 {
     "subject": "acct:johan@jgroenen.nl",
     "aliases": [
-        "https://www.jgroenen.nl/profile"
+        "https://www.jgroenen.nl/activityPub/profile"
     ],
     "links": [
         {
             "rel": "http://webfinger.net/rel/profile-page",
             "type": "text/html",
-            "href": "https://www.jgroenen.nl/profile"
+            "href": "https://www.jgroenen.nl/activityPub/profile"
         },
         {
             "rel": "self",
