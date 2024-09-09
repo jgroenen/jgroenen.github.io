@@ -1,1 +1,0 @@
-https://www.slideshare.net/JohanGroenen/its-not-about-the-data-learnings-from-datalab-amsterdam-96263608

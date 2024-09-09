@@ -1,1 +1,0 @@
-https://ibestuur.nl/podium/open-strategie-amsterdam-loont
