@@ -48,13 +48,15 @@ figcaption {
     max-width: 100%;
 }
 .card-section > h3 {
-    color: black;
-    font-size: 2em;
+    color: #0058b8;
+    font-size: 1.5em;
     border-left: 8px solid var(--ts-brand-color);
-    margin-left: 8px;
+    margin: 2em 2em 2em 1em;
     padding-left: 12px;
     padding-right: 8px;
     font-style: italic;
+    font-weight: 100;
+    font-family: Georgia, serif;
 }
 .card-section > p img {
     margin: auto;
