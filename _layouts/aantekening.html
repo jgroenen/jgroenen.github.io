@@ -3,6 +3,16 @@ layout: default
 ---
 <section class="card-section right-card">
     <h1 style="padding: 24px 24px 12px">{{ page.title }}</h1>
+
+    <p>{% for tag in page.tags %}<a class="linkedin-tag" href="/kaarten/{{ tag | slugify }}/">{{ tag }}</a> {% endfor %}</p>
+
     <p class="subtitle">{% include date.html date=page.date %}</p>
     {{ content }}
+
+    <h2>Andere aantekenignen</h2>
+
+    {% assign collection = site.aantekeningen | sample: 3 %}
+    {% include cards.html collection=collection %}
+
+    <p><a href="/aantekeningen/">Bekijk alle aantekeningen</a></p>
 </section>

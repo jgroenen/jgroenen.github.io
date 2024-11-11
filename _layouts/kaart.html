@@ -3,6 +3,16 @@ layout: default
 ---
 <section class="card-section right-card">
     <h1 style="padding: 24px 24px 12px">{{ page.title }}</h1>
-    <p class="subtitle">{% include date.html date=page.date %}</p>
     {{ content }}
+
+    <p><a href="/kaarten/">Bekijk alle kaarten</a></p>
+
+    <h2>Aantekeningen</h2>
+
+    {% assign tag = page.tag | default: page.title | downcase %}
+    {% assign collection = site.aantekeningen | where_exp: "item", "item.tags contains tag" %}
+    {% include cards.html collection=collection %}
+
+    <p><a href="/aantekeningen/">Bekijk alle aantekeningen</a></p>
 </section>
+    
