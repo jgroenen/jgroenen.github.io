@@ -10,7 +10,7 @@ layout: default
     <h2>Aantekeningen</h2>
 
     {% assign tag = page.tag | default: page.title | downcase %}
-    {% assign collection = site.aantekeningen | where_exp: "item", "item.tags contains tag" %}
+    {% assign collection = site.aantekeningen | sort | reverse | where_exp: "item", "item.tags contains tag" %}
     {% include cards.html collection=collection %}
 
     <p><a href="/aantekeningen/">Bekijk alle aantekeningen</a></p>

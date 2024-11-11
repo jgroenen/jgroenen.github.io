@@ -11,7 +11,7 @@ layout: default
 
     <h2>Andere aantekenignen</h2>
 
-    {% assign collection = site.aantekeningen | sample: 3 | sort | reverse %}
+    {% assign collection = site.aantekeningen | sample: 3 %}
     {% include cards.html collection=collection %}
 
     <p><a href="/aantekeningen/">Bekijk alle aantekeningen</a></p>
