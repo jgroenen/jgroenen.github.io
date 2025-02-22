@@ -41,16 +41,15 @@ export default function (canvas, colors) {
     }
 
     function draw(currentGeneration) {
-        let imageData = ctx.createImageData(canvas.width, canvas.height);
-        let data = imageData.data;
-        for (let i = 0; i < canvas.height; ++i) {
-            for (let j = 0; j < canvas.width; ++j) {
-                let index = (i * canvas.width + j) * 4; // rgba channels
-                data[index + 1] = currentGeneration[i][j] ? 255 : 0;
-                data[index + 3] = 255;
+        ctx.fillStyle = "#000000";
+        ctx.fillRect(0, 0, canvas.width, canvas.height);
+        for (var i = 0; i < canvas.height; ++i) {
+            for (var j = 0; j < canvas.width; ++j) {
+                if (currentGeneration[i][j]) ctx.fillStyle = colors[1];
+                else ctx.fillStyle = colors[0];
+                ctx.fillRect(j, i, 1, 1);
             }
-        }
-        ctx.putImageData(imageData, 0, 0);
+        }         
     }
 
     function getLink() {
@@ -59,12 +58,13 @@ export default function (canvas, colors) {
 
     function runAnimation(interval) {
         var currentGeneration = generateInitialGeneration();
-        function animate() {
+        setInterval(function () {
+            var previousGeneration = currentGeneration;
             currentGeneration = calculateNextGeneration(currentGeneration);
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            //draw(previousGeneration);
             draw(currentGeneration);
-            requestAnimationFrame(animate);
-        }
-        requestAnimationFrame(animate);
+        }, interval);
     }
 
     return {
