@@ -37,6 +37,7 @@ figcaption {
     /* margin: 8px auto 0; */
     max-width: 636px;
     min-width: 328px;
+    margin-bottom: 18px;
 }
 .card-section h1 {
     margin: 0;
