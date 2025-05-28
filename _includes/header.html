@@ -1,18 +1,18 @@
 <header class="card-section">
-    <a href="/">
-        <img class="banner-image" src="https://img.apitecture.nl/?url={{ site.banner | url_encode }}">
+    <a href="/" aria-label="Home">
+        <img class="banner-image" src="https://img.apitecture.nl/?url={{ site.banner | url_encode }}" alt="#publictech banner">
         {% include computer.html %}
     </a>
-    <img class="profile-image" src="https://img.apitecture.nl/?url={{ site.data.person.picture }}">
-    <img class="klik" src="{{ "/img/klik.svg" | relative_url }}" style="width: 100px; margin-left: -20px">
+    <img class="profile-image" src="https://img.apitecture.nl/?url={{ site.data.person.picture }}" alt="Profielfoto">
+    <img class="klik" src="{{ "/img/klik.svg" | relative_url }}" style="width: 100px; margin-left: -20px" alt="">
     <h1 style="font-size: 1.4em; padding: 0 24px">{{ site.title }}</h1>
     <div style="padding: 0 24px">
         <div style="margin: 0">
             <p style="margin: 0">{{ site.description }}</p>
             <p style="margin-top: 0">
-                <a class="linkedin-button" href="https://www.linkedin.com/in/jgroenen/">LinkedIn</a>
-                <a style="background: #6364FF" class="linkedin-button" href="https://mastodon.social/@jpagroenen">Mastodon</a>
-                <a href="https://github.com/jgroenen"><img style="height: 46px; vertical-align: middle; margin-bottom: 4px" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"></a>
+                <a class="linkedin-button" href="https://www.linkedin.com/in/jgroenen/" aria-label="Linkedin">LinkedIn</a>
+                <a style="background: #6364FF" class="linkedin-button" href="https://mastodon.social/@jpagroenen" aria-label="Mastodon">Mastodon</a>
+                <a href="https://github.com/jgroenen"><img style="height: 46px; vertical-align: middle; margin-bottom: 4px" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" aria-label="Github"></a>
             </p>
         </div>
     </div>
