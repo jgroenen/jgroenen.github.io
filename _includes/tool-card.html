@@ -1,7 +1,7 @@
 <div class="project-card" data-tags>
     <div class="project-logo">
-        <a href="{{ tool.org_url }}">
-            <img src="https://img.apitecture.nl/?url={{ tool.org_logo | url_encode }}" width="48px" height="48px">
+        <a href="{{ tool.org_url }}" aria-label="Naar de organisatiepagina van {{ tool.org_naam }}">
+            <img src="https://img.apitecture.nl/?url={{ tool.org_logo | url_encode }}" width="48px" height="48px" alt="{{ tool.org_naam }} logo">
         </a>
     </div>
     <div class="project-body">
