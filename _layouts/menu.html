@@ -2,13 +2,15 @@
 <html>
     {% include head.html %}
     <body>
-        {% include menu.html symbol="ⓧ" url="/" %}
-        <center style="margin-top: 140px">
-            <a href="/"><h2>Home</h2></a>
-            <a href="/projecten/"><h2>Projecten</h2></a>
-            <a href="/aantekeningen/"><h2>Aantekeningen</h2></a>
-            <a href="/tools/"><h2>Tools</h2></a>
-            <a href="/communities/"><h2>Communities</h2></a>
-        </center>
+        <nav>{% include menu.html symbol="ⓧ" url="/" %}</nav>
+        <main>
+            <center style="margin-top: 140px">
+                <a href="/"><h2>Home</h2></a>
+                <a href="/projecten/"><h2>Projecten</h2></a>
+                <a href="/aantekeningen/"><h2>Aantekeningen</h2></a>
+                <a href="/tools/"><h2>Tools</h2></a>
+                <a href="/communities/"><h2>Communities</h2></a>
+            </center>
+        </main>
     </body>
 </html>

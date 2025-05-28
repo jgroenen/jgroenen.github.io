@@ -3,7 +3,7 @@
     {% include head.html %}
     
     <body>
-        {% include menu.html symbol="ⓘ" url="/menu" %}
+        <nav>{% include menu.html symbol="ⓘ" url="/menu" %}</nav>
         {% include linkedin-tags-script.html %}
         <div class="wrapper">
             <aside>
@@ -27,10 +27,11 @@
                 {% endcomment %}
 
                 {% include externalProfiles.html %}
-                
             </aside>
 
-            {{ content }}
+            <main>
+                {{ content }}
+            </main>
         </div>
 
         {% include footer.html %}
