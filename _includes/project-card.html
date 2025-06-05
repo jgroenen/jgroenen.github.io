@@ -1,7 +1,7 @@
 <div class="project-card {% unless project.tot != "null" %}project-card-actief{% endunless %}" data-tags>
     <div class="project-logo">
         <a href="{{ project.org_url }}" aria-label="Naar de organisatiepagina van {{ project.org_naam }}">
-            <img src="https://img.apitecture.nl/?url={{ project.org_logo | url_encode }}" width="48px" height="48px" alt="{{ project.org_naam }} logo">
+            <img src="https://img.apitecture.nl/?url={{ project.org_logo | url_encode }}" width="48px" height="48px" alt="{{ project.org_naam }} logo" style="object-fit: contain">
         </a>
     </div>
     <div class="project-body">
