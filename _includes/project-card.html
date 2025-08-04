@@ -1,38 +1,46 @@
-<div class="project-card {% unless project.tot != "null" %}project-card-actief{% endunless %}" data-tags>
-    <div class="project-logo">
-        <a href="{{ project.org_url }}" aria-label="Naar de organisatiepagina van {{ project.org_naam }}">
-            <img src="https://img.apitecture.nl/?url={{ project.org_logo | url_encode }}" width="48px" height="48px" alt="{{ project.org_naam }} logo" style="object-fit: contain">
-        </a>
-    </div>
-    <div class="project-body">
-        <div class="project-header">
-            <h2><span style="font-weight: 500">{{ project.rol}}</span><br>{{ project.titel }}</h2>
-            <p class="subtitle"><a href="{{ project.org_url }}">{{ project.org_naam }}</a></p>
+<div class="project-card {% unless project.tot %}project-card-actief{% endunless %}" data-tags>
+    {% if project.van contains '1900' %}
+    {% elsif project.van == project.tot %}
+    <div class="year-label">{{ project.van }}</div>
+    {% else %} 
+    <div class="year-label">{{ project.van }} - {{ project.tot | default: "heden" }}</div>
+    {% endif %}
+    <div style="display: flex">
+        <div class="project-logo">
+            <a href="{{ project.org_url }}" aria-label="Naar de organisatiepagina van {{ project.org_naam }}">
+                <img src="https://img.apitecture.nl/?url={{ project.org_logo | url_encode }}" width="48px" height="48px" alt="{{ project.org_naam }} logo" style="object-fit: contain">
+            </a>
         </div>
-
-        <div class="project-main">
-            <!--
-            {% if project.duur %}
-            <div class="project-meta">
-                <p>{{ project.begin }} - {{ project.einde }} · {{ project.duur }}</p>
-                <p>{{ project.standplaats}}</p>
+        <div class="project-body">
+            <div class="project-header">
+                <h2><span style="font-weight: 500">{{ project.rol}}</span><br>{{ project.titel }}</h2>
+                <p class="subtitle"><a href="{{ project.org_url }}">{{ project.org_naam }}</a></p>
             </div>
-            {% endif %}
 
-            <p style="margin-top: 16px">{{ project.omschrijving }}</p>
+            <div class="project-main">
+                <!--
+                {% if project.duur %}
+                <div class="project-meta">
+                    <p>{{ project.begin }} - {{ project.einde }} · {{ project.duur }}</p>
+                    <p>{{ project.standplaats}}</p>
+                </div>
+                {% endif %}
 
-            {% capture tags %}{{ project.rol }},{{ project.aanpak }},{{ project.domein }},{{ project.tags }},{{ project.vaardigheden }},{{ project.status }}{% endcapture %}
-            {% assign tags = tags | split: "," %}
-            {% if tags %}
-                {% include linkedin-tags.html tags=tags%}
-            {% endif %}
-            -->
+                <p style="margin-top: 16px">{{ project.omschrijving }}</p>
 
-            {% if project.url %}
-            <p style="text-align: right">
-                <a target="_blank" href="{{ project.url }}">{{ project.titel }} »</a>
-            </p>
-            {% endif %}
+                {% capture tags %}{{ project.rol }},{{ project.aanpak }},{{ project.domein }},{{ project.tags }},{{ project.vaardigheden }},{{ project.status }}{% endcapture %}
+                {% assign tags = tags | split: "," %}
+                {% if tags %}
+                    {% include linkedin-tags.html tags=tags%}
+                {% endif %}
+                -->
+
+                {% if project.url %}
+                <p style="text-align: right">
+                    <a target="_blank" href="{{ project.url }}">{{ project.titel }} »</a>
+                </p>
+                {% endif %}
+            </div>
         </div>
     </div>
 </div>

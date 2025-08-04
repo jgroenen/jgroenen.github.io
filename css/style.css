@@ -70,10 +70,19 @@ figcaption {
 .project-card {
     margin: 12px 24px;
     padding-bottom: 12px;
-    padding-right: 40px;
-    display: flex;
     border-bottom: 1px solid var(--background-color);
     position: relative;
+}
+.project-card .year-label {
+    float: right;
+    font-size: 0.6em;
+    margin-right: 10px;
+    border-radius: 2px;
+    padding: 2px 4px;
+}
+.project-card-actief .year-label {
+    background: #E54545;
+    color: white;
 }
 .project-card h2 {
     font-size: 1.1em;
@@ -83,17 +92,6 @@ figcaption {
 }
 .project-card .subtitle {
     margin: 8px 0;
-}
-.project-card-actief::after {
-    content: "Actief";
-    background: #E54545;
-    color: #FFFFFF;
-    padding: 8px 24px;
-    transform: rotate(-90deg);
-    transform-origin: 100% 0%;
-    position: absolute;
-    right: 34px;
-    top: -12px;
 }
 .project-logo {
     width: 48px;
