@@ -9,7 +9,7 @@ layout: default
     <p class="subtitle">{% include date.html date=page.date %}</p>
     {{ content }}
 
-    <h2>Andere aantekenignen</h2>
+    <h2>Andere aantekeningen</h2>
 
     {% assign collection = site.aantekeningen | sample: 3 %}
     {% include cards.html collection=collection %}
