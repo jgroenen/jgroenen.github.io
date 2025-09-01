@@ -1,19 +1,21 @@
 {% if include.card %}
 <a name="{{ item.id }}"></a>
 <div class="project-card" data-tags>
-    <div class="project-logo">
-        <img src="{{ item.image }}" width="48px" height="48px" alt="" style="object-fit: cover">
-    </div>
-    <div class="project-body">
-        <h2>{{ item.title }}</h2>
+    <div style="display: flex">
+        <div class="project-logo">
+            <img src="{{ item.image }}" width="48px" height="48px" alt="" style="object-fit: cover">
+        </div>
+        <div class="project-body">
+            <h2>{{ item.title }}</h2>
 
-        <p class="subtitle">{% include date.html date=item.date %}</p>
-        
-        {% include linkedin-tags.html tags=item.tags %}
+            <p class="subtitle">{% include date.html date=item.date %}</p>
+            
+            {% include linkedin-tags.html tags=item.tags %}
 
-        <p>{{ item.teaser }}</p>
+            <p>{{ item.teaser }}</p>
 
-        <p><a class="button" href="{{ item.url }}">Lees {{ item.label | default: item.title }}</a></p>
+            <p><a class="button" href="{{ item.url }}">Lees {{ item.label | default: item.title }}</a></p>
+        </div>
     </div>
 </div>
 {% endif %}

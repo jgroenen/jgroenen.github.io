@@ -72,7 +72,6 @@ figcaption {
     padding-bottom: 12px;
     border-bottom: 1px solid var(--background-color);
     position: relative;
-    display: flex;
 }
 .project-card .year-label {
     float: right;

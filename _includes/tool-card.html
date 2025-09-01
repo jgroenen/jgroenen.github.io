@@ -1,31 +1,33 @@
 <div class="project-card" data-tags>
-    <div class="project-logo">
-        <a href="{{ tool.org_url }}" aria-label="Naar de organisatiepagina van {{ tool.org_naam }}">
-            <img src="https://img.apitecture.nl/?url={{ tool.org_logo | url_encode }}" width="48px" height="48px" alt="{{ tool.org_naam }} logo" style="object-fit: contain">
-        </a>
-    </div>
-    <div class="project-body">
-        <div class="project-header">
-            <h2><span style="font-weight: 500">{{ tool.type}}</span><br>{{ tool.titel }}</h2>
-            <p class="subtitle"><a href="{{ tool.org_url }}">{{ tool.org_naam }}</a></p>
+    <div style="display: flex">
+        <div class="project-logo">
+            <a href="{{ tool.org_url }}" aria-label="Naar de organisatiepagina van {{ tool.org_naam }}">
+                <img src="https://img.apitecture.nl/?url={{ tool.org_logo | url_encode }}" width="48px" height="48px" alt="{{ tool.org_naam }} logo" style="object-fit: contain">
+            </a>
         </div>
+        <div class="project-body">
+            <div class="project-header">
+                <h2><span style="font-weight: 500">{{ tool.type}}</span><br>{{ tool.titel }}</h2>
+                <p class="subtitle"><a href="{{ tool.org_url }}">{{ tool.org_naam }}</a></p>
+            </div>
 
-        <div class="project-main">
-            <p style="margin-top: 16px; font-style: italic; line-height: 1.4em">"{{ tool.omschrijving }}"</p>
+            <div class="project-main">
+                <p style="margin-top: 16px; font-style: italic; line-height: 1.4em">"{{ tool.omschrijving }}"</p>
 
-            <!--
-            {% capture tags %}{{ project.rol }},{{ project.aanpak }},{{ project.domein }},{{ project.tags }},{{ project.vaardigheden }},{{ project.status }}{% endcapture %}
-            {% assign tags = tags | split: "," %}
-            {% if tags %}
-                {% include linkedin-tags.html tags=tags%}
-            {% endif %}
-            -->
+                <!--
+                {% capture tags %}{{ project.rol }},{{ project.aanpak }},{{ project.domein }},{{ project.tags }},{{ project.vaardigheden }},{{ project.status }}{% endcapture %}
+                {% assign tags = tags | split: "," %}
+                {% if tags %}
+                    {% include linkedin-tags.html tags=tags%}
+                {% endif %}
+                -->
 
-            {% if tool.url %}
-            <p style="text-align: right">
-                <a target="_blank" href="{{ tool.url }}">{{ tool.titel }} »</a>
-            </p>
-            {% endif %}
+                {% if tool.url %}
+                <p style="text-align: right">
+                    <a target="_blank" href="{{ tool.url }}">{{ tool.titel }} »</a>
+                </p>
+                {% endif %}
+            </div>
         </div>
     </div>
 </div>
