@@ -587,14 +587,14 @@
     publicatie_status: live
     titel: Opensourcewerken
     rol: Schrijfgroep, Adviseur
-    org_naam: Ministerie van Binnenlandse Zaken en Koninkrijksrelaties
-    org_url: https://nl.linkedin.com/company/ministerie-van-bzk
-    org_logo: https://media.licdn.com/dms/image/v2/C4E0BAQGcYLYARqV-Bg/company-logo_200_200/company-logo_200_200/0/1652875298057/ministerie_van_bzk_logo?e=2147483647&v=beta&t=DPhCIWffcR5B8HgWXEomAGj9v9glYz1d2icWQQrjqS8
+    org_naam: Opensourcewerken
+    org_url: https://www.opensourcewerken.nl/
+    org_logo: https://media.licdn.com/dms/image/v2/D4E0BAQHkvludSKVb8g/company-logo_200_200/company-logo_200_200/0/1729601598007/opensourcewerken_logo?e=1749081600&v=beta&t=IZc_i9iZcmI84bX3MjkSfGQc2Njk91Ea9vSgPVtF2kU
     url: https://www.opensourcewerken.nl/
     aanpak: Community
     omschrijving: Dit project is nog niet goed omschreven.
     van: 2024
-    tot: 2025
+    tot:
     skills: null
     star: 
     tags: null
