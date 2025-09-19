@@ -83,6 +83,12 @@ figcaption {
 .project-card-actief .year-label {
     background: #E54545;
     color: white;
+    width: 8px;
+    height: 8px;
+    border-radius: 10px;
+    font-size: 0;
+    padding: 0;
+    margin: 6px;
 }
 .project-card h2 {
     font-size: 1.1em;
