@@ -196,7 +196,7 @@
 -
     publicatie_status: live
     titel: Taakapplicatie Handhaving en Toezicht Evenementen
-    rol: Concept Design, Tech Lead
+    rol: Product Strateeg / Developer
     org_naam: Gemeente Amsterdam
     org_url: https://www.linkedin.com/company/gemeente-amsterdam/
     org_logo: https://media.licdn.com/dms/image/C4E0BAQHshjLzKJl19g/company-logo_200_200/0/1659945554228?e=1694649600&v=beta&t=CUDm4LtUZ-ZL0jSKd7dgWIa0p6v7b22HL2h9HQhujX4
@@ -210,8 +210,8 @@
     tags: innovatie
 -
     publicatie_status: live
-    titel: Data Servicepunt Flevoland
-    rol: Strategisch Adviseur, Architect
+    titel: Visietraject Data Servicepunt Flevoland
+    rol: Product Strateeg / Architect
     org_naam: Provincie Flevoland
     org_url: https://www.linkedin.com/company/provincie-flevoland/
     org_logo: https://media.licdn.com/dms/image/C560BAQHvKVZwcp-LzQ/company-logo_200_200/0/1539583399931?e=1694649600&v=beta&t=k8PA12y3oIKM2PPwzyKGhR87lBuknbJ7KNHE5j9EP9Q
@@ -225,8 +225,8 @@
     tags: innovatie
 -
     publicatie_status: live
-    titel: SMS Flevowegen
-    rol: Product Lead, Tech Lead
+    titel: Ontwikkeling SMS Flevowegen
+    rol: Product Strateeg / Lead Developer
     org_naam: Provincie Flevoland
     org_url: https://www.linkedin.com/company/provincie-flevoland/
     org_logo: https://media.licdn.com/dms/image/C560BAQHvKVZwcp-LzQ/company-logo_200_200/0/1539583399931?e=1694649600&v=beta&t=k8PA12y3oIKM2PPwzyKGhR87lBuknbJ7KNHE5j9EP9Q
@@ -240,8 +240,8 @@
     tags: innovatie
 -
     publicatie_status: live
-    titel: Clarity Use Cases
-    rol: Concept Design, Product Lead
+    titel: Ontwikkeling Prototype Clarity Use Cases
+    rol: Product Strateeg / Developer
     org_naam: Waag Futurelab
     org_url: https://www.linkedin.com/company/waag-society/
     org_logo: https://media.licdn.com/dms/image/C4D0BAQFDMNS9HN7wJg/company-logo_200_200/0/1521457451751?e=1694649600&v=beta&t=Rh2DwljuKXq6p4zdg3r1zXz9gkuPurVdT0-CFZrOTV0
@@ -256,7 +256,7 @@
 -
     publicatie_status: live
     titel: 'Fixxx "Makkelijke Markt: Eerlijk Controleren"'
-    rol: Concept Design, Adviseur Algoritmiek
+    rol: Product Strateeg / Adviseur Algoritmes
     org_naam: Gemeente Amsterdam
     org_url: https://www.linkedin.com/company/gemeente-amsterdam/
     org_logo: https://media.licdn.com/dms/image/C4E0BAQHshjLzKJl19g/company-logo_200_200/0/1659945554228?e=1694649600&v=beta&t=CUDm4LtUZ-ZL0jSKd7dgWIa0p6v7b22HL2h9HQhujX4
@@ -271,7 +271,7 @@
 -
     publicatie_status: live
     titel: 'Fixxx "Makkelijke Markt: Digitaal Indelen"'
-    rol: Concept Design, Adviseur Algoritmiek
+    rol: Product Strateeg / Adviseur Algoritmes
     org_naam: Gemeente Amsterdam
     org_url: https://www.linkedin.com/company/gemeente-amsterdam/
     org_logo: https://media.licdn.com/dms/image/C4E0BAQHshjLzKJl19g/company-logo_200_200/0/1659945554228?e=1694649600&v=beta&t=CUDm4LtUZ-ZL0jSKd7dgWIa0p6v7b22HL2h9HQhujX4
@@ -285,23 +285,8 @@
     tags: digitaletransformatie,datagedrevenwerken,commonground,innovatie,fixxx
 -
     publicatie_status: live
-    titel: Huisvesting Kwetsbare Groepen
-    rol: Product Lead, Project Manager
-    org_naam: Gemeente Amsterdam
-    org_url: https://www.linkedin.com/company/gemeente-amsterdam/
-    org_logo: https://media.licdn.com/dms/image/C4E0BAQHshjLzKJl19g/company-logo_200_200/0/1659945554228?e=1694649600&v=beta&t=CUDm4LtUZ-ZL0jSKd7dgWIa0p6v7b22HL2h9HQhujX4
-    url: 
-    aanpak: Agile Development
-    omschrijving: Dit project is nog niet goed omschreven.
-    van: jan. 1900
-    tot: jan. 1900
-    skills: null
-    star: 
-    tags: null
--
-    publicatie_status: live
-    titel: ADUS Amsterdam
-    rol: (Platform) Architect
+    titel: Ontwikkeling ADUS Amsterdam
+    rol: Product Strateeg / (Platform) Architect
     org_naam: Gemeente Amsterdam
     org_url: https://www.linkedin.com/company/gemeente-amsterdam/
     org_logo: https://media.licdn.com/dms/image/C4E0BAQHshjLzKJl19g/company-logo_200_200/0/1659945554228?e=1694649600&v=beta&t=CUDm4LtUZ-ZL0jSKd7dgWIa0p6v7b22HL2h9HQhujX4
@@ -315,8 +300,8 @@
     tags: datagedrevenwerken,privacybydesign,commonground,innovatie
 -
     publicatie_status: live
-    titel: Code for NL
-    rol: Community Strategie, Organisatie
+    titel: Code for NL Community
+    rol: Community Strateeg, Mede-organisator
     org_naam: Stichting Code for NL
     org_url: https://www.linkedin.com/company/codefornl/
     org_logo: https://media.licdn.com/dms/image/C4D0BAQHjJ7tSM_9Nng/company-logo_200_200/0/1623696540608?e=1694649600&v=beta&t=oqtj4x45mrKwrM8OJHCZEt-2gfraTZD2HndfL6aKuW4
@@ -345,7 +330,7 @@
     tags: digitaletransformatie,innovatie
 -
     publicatie_status: live
-    titel: Service Center Publieke Professionals
+    titel: Inrichting Service Center Publieke Professionals
     rol: Business Analist, Strategisch Adviseur
     org_naam: Gemeente Amsterdam
     org_url: https://www.linkedin.com/company/gemeente-amsterdam/
@@ -361,7 +346,7 @@
 -
     publicatie_status: live
     titel: AI met Impact
-    rol: Community Strategie
+    rol: Community Strateeg
     org_naam: Stichting Code for NL
     org_url: https://www.linkedin.com/company/codefornl/
     org_logo: https://media.licdn.com/dms/image/C4D0BAQHjJ7tSM_9Nng/company-logo_200_200/0/1623696540608?e=1694649600&v=beta&t=oqtj4x45mrKwrM8OJHCZEt-2gfraTZD2HndfL6aKuW4
@@ -375,8 +360,8 @@
     tags: datagedrevenwerken,AI
 -
     publicatie_status: live
-    titel: "Unconference 2020: Aligning Public Tech"
-    rol: Organisatie
+    titel: "Code for NL #Unconf 2020: Aligning Public Tech"
+    rol: Mede-organisator
     org_naam: Stichting Code for NL
     org_url: https://www.linkedin.com/company/codefornl/
     org_logo: https://media.licdn.com/dms/image/C4D0BAQHjJ7tSM_9Nng/company-logo_200_200/0/1623696540608?e=1694649600&v=beta&t=oqtj4x45mrKwrM8OJHCZEt-2gfraTZD2HndfL6aKuW4
@@ -390,8 +375,8 @@
     tags: publictech,openkennisdeling
 -
     publicatie_status: live
-    titel: Huisvesting Kwetsbare Groepen
-    rol: Product Lead
+    titel: Ontwikkeling Huisvesting Kwetsbare Groepen
+    rol: Product Strateeg / Architect
     org_naam: Gemeente Amsterdam
     org_url: https://www.linkedin.com/company/gemeente-amsterdam/
     org_logo: https://www.huisvestingkwetsbaregroepen.nl/wp-content/themes/huisvestingkwetsbaregroepen/img/logo-hkg.svg
@@ -406,7 +391,7 @@
 -
     publicatie_status: live
     titel: CoronaApps Community
-    rol: Aanjager
+    rol: Aanjager, Community Manager
     org_naam: Stichting Code for NL
     org_url: https://www.linkedin.com/company/codefornl/
     org_logo: https://media.licdn.com/dms/image/C4D0BAQHjJ7tSM_9Nng/company-logo_200_200/0/1623696540608?e=1694649600&v=beta&t=oqtj4x45mrKwrM8OJHCZEt-2gfraTZD2HndfL6aKuW4
@@ -421,7 +406,7 @@
 -
     publicatie_status: live
     titel: Digitale Ondersteuning Bestrijding COVID-19
-    rol: Concept Design
+    rol: Product Strateeg
     org_naam: Ministerie van Volksgezondheid, Welzijn en Sport
     org_url: https://www.linkedin.com/company/ministerie-van-vws/
     org_logo: https://media.licdn.com/dms/image/D4E0BAQHNO7z0xop4YA/company-logo_200_200/0/1691392238406/ministerie_van_vws_logo?e=1708560000&v=beta&t=GlYSsSuXg6dH4L_DbxqoInG2_rbdmqTbPFUneILxXKI
@@ -436,22 +421,7 @@
 -
     publicatie_status: live
     titel: Consortium Publieke Controle op Algoritmes
-    rol: Product Lead
-    org_naam: Ministerie van Binnenlandse Zaken en Koninkrijksrelates
-    org_url: https://www.linkedin.com/company/ministerie-van-bzk/
-    org_logo: https://media.licdn.com/dms/image/C4E0BAQGcYLYARqV-Bg/company-logo_200_200/0/1652875297587?e=1694649600&v=beta&t=Ni_Txx9zhdF6G0tbeyfUq0VdqNpRdMuKLfYd1pNKjJ8
-    url: 
-    aanpak: Design Thinking
-    omschrijving: Dit project is nog niet goed omschreven.
-    van: sept. '21
-    tot: feb. '22
-    skills: community management, product design, prototyping
-    star: 
-    tags: innovatie
--
-    publicatie_status: live
-    titel: Consortium Publieke Controle op Algoritmes
-    rol: Kartrekker
+    rol: Kartrekker, Product Strateeg / Architect
     org_naam: Ministerie van Binnenlandse Zaken en Koninkrijksrelates
     org_url: https://www.linkedin.com/company/ministerie-van-bzk/
     org_logo: https://media.licdn.com/dms/image/C4E0BAQGcYLYARqV-Bg/company-logo_200_200/0/1652875297587?e=1694649600&v=beta&t=Ni_Txx9zhdF6G0tbeyfUq0VdqNpRdMuKLfYd1pNKjJ8
@@ -465,8 +435,8 @@
     tags: innovatie
 -
     publicatie_status: live
-    titel: Algorithm Registers for European Cities
-    rol: Product Lead, Architect
+    titel: Innovatietraject Algorithm Registers for European Cities
+    rol: Community Manager, Product Strateeg / Architect
     org_naam: Eurocities
     org_url: https://www.linkedin.com/company/eurocities/
     org_logo: https://media.licdn.com/dms/image/C560BAQGelAf4sp8Beg/company-logo_200_200/0/1598942057633?e=1694649600&v=beta&t=C9D6bJyBclEVv5mm4804_vkpQZei3hs3J90-KpsGVFQ
@@ -495,8 +465,8 @@
     tags: digitaletransformatie,commonground,innovatie
 -
     publicatie_status: live
-    titel: Algoritmeregister van de Nederlandse Overheid
-    rol: Product Lead, Architect
+    titel: Realisatie Algoritmeregister van de Nederlandse Overheid
+    rol: Product Strateeg / Architect
     org_naam: Ministerie van Binnenlandse Zaken en Koninkrijksrelates
     org_url: https://www.linkedin.com/company/ministerie-van-bzk/
     org_logo: https://media.licdn.com/dms/image/C4E0BAQGcYLYARqV-Bg/company-logo_200_200/0/1652875297587?e=1694649600&v=beta&t=Ni_Txx9zhdF6G0tbeyfUq0VdqNpRdMuKLfYd1pNKjJ8
@@ -510,8 +480,8 @@
     tags: null
 -
     publicatie_status: live
-    titel: "Unconference 2023: Aligning Public Tech"
-    rol: Organisatie
+    titel: "Code for NL #Unconf 2023: Aligning Public Tech"
+    rol: Mede-organisator
     org_naam: Stichting Code for NL
     org_url: https://www.linkedin.com/company/codefornl/
     org_logo: https://media.licdn.com/dms/image/C4D0BAQHjJ7tSM_9Nng/company-logo_200_200/0/1623696540608?e=1694649600&v=beta&t=oqtj4x45mrKwrM8OJHCZEt-2gfraTZD2HndfL6aKuW4
@@ -525,8 +495,8 @@
     tags: publictech,openkennisdeling
 -
     publicatie_status: live
-    titel: Algoritmeregister Beheertool
-    rol: Product Lead, Architect
+    titel: Ontwikkeling Prototype Algoritmeregister Beheertool
+    rol: Product Strateeg / Architect
     org_naam: Provincie Noord-Brabant
     org_url: https://www.linkedin.com/company/provincie-noord-brabant/
     org_logo: https://media.licdn.com/dms/image/C4E0BAQFB_1lfwmQDdg/company-logo_200_200/0/1678933292806?e=1694649600&v=beta&t=ekBKPs7uh9B28G-TIlu2kn11WQ3t9aYiJEW9zwWZDcs
@@ -540,8 +510,8 @@
     tags: null
 -
     publicatie_status: live
-    titel: Sensorenregister Beheertool
-    rol: Product Lead, Architect
+    titel: Ontwikkeling Prototype Sensorenregister Beheertool
+    rol: Product Strateeg / Architect
     org_naam: Provincie Noord-Brabant
     org_url: https://www.linkedin.com/company/provincie-noord-brabant/
     org_logo: https://media.licdn.com/dms/image/C4E0BAQFB_1lfwmQDdg/company-logo_200_200/0/1678933292806?e=1694649600&v=beta&t=ekBKPs7uh9B28G-TIlu2kn11WQ3t9aYiJEW9zwWZDcs
@@ -555,8 +525,8 @@
     tags: null
 -
     publicatie_status: live
-    titel: Gegevens- & Algoritmeboekhouding
-    rol: Product Lead, Adviseur Open Werken
+    titel: Ontwikkeling Prototype Gegevens- & Algoritmeboekhouding
+    rol: Product Strateeg, Adviseur Opensourcewerken
     org_naam: Ministerie van Justitie en Veiligheid
     org_url: https://www.linkedin.com/company/ministerie-van-justitie-en-veiligheid-/
     org_logo: https://media.licdn.com/dms/image/C4E0BAQG50y6Gxf46JA/company-logo_200_200/0/1659950489882?e=1694649600&v=beta&t=DLIG_RZa_khCou0ghIrI5fwo3X1AqzzjFHzfbKB9YQk
@@ -570,8 +540,8 @@
     tags: null
 -
     publicatie_status: live
-    titel: "Unconference 2024: Aligning Public Tech"
-    rol: Organisatie
+    titel: "Code for NL #Unconf 2024: Aligning Public Tech"
+    rol: Mede-organisator
     org_naam: Stichting Code for NL
     org_url: https://www.linkedin.com/company/codefornl/
     org_logo: https://media.licdn.com/dms/image/C4D0BAQHjJ7tSM_9Nng/company-logo_200_200/0/1623696540608?e=1694649600&v=beta&t=oqtj4x45mrKwrM8OJHCZEt-2gfraTZD2HndfL6aKuW4
@@ -585,8 +555,8 @@
     tags: publictech,openkennisdeling
 -
     publicatie_status: live
-    titel: Opensourcewerken
-    rol: Schrijfgroep, Adviseur
+    titel: Schrijfgroep Opensourcewerken
+    rol: Expert Opensourcewerken, Auteur
     org_naam: Opensourcewerken
     org_url: https://www.opensourcewerken.nl/
     org_logo: https://media.licdn.com/dms/image/v2/D4E0BAQHkvludSKVb8g/company-logo_200_200/company-logo_200_200/0/1729601598007/opensourcewerken_logo?e=1749081600&v=beta&t=IZc_i9iZcmI84bX3MjkSfGQc2Njk91Ea9vSgPVtF2kU
@@ -600,8 +570,8 @@
     tags: null
 -
     publicatie_status: live
-    titel: Standaard voor Publieke Code
-    rol: Community Lead, Redactie
+    titel: NL Vertaling "Standaard voor Publieke Code"
+    rol: Projectmanager, Eindredactie
     org_naam: Standaard voor Publieke Code
     org_url: https://codefor.nl/community-translations-standard/nl/
     org_logo: https://avatars.githubusercontent.com/u/165153351?s=200&v=4
@@ -616,7 +586,7 @@
 -
     publicatie_status: live
     titel: FLEX op Dev.loer
-    rol: Organisatie
+    rol: Mede-organisator
     org_naam: Code for NL
     org_url: https://www.codefor.nl
     org_logo: https://media.licdn.com/dms/image/C4D0BAQHjJ7tSM_9Nng/company-logo_200_200/0/1623696540608?e=1694649600&v=beta&t=oqtj4x45mrKwrM8OJHCZEt-2gfraTZD2HndfL6aKuW4
@@ -630,8 +600,8 @@
     tags: publictech,openkennisdeling,opensourcewerken
 -
     publicatie_status: live
-    titel: "Unconference 2025: Digitale Autonomie"
-    rol: Organisatie
+    titel: "Code for NL #Unconf 2025: Digitale Autonomie"
+    rol: Mede-organisator
     org_naam: Stichting Code for NL
     org_url: https://www.linkedin.com/company/codefornl/
     org_logo: https://media.licdn.com/dms/image/C4D0BAQHjJ7tSM_9Nng/company-logo_200_200/0/1623696540608?e=1694649600&v=beta&t=oqtj4x45mrKwrM8OJHCZEt-2gfraTZD2HndfL6aKuW4
@@ -645,8 +615,8 @@
     tags: publictech,openkennisdeling
 -
     publicatie_status: live
-    titel: PolisNL
-    rol: Product Strategie, Community Strategie
+    titel: Productization PolisNL
+    rol: Strategisch Adviseur
     org_naam: PolisNL
     org_url: https://www.polisnl.org/
     org_logo: https://polisnl.org/user/themes/polis-nl/img/logo-polis-nl.svg
@@ -660,8 +630,8 @@
     tags: null
 -
     publicatie_status: live
-    titel: OpenZaak
-    rol: Business Analist (Open Source Samenwerken)
+    titel: Ecosystem Governance OpenZaak
+    rol: Strategisch Adviseur
     org_naam: OpenZaak
     org_url: https://www.openzaak.org/
     org_logo: https://avatars.githubusercontent.com/u/52713039?s=200&v=4
@@ -675,8 +645,8 @@
     tags: null
 -
     publicatie_status: live
-    titel: Opensourcewerken
-    rol: Community Lead
+    titel: Community Management Opensourcewerken
+    rol: Community Strategie, Expert Opensourcewerken
     org_naam: Opensourcewerken
     org_url: https://www.opensourcewerken.nl/
     org_logo: https://media.licdn.com/dms/image/v2/D4E0BAQHkvludSKVb8g/company-logo_200_200/company-logo_200_200/0/1729601598007/opensourcewerken_logo?e=1749081600&v=beta&t=IZc_i9iZcmI84bX3MjkSfGQc2Njk91Ea9vSgPVtF2kU
@@ -690,8 +660,8 @@
     tags: null
 -
     publicatie_status: live
-    titel: Code.overheid.nl
-    rol: Product Strategie, Community Strategie
+    titel: Realisatie CodePlatform Overheid
+    rol: Product Strateeg / Architect
     org_naam: Ministerie van Binnenlandse Zaken en Koninkrijksrelaties
     org_url: https://nl.linkedin.com/company/ministerie-van-bzk
     org_logo: https://media.licdn.com/dms/image/v2/C4E0BAQGcYLYARqV-Bg/company-logo_200_200/company-logo_200_200/0/1652875298057/ministerie_van_bzk_logo?e=2147483647&v=beta&t=DPhCIWffcR5B8HgWXEomAGj9v9glYz1d2icWQQrjqS8
@@ -705,8 +675,8 @@
     tags: null
 -
     publicatie_status: live
-    titel: Data.overheid.nl
-    rol: Strategisch Adviseur, Community Strategie
+    titel: Visietraject Data Overheid
+    rol: Product Strateeg
     org_naam: Ministerie van Binnenlandse Zaken en Koninkrijksrelaties
     org_url: https://nl.linkedin.com/company/ministerie-van-bzk
     org_logo: https://media.licdn.com/dms/image/v2/C4E0BAQGcYLYARqV-Bg/company-logo_200_200/company-logo_200_200/0/1652875298057/ministerie_van_bzk_logo?e=2147483647&v=beta&t=DPhCIWffcR5B8HgWXEomAGj9v9glYz1d2icWQQrjqS8
