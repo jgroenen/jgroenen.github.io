@@ -11,13 +11,10 @@ profiles:
   - network: LinkedIn
     username: jgroenen
     url: https://www.linkedin.com/in/jgroenen
-  - network: Twitter
-    username: jpagroenen
-    url: https://www.twitter.com/jpagroenen
   - network: Github
     username: jgroenen
     url: https://www.github.com/jgroenen
   - network: Mastodon
     username: jpagroenen
-    url: https://mastodon.social/@jpagroenen
+    url: https://social.codefor.nl/@johan
 _twitter_handle: "@jpagroenen"
