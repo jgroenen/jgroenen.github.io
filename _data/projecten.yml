@@ -615,8 +615,8 @@
     tags: publictech,openkennisdeling
 -
     publicatie_status: live
-    titel: Productization PolisNL
-    rol: Strategisch Adviseur
+    titel: Ontwikkeling PolisNL
+    rol: Adviseur Codebase Stewardship
     org_naam: PolisNL
     org_url: https://www.polisnl.org/
     org_logo: https://polisnl.org/user/themes/polis-nl/img/logo-polis-nl.svg
@@ -631,7 +631,7 @@
 -
     publicatie_status: live
     titel: Ecosystem Governance OpenZaak
-    rol: Strategisch Adviseur
+    rol: Adviseur Codebase Stewardship
     org_naam: OpenZaak
     org_url: https://www.openzaak.org/
     org_logo: https://avatars.githubusercontent.com/u/52713039?s=200&v=4
@@ -645,8 +645,8 @@
     tags: null
 -
     publicatie_status: live
-    titel: Community Management Opensourcewerken
-    rol: Community Manager, Strategisch Adviseur
+    titel: Platform Opensourcewerken.NL
+    rol: Interim Platform Manager, Community Manager
     org_naam: Opensourcewerken
     org_url: https://www.opensourcewerken.nl/
     org_logo: https://media.licdn.com/dms/image/v2/D4E0BAQHkvludSKVb8g/company-logo_200_200/company-logo_200_200/0/1729601598007/opensourcewerken_logo?e=1749081600&v=beta&t=IZc_i9iZcmI84bX3MjkSfGQc2Njk91Ea9vSgPVtF2kU
@@ -675,7 +675,7 @@
     tags: null
 -
     publicatie_status: live
-    titel: Visietraject Data Overheid
+    titel: Visietraject Data.Overheid.NL
     rol: Strategisch Adviseur
     org_naam: Ministerie van Binnenlandse Zaken en Koninkrijksrelaties
     org_url: https://nl.linkedin.com/company/ministerie-van-bzk
@@ -690,8 +690,8 @@
     tags: null
 -
     publicatie_status: live
-    titel: Product Manager Social Overheid
-    rol: Product Manager, Community Manager
+    titel: Social.Overheid.NL
+    rol: Platform Manager, Community Manager
     org_naam: Ministerie van Binnenlandse Zaken en Koninkrijksrelaties
     org_url: https://nl.linkedin.com/company/ministerie-van-bzk
     org_logo: https://media.licdn.com/dms/image/v2/C4E0BAQGcYLYARqV-Bg/company-logo_200_200/company-logo_200_200/0/1652875298057/ministerie_van_bzk_logo?e=2147483647&v=beta&t=DPhCIWffcR5B8HgWXEomAGj9v9glYz1d2icWQQrjqS8
@@ -705,8 +705,8 @@
     tags: null
 -
     publicatie_status: live
-    titel: Product Manager Praat Mee met de Overheid
-    rol: Product Manager, Community Manager
+    titel: Praat Mee met de Overheid
+    rol: Platform Manager, Community Manager
     org_naam: Ministerie van Binnenlandse Zaken en Koninkrijksrelaties
     org_url: https://nl.linkedin.com/company/ministerie-van-bzk
     org_logo: https://media.licdn.com/dms/image/v2/C4E0BAQGcYLYARqV-Bg/company-logo_200_200/company-logo_200_200/0/1652875298057/ministerie_van_bzk_logo?e=2147483647&v=beta&t=DPhCIWffcR5B8HgWXEomAGj9v9glYz1d2icWQQrjqS8
