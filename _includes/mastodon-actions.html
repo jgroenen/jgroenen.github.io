@@ -1,0 +1,78 @@
+{% assign mastodon_user = site.mastodon_user %}
+{% assign mastodon_instance = site.mastodon_instance %}
+{% assign page_abs = page.url | absolute_url %}
+
+{% assign article_text = 'Ik las dit artikel "' | append: page.title | append: '" van ' | append: mastodon_user | append: ' ' | append: page_abs %}
+{% assign reply_text   = mastodon_user | append: ' ik las je artikel "' | append: page.title | append: '" ' | append: page_abs %}
+
+<div class="mastodon-actions">
+
+  <button class="mastodon-btn"
+          type="button"
+          data-masto-text='{{ article_text | escape }}'>
+    <img class="mastodon-icon"
+         src="https://joinmastodon.org/logos/logo-purple.svg"
+         alt=""
+         loading="lazy"
+         decoding="async" />
+    <span>Deel op Mastodon</span>
+  </button>
+
+  <button class="mastodon-btn"
+          type="button"
+          data-masto-text='{{ reply_text | escape }}'>
+    <img class="mastodon-icon"
+         src="https://joinmastodon.org/logos/logo-purple.svg"
+         alt=""
+         loading="lazy"
+         decoding="async" />
+    <span>Praat verder op Mastodon</span>
+  </button>
+
+</div>
+
+<style>
+.mastodon-actions { display:flex; flex-wrap:wrap; gap:.75rem; margin-top:1.5rem; margin:24px; }
+.mastodon-btn {
+  display:inline-flex; align-items:center; gap:.6rem;
+  padding:.6rem 1rem; border-radius:8px;
+  border:1px solid #6364ff; background:#fff; color:#111;
+  font-size:.9rem; font-weight:600; cursor:pointer;
+  transition: background .15s ease, border-color .15s ease;
+}
+.mastodon-btn:hover { background:#f3f4ff; border-color:#4f50e0; }
+.mastodon-icon { width:1.2rem; height:1.2rem; }
+</style>
+
+<script>
+(function() {
+  const defaultInstance = "{{ site.mastodon_instance }}";
+
+  document.querySelectorAll(".mastodon-btn").forEach(btn => {
+    btn.addEventListener("click", function() {
+
+      const text = this.dataset.mastoText;
+
+      const instance = prompt(
+        "Wat is je Mastodon instance?",
+        defaultInstance
+      );
+
+      if (!instance) return;
+
+      const cleanInstance = instance
+        .trim()
+        .replace(/^https?:\/\//, "")
+        .replace(/\/+$/, "");
+
+      const shareUrl =
+        "https://" +
+        cleanInstance +
+        "/share?text=" +
+        encodeURIComponent(text);
+
+      window.open(shareUrl, "_blank", "noopener");
+    });
+  });
+})();
+</script>

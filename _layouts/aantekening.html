@@ -9,6 +9,8 @@ layout: default
     <p class="subtitle">{% include date.html date=page.date %}</p>
     {{ content }}
 
+    <p>{% include mastodon-actions.html %}</p>
+
     <h2>Andere aantekeningen</h2>
 
     {% assign collection = site.aantekeningen | sample: 3 %}
