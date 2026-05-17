@@ -615,8 +615,8 @@
     tags: publictech,openkennisdeling
 -
     publicatie_status: live
-    titel: Ontwikkeling PolisNL
-    rol: Adviseur Codebase Stewardship, Community Manager
+    titel: PolisNL
+    opdracht: Advies voor governance en community management
     org_naam: PolisNL
     org_url: https://www.polisnl.org/
     org_logo: https://polisnl.org/user/themes/polis-nl/img/logo-polis-nl.svg
@@ -630,8 +630,8 @@
     tags: null
 -
     publicatie_status: live
-    titel: Ecosystem Governance OpenZaak
-    rol: Adviseur Codebase Stewardship
+    titel: Governance OpenZaak Ecosysteem
+    opdracht: Advies voor governance Common Ground ecosysteem
     org_naam: OpenZaak
     org_url: https://www.openzaak.org/
     org_logo: https://avatars.githubusercontent.com/u/52713039?s=200&v=4
@@ -645,8 +645,8 @@
     tags: null
 -
     publicatie_status: live
-    titel: Platform Opensourcewerken.NL
-    rol: Interim Platform Manager, Community Manager
+    titel: www.opensourcewerken.nl
+    opdracht: Expert Opensourcewerken en interim community manager
     org_naam: Opensourcewerken
     org_url: https://www.opensourcewerken.nl/
     org_logo: https://media.licdn.com/dms/image/v2/D4E0BAQHkvludSKVb8g/company-logo_200_200/company-logo_200_200/0/1729601598007/opensourcewerken_logo?e=1749081600&v=beta&t=IZc_i9iZcmI84bX3MjkSfGQc2Njk91Ea9vSgPVtF2kU
@@ -660,8 +660,8 @@
     tags: null
 -
     publicatie_status: live
-    titel: CodePlatform Overheid
-    rol: Strategisch Adviseur, Community Manager
+    titel: code.overheid.nl
+    opdracht: Advies en inrichten community en support
     org_naam: Ministerie van Binnenlandse Zaken en Koninkrijksrelaties
     org_url: https://nl.linkedin.com/company/ministerie-van-bzk
     org_logo: https://media.licdn.com/dms/image/v2/C4E0BAQGcYLYARqV-Bg/company-logo_200_200/company-logo_200_200/0/1652875298057/ministerie_van_bzk_logo?e=2147483647&v=beta&t=DPhCIWffcR5B8HgWXEomAGj9v9glYz1d2icWQQrjqS8
@@ -675,8 +675,8 @@
     tags: null
 -
     publicatie_status: live
-    titel: Visietraject Data.Overheid.NL
-    rol: Strategisch Adviseur
+    titel: data.overheid.nl
+    opdracht: Visieontwikkeling en strategisch advies
     org_naam: Ministerie van Binnenlandse Zaken en Koninkrijksrelaties
     org_url: https://nl.linkedin.com/company/ministerie-van-bzk
     org_logo: https://media.licdn.com/dms/image/v2/C4E0BAQGcYLYARqV-Bg/company-logo_200_200/company-logo_200_200/0/1652875298057/ministerie_van_bzk_logo?e=2147483647&v=beta&t=DPhCIWffcR5B8HgWXEomAGj9v9glYz1d2icWQQrjqS8
@@ -690,8 +690,8 @@
     tags: null
 -
     publicatie_status: live
-    titel: Social.Overheid.NL
-    rol: Platform Manager, Community Manager
+    titel: social.overheid.nl
+    opdracht: Inrichten community en support
     org_naam: Ministerie van Binnenlandse Zaken en Koninkrijksrelaties
     org_url: https://nl.linkedin.com/company/ministerie-van-bzk
     org_logo: https://media.licdn.com/dms/image/v2/C4E0BAQGcYLYARqV-Bg/company-logo_200_200/company-logo_200_200/0/1652875298057/ministerie_van_bzk_logo?e=2147483647&v=beta&t=DPhCIWffcR5B8HgWXEomAGj9v9glYz1d2icWQQrjqS8
@@ -705,27 +705,12 @@
     tags: null
 -
     publicatie_status: live
-    titel: Praat Mee met de Overheid
-    rol: Platform Manager, Community Manager
+    titel: praatmeemetdeoverheid.nl
+    opdracht: Inrichten community en support
     org_naam: Ministerie van Binnenlandse Zaken en Koninkrijksrelaties
     org_url: https://nl.linkedin.com/company/ministerie-van-bzk
     org_logo: https://media.licdn.com/dms/image/v2/C4E0BAQGcYLYARqV-Bg/company-logo_200_200/company-logo_200_200/0/1652875298057/ministerie_van_bzk_logo?e=2147483647&v=beta&t=DPhCIWffcR5B8HgWXEomAGj9v9glYz1d2icWQQrjqS8
     url: https://www.praatmeemetdeoverheid.nl/
-    aanpak: Platform
-    omschrijving: Dit project is nog niet goed omschreven.
-    van: mrt. '26
-    tot: 
-    skills: null
-    star: 
-    tags: null
--
-    publicatie_status: live
-    titel: Social.Codefor.NL
-    rol: Platform Manager, Community Manager
-    org_naam: Stichting Code for NL
-    org_url: https://www.linkedin.com/company/codefornl/
-    org_logo: https://media.licdn.com/dms/image/C4D0BAQHjJ7tSM_9Nng/company-logo_200_200/0/1623696540608?e=1694649600&v=beta&t=oqtj4x45mrKwrM8OJHCZEt-2gfraTZD2HndfL6aKuW4
-    url: https://social.codefor.nl/
     aanpak: Platform
     omschrijving: Dit project is nog niet goed omschreven.
     van: mrt. '26

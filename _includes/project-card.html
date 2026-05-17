@@ -13,7 +13,7 @@
         </div>
         <div class="project-body">
             <div class="project-header">
-                <h2><span style="font-weight: 500">{{ project.rol}}</span><br>{{ project.titel }}</h2>
+                <h2><span style="font-weight: 500">{{ project.rol | default: project.opdracht }}</span><br>{{ project.titel }}</h2>
                 <p class="subtitle"><a href="{{ project.org_url }}">{{ project.org_naam }}</a></p>
             </div>
 
@@ -28,7 +28,7 @@
 
                 <p style="margin-top: 16px">{{ project.omschrijving }}</p>
 
-                {% capture tags %}{{ project.rol }},{{ project.aanpak }},{{ project.domein }},{{ project.tags }},{{ project.vaardigheden }},{{ project.status }}{% endcapture %}
+                {% capture tags %}{{ project.rol | default: project.opdracht }},{{ project.aanpak }},{{ project.domein }},{{ project.tags }},{{ project.vaardigheden }},{{ project.status }}{% endcapture %}
                 {% assign tags = tags | split: "," %}
                 {% if tags %}
                     {% include linkedin-tags.html tags=tags%}
