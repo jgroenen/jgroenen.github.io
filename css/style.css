@@ -42,6 +42,9 @@ figcaption {
 .card-section h1 {
     margin: 0;
 }
+.card-section p {
+    line-height: 1.5em;
+}
 .card-section > p,
 .card-section > h2,
 .card-section > figcaption {
