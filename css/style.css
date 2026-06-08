@@ -3,7 +3,8 @@
     --card-background-color: #FFFFFF;
     --text-color: #333;
     --link-color: #666;
-    --ts-brand-color: #E54545;
+    /* --ts-brand-color: #E54545; */
+    --ts-brand-color: #fb5632;
     --shadow-color: #AAAAAA;
 }
 @media (prefers-color-scheme: dark) {
@@ -84,7 +85,7 @@ figcaption {
     padding: 2px 4px;
 }
 .project-card-actief .year-label {
-    background: #E54545;
+    background: var(--ts-brand-color);
     color: white;
     width: 8px;
     height: 8px;

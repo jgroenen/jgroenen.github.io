@@ -65,13 +65,13 @@
              style="fill:#ffffff;stroke:#ffffff;stroke-width:20;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1" />
           <polygon
              id="polygon402"
-             fill="#E54545"
+             fill="#fb5632"
              fill-rule="nonzero"
              points="25.52,9.83 25.79,7.26 0.19,7.26 0.19,169.92 32.13,169.92 32.23,168.94 41.28,169.92 162.85,169.92 162.85,21.33 162.51,21.29 56.13,9.83 32.28,7.26 31.56,7.26 31.28,9.83 16.78,144.41 11.15,143.81 25.45,10.46 "
              style="fill:#ffffff;stroke:#ffffff;stroke-width:20;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1" />
           <polygon
              id="polygon404"
-             fill="#E54545"
+             fill="#fb5632"
              fill-rule="nonzero"
              points="162.85,15.61 162.85,7.26 85.04,7.26 109,9.83 162.51,15.57 "
              style="fill:#ffffff;stroke:#ffffff;stroke-width:20;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1" />
@@ -188,12 +188,12 @@
            points="31.56,7.26 32.28,7.26 31.57,7.19 " />
         <polygon
            id="polygon187"
-           fill="#e54545"
+           fill="#fb5632"
            fill-rule="nonzero"
            points="25.45,10.46 25.52,9.83 25.79,7.26 0.19,7.26 0.19,169.92 32.13,169.92 32.23,168.94 41.28,169.92 162.85,169.92 162.85,21.33 162.51,21.29 56.13,9.83 32.28,7.26 31.56,7.26 31.28,9.83 16.78,144.41 11.15,143.81 " />
         <polygon
            id="polygon189"
-           fill="#e54545"
+           fill="#fb5632"
            fill-rule="nonzero"
            points="162.51,15.57 162.85,15.61 162.85,7.26 85.04,7.26 109,9.83 " />
         <polygon
