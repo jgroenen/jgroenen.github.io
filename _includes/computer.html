@@ -97,8 +97,9 @@
         -webkit-transform: rotate(1deg);
     }
 </style>
-<div id="easterEgg" class="banner-image" style="background: #000000; width: 100%; display: none; padding: 10px 0">
-    <div class="computer">
+<div id="easterEgg" class="banner-image" style="position: relative; background: url(https://img.apitecture.nl/?url={{ site.banner | url_encode }}) center center no-repeat; background-size: cover; width: 100%; display: none; padding: 10px 0">
+    <div class="background" style="position: absolute; width: 100%; height: 100%; backdrop-filter: blur(10px); background: rgba(0,0,0,.5); top: 0; left: 0"></div>
+    <div class="computer" style="position: relative">
         <canvas class="screen"></canvas>
         <div class="bottom">
             <div class="drive"></div>

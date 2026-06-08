@@ -46,7 +46,10 @@ export default function (canvas, colors) {
         for (let i = 0; i < canvas.height; ++i) {
             for (let j = 0; j < canvas.width; ++j) {
                 let index = (i * canvas.width + j) * 4; // rgba channels
-                data[index + 1] = currentGeneration[i][j] ? 255 : 0;
+                let color = colors[currentGeneration[i][j] ? 1 : 0];
+                data[index] = parseInt(color.substring(1, 3), 16);
+                data[index + 1] = parseInt(color.substring(3, 5), 16);
+                data[index + 2] = parseInt(color.substring(5, 7), 16);
                 data[index + 3] = 255;
             }
         }
