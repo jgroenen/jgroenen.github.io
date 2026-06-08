@@ -1,6 +1,7 @@
 title: Johan Groenen
 subtitle: Ook beginnen met open source ontwikkelen? Neem contact op!
-img: https://www.jgroenen.nl/img/johan-groenen-linkedin-image-bw.jpeg
+img: https://www.jgroenen.nl/img/johan-groenen-tiltshift-image.png
+#img: "https://media.licdn.com/dms/image/v2/D4E03AQHE7dUSy2IyhQ/profile-displayphoto-crop_800_800/B4EZ5aK_uhK0AI-/0/1779629294226?e=1782345600&v=beta&t=Mg-gcCRMVywcVv1FSsddeXJHRx6oTCZM0Sjnl4OXCsU"
 url: https://www.jgroenen.nl
 keywords: publictech, civictech, govtech, digitale transformatie, innovatie, publieke technologie, community, open source, agile, human centered design
 twitter_user: "@jpagroenen"
@@ -9,7 +10,8 @@ mastodon_instance: "social.codefor.nl"
 quote: alles is inspiratie
 description: "Community Organisator & Strategisch Product Owner Digitale Overheid & Digital Commons #publictech"
 about: "Achtergrond in natural computing. Sinds 2015 strategisch producteigenaar in de publieke sector: van digitaal bonnenboekje voor de straatmarkten van Amsterdam tot Algoritmeregister van de Nederlandse Overheid, van publieke tribune voor CoronaApps tot Codeplatform voor de Overheid. Expert opensourcewerken en software design thinking."
-banner: "https://media.licdn.com/dms/image/v2/D4E16AQEs4PgM06uD_g/profile-displaybackgroundimage-shrink_350_1400/B4EZdpZpf0HgAc-/0/1749820021707?e=1755129600&v=beta&t=Ufq51lnyxeu3ZKhiTuapXIzEK2IojsNAx_KXG-pPq2o"
+#banner: "https://media.licdn.com/dms/image/v2/D4E16AQEs4PgM06uD_g/profile-displaybackgroundimage-shrink_350_1400/B4EZdpZpf0HgAc-/0/1749820021707?e=1755129600&v=beta&t=Ufq51lnyxeu3ZKhiTuapXIzEK2IojsNAx_KXG-pPq2o"
+banner: "https://media.licdn.com/dms/image/v2/D4E16AQGKuM_rQmRJ6g/profile-displaybackgroundimage-shrink_350_1400/B4EZ5aM4AXK0AU-/0/1779629785411?e=1782345600&v=beta&t=76jVtMdYFxkYqIcQdyXj75qLklQVr3FhPHtIcg6KkRM"
 
 include:
   - .well-known
