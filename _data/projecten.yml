@@ -660,16 +660,31 @@
     tags: null
 -
     publicatie_status: live
-    titel: code.overheid.nl
-    opdracht: Advies en inrichten community en support
-    org_naam: Ministerie van Binnenlandse Zaken en Koninkrijksrelaties
-    org_url: https://nl.linkedin.com/company/ministerie-van-bzk
-    org_logo: https://media.licdn.com/dms/image/v2/C4E0BAQGcYLYARqV-Bg/company-logo_200_200/company-logo_200_200/0/1652875298057/ministerie_van_bzk_logo?e=2147483647&v=beta&t=DPhCIWffcR5B8HgWXEomAGj9v9glYz1d2icWQQrjqS8
-    url: https://code.overheid.nl/
+    titel: Voxit Community
+    opdracht: Inrichting Europese Digital Commons
+    org_naam: Voxit Community
+    org_url: https://www.voxit.org/
+    org_logo: https://www.voxit.org/wp-content/uploads/2025/10/Voxit_logo_web.png
+    url: https://www.voxit.org/
+    aanpak: Platform
+    omschrijving: Dit project is nog niet goed omschreven.
+    van: okt. '25
+    tot: juli '26
+    skills: null
+    star: 
+    tags: null
+-
+    publicatie_status: live
+    titel: Stichting POTES
+    opdracht: Oprichting open source beheerstichting
+    org_naam: Stichting POTES
+    org_url: https://www.linkedin.com/company/potes-foundation
+    org_logo: https://media.licdn.com/dms/image/v2/D560BAQEfDD8iAMv8Nw/company-logo_200_200/B56Zz8XaydJIAU-/0/1773760525345/potes_foundation_logo?e=1789603200&v=beta&t=zXY_hRlOmNNI8ZUFtrR2RGru0BUuN-s6UcqpY-1ei5U
+    url: https://www.potes.nl/
     aanpak: Platform
     omschrijving: Dit project is nog niet goed omschreven.
     van: sept. '25
-    tot: 
+    tot: mrt. '26
     skills: null
     star: 
     tags: null
@@ -685,6 +700,21 @@
     omschrijving: Dit project is nog niet goed omschreven.
     van: okt. '25
     tot: feb. '26
+    skills: null
+    star: 
+    tags: null
+-
+    publicatie_status: live
+    titel: code.overheid.nl
+    opdracht: Advies en inrichten community en support
+    org_naam: Ministerie van Binnenlandse Zaken en Koninkrijksrelaties
+    org_url: https://nl.linkedin.com/company/ministerie-van-bzk
+    org_logo: https://media.licdn.com/dms/image/v2/C4E0BAQGcYLYARqV-Bg/company-logo_200_200/company-logo_200_200/0/1652875298057/ministerie_van_bzk_logo?e=2147483647&v=beta&t=DPhCIWffcR5B8HgWXEomAGj9v9glYz1d2icWQQrjqS8
+    url: https://code.overheid.nl/
+    aanpak: Platform
+    omschrijving: Dit project is nog niet goed omschreven.
+    van: sept. '25
+    tot: 
     skills: null
     star: 
     tags: null
