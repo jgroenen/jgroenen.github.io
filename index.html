@@ -51,7 +51,7 @@ title: Projecten
 </section>
 
 <section class="card-section right-card">
-    <h1 style="padding: 24px 24px 12px">Toffe Tools</h1>
+    <h1 style="padding: 24px 24px 12px">Toffe Resources</h1>
     {% assign tools = site.data.tools | where: "publicatie_status", "live" %}
     {% for tool in tools limit: 2 %}
         {% include tool-card.html %}
