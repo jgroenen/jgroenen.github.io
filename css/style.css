@@ -7,17 +7,6 @@
     --ts-brand-color: #fb5632;
     --shadow-color: #AAAAAA;
 }
-@media (prefers-color-scheme: dark) {
-    :root {
-        --background-color: #000;
-        --card-background-color: #333;
-        --text-color: #fff;
-        --link-color: #F3F2EF;
-        --shadow-color: #000;
-    }
-    .project-logo { display: none }
-    img { filter: brightness(0.5) }
-}
 
 html, body {
     margin: 0;
