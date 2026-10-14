@@ -77,6 +77,10 @@
 }
 
 /* ===== Basis ===== */
+/* Ruimte voor de scrollbalk altijd vasthouden: niets verspringt als hij komt of gaat */
+html {
+    scrollbar-gutter: stable;
+}
 html, body {
     margin: 0;
     padding: 0;
@@ -105,6 +109,14 @@ figcaption {
 }
 aside {
     width: var(--column-side);
+}
+/* De linkerkolom blijft staan als je scrolt, als hij in het scherm past */
+@media (min-width: 921px) and (min-height: 820px) {
+    aside {
+        position: sticky;
+        top: var(--space-5);
+        align-self: flex-start;
+    }
 }
 main > .section {
     margin-left: 20px;
@@ -266,6 +278,19 @@ main > .section {
 .button-mastodon {
     background: var(--mastodon);
 }
+/* Rand in de kleur van de kaart (--tab), tekst in inkt: leesbaar bij elke kleur */
+.button-outline {
+    background: var(--card);
+    color: var(--ink);
+    box-shadow: inset 0 0 0 2px var(--tab, var(--accent));
+}
+.button-outline:hover {
+    background: color-mix(in srgb, var(--tab, var(--accent)) 15%, var(--card));
+}
+.section > .section-more {
+    text-align: right;
+    margin: var(--space-4) var(--space-5) var(--space-5);
+}
 .tags {
     margin-top: var(--space-2);
 }
@@ -384,6 +409,94 @@ main > .section {
     justify-content: center;
 }
 
+/* ===== Kaartenbak: kaarten achter elkaar in plaats van onder elkaar =====
+   Alle kaarten zijn open. Elke volgende kaart ligt een stukje over de
+   onderrand van de vorige, met een randje in zijn eigen kleur (--tab).
+   Compact: kleine titels, kleine previews, weinig witruimte. */
+main > .stack {
+    margin-left: 20px;
+    width: 100%;
+    max-width: var(--column-main);
+}
+.stack {
+    --stack-radius: var(--radius-lg);
+    --stack-overlap: var(--space-3);
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 18px;
+}
+.stack > .section {
+    min-width: 0;
+    max-width: none;
+    margin: 0;
+    padding-bottom: var(--space-1);
+    border-radius: var(--stack-radius);
+    border-top: 3px solid var(--tab, var(--line));
+    box-shadow: 0 0 0 1px var(--line), 0 -2px 8px rgba(0, 0, 0, 0.05);
+}
+/* Over de onderrand van de vorige kaart; die krijgt daar extra ruimte voor */
+.stack > .section + .section {
+    margin-top: calc(-1 * var(--stack-overlap));
+}
+.stack > .section:not(:last-child) {
+    padding-bottom: calc(var(--space-1) + var(--stack-overlap));
+}
+.stack > .section > h1 {
+    font-size: 1.4em;
+    padding: var(--space-4) 104px var(--space-2) var(--space-5);
+}
+.stack > .section > .section-text {
+    padding-bottom: var(--space-4);
+}
+.stack .section-more {
+    margin: var(--space-3) var(--space-5) var(--space-4);
+}
+.stack .section-more .button {
+    margin: 0;
+}
+/* Navigatie op de hoogte van de kleinere titel */
+.stack .page-nav {
+    top: var(--space-3);
+}
+
+/* Kleine preview: logo, kopje, titel en organisatie op een paar regels */
+.card-compact {
+    margin: 0 var(--space-5);
+    padding: var(--space-2) 0;
+}
+/* Geen lijntje onder de laatste preview, boven de knop */
+.card-compact:last-child,
+.card-compact:has(+ .section-more) {
+    border-bottom: 0;
+}
+.card-compact .card-logo {
+    width: var(--space-6);
+    padding: 2px var(--space-3) 0 0;
+}
+.card-compact .card-logo img {
+    width: var(--space-6);
+    height: var(--space-6);
+}
+.card-compact h2 {
+    font-size: 1em;
+    line-height: 1.3em;
+}
+.card-compact h2 a {
+    color: inherit;
+}
+.card-compact h2 a:hover {
+    color: var(--accent);
+}
+.card-compact .card-kicker {
+    font-size: 0.85em;
+    color: var(--muted);
+}
+.card-compact .card-subtitle {
+    margin: 2px 0 0;
+    font-size: 0.85em;
+    color: var(--muted);
+}
+
 /* ===== Mastodon ===== */
 .mastodon-actions {
     display: flex;
@@ -439,7 +552,11 @@ main > .section {
     .profiles {
         order: 2;
     }
-    main > .section {
+    main > .section,
+    main > .stack {
         margin-left: 0;
+    }
+    .stack {
+        --stack-radius: 0;
     }
 }

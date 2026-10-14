@@ -1,4 +1,17 @@
 {% if include.card %}
+{% if include.compact %}
+<div class="card card-compact">
+    <div class="card-inner">
+        <div class="card-logo card-logo-cover">
+            <img src="{{ item.image | default: site.data.person.picture }}" width="32" height="32" alt="" onerror="this.onerror = null; this.src = '{{ site.data.person.picture }}'">
+        </div>
+        <div class="card-body">
+            <h2><a href="{{ item.url }}">{{ item.title }}</a></h2>
+            <p class="card-subtitle">{% include date.html date=item.date %}</p>
+        </div>
+    </div>
+</div>
+{% else %}
 <a name="{{ item.id }}"></a>
 <div class="card" data-tags>
     <div class="card-inner">
@@ -18,4 +31,5 @@
         </div>
     </div>
 </div>
+{% endif %}
 {% endif %}

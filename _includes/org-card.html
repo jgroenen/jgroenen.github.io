@@ -1,10 +1,24 @@
 {% comment %}
 Kaart voor een project, community of resource uit _data.
 Parameters: item, quote (omschrijving als citaat tonen),
-more (tekst achter de titel in de link), years (van-tot tonen en lopend markeren).
+more (tekst achter de titel in de link), years (van-tot tonen en lopend markeren),
+compact (kleine preview: logo, kopje, titel als link en organisatie).
 {% endcomment %}
 {% assign card_item = include.item %}
 {% assign kicker = card_item.rol | default: card_item.opdracht | default: card_item.type %}
+{% if include.compact %}
+<div class="card card-compact">
+    <div class="card-inner">
+        <div class="card-logo">
+            <img src="https://img.apitecture.nl/?url={{ card_item.org_logo | default: site.data.person.picture | url_encode }}" width="32" height="32" alt="">
+        </div>
+        <div class="card-body">
+            <h2><span class="card-kicker">{{ kicker }}</span><br><a href="{{ card_item.url | default: card_item.org_url }}">{{ card_item.titel }}</a></h2>
+            <p class="card-subtitle">{{ card_item.org_naam }}</p>
+        </div>
+    </div>
+</div>
+{% else %}
 <div class="card{% if include.years %}{% unless card_item.tot %} card-active{% endunless %}{% endif %}" data-tags>
     {% if include.years %}
     {% if card_item.van contains '1900' %}
@@ -36,3 +50,4 @@ more (tekst achter de titel in de link), years (van-tot tonen en lopend markeren
         </div>
     </div>
 </div>
+{% endif %}

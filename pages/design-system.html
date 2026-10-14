@@ -98,6 +98,7 @@ stylesheets:
     <p>
         <a class="button" href="#onderdelen">.button</a>
         <a class="button button-mastodon" href="#onderdelen">.button-mastodon</a>
+        <a class="button button-outline" href="#onderdelen">.button-outline</a>
     </p>
     {% assign voorbeeldtags = "tag,nog een tag" | split: "," %}
     <div>{% include tag-list.html tags=voorbeeldtags %}</div>
@@ -114,13 +115,15 @@ stylesheets:
     {% assign collection = site.aantekeningen | sort | reverse %}
     {% include cards.html collection=collection limit=1 %}
 
-    <p><code>section-more.html</code> sluit een sectie af met een link naar het overzicht:</p>
+    <p><code>section-more.html</code> sluit een sectie af met een knop naar het overzicht, met een rand in de kleur van de kaart (<code>--tab</code>):</p>
     {% include section-more.html url="#onderdelen" label="Bekijk alle voorbeelden" %}
 
     <h2>Organismen</h2>
     <dl class="ds-regels">
         <dt><code>.section</code></dt>
         <dd>Een witte kaart met een <code>h1</code> als kop. Daaronder kaarten, of tekst in <code>.section-text</code> of <code>.section-body</code>.</dd>
+        <dt><code>.stack</code>, de kaartenbak</dt>
+        <dd>Secties achter elkaar in plaats van onder elkaar, zoals op de homepage. Alle kaarten zijn open; elke volgende ligt een stukje over de onderrand van de vorige, met een randje in zijn eigen kleur (<code>--tab</code>). Compact: kleine titels, kleine previews (<code>compact=true</code> op <code>org-card.html</code> en <code>cards.html</code>) en een knop naar het overzicht. Geen animaties, geen JavaScript.</dd>
         <dt><code>page-nav.html</code></dt>
         <dd>Home en menu, als twee iconen naast de titel van de bovenste sectie. De layout zet ze er zelf neer, ook op mobiel. In het menu wordt de hamburger een kruisje.</dd>
         <dt><code>header.html</code></dt>

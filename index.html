@@ -2,42 +2,47 @@
 layout: default
 title: Projecten
 ---
-{% include about.html title="Achtergrond" text=site.about %}
+{% comment %}
+De kaartenbak: alle kaarten open, elke volgende ligt een stukje over de vorige.
+Per kaart een paar kleine previews en een knop naar het overzicht.
+{% endcomment %}
+<div class="stack">
+    <section class="section" id="achtergrond" style="--tab: var(--jg-indigo)">
+        <h1>Achtergrond</h1>
+        <p class="section-text">{{ site.about }}</p>
+    </section>
 
-<section class="section">
-    <h1><a href="/projecten/">Mijn Projecten</a></h1>
-    {% assign projecten = site.data.projecten | where: "publicatie_status", "live" | reverse %}
-    {% for project in projecten limit: 3 %}
-        {% include org-card.html item=project years=true %}
-    {% endfor %}
+    <section class="section" id="projecten" style="--tab: var(--jg-red)">
+        <h1><a href="/projecten/">Mijn Projecten</a></h1>
+        {% assign projecten = site.data.projecten | where: "publicatie_status", "live" | reverse %}
+        {% for project in projecten limit: 3 %}
+            {% include org-card.html item=project compact=true %}
+        {% endfor %}
+        {% include section-more.html url="/projecten/" label="Bekijk alle projecten" %}
+    </section>
 
-    {% include section-more.html url="/projecten" label="Bekijk alle projecten" %}
-</section>
+    <section class="section" id="aantekeningen" style="--tab: var(--jg-pink)">
+        <h1><a href="/aantekeningen/">Mijn Aantekeningen</a></h1>
+        {% assign collection = site.aantekeningen | sort | reverse %}
+        {% include cards.html collection=collection limit=3 compact=true %}
+        {% include section-more.html url="/aantekeningen/" label="Bekijk alle aantekeningen" %}
+    </section>
 
-<section class="section">
-    <h1><a href="/aantekeningen/">Mijn Aantekeningen</a></h1>
-    {% assign collection = site.aantekeningen|sort|reverse %}
-    {% include cards.html collection=collection limit=1 %}
+    <section class="section" id="communities" style="--tab: var(--jg-purple)">
+        <h1><a href="/communities/">Mijn Open Communities</a></h1>
+        {% assign communities = site.data.communities | where: "publicatie_status", "live" %}
+        {% for community in communities limit: 3 %}
+            {% include org-card.html item=community compact=true %}
+        {% endfor %}
+        {% include section-more.html url="/communities/" label="Bekijk alle communities" %}
+    </section>
 
-    {% include section-more.html url="/aantekeningen" label="Bekijk alle aantekeningen" %}
-</section>
-
-<section class="section">
-    <h1><a href="/communities/">Mijn Open Communities</a></h1>
-    {% assign communities = site.data.communities | where: "publicatie_status", "live" %}
-    {% for community in communities limit: 2 %}
-        {% include org-card.html item=community quote=true more=" community" %}
-    {% endfor %}
-
-    {% include section-more.html url="/communities" label="Bekijk alle communities" %}
-</section>
-
-<section class="section">
-    <h1><a href="/tools/">Toffe Resources</a></h1>
-    {% assign tools = site.data.tools | where: "publicatie_status", "live" %}
-    {% for tool in tools limit: 2 %}
-        {% include org-card.html item=tool quote=true %}
-    {% endfor %}
-
-    {% include section-more.html url="/tools" label="Bekijk alle tools" %}
-</section>
+    <section class="section" id="resources" style="--tab: var(--jg-pink-light)">
+        <h1><a href="/tools/">Toffe Resources</a></h1>
+        {% assign tools = site.data.tools | where: "publicatie_status", "live" %}
+        {% for tool in tools limit: 3 %}
+            {% include org-card.html item=tool compact=true %}
+        {% endfor %}
+        {% include section-more.html url="/tools/" label="Bekijk alle tools" %}
+    </section>
+</div>
