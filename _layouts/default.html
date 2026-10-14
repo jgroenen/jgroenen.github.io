@@ -1,38 +1,19 @@
 <!DOCTYPE html>
 <html lang="nl">
     {% include head.html %}
-    
+
     <body>
-        <nav>{% include menu.html symbol="ⓘ" url="/menu" %}</nav>
-        {% include linkedin-tags-script.html %}
+        {% include tag-filter-script.html %}
         <div class="wrapper">
             <aside>
                 {% include header.html %}
-
-                <!-- {% include snippet-html-test.html %} -->
-
-                {% include about.html title="Achtergrond" text=site.about %}
-
-                {% include cta.html
-                    icon="https://www.tiltshift.nl/assets/img/logo_cropped.svg"
-                    title="Begeleiding van publieke digitale transformatie"
-                    teaser="Vastgelopen in onwerkbare ICT? Een start maken met opensourcewerken? Doe het met Tiltshift!"
-                    url="https://www.tiltshift.nl"
-                    cta="Direct naar Tiltshift" %}
-
-                {% comment %}
-                {% include cta.html
-                    title="Ook zo'n projectpagina?"
-                    teaser="Laat het weten, dan kijken we er samen even naar."
-                    url="mailto:johan@jgroenen.nl"
-                    cta="Mail even" %}
-                {% endcomment %}
 
                 {% include externalProfiles.html %}
             </aside>
 
             <main>
-                {{ content }}
+                {% capture title_with_nav %}</h1>{% include page-nav.html %}{% endcapture %}
+                {{ content | replace_first: "</h1>", title_with_nav }}
             </main>
         </div>
 

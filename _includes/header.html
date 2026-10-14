@@ -1,17 +1,13 @@
-<header class="card-section">
+<header class="section">
     <a href="/" aria-label="Home">
         <img class="banner-image" src="https://img.apitecture.nl/?url={{ site.banner | url_encode }}" alt="#publictech banner">
         {% include computer.html %}
     </a>
     <img class="profile-image" src="https://img.apitecture.nl/?url={{ site.data.person.picture }}" alt="Profielfoto">
-    <img class="klik" src="{{ "/img/klik.svg" | relative_url }}" style="width: 100px; margin-left: -20px" alt="">
-    <h1 style="font-size: 1.4em; padding: 0 24px">{{ site.title }}</h1>
-    <div style="padding: 0 24px">
-        <div style="margin: 0">
-            <p style="margin: 0">{{ site.description }}</p>
-            <p style="margin-top: 0">
-                <a style="background: #6364FF" class="linkedin-button" rel="me" href="https://social.codefor.nl/@johan" aria-label="Mastodon">Mastodon</a>
-            </p>
-        </div>
+    <img class="klik" src="{{ "/img/klik.svg" | relative_url }}" alt="">
+    <h1 class="header-name">{{ site.title }}</h1>
+    <div class="section-body">
+        <p>{{ site.description }}</p>
+        <p><a class="button button-mastodon" rel="me" href="https://social.codefor.nl/@johan" aria-label="Mastodon">Mastodon</a></p>
     </div>
 </header>

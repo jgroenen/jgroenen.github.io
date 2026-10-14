@@ -1,7 +1,7 @@
 ---
 tags: ['public tech', 'software design', 'open source', 'common ground']
 title: Straatnotes
-image: https://www.tiltshiftapps.nl/assets/img/foto/IMG_0003.JPG
+image: https://www.tiltshift.nl/assets/img/foto/IMG_0003.JPG
 caption:
 teaser: Samen met Jeugd en Veiligheid en de straatcoaches ontwikkelden wij Straatnotes, een digitaal notitieboekje voor op straat. Hiermee kunnen straatcoaches veilig en secuur informatie delen met Jeugd en Veiligheid.
 link: https://www.tiltshiftapps.nl/straatnotes

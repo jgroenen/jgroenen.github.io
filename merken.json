@@ -1,0 +1,9 @@
+---
+layout: null
+permalink: /merken.json
+---
+{
+  "bron": "{{ "/design-system/#merk" | absolute_url }}",
+  "basis": "{{ site.url }}",
+  "merken": {{ site.data.merken | jsonify }}
+}

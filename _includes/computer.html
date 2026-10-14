@@ -1,13 +1,37 @@
 <style>
+    /* De laptop is een illustratie met een eigen palet: alleen hier */
     .computer {
+        --laptop: #B5A878;
+        --laptop-light: #DAD7B8;
+        --laptop-mid: #9D9266;
+        --laptop-warm: #9D8759;
+        --laptop-dark: #736936;
+        --laptop-sticker-bg: rgba(181, 168, 120, .25);
         width: 310px;
-        background: #B5A878;
-        border-top: 10px solid #DAD7B8;
-        border-right: 4px solid #9D9266;
-        border-left: 4px solid #9D8759;
-        border-bottom: 10px solid #736936;
+        background: var(--laptop);
+        border-top: 10px solid var(--laptop-light);
+        border-right: 4px solid var(--laptop-mid);
+        border-left: 4px solid var(--laptop-warm);
+        border-bottom: 10px solid var(--laptop-dark);
         margin: auto;
         position: relative;
+    }
+    .easter-egg {
+        position: relative;
+        background: center center no-repeat;
+        background-size: cover;
+        width: 100%;
+        display: none;
+        padding: 10px 0;
+    }
+    .computer-blur {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backdrop-filter: blur(10px);
+        background: rgba(0, 0, 0, .5);
+        top: 0;
+        left: 0;
     }
     .computer .screen {
         width: 280px;
@@ -17,10 +41,10 @@
         margin-left: 10px;
         margin-right: 10px;
         margin-bottom: 10px;
-        border-bottom: 4px solid #DAD7B8;
-        border-left: 4px solid #9D9266;
-        border-right: 4px solid #9D8759;
-        border-top: 4px solid #736936;
+        border-bottom: 4px solid var(--laptop-light);
+        border-left: 4px solid var(--laptop-mid);
+        border-right: 4px solid var(--laptop-warm);
+        border-top: 4px solid var(--laptop-dark);
     }
     .computer .bottom {
         position: relative;
@@ -31,16 +55,16 @@
         margin-left: 140px;
         background: #000000;
         margin-bottom: 40px;
-        border-bottom: 4px solid #DAD7B8;
-        border-left: 4px solid #9D9266;
-        border-right: 4px solid #9D8759;
-        border-top: 4px solid #736936;
+        border-bottom: 4px solid var(--laptop-light);
+        border-left: 4px solid var(--laptop-mid);
+        border-right: 4px solid var(--laptop-warm);
+        border-top: 4px solid var(--laptop-dark);
     }
     .computer .logo-tiltshift {
         position: relative;
         width: 50px;
         height: 50px;
-        background: rgba(181, 168, 120, .25) url(/img/stickers/tiltshift-sticker.svg) center center no-repeat;
+        background: var(--laptop-sticker-bg) url(/img/stickers/tiltshift-sticker.svg) center center no-repeat;
         background-blend-mode: darken;
         background-size: 50px;
         position: absolute;
@@ -52,7 +76,7 @@
         position: relative;
         width: 100px;
         height: 22px;
-        background: rgba(181, 168, 120, .25) url(/img/stickers/codefornl-sticker.svg) center center no-repeat;
+        background: var(--laptop-sticker-bg) url(/img/stickers/codefornl-sticker.svg) center center no-repeat;
         background-blend-mode: darken;
         background-size: 100px;
         position: absolute;
@@ -64,7 +88,7 @@
         position: relative;
         width: 40px;
         height: 40px;
-        background: rgba(181, 168, 120, .25) url(/img/stickers/publiccode-sticker.png) center center no-repeat;
+        background: var(--laptop-sticker-bg) url(/img/stickers/publiccode-sticker.png) center center no-repeat;
         background-blend-mode: darken;
         background-size: 40px;
         position: absolute;
@@ -76,7 +100,7 @@
         position: relative;
         width: 32px;
         height: 32px;
-        background: rgba(181, 168, 120, .25) url(/img/stickers/opensourcewerken-sticker.png) center center no-repeat;
+        background: var(--laptop-sticker-bg) url(/img/stickers/opensourcewerken-sticker.png) center center no-repeat;
         background-blend-mode: darken;
         background-size: 32px;
         position: absolute;
@@ -88,7 +112,7 @@
         position: relative;
         width: 40px;
         height: 40px;
-        background: rgba(181, 168, 120, .25) url(/img/stickers/hacker-patch-sticker.svg) center center no-repeat;
+        background: var(--laptop-sticker-bg) url(/img/stickers/hacker-patch-sticker.svg) center center no-repeat;
         background-blend-mode: darken;
         background-size: 42px;
         position: absolute;
@@ -97,9 +121,9 @@
         -webkit-transform: rotate(1deg);
     }
 </style>
-<div id="easterEgg" class="banner-image" style="position: relative; background: url(https://img.apitecture.nl/?url={{ site.banner | url_encode }}) center center no-repeat; background-size: cover; width: 100%; display: none; padding: 10px 0">
-    <div class="background" style="position: absolute; width: 100%; height: 100%; backdrop-filter: blur(10px); background: rgba(0,0,0,.5); top: 0; left: 0"></div>
-    <div class="computer" style="position: relative">
+<div id="easterEgg" class="banner-image easter-egg" style="background-image: url(https://img.apitecture.nl/?url={{ site.banner | url_encode }})">
+    <div class="computer-blur"></div>
+    <div class="computer">
         <canvas class="screen"></canvas>
         <div class="bottom">
             <div class="drive"></div>

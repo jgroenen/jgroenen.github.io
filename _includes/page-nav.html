@@ -1,0 +1,14 @@
+<nav class="page-nav{% if include.fixed %} page-nav-fixed{% endif %}" aria-label="Navigatie">
+    <a href="/" aria-label="Home" title="Home">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 11 12 3l9 8M5 9.5V21h5v-6h4v6h5V9.5"/></svg>
+    </a>
+    {% if include.close %}
+    <a href="/" aria-label="Menu sluiten" title="Menu sluiten">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 5l14 14M19 5 5 19"/></svg>
+    </a>
+    {% else %}
+    <a href="/menu/" aria-label="Menu" title="Menu">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+    </a>
+    {% endif %}
+</nav>

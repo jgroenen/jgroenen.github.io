@@ -1,9 +1,14 @@
-<section class="card-section">
-    <img style="height: 48px; float: right; padding: 20px; object-fit: contain" src="{{ include.icon }}">
-    <h1 style="padding: 24px 24px 12px">Ik, elders</h1>
-    <div style="padding: 0 24px">
-        {% for profile in site.data.externalProfiles %}
-            <a href="{{ profile.url }}" aria-label="Naar mijn profielpagina op {{ profile.name }}"><img src="https://www.google.com/s2/favicons?domain={{ profile.url }}&amp;sz=48" alt="Logo van {{ profile.name }}" style="height: 36px; margin: 10px;"></a>
-        {% endfor %}
-    </div>
+{% capture links %}
+    {% for profile in site.data.externalProfiles %}
+        {% if profile.icon %}{% assign icon = profile.icon %}{% else %}{% assign icon = 'https://www.google.com/s2/favicons?sz=64&domain=' | append: profile.url %}{% endif %}
+        <a class="profile-link" href="{{ profile.url }}"{% if profile.rel %} rel="{{ profile.rel }}"{% endif %} title="{{ profile.name }}" aria-label="Naar mijn profielpagina op {{ profile.name }}"><img src="{{ icon }}" alt=""></a>
+    {% endfor %}
+{% endcapture %}
+{% if include.bare %}
+<div class="profile-links">{{ links }}</div>
+{% else %}
+<section class="section profiles">
+    <h1>Ik, elders</h1>
+    <div class="section-body profile-links">{{ links }}</div>
 </section>
+{% endif %}

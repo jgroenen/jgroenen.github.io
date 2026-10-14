@@ -1,0 +1,161 @@
+---
+layout: default
+permalink: design-system/
+title: Design system
+description: De vormgeving van jgroenen.nl en de merkenboom van de hele familie. Dit is de kern; apitecture.nl, everybit en publictech.nl bouwen hierop voort.
+stylesheets:
+  - /css/design-system.css
+---
+<section class="section ds">
+    <h1>Design system</h1>
+    <p>jgroenen.nl is mijn persoonlijke site: aantekeningen, presentaties en portfolio. Het is ook de kern van een familie. <a href="https://apitecture.nl/design-system/">apitecture.nl</a>, everybit en <a href="https://publictech.nl/design-system/">publictech.nl</a> gebruiken dezelfde tokennamen, ruimteschaal en regels, en wijzen voor de merkenboom naar deze pagina. Hieronder staat alles van groot naar klein: eerst de merken, dan de vormtaal, de fundamenten en de onderdelen van deze site, met de echte CSS en includes.</p>
+    <nav class="ds-inhoud" aria-label="Hoofdstukken">
+        <a href="#merk">0 · Architectuur en merk</a>
+        <a href="#vormtaal">1 · Vormtaal</a>
+        <a href="#fundamenten">2 · Fundamenten</a>
+        <a href="#onderdelen">3 · Onderdelen</a>
+        <a href="#templates">4 · Templates</a>
+    </nav>
+</section>
+
+<section class="section ds" id="merk">
+    <h1>0 · Architectuur en merk</h1>
+    <p>De merkenboom: wie onder wie hangt, van persoon via holding naar de bedrijven, plus de stichting en de vereniging waar ik bij hoor. Dit is de bron. De boom staat in <code>_data/merken.yml</code> en is ook als data te lezen op <a href="/merken.json"><code>/merken.json</code></a>.</p>
+
+    <ul class="ds-boom">
+        {% for merk in site.data.merken %}{% include merk.html merk=merk %}{% endfor %}
+    </ul>
+    <p class="ds-noot">De kleuren van de andere merken staan alleen hier, in de boom. Op de rest van de site komen ze niet voor.</p>
+
+    <h2>De merken</h2>
+    <div class="ds-merken">
+        {% for merk in site.data.merken %}{% include merk-kaart.html merk=merk %}{% endfor %}
+    </div>
+</section>
+
+<section class="section ds" id="vormtaal">
+    <h1>1 · Vormtaal</h1>
+    <p>Rustig en persoonlijk, zoals een profiel: papier als ondergrond, witte kaarten met een dunne rand, en ik die vertel wat ik doe en denk.</p>
+    <dl class="ds-regels">
+        <dt>Papier en kaarten</dt>
+        <dd>Alles staat in witte secties (<code>.section</code>) op grijsbeige papier. Een kaart heeft een dunne rand, geen zware schaduw.</dd>
+        <dt>Ik, nooit wij</dt>
+        <dd>Dit is mijn site. Ik schrijf in de ik-vorm, in gewoon Nederlands. Bedrijven en merken staan in de boom en in het portfolio, niet als reclame.</dd>
+        <dt>Eén accent</dt>
+        <dd>Rood (<code>--accent</code>) markeert: een lopend project, een citaat. Grijs is voor links en bijzaken. Roze, paars en indigo horen bij het merk, maar worden vooral door de familie gebruikt.</dd>
+        <dt>Niets beweegt uit zichzelf</dt>
+        <dd>Geen animaties die je niet zelf start. Deze regel geldt in de hele familie.</dd>
+        <dt>Rond is persoonlijk</dt>
+        <dd>Profielfoto rond, knoppen als pil, kaarten met 12px afronding. Labels en tags zijn juist klein en recht.</dd>
+    </dl>
+</section>
+
+<section class="section ds" id="fundamenten">
+    <h1>2 · Fundamenten</h1>
+    <p>De design tokens: CSS custom properties in <code>css/style.css</code>. De waarden hieronder worden live uit de CSS gelezen.</p>
+
+    <h2>Kleur · merk</h2>
+    <div class="ds-stalen">
+        {% assign tokens = "--jg-red,--jg-pink,--jg-pink-light,--jg-purple,--jg-indigo" | split: "," %}
+        {% for token in tokens %}<div class="ds-staal"><i style="background: var({{ token }})"></i><code>{{ token }}</code><small data-token="{{ token }}"></small></div>{% endfor %}
+    </div>
+
+    <h2>Kleur · ondergrond en tekst</h2>
+    <div class="ds-stalen">
+        {% assign tokens = "--paper,--card,--ink,--muted,--accent,--quote" | split: "," %}
+        {% for token in tokens %}<div class="ds-staal"><i style="background: var({{ token }})"></i><code>{{ token }}</code><small data-token="{{ token }}"></small></div>{% endfor %}
+    </div>
+
+    <h2>Kleur · andere platforms</h2>
+    <p>Alleen voor de knoppen van dat platform zelf.</p>
+    <div class="ds-stalen">
+        {% assign tokens = "--mastodon,--mastodon-dark,--mastodon-light" | split: "," %}
+        {% for token in tokens %}<div class="ds-staal"><i style="background: var({{ token }})"></i><code>{{ token }}</code><small data-token="{{ token }}"></small></div>{% endfor %}
+    </div>
+
+    <h2>Ruimte</h2>
+    <p>Eén schaal van 4 tot 64px, gedeeld met de hele familie.</p>
+    <div class="ds-ruimte">
+        {% for i in (1..8) %}<div><i style="width: var(--space-{{ i }})"></i><code>--space-{{ i }}</code><small data-token="--space-{{ i }}"></small></div>{% endfor %}
+    </div>
+
+    <h2>Typografie</h2>
+    <p class="ds-letter">Atkinson Hyperlegible voor koppen en lopende tekst: gemaakt om goed leesbaar te zijn, ook voor wie slecht ziet. De letters staan op de site zelf, in <code>/fonts/</code>. <code>--font-sans</code></p>
+    <h3>Citaten in Georgia, cursief, met een rode streep.</h3>
+
+    <h2>Afronding</h2>
+    <div class="ds-ruimte">
+        {% assign tokens = "--radius-xs,--radius-md,--radius-lg,--radius-pill" | split: "," %}
+        {% for token in tokens %}<div><i class="ds-hoek" style="border-radius: var({{ token }})"></i><code>{{ token }}</code><small data-token="{{ token }}"></small></div>{% endfor %}
+    </div>
+</section>
+
+<section class="section ds" id="onderdelen">
+    <h1>3 · Onderdelen</h1>
+    <p>Alle onderdelen staan in <code>_includes/</code> en <code>css/style.css</code>. Pagina's zetten geen eigen stijl in de HTML.</p>
+
+    <h2>Atomen</h2>
+    <p>
+        <a class="button" href="#onderdelen">.button</a>
+        <a class="button button-mastodon" href="#onderdelen">.button-mastodon</a>
+    </p>
+    {% assign voorbeeldtags = "tag,nog een tag" | split: "," %}
+    <div>{% include tag-list.html tags=voorbeeldtags %}</div>
+    <p>Tags (<code>.tag</code>, via <code>tag-list.html</code>) zijn klikbaar: ze filteren de kaarten op de pagina.</p>
+
+    <h2>Moleculen</h2>
+    <p><code>org-card.html</code> is de kaart voor projecten, communities en resources uit <code>_data/</code>. Met <code>years=true</code> komen er jaartallen bij en krijgt een lopend project een rood bolletje; met <code>quote=true</code> staat de omschrijving er als citaat bij.</p>
+    {% assign projecten = site.data.projecten | where: "publicatie_status", "live" | reverse %}
+    {% include org-card.html item=projecten.first years=true %}
+    {% assign tools = site.data.tools | where: "publicatie_status", "live" %}
+    {% include org-card.html item=tools.first quote=true %}
+
+    <p><code>card.html</code> (via <code>cards.html</code>) is de kaart voor een aantekening of een kaart uit een collectie:</p>
+    {% assign collection = site.aantekeningen | sort | reverse %}
+    {% include cards.html collection=collection limit=1 %}
+
+    <p><code>section-more.html</code> sluit een sectie af met een link naar het overzicht:</p>
+    {% include section-more.html url="#onderdelen" label="Bekijk alle voorbeelden" %}
+
+    <h2>Organismen</h2>
+    <dl class="ds-regels">
+        <dt><code>.section</code></dt>
+        <dd>Een witte kaart met een <code>h1</code> als kop. Daaronder kaarten, of tekst in <code>.section-text</code> of <code>.section-body</code>.</dd>
+        <dt><code>page-nav.html</code></dt>
+        <dd>Home en menu, als twee iconen naast de titel van de bovenste sectie. De layout zet ze er zelf neer, ook op mobiel. In het menu wordt de hamburger een kruisje.</dd>
+        <dt><code>header.html</code></dt>
+        <dd>De kop van de site: banner, laptop met stickers, profielfoto, naam en de Mastodon-knop. Klik op de foto en de laptop gaat aan.</dd>
+        <dt><code>about.html</code></dt>
+        <dd>De sectie Achtergrond, bovenaan de homepage.</dd>
+        <dt><code>externalProfiles.html</code></dt>
+        <dd>De sectie Ik, elders: in de linkerkolom, op mobiel onderaan als footer, en onder het menu alleen de tegels (<code>bare=true</code>). Elk profiel in een gelijke tegel.</dd>
+        <dt><code>cta.html</code></dt>
+        <dd>Een sectie met een knop. Staat klaar, maar wordt nu niet gebruikt: geen reclame op deze site.</dd>
+        <dt><code>mastodon-actions.html</code></dt>
+        <dd>Delen en verder praten op Mastodon, onder elke aantekening.</dd>
+    </dl>
+    <p>De laptop in <code>computer.html</code> is een illustratie met een eigen palet (<code>--laptop-*</code>), alleen daar.</p>
+</section>
+
+<section class="section ds" id="templates">
+    <h1>4 · Templates</h1>
+    <dl class="ds-regels">
+        <dt><code>_layouts/default.html</code></dt>
+        <dd>Twee kolommen: links de kop en profielen elders, rechts de inhoud als secties. Onder 920px komen ze onder elkaar.</dd>
+        <dt><code>_layouts/aantekening.html</code></dt>
+        <dd>Eén sectie met titel, tags, datum, de tekst, Mastodon-acties en drie andere aantekeningen.</dd>
+        <dt><code>_layouts/kaart.html</code></dt>
+        <dd>Een kaart (thema) met de aantekeningen die die tag hebben.</dd>
+        <dt><code>_layouts/menu.html</code></dt>
+        <dd>Het menu, schermvullend en zonder kolommen, met de tegels van Ik, elders als footer.</dd>
+        <dt>Documentatie van projecten</dt>
+        <dd>Repo's met GitHub Pages staan op <code>jgroenen.nl/&lt;repo&gt;/</code>, met hun eigen vormgeving. Gebruik daar zo veel mogelijk dezelfde tokens.</dd>
+    </dl>
+</section>
+
+<script>
+    var stijl = getComputedStyle(document.documentElement);
+    document.querySelectorAll("[data-token]").forEach(function (el) {
+        el.textContent = stijl.getPropertyValue(el.dataset.token).trim();
+    });
+</script>

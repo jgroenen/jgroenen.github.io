@@ -1,0 +1,16 @@
+{% assign m = include.merk %}
+<li>
+    <a href="{{ m.url }}" class="ds-merk{% if m.id == 'jgroenen' %} ds-merk-hier{% endif %}" style="--merk: {{ m.kleuren[0] }}">
+        <img src="{{ m.logo | relative_url }}" alt="" class="ds-merk-logo{% if m.logo_vorm %} ds-merk-logo-{{ m.logo_vorm }}{% endif %}">
+        <span class="ds-merk-tekst">
+            <strong>{{ m.naam }}</strong>
+            <small>{{ m.rol }}{% if m.id == 'jgroenen' %} · hier{% endif %}</small>
+        </span>
+        <span class="ds-merk-kleuren">{% for k in m.kleuren %}<i style="background: {{ k }}"></i>{% endfor %}</span>
+    </a>
+    {% if m.onder %}
+    <ul>
+        {% for kind in m.onder %}{% include merk.html merk=kind %}{% endfor %}
+    </ul>
+    {% endif %}
+</li>

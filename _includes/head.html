@@ -4,4 +4,7 @@
     <meta name="author" content="Johan Groenen (c) 2023" />
     {% include social-previews.html %}
     <link rel="stylesheet" href="{{ "/css/style.css" | relative_url }}" />
+    {% for stylesheet in page.stylesheets %}
+    <link rel="stylesheet" href="{{ stylesheet | relative_url }}" />
+    {% endfor %}
 </head>

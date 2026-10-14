@@ -6,13 +6,13 @@
             delete activeFilters[tag];
             document
                 .querySelectorAll(`[data-tag='${tag}']`)
-                .forEach((el) => el.classList.remove('active-tag'));
+                .forEach((el) => el.classList.remove('tag-active'));
         }
         else {
             activeFilters[tag] = true;
             document
                 .querySelectorAll(`[data-tag='${tag}']`)
-                .forEach((el) => el.classList.add('active-tag'));
+                .forEach((el) => el.classList.add('tag-active'));
         }
         var filterString = Object.keys(activeFilters)
             .reduce((str, tag) => str + `[data-tags*='${tag}']`, "");

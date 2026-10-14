@@ -1,8 +1,8 @@
-<div class="linkedin-tags">
+<div class="tags">
     {% for tag in include.tags %}
         {% assign tag = tag | strip %}
         {% if tag != null and tag != "" %}
-        <span class="linkedin-tag" data-tag="{{ tag | strip }}">{{ tag | strip }}</span>
+        <span class="tag" data-tag="{{ tag | strip }}">{{ tag | strip }}</span>
         {% endif %}
     {% endfor %}
 </div>

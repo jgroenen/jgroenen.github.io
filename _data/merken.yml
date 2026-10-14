@@ -1,0 +1,70 @@
+# De merkenboom: wie onder wie hangt. Dit is de bron; apitecture.nl, publictech.nl
+# en de andere sites wijzen hiernaar (of lezen /merken.json).
+# kleuren: de eerste is de merkkleur.
+- id: jgroenen
+  naam: Johan Groenen
+  rol: persoon · kern
+  url: https://jgroenen.nl
+  logo: /img/logos/jgroenen-nl.png
+  logo_vorm: rond
+  kleuren: ["#fb5632", "#F3F2EF", "#333333"]
+  merk: "Rustig en persoonlijk: papier, witte kaarten met een dunne rand, ronde knoppen, Atkinson Hyperlegible voor koppen en tekst. Levert de tokennamen, de ruimteschaal (4 tot 64px), de ik-vorm en de regel dat niets uit zichzelf beweegt. Levert ook de remix-kleuren: rood, roze en paars, voor creativiteit, open samenwerken en evolutie door recombinatie."
+  design_system: https://jgroenen.nl/design-system/
+  onder:
+    - id: everybit
+      naam: everybit.
+      rol: holding · investeert
+      url: https://everybit.nl
+      logo: /img/logos/everybit-inverted.png
+      kleuren: ["#3AC286", "#000000", "#FFFFFF"]
+      merk: "Binair en sober: zwart op wit, het logo als formule (0|1)+. Levert de lab-kleur, klinisch groen, voor methode en structuur, plus inkt en monospace."
+      onder:
+        - id: apitecture
+          naam: Apitecture
+          rol: mijn bv · advies, community en support
+          url: https://apitecture.nl
+          logo: /img/logos/apitecture.jpeg
+          kleuren: ["#ff5900", "#141416", "#FFFFFF"]
+          merk: "Licht en betrouwbaar. Nacht #141416 en oranje #ff5900 op papier #f7f6f3; de honingraat uit het logo is de vorm, één oranje cel markeert. Helvetica Neue met Atkinson Hyperlegible Mono voor labels."
+          design_system: https://apitecture.nl/design-system/
+          onder:
+            - id: apitecture-io
+              naam: apitecture.io
+              rol: platform · hier draait het
+              url: https://www.apitecture.io
+              logo: /img/logos/apitecture.jpeg
+              kleuren: ["#ff5900", "#141416", "#FFFFFF"]
+              merk: "Het platform waar websites, API's en toepassingen draaien, onder hetzelfde logo als Apitecture."
+        - id: publictech
+          naam: Public Tech NL
+          rol: labs · gebouwd door Apitecture
+          url: https://publictech.nl
+          logo: /img/logos/publictech.svg
+          logo_vorm: contain
+          kleuren: ["#703289", "#ee4bab", "#fb5632", "#3AC286"]
+          merk: "Volwassen speels. Remix-kleuren van jgroenen.nl en lab-groen van everybit, samengebracht in papier en plakband. Stukjes plakband als beeldmerk, één per lab."
+          design_system: https://publictech.nl/design-system/
+        - id: tiltshift
+          naam: Tiltshift
+          rol: samen · workshops
+          url: https://www.tiltshift.nl
+          logo: /img/logos/tiltshift.png
+          logo_vorm: contain
+          kleuren: ["#1E59A6", "#E64544", "#1D1621"]
+          merk: "\"Voor de mensen die het moeten doen.\" Blauw en rood op wit, donker #1D1621. Helvetica Neue Bold voor koppen, Atkinson Hyperlegible voor tekst."
+    - id: codefornl
+      naam: Code for NL
+      rol: stichting
+      url: https://www.codefor.nl
+      logo: /img/logos/codefornl.png
+      logo_vorm: contain
+      kleuren: ["#71BF9D", "#DF5531", "#777876"]
+      merk: "Het beeldmerk </ in mintgroen, oranje als accent, grijs voor tekst. Koppen in Anton, smal en in hoofdletters; tekst in Roboto."
+    - id: opennederland
+      naam: Open Nederland
+      rol: vereniging
+      url: https://www.opennederland.nl
+      logo: /img/logos/opennederland.png
+      logo_vorm: contain
+      kleuren: ["#dc3545", "#2c3e50", "#4a4a4a"]
+      merk: "\"Verbinder van Open.\" Een met de penseel getrokken cirkel. Rood, donker blauwgrijs, afronding 8px, zachte schaduwen."

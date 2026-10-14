@@ -1,10 +1,8 @@
-<section class="card-section">
-    <img style="height: 48px; float: right; padding: 20px; object-fit: contain" src="{{ include.icon }}">
-    <h1 style="padding: 24px 24px 12px">{{ include.title }}</h1>
-    <div style="padding: 0 24px">
-        <div style="margin: 0">
-            <p style="margin: 0">{{ include.teaser }}</p>
-            <p><a style="background: var(--ts-brand-color)" class="linkedin-button" href="{{ include.url }}">{{ include.cta }}</a></p>
-        </div>
+<section class="section">
+    {% if include.icon %}<img class="section-icon" src="{{ include.icon }}" alt="">{% endif %}
+    <h1>{{ include.title }}</h1>
+    <div class="section-body">
+        <p>{{ include.teaser }}</p>
+        <p><a class="button" href="{{ include.url }}">{{ include.cta }}</a></p>
     </div>
 </section>

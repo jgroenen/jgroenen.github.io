@@ -1,0 +1,7 @@
+{% assign m = include.merk %}
+<article class="ds-merk-kaart" style="--merk: {{ m.kleuren[0] }}">
+    <p class="ds-kicker">{{ m.rol }} · <a href="{{ m.url }}">{{ m.url | remove: "https://" | remove: "www." }}</a>{% if m.id == 'jgroenen' %} · hier{% endif %}</p>
+    <p>{{ m.merk | escape }}</p>
+    {% if m.design_system and m.id != 'jgroenen' %}<p><a href="{{ m.design_system }}">Eigen design system »</a></p>{% endif %}
+</article>
+{% for kind in m.onder %}{% include merk-kaart.html merk=kind %}{% endfor %}

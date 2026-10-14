@@ -1,3 +1,7 @@
+- url: https://social.codefor.nl/@johan
+  name: Mastodon
+  rel: me
+  icon: https://joinmastodon.org/logos/logo-purple.svg
 - url: https://ibestuur.nl/auteur/johan-groenen/
   name: iBestuur
 - url: https://opensourcewerken.nl/user/ceb48dc2-422c-440b-b008-b6a685ccccf3/profile/publications

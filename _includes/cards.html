@@ -1,5 +1,5 @@
 <section>
-    <h2 style="text-align: center">{{ include.header }}</h2>
+    <h2 class="cards-header">{{ include.header }}</h2>
     {% for item in include.collection limit:include.limit %}
         {% if include.tag %}
             {% if item.tags contains include.tag %}

@@ -1,15 +1,15 @@
 ---
 layout: default
 ---
-<section class="card-section right-card">
-    <h1 style="padding: 24px 24px 12px">{{ page.title }}</h1>
+<section class="section">
+    <h1>{{ page.title }}</h1>
 
-    <p>{% for tag in page.tags %}<a class="linkedin-tag" href="/kaarten/{{ tag | slugify }}/">{{ tag }}</a> {% endfor %}</p>
+    <p>{% for tag in page.tags %}<a class="tag" href="/kaarten/{{ tag | slugify }}/">{{ tag }}</a> {% endfor %}</p>
 
-    <p class="subtitle">{% include date.html date=page.date %}</p>
+    <p>{% include date.html date=page.date %}</p>
     {{ content }}
 
-    <p>{% include mastodon-actions.html %}</p>
+    {% include mastodon-actions.html %}
 
     <h2>Andere aantekeningen</h2>
 

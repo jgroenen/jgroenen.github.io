@@ -2,72 +2,42 @@
 layout: default
 title: Projecten
 ---
-<div>
+{% include about.html title="Achtergrond" text=site.about %}
 
-<section class="card-section right-card">
-    <h1 style="padding: 24px 24px 12px">Mijn Projecten</h1>
+<section class="section">
+    <h1><a href="/projecten/">Mijn Projecten</a></h1>
     {% assign projecten = site.data.projecten | where: "publicatie_status", "live" | reverse %}
     {% for project in projecten limit: 3 %}
-        {% include project-card.html %}
+        {% include org-card.html item=project years=true %}
     {% endfor %}
 
-    <div class="project-card">
-        <div class="project-body">
-            <p style="text-align: right">
-                <a href="/projecten">Bekijk alle projecten »</a>
-            </p>
-        </div>
-    </div>
+    {% include section-more.html url="/projecten" label="Bekijk alle projecten" %}
 </section>
 
-<section class="card-section right-card">
-    <h1 style="padding: 24px 24px 12px">Mijn Aantekeningen</h1>
+<section class="section">
+    <h1><a href="/aantekeningen/">Mijn Aantekeningen</a></h1>
     {% assign collection = site.aantekeningen|sort|reverse %}
     {% include cards.html collection=collection limit=1 %}
 
-    <div class="project-card">
-        <div class="project-body">
-            <p style="text-align: right">
-                <a href="/aantekeningen">Bekijk alle aantekeningen »</a>
-            </p>
-        </div>
-    </div>
+    {% include section-more.html url="/aantekeningen" label="Bekijk alle aantekeningen" %}
 </section>
 
-<section class="card-section right-card">
-    <h1 style="padding: 24px 24px 12px">Mijn Open Communities</h1>
+<section class="section">
+    <h1><a href="/communities/">Mijn Open Communities</a></h1>
     {% assign communities = site.data.communities | where: "publicatie_status", "live" %}
     {% for community in communities limit: 2 %}
-        {% include community-card.html %}
+        {% include org-card.html item=community quote=true more=" community" %}
     {% endfor %}
 
-    <div class="project-card">
-        <div class="project-body">
-            <p style="text-align: right">
-                <a href="/communities">Bekijk alle communities »</a>
-            </p>
-        </div>
-    </div>
+    {% include section-more.html url="/communities" label="Bekijk alle communities" %}
 </section>
 
-<section class="card-section right-card">
-    <h1 style="padding: 24px 24px 12px">Toffe Resources</h1>
+<section class="section">
+    <h1><a href="/tools/">Toffe Resources</a></h1>
     {% assign tools = site.data.tools | where: "publicatie_status", "live" %}
     {% for tool in tools limit: 2 %}
-        {% include tool-card.html %}
+        {% include org-card.html item=tool quote=true %}
     {% endfor %}
 
-    <div class="project-card">
-        <div class="project-body">
-            <p style="text-align: right">
-                <a href="/tools">Bekijk alle tools »</a>
-            </p>
-        </div>
-    </div>
+    {% include section-more.html url="/tools" label="Bekijk alle tools" %}
 </section>
-
-</div>
-
-{% comment %}
-{% include toggle-cards-script.html %}
-{% endcomment %}

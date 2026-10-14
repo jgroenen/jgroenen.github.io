@@ -1,179 +1,445 @@
-:root {
-    --background-color: #F3F2EF;
-    --card-background-color: #FFFFFF;
-    --text-color: #333;
-    --link-color: #666;
-    /* --ts-brand-color: #E54545; */
-    --ts-brand-color: #fb5632;
-    --shadow-color: #AAAAAA;
+/* Atkinson Hyperlegible, op de site zelf: geen verzoeken naar buiten */
+@font-face {
+    font-family: 'Atkinson Hyperlegible';
+    src: url(/fonts/atkinson-hyperlegible-regular.woff2) format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Atkinson Hyperlegible';
+    src: url(/fonts/atkinson-hyperlegible-italic.woff2) format('woff2');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Atkinson Hyperlegible';
+    src: url(/fonts/atkinson-hyperlegible-bold.woff2) format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Atkinson Hyperlegible';
+    src: url(/fonts/atkinson-hyperlegible-bolditalic.woff2) format('woff2');
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
 }
 
+/* Kern van de familie: deze tokennamen en de ruimteschaal gelden ook op
+   apitecture.nl, everybit en publictech.nl. Zie /design-system/. */
+:root {
+    /* Merk: de remix-kleuren */
+    --jg-red: #fb5632;
+    --jg-pink: #ee4bab;
+    --jg-pink-light: #f6b3cc;
+    --jg-purple: #703289;
+    --jg-indigo: #2d2576;
+    --accent: var(--jg-red);
+
+    /* Ondergrond en tekst */
+    --paper: #F3F2EF;
+    --card: #FFFFFF;
+    --ink: #333;
+    --text: var(--ink);
+    --muted: #666;
+    --line: rgba(0, 0, 0, 0.08);
+    --shadow: #AAAAAA;
+    --quote: #0058b8;
+
+    /* Kleuren van andere platforms, alleen voor hun eigen knoppen */
+    --mastodon: #6364FF;
+    --mastodon-dark: #4f50e0;
+    --mastodon-light: #f3f4ff;
+
+    --font-sans: 'Atkinson Hyperlegible', Arial, Helvetica, sans-serif;
+    --font-serif: Georgia, serif;
+
+    --space-1: 4px;
+    --space-2: 8px;
+    --space-3: 12px;
+    --space-4: 16px;
+    --space-5: 24px;
+    --space-6: 32px;
+    --space-7: 48px;
+    --space-8: 64px;
+
+    --radius-xs: 2px;
+    --radius-md: 8px;
+    --radius-lg: 12px;
+    --radius-pill: 24px;
+
+    --column-side: 328px;
+    --column-main: 636px;
+    --page: 920px;
+}
+
+/* ===== Basis ===== */
 html, body {
     margin: 0;
     padding: 0;
-    background: var(--background-color);
-    color: var(--text-color);
-    font-family: Arial;
+    background: var(--paper);
+    color: var(--text);
+    font-family: var(--font-sans);
+}
+button {
+    font-family: inherit;
+}
+a {
+    text-decoration: none;
+    color: var(--muted);
 }
 figcaption {
     font-style: italic;
-    text-align: center
+    text-align: center;
 }
-.card-section {
-    background: var(--card-background-color);
-    border-radius: 12px;
-    box-shadow: 0px 0px 0px 1px rgba(0,0,0,0.08);
+
+/* ===== Layout: twee kolommen, onder de 920px onder elkaar ===== */
+.wrapper {
+    display: flex;
+    margin: auto;
+    max-width: var(--page);
+    margin-top: var(--space-5);
+}
+aside {
+    width: var(--column-side);
+}
+main > .section {
+    margin-left: 20px;
+    width: 100%;
+}
+.footer {
+    display: block;
+    margin: 40px;
+}
+
+/* ===== Sectie: een witte kaart op papier ===== */
+.section {
+    background: var(--card);
+    border-radius: var(--radius-lg);
+    box-shadow: 0 0 0 1px var(--line);
     padding: 0;
-    /* margin: 8px auto 0; */
-    max-width: 636px;
-    min-width: 328px;
+    max-width: var(--column-main);
+    min-width: var(--column-side);
     margin-bottom: 18px;
 }
-.card-section h1 {
+.section > h1 {
     margin: 0;
+    padding: var(--space-5) var(--space-5) var(--space-3);
 }
-.card-section p {
+.section > h1 a {
+    color: inherit;
+}
+.section > h1 a:hover {
+    color: var(--accent);
+}
+.section p {
     line-height: 1.5em;
 }
-.card-section > p,
-.card-section > h2,
-.card-section > figcaption {
-    margin: 24px;
+.section > p,
+.section > h2,
+.section > figcaption {
+    margin: var(--space-5);
     max-width: 100%;
 }
-.card-section > h3 {
-    color: #0058b8;
+.section > .section-text {
+    margin: 0;
+    padding: 0 var(--space-5) var(--space-5);
+}
+.section-body {
+    padding: 0 var(--space-5);
+}
+.section-body > p {
+    margin: 0;
+}
+.section-icon {
+    height: var(--space-7);
+    float: right;
+    padding: 20px;
+    object-fit: contain;
+}
+
+/* Citaat in een aantekening */
+.section > h3 {
+    color: var(--quote);
     font-size: 1.5em;
-    border-left: 8px solid var(--ts-brand-color);
+    border-left: var(--space-2) solid var(--accent);
     margin: 2em 2em 2em 1em;
-    padding-left: 12px;
-    padding-right: 8px;
+    padding-left: var(--space-3);
+    padding-right: var(--space-2);
     font-style: italic;
     font-weight: 100;
-    font-family: Georgia, serif;
+    font-family: var(--font-serif);
 }
-.card-section > p img {
+.section > p img {
     margin: auto;
     max-width: 90%;
 }
-.card-section > p:has(img) {
+.section > p:has(img) {
     margin: 0;
     text-align: center;
 }
-.project-card {
-    margin: 12px 24px;
-    padding-bottom: 12px;
-    border-bottom: 1px solid var(--background-color);
+
+/* ===== Kaart: een item in een sectie ===== */
+.card {
+    margin: var(--space-3) var(--space-5);
+    padding-bottom: var(--space-3);
+    border-bottom: 1px solid var(--paper);
     position: relative;
 }
-.project-card .year-label {
-    float: right;
-    font-size: 0.6em;
-    margin-right: 10px;
-    border-radius: 2px;
-    padding: 2px 4px;
+.card-inner {
+    display: flex;
 }
-.project-card-actief .year-label {
-    background: var(--ts-brand-color);
-    color: white;
-    width: 8px;
-    height: 8px;
-    border-radius: 10px;
-    font-size: 0;
-    padding: 0;
-    margin: 6px;
+.card-logo {
+    width: var(--space-7);
+    padding: var(--space-1) var(--space-2);
 }
-.project-card h2 {
+.card-logo img {
+    width: var(--space-7);
+    height: var(--space-7);
+    object-fit: contain;
+}
+.card-logo-cover img {
+    object-fit: cover;
+}
+.card-body {
+    flex: 1;
+}
+.card h2 {
     font-size: 1.1em;
     line-height: 1.4em;
     margin: 0;
     font-weight: 600;
 }
-.project-card .subtitle {
-    margin: 8px 0;
+.card-kicker {
+    font-weight: 500;
 }
-.project-logo {
-    width: 48px;
-    padding: 4px 8px;
+.card-subtitle {
+    margin: var(--space-2) 0;
 }
-.project-body {
-    flex: 1;
+.card .card-quote {
+    margin-top: var(--space-4);
+    font-style: italic;
+    line-height: 1.4em;
 }
-.project-body a, a {
-    text-decoration: none;
-    color: var(--link-color);
+.card-more {
+    text-align: right;
 }
-.banner-image {
-    width: 100%;
-    border-radius: 12px 12px 0 0 ;
+.card-year {
+    float: right;
+    font-size: 0.6em;
+    margin-right: 10px;
+    border-radius: var(--radius-xs);
+    padding: 2px var(--space-1);
 }
-.linkedin-button {
-    border-radius: 24px;
-    background: #0A66C2;
-    color: #FFFFFF !important;
+.card-active .card-year {
+    background: var(--accent);
+    color: white;
+    width: var(--space-2);
+    height: var(--space-2);
+    border-radius: 10px;
+    font-size: 0;
+    padding: 0;
+    margin: 6px;
+}
+.cards-header {
+    text-align: center;
+}
+.date {
+    line-height: 1.4em;
+}
+
+/* ===== Atomen ===== */
+.button {
+    border-radius: var(--radius-pill);
+    background: var(--accent);
+    color: var(--card);
     padding: 10px 20px;
     font-weight: 600;
     font-size: 1em;
     text-decoration: none;
-    margin: 12px 0;
+    margin: var(--space-3) 0;
     display: inline-block;
+}
+.button-mastodon {
+    background: var(--mastodon);
+}
+.tags {
+    margin-top: var(--space-2);
+}
+.tag {
+    background: var(--paper);
+    display: inline-block;
+    padding: var(--space-1) 10px;
+    border-radius: var(--radius-xs);
+    margin: var(--space-1) var(--space-1) var(--space-1) 0;
+    font-size: 0.8em;
+    cursor: pointer;
+}
+.tag-active {
+    background: var(--muted);
+    color: var(--text);
+}
+
+/* ===== Kop van de site ===== */
+.banner-image {
+    width: 100%;
+    border-radius: var(--radius-lg) var(--radius-lg) 0 0;
 }
 .profile-image {
     border-radius: 100%;
-    border: 4px solid white;
+    border: var(--space-1) solid white;
     width: 124px;
-    margin: -10% 0 12px 24px;
-    box-shadow: 0 2px 8px var(--shadow-color);
+    margin: -10% 0 var(--space-3) var(--space-5);
+    box-shadow: 0 2px var(--space-2) var(--shadow);
     cursor: pointer;
     position: relative;
 }
 .klik {
     position: relative;
+    width: 100px;
+    margin-left: -20px;
 }
-.wrapper {
+.section > .header-name {
+    font-size: 1.4em;
+    padding: 0 var(--space-5);
+}
+
+/* Ik, elders: elk profiel in een gelijke tegel, wat het logo ook is */
+.profile-links {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 48px);
+    gap: var(--space-3);
+    padding-top: var(--space-2);
+    padding-bottom: var(--space-5);
+}
+.profile-link {
     display: flex;
-    margin: auto;
-    max-width: 920px;
-    margin-top: 24px;
+    width: 48px;
+    height: 48px;
+    padding: 10px;
+    box-sizing: border-box;
+    background: var(--card);
+    border-radius: var(--radius-md);
+    box-shadow: 0 0 0 1px var(--line);
 }
-.right-card {
-    margin-left: 20px;
+.profile-link:hover {
+    background: var(--paper);
+}
+.profile-link img {
     width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
-.linkedin-tags {
-    margin-top: 8px;
+
+/* ===== Navigatie: home en menu, naast de bovenste titel ===== */
+.section {
+    position: relative;
 }
-.linkedin-tag {
-    background: var(--background-color);
-    display: inline-block;
-    padding: 4px 10px;
-    border-radius: 2px;
-    margin: 4px 4px 4px 0;
-    font-size: 0.8em;
+.section:has(> .page-nav) > h1 {
+    padding-right: 104px;
+}
+.page-nav {
+    position: absolute;
+    top: var(--space-5);
+    right: var(--space-5);
+    display: flex;
+    gap: var(--space-2);
+}
+.page-nav a {
+    display: flex;
+    padding: var(--space-1);
+    border-radius: var(--radius-xs);
+    color: var(--muted);
+}
+.page-nav a:hover {
+    background: var(--paper);
+    color: var(--ink);
+}
+.page-nav svg {
+    width: 28px;
+    height: 28px;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+.page-nav-fixed {
+    position: fixed;
+}
+.menu {
+    text-align: center;
+    margin-top: 140px;
+}
+.menu-footer {
+    margin: var(--space-7) auto;
+    max-width: var(--column-side);
+}
+.menu-footer .profile-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* ===== Mastodon ===== */
+.mastodon-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .75rem;
+    margin: var(--space-5);
+}
+.mastodon-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: .6rem;
+    padding: .6rem 1rem;
+    border-radius: var(--radius-md);
+    border: 1px solid var(--mastodon);
+    background: var(--card);
+    color: #111;
+    font-size: .9rem;
+    font-weight: 600;
     cursor: pointer;
+    transition: background .15s ease, border-color .15s ease;
 }
-.active-tag {
-    background: var(--link-color);
-    color: var(--text-color);
+.mastodon-btn:hover {
+    background: var(--mastodon-light);
+    border-color: var(--mastodon-dark);
 }
-aside {
-    width: 328px;
+.mastodon-icon {
+    width: 1.2rem;
+    height: 1.2rem;
 }
+
 @media only screen and (max-width: 920px) {
     aside {
         width: 100%;
-        min-width: 328px;
+        min-width: var(--column-side);
     }
-    .card-section, .banner-image {
+    .section, .banner-image {
         border-radius: 0;
         min-width: 100%;
     }
+    /* Op mobiel: kop, dan de inhoud, en Ik, elders als footer */
     .wrapper {
-        display: block;
+        display: flex;
+        flex-direction: column;
         width: 100%;
         margin-top: 0;
     }
-    .right-card {
+    aside {
+        display: contents;
+    }
+    main {
+        order: 1;
+    }
+    .profiles {
+        order: 2;
+    }
+    main > .section {
         margin-left: 0;
     }
 }

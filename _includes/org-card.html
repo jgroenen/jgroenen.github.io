@@ -1,0 +1,38 @@
+{% comment %}
+Kaart voor een project, community of resource uit _data.
+Parameters: item, quote (omschrijving als citaat tonen),
+more (tekst achter de titel in de link), years (van-tot tonen en lopend markeren).
+{% endcomment %}
+{% assign card_item = include.item %}
+{% assign kicker = card_item.rol | default: card_item.opdracht | default: card_item.type %}
+<div class="card{% if include.years %}{% unless card_item.tot %} card-active{% endunless %}{% endif %}" data-tags>
+    {% if include.years %}
+    {% if card_item.van contains '1900' %}
+    {% elsif card_item.van == card_item.tot %}
+    <div class="card-year">{{ card_item.van }}</div>
+    {% else %}
+    <div class="card-year">{{ card_item.van }} - {{ card_item.tot | default: "heden" }}</div>
+    {% endif %}
+    {% endif %}
+    <div class="card-inner">
+        <div class="card-logo">
+            <a href="{{ card_item.org_url }}" aria-label="Naar de organisatiepagina van {{ card_item.org_naam }}">
+                <img src="https://img.apitecture.nl/?url={{ card_item.org_logo | default: site.data.person.picture | url_encode }}" width="48" height="48" alt="{{ card_item.org_naam }} logo">
+            </a>
+        </div>
+        <div class="card-body">
+            <h2><span class="card-kicker">{{ kicker }}</span><br>{{ card_item.titel }}</h2>
+            <p class="card-subtitle"><a href="{{ card_item.org_url }}">{{ card_item.org_naam }}</a></p>
+
+            {% if include.quote %}
+            <p class="card-quote">"{{ card_item.omschrijving }}"</p>
+            {% endif %}
+
+            {% if card_item.url %}
+            <p class="card-more">
+                <a target="_blank" href="{{ card_item.url }}">{{ card_item.titel }}{{ include.more }} »</a>
+            </p>
+            {% endif %}
+        </div>
+    </div>
+</div>
