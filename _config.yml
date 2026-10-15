@@ -24,6 +24,9 @@ collections:
     permalink: /kaarten/:name/
   projecten:
     output: true
+  presentaties:
+    output: true
+    permalink: /presentaties/:name/
 
 defaults:
   - scope:
@@ -36,6 +39,11 @@ defaults:
     values:
       layout: aantekening
       collection: aantekeningen
+  - scope:
+      type: presentaties
+    values:
+      layout: presentatie
+      collection: presentaties
   - scope:
       type: projecten
     values:

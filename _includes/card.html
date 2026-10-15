@@ -1,4 +1,5 @@
 {% if include.card %}
+{% if item.collection == "presentaties" %}{% assign card_target = ' target="_blank" rel="noopener"' %}{% else %}{% assign card_target = "" %}{% endif %}
 {% if include.compact %}
 <div class="card card-compact">
     <div class="card-inner">
@@ -6,8 +7,8 @@
             <img src="{{ item.image | default: site.data.person.picture }}" width="32" height="32" alt="" onerror="this.onerror = null; this.src = '{{ site.data.person.picture }}'">
         </div>
         <div class="card-body">
-            <h2><a href="{{ item.url }}">{{ item.title }}</a></h2>
-            <p class="card-subtitle">{% include date.html date=item.date %}</p>
+            <h2><a href="{{ item.extern | default: item.url }}"{{ card_target }}>{{ item.title }}</a></h2>
+            <p class="card-subtitle">{% unless item.hide_date %}{% include date.html date=item.date %}{% endunless %}{% if item.event %}{% unless item.hide_date %} · {% endunless %}{{ item.event }}{% endif %}</p>
         </div>
     </div>
 </div>
@@ -21,13 +22,13 @@
         <div class="card-body">
             <h2>{{ item.title }}</h2>
 
-            <p class="card-subtitle">{% include date.html date=item.date %}</p>
+            <p class="card-subtitle">{% unless item.hide_date %}{% include date.html date=item.date %}{% endunless %}{% if item.event %}{% unless item.hide_date %} · {% endunless %}{{ item.event }}{% endif %}</p>
 
             {% include tag-list.html tags=item.tags %}
 
             <p>{{ item.teaser }}</p>
 
-            <p><a href="{{ item.url }}">Lees {{ item.label | default: item.title }}</a></p>
+            <p><a href="{{ item.extern | default: item.url }}"{{ card_target }}>{% if item.collection == "presentaties" %}Bekijk{% else %}Lees{% endif %} {{ item.label | default: item.title }}</a></p>
         </div>
     </div>
 </div>

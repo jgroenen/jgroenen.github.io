@@ -52,7 +52,7 @@ stylesheets:
 
 <section class="section ds" id="fundamenten">
     <h1>2 · Fundamenten</h1>
-    <p>De design tokens: CSS custom properties in <code>css/style.css</code>. De waarden hieronder worden live uit de CSS gelezen.</p>
+    <p>De design tokens: CSS custom properties in <code>css/tokens.css</code>, samen met de letter. Dat bestand is ook los te laden, door presentaties en door de rest van de familie. De waarden hieronder worden live uit de CSS gelezen.</p>
 
     <h2>Kleur · merk</h2>
     <div class="ds-stalen">
@@ -149,6 +149,8 @@ stylesheets:
         <dd>Eén sectie met titel, tags, datum, de tekst, Mastodon-acties en drie andere aantekeningen.</dd>
         <dt><code>_layouts/kaart.html</code></dt>
         <dd>Een kaart (thema) met de aantekeningen die die tag hebben.</dd>
+        <dt><code>_layouts/presentatie.html</code></dt>
+        <dd>Een presentatie uit <code>_presentaties/</code>: Markdown met <code>---</code> tussen de slides, getoond met reveal.js in het thema <code>css/presentatie.css</code>. Elke slide is een witte kaart op papier, koppen krijgen een rood streepje, en er zijn geen overgangen. Staat een presentatie elders, dan verwijst <code>extern:</code> er direct naartoe.</dd>
         <dt><code>_layouts/menu.html</code></dt>
         <dd>Het menu, schermvullend en zonder kolommen, met de tegels van Ik, elders als footer.</dd>
         <dt>Documentatie van projecten</dt>

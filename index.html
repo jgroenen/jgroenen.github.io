@@ -7,7 +7,7 @@ De kaartenbak: alle kaarten open, elke volgende ligt een stukje over de vorige.
 Per kaart een paar kleine previews en een knop naar het overzicht.
 {% endcomment %}
 <div class="stack">
-    <section class="section" id="achtergrond" style="--tab: var(--jg-indigo)">
+    <section class="section" id="achtergrond" style="--tab: var(--ink)">
         <h1>Achtergrond</h1>
         <p class="section-text">{{ site.about }}</p>
     </section>
@@ -26,6 +26,13 @@ Per kaart een paar kleine previews en een knop naar het overzicht.
         {% assign collection = site.aantekeningen | sort | reverse %}
         {% include cards.html collection=collection limit=3 compact=true %}
         {% include section-more.html url="/aantekeningen/" label="Bekijk alle aantekeningen" %}
+    </section>
+
+    <section class="section" id="presentaties" style="--tab: var(--jg-indigo)">
+        <h1><a href="/presentaties/">Mijn Presentaties</a></h1>
+        {% assign collection = site.presentaties | sort: "date" | reverse %}
+        {% include cards.html collection=collection limit=3 compact=true %}
+        {% include section-more.html url="/presentaties/" label="Bekijk alle presentaties" %}
     </section>
 
     <section class="section" id="communities" style="--tab: var(--jg-purple)">

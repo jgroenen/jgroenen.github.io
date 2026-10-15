@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+{% comment %}
+Een presentatie: Markdown met --- tussen de slides. Markdown maakt van --- een <hr />,
+hier wordt elke slide een <section> voor reveal.js. Een presentatie die elders staat
+(extern: <url>) stuurt meteen door.
+{% endcomment %}
+<html lang="nl">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title }} · {{ site.title }}</title>
+    <meta name="description" content="{{ page.teaser | strip_html | escape }}">
+    {% if page.extern %}
+    <meta http-equiv="refresh" content="0; url={{ page.extern }}">
+    <link rel="canonical" href="{{ page.extern }}">
+    {% else %}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.1.0/reveal.min.css">
+    <link rel="stylesheet" href="{{ "/css/tokens.css" | relative_url }}">
+    <link rel="stylesheet" href="{{ "/css/presentatie.css" | relative_url }}">
+    {% endif %}
+</head>
+<body>
+    {% if page.extern %}
+    <p>Deze presentatie staat op <a href="{{ page.extern }}">{{ page.extern }}</a>.</p>
+    {% else %}
+    <a class="presentatie-terug" href="{{ "/presentaties/" | relative_url }}" aria-label="Alle presentaties">jgroenen.nl</a>
+    <div class="reveal">
+        <div class="slides">
+            {% assign slides = content | split: "<hr />" %}
+            {% for slide in slides %}
+            <section>
+                {{ slide }}
+            </section>
+            {% endfor %}
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.1.0/reveal.min.js"></script>
+    <script>
+        Reveal.initialize({
+            hash: true,
+            slideNumber: "c/t",
+            transition: "none",
+            backgroundTransition: "none"
+        });
+    </script>
+    {% endif %}
+</body>
+</html>

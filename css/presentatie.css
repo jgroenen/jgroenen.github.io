@@ -1,0 +1,132 @@
+/* Thema voor presentaties (reveal.js) op de tokens van jgroenen.nl.
+   Rustig, zoals de site: papier, een witte kaart, Atkinson Hyperlegible,
+   rood als enige accent. Geen overgangen: niets beweegt uit zichzelf. */
+html, body {
+    margin: 0;
+    height: 100%;
+    background: var(--paper);
+}
+.reveal-viewport {
+    background: var(--paper);
+}
+.reveal {
+    font-family: var(--font-sans);
+    font-size: 36px;
+    color: var(--text);
+}
+.reveal .slides {
+    text-align: left;
+}
+/* Elke slide is een witte kaart op papier */
+.reveal .slides > section {
+    box-sizing: border-box;
+    height: 100%;
+    padding: 48px 64px !important;
+    background: var(--card);
+    border-radius: var(--radius-lg);
+    box-shadow: 0 0 0 1px var(--line);
+}
+.reveal h1,
+.reveal h2,
+.reveal h3 {
+    font-family: var(--font-sans);
+    font-weight: 700;
+    color: var(--ink);
+    line-height: 1.15;
+    margin: 0 0 0.5em;
+    text-transform: none;
+    letter-spacing: 0;
+}
+.reveal h1 { font-size: 2.2em; }
+.reveal h2 { font-size: 1.5em; }
+.reveal h3 { font-size: 1.1em; color: var(--muted); }
+/* Een kopje met een rode streep, zoals de accenten op de site */
+.reveal h2::before {
+    content: "";
+    display: block;
+    width: 48px;
+    height: 6px;
+    margin-bottom: 0.4em;
+    border-radius: 3px;
+    background: var(--accent);
+}
+.reveal p,
+.reveal li {
+    line-height: 1.4;
+}
+.reveal ul,
+.reveal ol {
+    margin-left: 1em;
+}
+.reveal li::marker {
+    color: var(--accent);
+}
+.reveal a {
+    color: var(--quote);
+}
+.reveal blockquote {
+    width: auto;
+    margin: 1em 0;
+    padding: 0 0 0 0.6em;
+    box-shadow: none;
+    background: none;
+    border-left: 8px solid var(--accent);
+    font-family: var(--font-serif);
+    font-style: italic;
+    color: var(--quote);
+}
+.reveal code {
+    font-size: 0.85em;
+    background: var(--paper);
+    padding: 0 0.2em;
+    border-radius: var(--radius-xs);
+}
+.reveal pre {
+    width: auto;
+    margin: 0.6em 0;
+    padding: 0.6em 0.8em;
+    font-size: 0.6em;
+    line-height: 1.5;
+    background: var(--paper);
+    border-radius: var(--radius-md);
+    box-shadow: none;
+}
+.reveal pre code {
+    max-height: none;
+    padding: 0;
+    font-size: 1em;
+    background: none;
+}
+.reveal img {
+    max-height: 60vh;
+}
+.reveal .slide-number {
+    background: none;
+    color: var(--muted);
+    font-family: var(--font-sans);
+}
+.reveal .controls {
+    color: var(--accent);
+}
+.reveal .progress {
+    color: var(--accent);
+}
+/* Terug naar het overzicht, klein in de hoek */
+.presentatie-terug {
+    position: fixed;
+    top: var(--space-3);
+    left: var(--space-4);
+    z-index: 30;
+    font-family: var(--font-sans);
+    font-size: 14px;
+    color: var(--muted);
+    text-decoration: none;
+}
+.presentatie-terug:hover {
+    color: var(--accent);
+}
+@media print {
+    .presentatie-terug {
+        display: none;
+    }
+}
