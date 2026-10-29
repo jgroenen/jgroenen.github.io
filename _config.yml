@@ -10,7 +10,7 @@ quote: alles is inspiratie
 description: "Digitale gemeenschapsgoederen en open source werken in de publieke sector: van concept naar werkende software naar draaiende dienst."
 about: "Studeerde natural computing, het modelleren van complexe systemen. Na een paar jaar software development bij een webbureau en twee succesvolle social media startups, sinds 2015 gefocust op opensourcewerken en mensgerichte digitalisering in de publieke sector.<br><br>Adviseur publieke software en community ontwikkeling; van digitaal bonnenboekje voor de straatmarkten van Amsterdam tot Algoritmeregister van de Nederlandse Overheid, van publieke tribune voor CoronaApps tot codeplatform voor de Overheid."
 #banner: "https://media.licdn.com/dms/image/v2/D4E16AQEs4PgM06uD_g/profile-displaybackgroundimage-shrink_350_1400/B4EZdpZpf0HgAc-/0/1749820021707?e=1755129600&v=beta&t=Ufq51lnyxeu3ZKhiTuapXIzEK2IojsNAx_KXG-pPq2o"
-banner: "https://media.licdn.com/dms/image/v2/D4E16AQGKuM_rQmRJ6g/profile-displaybackgroundimage-shrink_350_1400/B4EZ5aM4AXK0AU-/0/1779629785411?e=1782345600&v=beta&t=76jVtMdYFxkYqIcQdyXj75qLklQVr3FhPHtIcg6KkRM"
+banner: "/img/banner-remix.jpeg"
 
 include:
   - .well-known

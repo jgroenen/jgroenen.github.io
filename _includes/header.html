@@ -1,9 +1,9 @@
 <header class="section">
     <a href="/" aria-label="Home">
-        <img class="banner-image" src="https://img.apitecture.nl/?url={{ site.banner | url_encode }}" alt="#publictech banner">
+        <img class="banner-image" src="{{ site.banner | relative_url }}" alt="Tiltshift banner">
         {% include computer.html %}
     </a>
-    <img class="profile-image" src="https://img.apitecture.nl/?url={{ site.data.person.picture }}" alt="Profielfoto">
+    <img class="profile-image" src="{{ site.data.person.picture }}" alt="Profielfoto">
     <img class="klik" src="{{ "/img/klik.svg" | relative_url }}" alt="">
     <h1 class="header-name">{{ site.title }}</h1>
     <div class="section-body">

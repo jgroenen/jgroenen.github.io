@@ -10,7 +10,7 @@ compact (kleine preview: logo, kopje, titel als link en organisatie).
 <div class="card card-compact">
     <div class="card-inner">
         <div class="card-logo">
-            <img src="https://img.apitecture.nl/?url={{ card_item.org_logo | default: site.data.person.picture | url_encode }}" width="32" height="32" alt="">
+            <img src="{{ card_item.org_logo | default: site.data.person.picture | relative_url }}" width="32" height="32" alt="">
         </div>
         <div class="card-body">
             <h2><span class="card-kicker">{{ kicker }}</span><br><a href="{{ card_item.url | default: card_item.org_url }}">{{ card_item.titel }}</a></h2>
@@ -31,7 +31,7 @@ compact (kleine preview: logo, kopje, titel als link en organisatie).
     <div class="card-inner">
         <div class="card-logo">
             <a href="{{ card_item.org_url }}" aria-label="Naar de organisatiepagina van {{ card_item.org_naam }}">
-                <img src="https://img.apitecture.nl/?url={{ card_item.org_logo | default: site.data.person.picture | url_encode }}" width="48" height="48" alt="{{ card_item.org_naam }} logo">
+                <img src="{{ card_item.org_logo | default: site.data.person.picture | relative_url }}" width="48" height="48" alt="{{ card_item.org_naam }} logo">
             </a>
         </div>
         <div class="card-body">

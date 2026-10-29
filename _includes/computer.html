@@ -121,7 +121,7 @@
         -webkit-transform: rotate(1deg);
     }
 </style>
-<div id="easterEgg" class="banner-image easter-egg" style="background-image: url(https://img.apitecture.nl/?url={{ site.banner | url_encode }})">
+<div id="easterEgg" class="banner-image easter-egg" style="background-image: url({{ site.banner | relative_url }})">
     <div class="computer-blur"></div>
     <div class="computer">
         <canvas class="screen"></canvas>
